@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ChannelConfig" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.347079,0},{0,0},{0.347079,256},{0,327}}" />
+        <Window Type="DejaVu/Static" Name="Root/ChannelConfig/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/ChannelConfig/Static/ChannelBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0665902,0},{0.975,0},{0.908009,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x一般頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04386,0},{0.018519,0},{0.482457,0},{0.0990275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check1" >
+                    <Property Name="Text" Value="x互助頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.018519,0},{0.951754,0},{0.0990275,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x隊伍頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0438596,0},{0.105932,0},{0.482456,0},{0.186441,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x城鎮頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.105932,0},{0.951754,0},{0.186441,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x區域頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0459156,0},{0.194915,0},{0.484512,0},{0.275424,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x世界頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.194915,0},{0.951754,0},{0.275424,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x謠言頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0438596,0},{0.452675,0},{0.482456,0},{0.53498,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x戰場頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.279835,0},{0.951754,0},{0.360344,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check8" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x情侶頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0438596,0},{0.279835,0},{0.482456,0},{0.36214,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check9" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x密語頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.366255,0},{0.951754,0},{0.446764,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check10" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x系統頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0438596,0},{0.366255,0},{0.482456,0},{0.44856,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check12" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x獲得經驗" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.625514,0},{0.491228,0},{0.707819,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check13" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x獲得金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.625514,0},{0.951754,0},{0.706022,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check14" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x獲得聲望" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.711934,0},{0.491228,0},{0.794239,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check15" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x獲得物品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.711934,0},{0.951754,0},{0.792442,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check16" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x造成傷害" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.798354,0},{0.491228,0},{0.880658,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check17" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="x受到傷害" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513158,0},{0.798354,0},{0.951754,0},{0.878862,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/Check18" >
+                    <Property Name="Text" Value="x狀態訊息" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.884774,0},{0.491228,0},{0.967078,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/FrameCheck" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x外框" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0652344,0},{0.00425532,0},{0.075,90},{0.00425532,19}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChannelConfig/Static/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.916955,0},{0.05,70},{0.916955,19}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChannelConfig/Static/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.658333,0},{0.916955,0},{0.658333,69},{0.916955,19}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

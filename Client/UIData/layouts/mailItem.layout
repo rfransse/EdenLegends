@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/mailitem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.168333,0},{0.25,285},{0.168333,38}}" />
+        <Window Type="DejaVu/Static" Name="Root/mailitem/backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/mailitem/backgrand/TreasureImage" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00701754,0},{0.0526316,0},{0.126316,0},{0.947368,0}}" />
+                <Window Type="DejaVu/Zframe" Name="Root/mailitem/backgrand/TreasureImage/frame" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/TreasureImage/ItemCount" >
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="VertFormatting" Value="BottomAligned" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/NameText" >
+                <Property Name="Text" Value="寄送人" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.147368,0},{0.0789474,0},{0.673684,0},{0.447368,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/TitleText" >
+                <Property Name="Text" Value="標題" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.147368,0},{0.552632,0},{0.754386,0},{0.947368,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/DayText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="13天" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.736842,0},{0.0789474,0},{0.961403,0},{0.447368,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/mailitem/backgrand/returnText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="退件" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.736842,0},{0.552632,0},{0.961403,0},{0.921053,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_DummyWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.195313,0},{0.150054,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_DummyWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,240},{0,140}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_DummyWnd/Background/Border_Dummy" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_DummyWnd/Background/Border_Dummy/Text_Dummy" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Dummy" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.318182,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_DummyWnd/Background/Border_Dummy/Combo_Dummy" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.363636,0},{0.25,0},{0.954545,0},{2.75,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

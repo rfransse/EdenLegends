@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/JobPointList2" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.13608,0},{0.093178,0},{0.13608,300},{0.093178,394}}" />
+        <Window Type="DejaVu/Static" Name="Root/JobPointList2/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/JobPointList2/Static/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.922535,0},{0.0140449,0},{0.978873,0},{0.0589888,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/JobPointList2/Static/ContentBar" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021127,0},{0.073239,0},{0.978873,0},{0.983098,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/JobPointList2/Static/ContentBar/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0220588,0},{0.0185185,0},{0.977941,0},{0.981481,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/JobPointList2/Static/BuffListText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="1職業積分加成清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0422535,0},{0.0169014,0},{0.580986,0},{0.056338,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

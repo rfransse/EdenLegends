@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/AchievementViewWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.998336,0}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,380},{0,390}}" />
+        <Window Type="DejaVu/Static" Name="Root/AchievementViewWnd/MainBorder" >
+            <Property Name="BackgroundColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.01,0},{1,-4},{1,-6}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,364},{0,372}}" />
+            <Window Type="DejaVu/Static" Name="Root/AchievementViewWnd/MainBorder/AchiPanel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.068421,0},{0.983871,0},{0.486842,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/AchievementViewWnd/MainBorder/AchiPanel/Content" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.201258,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/AchievementViewWnd/MainBorder/AchiPanel/Title" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="生涯成就報告" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.005376,0},{1,0},{0.158146,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/AchievementViewWnd/MainBorder/CollectPanel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.502632,0},{0.983871,0},{0.921053,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/AchievementViewWnd/MainBorder/CollectPanel/Content" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.201258,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/AchievementViewWnd/MainBorder/CollectPanel/Title" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="收藏清單" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.163522,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AchievementViewWnd/MainBorder/TutorialBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.946237,0},{0.0157068,0},{0.983871,0},{0.052356,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/InstancedungeonControl" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.245,0},{0.0966667,0},{0.245,454},{0.0966667,372}}" />
+        <Window Type="DejaVu/Static" Name="Root/InstancedungeonControl/ControlFramewor" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/InstancedungeonControl/ControlFramewor/choiceTip" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0136986,0},{0.0778443,0},{0.986301,0},{0.155689,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/InstancedungeonControl/ControlFramewor/choiceTip/Statement" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="choose destination instance" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.002347,0},{0.038462,0},{1.00235,0},{0.961539,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/InstancedungeonControl/ControlFramewor/InstanceListBox" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="SortSettingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0136986,0},{0.173653,0},{0.986301,0},{0.91018,0}}" />
+                <Property Name="ColumnHeader" Value="text:instance name width:{0.7,0} id:0" />
+                <Property Name="ColumnHeader" Value="text:retries width:{0.3,0} id:1" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/InstancedungeonControl/ControlFramewor/Decide" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="confirm" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0136986,0},{0.928144,0},{0.173516,0},{0.982036,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/InstancedungeonControl/ControlFramewor/Revoke" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.821918,0},{0.928144,0},{0.981735,0},{0.982036,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/InstancedungeonControl/ControlFramewor/Question" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.945205,0},{0.0179641,0},{0.977169,0},{0.0598802,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/InstancedungeonControl/ControlFramewor/Time" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="update time: 6pm" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0136986,0},{0.0179641,0},{0.287671,0},{0.0598802,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

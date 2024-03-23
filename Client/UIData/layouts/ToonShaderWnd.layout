@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ToonShaderWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.312746,0},{0.077151,0},{0.312746,275},{0.077151,470}}" />
+        <Window Type="DejaVu/Static" Name="Root/ToonShaderWnd/BackGround" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/ToonShaderWnd/BackGround/BackLightSwitch" >
+                <Property Name="UnifiedAreaRect" Value="{{0.521236,0},{0.0462963,0},{0.907336,0},{0.0925926,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/ToonShaderWnd/BackGround/SavingState" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03861,0},{0.162037,0},{0.810811,0},{0.219907,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ToonShaderWnd/BackLightCtrl_5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value=" 0.000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.100338,0},{0.570561,0},{1.00356,0},{0.644929,0}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ToonShaderWnd/BackLightCtrl_5/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226852,0},{0.2,0},{0.990741,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/ToonShaderWnd/Text2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="Scene Light" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.391204,0},{0.27027,0},{0.4375,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/ToonShaderWnd/Text1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="Char Light" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011583,0},{0.219907,0},{0.262548,0},{0.266203,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ToonShaderWnd/BackLightCtrl_4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" > 0.000
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.0962343,0},{0.489533,0},{1,0},{0.55902,0}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ToonShaderWnd/BackLightCtrl_4/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226852,0},{0.217391,0},{0.990741,0},{0.869565,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ToonShaderWnd/BackLightCtrl_3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" > 0.000
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.096234,0},{0.43328,0},{1,0},{0.502766,0}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ToonShaderWnd/BackLightCtrl_3/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226852,0},{0.217391,0},{0.990741,0},{0.869565,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/ToonShaderWnd/BackLightRadio_5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="GroupID" Value="2" />
+            <Property Name="HoverTextColour" Value="C8FFFFFF" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="PushedTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" Value="White" />
+            <Property Name="UnifiedAreaRect" Value="{{0.774059,0},{0.379316,0},{1.04603,0},{0.448802,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/ToonShaderWnd/BackLightRadio_3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="GroupID" Value="2" />
+            <Property Name="HoverTextColour" Value="C8FFFFFF" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="PushedTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" >None
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.280335,0},{0.379731,0},{0.513167,0},{0.449217,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/ToonShaderWnd/BackLightRadio_4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="GroupID" Value="2" />
+            <Property Name="HoverTextColour" Value="C8FFFFFF" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="PushedTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" Value="Black" />
+            <Property Name="UnifiedAreaRect" Value="{{0.514644,0},{0.379316,0},{0.753138,0},{0.448802,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ToonShaderWnd/BackLightCtrl_2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" > 0.000
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.0962343,0},{0.312538,0},{1,0},{0.388066,0}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ToonShaderWnd/BackLightCtrl_2/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.228614,0},{0.195253,0},{0.992503,0},{0.795253,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ToonShaderWnd/SaveBTN" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Save" />
+            <Property Name="UnifiedAreaRect" Value="{{0.034749,0},{0.111111,0},{0.46332,0},{0.150463,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ToonShaderWnd/BackLightCtrl_1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value=" 0.000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0962365,0},{0.264644,0},{0.999462,0},{0.339012,0}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ToonShaderWnd/BackLightCtrl_1/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226852,0},{0.2,0},{0.990741,0},{0.8,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/ToonShaderWnd/BackLightRadio_2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="GroupID" Value="1" />
+            <Property Name="HoverTextColour" Value="C8FFFFFF" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" >White
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.772992,0},{0.208879,0},{1.04362,0},{0.278366,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/ToonShaderWnd/BackLightRadio_1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="GroupID" Value="1" />
+            <Property Name="HoverTextColour" Value="C8FFFFFF" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="PushedTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" Value="Black" />
+            <Property Name="UnifiedAreaRect" Value="{{0.51568,0},{0.210113,0},{0.755955,0},{0.2796,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/ToonShaderWnd/BackLightRadio_0" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="GroupID" Value="1" />
+            <Property Name="HoverTextColour" Value="C8FFFFFF" />
+            <Property Name="NormalTextColour" Value="C8FFFFFF" />
+            <Property Name="PushedTextColour" Value="C8FFFFFF" />
+            <Property Name="Text" >None
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.280335,0},{0.209295,0},{0.535565,0},{0.278781,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ToonShaderWnd/ClearBTN" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" >Clear
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.523013,0},{0.110012,0},{0.951584,0},{0.149364,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ToonShaderWnd/ReloadBTN" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" >Reload
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.034749,0},{0.046296,0},{0.46332,0},{0.0856479,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ToonShaderWnd/BackLightCtrl_6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" > 0.000
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.101312,0},{0.624372,0},{1.00508,0},{0.6999,0}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/ToonShaderWnd/BackLightCtrl_6/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.228614,0},{0.195253,0},{0.992503,0},{0.795253,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/ToonShaderWnd/Text3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="Ground Light" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.547598,0},{0.306041,0},{0.592592,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/StallBuy" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="XXX的個人商店" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.269531,0},{0.0244453,0},{0.296875,334},{0.0598958,458}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/StallBuy/Tab" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/StallBuy/Tab/Tab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="物品清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/StallBuy/Tab/Tab/BackGround" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0115607,0},{0.00943396,0},{0.988439,0},{0.990566,0}}" />
+                    <Window Type="DejaVu/Border" Name="Root/StallBuy/Tab/Tab/BackGround/Border" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035503,0},{0.100962,0},{0.964497,0},{0.884615,0}}" />
+                        <Window Type="DejaVu/MultiColumnList2" Name="Root/StallBuy/Tab/Tab/BackGround/Border/Listbox" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.038217,0},{0.03681,0},{0.961784,0},{0.96319,0}}" />
+                            <Property Name="ColumnHeader" Value="text:樣式 width:{0.13,0} id:0" />
+                            <Property Name="ColumnHeader" Value="text:名稱 width:{0.52,0} id:1" />
+                            <Property Name="ColumnHeader" Value="text:等級 width:{0.1,0} id:2" />
+                            <Property Name="ColumnHeader" Value="text:賣價 width:{0.25,0} id:3" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StallBuy/Tab/Tab/BackGround/TitleText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="商品瀏覽" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035503,0},{0.028846,0},{0.331361,0},{0.0721152,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/StallBuy/Tab/Tab/BackGround/HelpBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.911243,0},{0.0288462,0},{0.964497,0},{0.0721154,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/StallBuy/Tab/Tab/BackGround/BuyBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="購買" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.39645,0},{0.913462,0},{0.662722,0},{0.971154,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/StallBuy/Tab/Tab/BackGround/CloseBtn" >
+                        <Property Name="Text" Value="關閉" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.698225,0},{0.913462,0},{0.964497,0},{0.971154,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StallBuy/Tab/Tab/BackGround/GoldText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017751,0},{0.913462,0},{0.177514,0},{0.971154,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/StallBuy/Tab/Tab/BackGround/GoldIcon" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.183432,0},{0.925481,0},{0.224852,0},{0.959135,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StallBuy/Tab/Tab/BackGround/SilverText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.230769,0},{0.913462,0},{0.319527,0},{0.971154,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/StallBuy/Tab/Tab/BackGround/GoldIcon1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.337278,0},{0.925481,0},{0.378698,0},{0.959135,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.39875,0},{0.304348,0},{0.39875,321},{0.304348,230}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0679894,0},{0.095238,0},{0.930058,0},{0.694042,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="16" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.215158,0},{0.759137,0},{0.847342,0},{0.822193,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.411437,0},{0.820009,0},{0.640945,0},{0.913759,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.606187,0},{0.855395,0},{0.855297,0},{0.949145,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CommonDlg/static/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.047619,0},{0.963565,0},{0.741662,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.607163,0},{0.842289,0},{0.856274,0},{0.936039,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

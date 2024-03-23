@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CollectWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.268555,0},{0.167325,0},{0.268555,380},{0.167325,424}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/CollectWnd/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/CollectWnd/Background/UseItemBg" >
+                <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.186529,0},{0.159341,0},{0.3057,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectWnd/Background/UseItemSlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CollectWnd/Background/Itemmall/Bg" >
+                <Property Name="UnifiedAreaRect" Value="{{0.840659,0},{0.186529,0},{0.967033,0},{0.305699,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectWnd/Background/ItemmallSlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CollectWnd/Background/Border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.414508,0},{0.967033,0},{0.875648,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectWnd/Background/ResultItemSlot0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0349854,0},{0.0674157,0},{0.134111,0},{0.258427,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectWnd/Background/ResultItemSlot1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0349854,0},{0.292135,0},{0.134111,0},{0.483146,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemText0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.151604,0},{0.0674157,0},{0.734694,0},{0.258427,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemNumText0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999／999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.788235,0},{0.0674157,0},{0.964706,0},{0.258427,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.151604,0},{0.292135,0},{0.734694,0},{0.483146,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectWnd/Background/ResultItemSlot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034985,0},{0.516854,0},{0.13411,0},{0.707865,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectWnd/Background/ResultItemSlot3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.034985,0},{0.741573,0},{0.13411,0},{0.932584,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.151604,0},{0.516854,0},{0.734694,0},{0.707865,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemText3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.151604,0},{0.741573,0},{0.734694,0},{0.932584,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemNumText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" >999╱999
+
+
+
+
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.788235,0},{0.292135,0},{0.964706,0},{0.483146,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemNumText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999╱999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.788235,0},{0.516854,0},{0.964706,0},{0.707865,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Border/ResultItemNumText3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999╱999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.788235,0},{0.741573,0},{0.964706,0},{0.932584,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CollectWnd/Background/Help" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.917582,0},{0.0310881,0},{0.967033,0},{0.0777202,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Text1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="使用道具" />
+                <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.108808,0},{0.258242,0},{0.15544,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Text2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="特殊虛寶" />
+                <Property Name="UnifiedAreaRect" Value="{{0.741758,0},{0.108808,0},{0.967033,0},{0.15544,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Text3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="所需時間" />
+                <Property Name="UnifiedAreaRect" Value="{{0.175824,0},{0.186529,0},{0.346154,0},{0.233161,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Text4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="所需費用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.175824,0},{0.259067,0},{0.346154,0},{0.305699,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/Text5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="有機會獲得：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.336788,0},{0.703297,0},{0.38342,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CollectWnd/Background/CommissionBtn" >
+                <Property Name="Text" Value="Test送出委託" />
+                <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.906736,0},{0.28022,0},{0.968912,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CollectWnd/Background/CloseBtn" >
+                <Property Name="Text" Value="Test關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.71978,0},{0.906736,0},{0.967033,0},{0.968912,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/NeedTimeText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="99分99秒" />
+                <Property Name="UnifiedAreaRect" Value="{{0.434066,0},{0.186529,0},{0.708791,0},{0.233161,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/GoldText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.351648,0},{0.259067,0},{0.5,0},{0.305699,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CollectWnd/Background/GoldIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.516484,0},{0.264249,0},{0.554945,0},{0.300518,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/SliverText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0.259067,0},{0.653847,0},{0.305699,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CollectWnd/Background/SliverIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.67033,0},{0.264249,0},{0.708792,0},{0.300518,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/CollectWnd/Background/WorkLevelText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="可以接受工作等級99以下的委託" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0879121,0},{0.0310881,0},{0.912088,0},{0.0777202,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SecurityCard" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.149269,0},{0.0194903,0},{0.149269,256},{0.0194903,190}}" />
+        <Window Type="DejaVu/Static" Name="Root/SecurityCard/Frame" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/SecurityCard/Frame/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.197368,0},{0.975,0},{0.802632,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/Border/FieldText0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="a1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.391304,0},{0.31579,0},{0.586956,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/SecurityCard/Frame/Border/FieldEdit0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.652174,0},{0.315789,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/Border/FieldText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="b2" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.368421,0},{0.391304,0},{0.631579,0},{0.586956,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/SecurityCard/Frame/Border/FieldEdit1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.368421,0},{0.652174,0},{0.631579,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/Border/FieldText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="c3" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.684211,0},{0.391304,0},{0.947369,0},{0.586956,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/SecurityCard/Frame/Border/FieldEdit2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.686267,0},{0.652174,0},{0.949425,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/Border/GuideText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x請輸入密保卡號：" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.0874097,0},{0.959089,0},{0.283062,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/SecurityCard/Frame/ErrorMsg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0394737,0},{0.980403,0},{0.157895,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SecurityCard/Frame/SendBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.354167,0},{0.842105,0},{0.645833,0},{0.960526,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

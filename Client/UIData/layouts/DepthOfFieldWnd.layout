@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DepthOfField" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.122852,0},{0.059375,0},{0.535938,0},{0.670052,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/DepthOfField/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/DepthOfField/Background/DistanceText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0304964,0},{0.0176471,0},{0.384515,0},{0.0637255,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/DepthOfField/Background/RangeText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.029484,0},{0.12297,0},{0.383292,0},{0.169374,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/DepthOfField/Background/DistanceNearText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.227378,0},{0.385749,0},{0.273782,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/DepthOfField/Background/DistanceFarText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.331787,0},{0.385749,0},{0.37819,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/DepthOfField/Background/RangeNearText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.436195,0},{0.385749,0},{0.482599,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/DepthOfField/Background/RangeFarText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.540603,0},{0.385749,0},{0.587007,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DepthOfField/Background/DistanceScroll" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.0696056,0},{0.96577,0},{0.108044,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DepthOfField/Background/RangeScroll" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.174014,0},{0.965602,0},{0.213457,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DepthOfField/Background/DistanceNearScroll" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.278422,0},{0.965602,0},{0.317865,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DepthOfField/Background/DistanceFarScroll" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.382831,0},{0.965602,0},{0.422274,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DepthOfField/Background/RangeNearScroll" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.487239,0},{0.965602,0},{0.526682,0}}" />
+            </Window>
+            <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DepthOfField/Background/RangeFarScroll" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.591647,0},{0.965602,0},{0.63109,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/DepthOfField/Background/ModeSwitch" >
+                <Property Name="UnifiedAreaRect" Value="{{0.031941,0},{0.647332,0},{0.958678,0},{0.726218,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

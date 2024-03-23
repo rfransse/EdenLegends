@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/NewTeamConfirme" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="DistributeCapturedInputs" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Property Name="Text" Value="組隊申請" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.191558,0},{0,395},{0.191558,149}}" />
+        <Window Type="DejaVu/Static" Name="Root/NewTeamConfirme/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.994723,0},{0.990991,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/NewTeamConfirme/static/Teaminformation" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0212202,0},{0.254545,0},{0.981432,0},{0.727273,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/NewTeamConfirme/static/HintTextLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="是否同意組隊申請：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.228117,0},{0.0545455,0},{0.811671,0},{0.218182,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NewTeamConfirme/static/BtnOn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0159151,0},{0.781818,0},{0.201592,0},{0.945455,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NewTeamConfirme/static/BtnOff" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="取消" />
+                <Property Name="UnifiedAreaRect" Value="{{0.779841,0},{0.781818,0},{0.965517,0},{0.945455,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

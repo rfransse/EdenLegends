@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="AutoQuest" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="AutoQuest/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="任務" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,320},{0,19}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="AutoQuest/Item/Name" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

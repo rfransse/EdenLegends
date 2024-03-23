@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_ActionBarWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,700},{0,100}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/Static" Name="Root/CS_ActionBarWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="VertCentred" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Border" Name="Root/CS_ActionBarWnd/Background/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00127226,0},{-0.00116414,0},{0.994129,0},{0.948836,0}}" />
+                <Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/Menubar" Name="Root/CS_ActionBarWnd/Background/Border/Bar_Back" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="ItemSpacing" Value="10" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,540},{0,60}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/CS_ActionBarWnd/Background/Border/Bar_Back/Image_Type" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,10},{0,60}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/CS_ActionBarWnd/Background/Border/Bar_Back/Image_Main" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.333333,0},{0,20},{-0.333333,20}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_ActionBarWnd/Background/Border/Text_Start" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0.0" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.105263,0},{0.115108,0},{0.526316,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_ActionBarWnd/Background/Border/Text_End" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Right" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.105263,0},{0.115108,0},{0.526316,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CS_ActionBarWnd/TimeSet" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.235714,0},{0,0},{-0.00714286,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_ActionBarWnd/TimeSet/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.96875,0},{0.95,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_ActionBarWnd/TimeSet/Border/Text_NowTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="NowTime" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.064516,0},{0.157895,0},{0.483871,0},{0.421053,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_ActionBarWnd/TimeSet/Border/Text_Length" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Length" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.064516,0},{0.578947,0},{0.483871,0},{0.842105,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/TimeSet/Border/Edit_Start" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.516129,0},{0.157895,0},{0.935484,0},{0.421053,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_ActionBarWnd/TimeSet/Border/Edit_Length" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.516129,0},{0.578947,0},{0.935484,0},{0.842105,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CS_ActionBarWnd/Control" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0.235714,0},{0.55,0},{0.464286,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_ActionBarWnd/Control/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.96875,0},{0.888889,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/Button" Name="Root/CS_ActionBarWnd/Control/Border/Button_Add" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="Text" Value="Add" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.064516,0},{0,0},{0.451613,0},{0.625,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CS_ActionBarWnd/Control/Border/Button_Delete" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="Text" Value="Delete" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548387,0},{0,0},{0.935484,0},{0.625,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CS_ActionBarWnd/SelectTimeLine" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.4,0},{0.285714,0},{-0.1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_ActionBarWnd/SelectTimeLine/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_ActionBarWnd/SelectTimeLine/Border/Combo_TimeLine" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.133333,0},{1,0},{4.13333,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CS_ActionBarWnd/PlayBar" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0.235714,0},{0,0},{0.464285,0},{0.45,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_ActionBarWnd/PlayBar/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.96875,0},{0.95,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/ImageButton" Name="Root/CS_ActionBarWnd/PlayBar/Border/Play" >
+                    <Property Name="DisabledImage" Value="set:cutScene image:play" />
+                    <Property Name="HoverImage" Value="set:cutScene image:playHover" />
+                    <Property Name="NormalImage" Value="set:cutScene image:play" />
+                    <Property Name="PushedImage" Value="set:cutScene image:playPush" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.129032,0},{0.116279,0},{0.322581,0},{0.813954,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CS_ActionBarWnd/PlayBar/Border/Pause" >
+                    <Property Name="HoverImage" Value="set:cutScene image:pauseHover" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="NormalImage" Value="set:cutScene image:pause" />
+                    <Property Name="PushedImage" Value="set:cutScene image:pausePush" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.406452,0},{0.116279,0},{0.6,0},{0.813954,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/CS_ActionBarWnd/PlayBar/Border/Stop" >
+                    <Property Name="HoverImage" Value="set:cutScene image:stopHover" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="NormalImage" Value="set:cutScene image:stop" />
+                    <Property Name="PushedImage" Value="set:cutScene image:stopPush" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.677419,0},{0.116279,0},{0.870968,0},{0.813954,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

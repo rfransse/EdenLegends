@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/ItemMallItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0.12625,0},{0.168333,0},{0.12625,360},{0.168333,52}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,175},{0,38}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/ItemMallItem/itemslot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.173077,0},{0.119444,0},{0.826923,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallItem/itemslot/specilText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallItem/ItemDeatilText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="123123123" />
+            <Property Name="UnifiedAreaRect" Value="{{0.144444,0},{0.076923,0},{0.975,0},{0.461538,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallItem/ItemPointext" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="9999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.144444,0},{0.538462,0},{0.311111,0},{0.923077,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/ItemMallItem/ItemPointext/delete" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="Image" Value="set:DejaVu image:RedIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.45,0},{1.05,0},{0.55,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ItemMallItem/itemmaillIcon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:ItemMallGold" />
+            <Property Name="UnifiedAreaRect" Value="{{0.327778,0},{0.576923,0},{0.366667,0},{0.846154,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallItem/buyBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.619444,0},{0.538462,0},{0.730555,0},{0.884616,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallItem/SellDateText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.566667,0},{0.076923,0},{0.966667,0},{0.461538,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallItem/GiftBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.741667,0},{0.538462,0},{0.852778,0},{0.884616,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/ItemMallItem/detailBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.863889,0},{0.538462,0},{0.975,0},{0.884616,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ItemMallItem/SpecilIcon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:ItemMallGold" />
+            <Property Name="UnifiedAreaRect" Value="{{0.566667,0},{0.576923,0},{0.605556,0},{0.846154,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemMallItem/SpecilPointext" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="9999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.383333,0},{0.538462,0},{0.55,0},{0.923077,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

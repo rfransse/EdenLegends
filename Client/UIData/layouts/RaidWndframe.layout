@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="RaidWndFrame" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,158},{0,78}}" />
+        <Window Type="DejaVu/ProgressBar" Name="RaidWndFrame/ProgressHp" >
+            <Property Name="CurrentProgress" Value="0" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.253165,0},{0.538462,0},{0.974684,0},{0.641026,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.025316,0},{0.769231,0},{0.13924,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/buff1/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.139241,0},{0.769231,0},{0.253165,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/buff2/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff3" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.253165,0},{0.769231,0},{0.367089,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/buff3/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff4" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.367089,0},{0.769231,0},{0.481013,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/buff4/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff5" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.481013,0},{0.769231,0},{0.594937,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/buff5/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/buff6" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.594937,0},{0.769231,0},{0.708861,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="RaidWndFrame/buff6/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/Lead" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:MiniInfoLeaderIcon" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0253165,0},{0.025641,0},{0.139241,0},{0.25641,0}}" />
+        </Window>
+        <Window Type="DejaVu/MpProgressBar" Name="RaidWndFrame/ProgressMp" >
+            <Property Name="CurrentProgress" Value="0" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.253165,0},{0.653846,0},{0.974684,0},{0.75641,0}}" />
+        </Window>
+        <Window Type="DejaVu/TextSmoothLab" Name="RaidWndFrame/LvText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="60" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0253165,0},{0.512821,0},{0.253165,0},{0.769231,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/JobIcon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0253165,0},{0.25641,0},{0.253165,0},{0.512821,0}}" />
+        </Window>
+        <Window Type="DejaVu/TransparentTextLab" Name="RaidWndFrame/Name" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MouseInputPropagationEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.253165,0},{0.25641,0},{0.974684,0},{0.512821,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="RaidWndFrame/PositionIcon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:MiniInfoLeaderIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.164557,0},{0.025641,0},{0.278481,0},{0.25641,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

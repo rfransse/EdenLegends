@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CompetitionSchedule" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x賽程表" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0133333,0},{0.025,760},{0.0133333,586}}" />
+		<Property Name="MouseInputPropagationEnabled" Value="True" />
+        <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:CompetitionSchedule image:fixed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00134409,0},{0,0},{1.00134,0},{1,0}}" />
+			<Property Name="MouseInputPropagationEnabled" Value="True" />
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.0565693,0},{0.172275,0},{0.0985401,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion1/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x聖境傳說要八個字" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion2" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.166058,0},{0.172275,0},{0.208029,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion2/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion3" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.275547,0},{0.172275,0},{0.317518,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion3/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion4" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.385036,0},{0.172275,0},{0.427007,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion4/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion17" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.220727,0},{0.111314,0},{0.372813,0},{0.153285,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion17/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x聖境傳說" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion18" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.220727,0},{0.328467,0},{0.372813,0},{0.370438,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion18/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.173913,0},{1,0},{0.782609,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion25" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.30148,0},{0.218978,0},{0.453567,0},{0.260949,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion25/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.173913,0},{1,0},{0.782609,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion19" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.620458,0},{0.111314,0},{0.772544,0},{0.153285,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion19/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會名稱" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion26" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.54105,0},{0.218978,0},{0.693136,0},{0.260949,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion26/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.173913,0},{1,0},{0.782609,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion5" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.056569,0},{0.973082,0},{0.0985398,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion5/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion6" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.166058,0},{0.973082,0},{0.208029,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion6/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion7" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.275547,0},{0.973082,0},{0.317518,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion7/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion8" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.385036,0},{0.973082,0},{0.427007,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion8/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion9" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.596715,0},{0.172275,0},{0.638686,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion9/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion10" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.706204,0},{0.172275,0},{0.748175,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion10/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion11" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.815693,0},{0.172275,0},{0.857664,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion11/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion12" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0201884,0},{0.925182,0},{0.172275,0},{0.967153,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion12/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CompetitionSchedule/Fixed/HelpBot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.955585,0},{0.0182482,0},{0.974428,0},{0.0437956,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion21" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.220727,0},{0.656934,0},{0.372813,0},{0.698905,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion21/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x聖境傳說" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion22" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.220727,0},{0.872263,0},{0.372813,0},{0.914234,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion22/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x聖境傳說" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion20" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.620458,0},{0.328467,0},{0.772544,0},{0.370438,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion20/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion27" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.30148,0},{0.762774,0},{0.453567,0},{0.804745,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion27/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x聖境傳說" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion13" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.596715,0},{0.973082,0},{0.638686,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion13/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion14" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.706204,0},{0.973082,0},{0.748175,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion14/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion15" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.815693,0},{0.973082,0},{0.857664,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion15/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion16" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.820996,0},{0.925182,0},{0.973082,0},{0.967153,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion16/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion23" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.620458,0},{0.655109,0},{0.772544,0},{0.69708,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion23/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion24" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.620458,0},{0.872263,0},{0.772544,0},{0.914234,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion24/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion28" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.54105,0},{0.762774,0},{0.693136,0},{0.804745,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion28/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion29" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.422611,0},{0.328467,0},{0.574697,0},{0.370438,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion29/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion31" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.422611,0},{0.490876,0},{0.574697,0},{0.532847,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion31/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CompetitionSchedule/Fixed/TradeUnion30" >
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.421265,0},{0.655109,0},{0.573351,0},{0.69708,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CompetitionSchedule/Fixed/TradeUnion30/Name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="Text" Value="x公會01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.195652,0},{1,0},{0.804348,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.0492701,0},{0.216689,0},{0.158759,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.104015,0},{0.216689,0},{0.213504,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.266423,0},{0.216689,0},{0.375912,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.321168,0},{0.216689,0},{0.430657,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way17" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage3" />
+                <Property Name="UnifiedAreaRect" Value="{{0.374159,0},{0.105839,0},{0.414536,0},{0.215328,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way18" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.372813,0},{0.268248,0},{0.41319,0},{0.359489,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way25" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage8" />
+                <Property Name="UnifiedAreaRect" Value="{{0.454913,0},{0.217153,0},{0.508748,0},{0.326642,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way20" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage6" />
+                <Property Name="UnifiedAreaRect" Value="{{0.580645,0},{0.266423,0},{0.621022,0},{0.357664,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way19" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage4" />
+                <Property Name="UnifiedAreaRect" Value="{{0.577389,0},{0.104015,0},{0.617766,0},{0.213504,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.0492701,0},{0.818304,0},{0.158759,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way6" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.104015,0},{0.818304,0},{0.213504,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way7" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.266423,0},{0.818304,0},{0.375912,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way8" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.321168,0},{0.818304,0},{0.430657,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way9" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.593066,0},{0.216689,0},{0.702555,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way10" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.645985,0},{0.216689,0},{0.755474,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way26" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage7" />
+                <Property Name="UnifiedAreaRect" Value="{{0.485868,0},{0.215328,0},{0.539704,0},{0.324818,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way11" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.806569,0},{0.216689,0},{0.916058,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way12" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.176312,0},{0.861314,0},{0.216689,0},{0.970803,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way29" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.477793,0},{0.375912,0},{0.51817,0},{0.485401,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way21" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage3" />
+                <Property Name="UnifiedAreaRect" Value="{{0.374159,0},{0.649635,0},{0.414536,0},{0.759124,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way22" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.371467,0},{0.812044,0},{0.411844,0},{0.903285,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way23" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage4" />
+                <Property Name="UnifiedAreaRect" Value="{{0.577389,0},{0.649635,0},{0.617766,0},{0.759124,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way24" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage6" />
+                <Property Name="UnifiedAreaRect" Value="{{0.580081,0},{0.812044,0},{0.620458,0},{0.903285,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way30" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.477793,0},{0.540146,0},{0.51817,0},{0.649635,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way13" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.591241,0},{0.818304,0},{0.70073,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way14" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.645985,0},{0.818304,0},{0.755474,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way15" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.806569,0},{0.818304,0},{0.916058,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way16" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.777927,0},{0.861314,0},{0.818304,0},{0.970803,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way27" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage11" />
+                <Property Name="UnifiedAreaRect" Value="{{0.450875,0},{0.706204,0},{0.504711,0},{0.815693,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CompetitionSchedule/Fixed/Way28" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:promotion image:LImage10" />
+                <Property Name="UnifiedAreaRect" Value="{{0.492598,0},{0.706204,0},{0.546433,0},{0.815693,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

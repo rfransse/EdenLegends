@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TerritoryTimeWnd2" >
+        <Property Name="UnifiedAreaRect" Value="{{0.516251,0},{0.106599,0},{0.516251,306},{0.106599,327}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/TimeText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x時間倒數" />
+            <Property Name="UnifiedAreaRect" Value="{{0.173203,0},{0.0978593,0},{0.173203,200},{0.0978593,39}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/TitleText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x領地戰" />
+            <Property Name="UnifiedAreaRect" Value="{{0.127451,0},{0.00917431,0},{0.127451,215},{0.00917431,30}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd2/ImageBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.272727,0},{1,0},{0.277273,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/BlueCrystal" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x藍軍水晶數" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0253165,0},{0.379205,0},{0.329114,0},{0.458716,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/RedCrystal" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x紅軍水晶數" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0253165,0},{0.30581,0},{0.329114,0},{0.385321,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/RedCrystalNum" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.329114,0},{0.30581,0},{0.379747,0},{0.385321,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/BlueCrystalNum" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.329114,0},{0.379205,0},{0.379747,0},{0.458716,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TerritoryTimeWnd2/ImageBG2" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.455696,0},{0.587156,0},{1,0},{0.590214,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/TitleText1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x領先公會" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0204707,0},{0.868298,0},{0.463867,0},{0.956984,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/FamilyName0" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x紅軍公會" />
+            <Property Name="UnifiedAreaRect" Value="{{0.481013,0},{0.30581,0},{0.906329,0},{0.385321,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/Rate0" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.835443,0},{0.30581,0},{0.962025,0},{0.385321,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/FamilyName1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x藍軍公會" />
+            <Property Name="UnifiedAreaRect" Value="{{0.481013,0},{0.379205,0},{0.906329,0},{0.458716,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/Rate1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.835443,0},{0.379205,0},{0.962025,0},{0.458716,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/TerritoryTimeWnd2/Btn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="公會清單" />
+            <Property Name="UnifiedAreaRect" Value="{{0.620253,0},{0.474006,0},{1,0},{0.553517,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/AttackerDie" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x擊殺數" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00861418,0},{0.941901,0},{0.135196,0},{1.02141,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/DefenderDie" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x擊殺數" />
+            <Property Name="UnifiedAreaRect" Value="{{0.26005,0},{0.892083,0},{0.515461,0},{0.971029,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/AttackerDieNum" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="3" />
+            <Property Name="UnifiedAreaRect" Value="{{0.110911,0},{0.941901,0},{0.237494,0},{1.02141,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/DefenderDieNum" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="3" />
+            <Property Name="UnifiedAreaRect" Value="{{0.24748,0},{0.930398,0},{0.52021,0},{1.00934,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/TerritoryTimeWnd2/RankBtn" >
+            <Property Name="Text" Value="排行資訊" />
+            <Property Name="UnifiedAreaRect" Value="{{0.620253,0},{0.770642,0},{1,0},{0.850153,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/Kill" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x個人擊殺" />
+            <Property Name="UnifiedAreaRect" Value="{{0.481013,0},{0.611621,0},{0.906329,0},{0.691131,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/KillRank" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x個人排名" />
+            <Property Name="UnifiedAreaRect" Value="{{0.481013,0},{0.685015,0},{0.906329,0},{0.764526,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/KillNum" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.835443,0},{0.611621,0},{0.962025,0},{0.691131,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/KillRankNum" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-10" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.835443,0},{0.685015,0},{0.962025,0},{0.764526,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryTimeWnd2/KillReward" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x獲勝獎勵：" />
+            <Property Name="UnifiedAreaRect" Value="{{0.479508,0},{0.872093,0},{0.733607,0},{0.953488,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="Root/TerritoryTimeWnd2/KillRewardItem" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.745902,0},{0.872093,0},{0.860656,0},{0.98062,0}}" />
+        </Window>
+        <Window Type="DejaVu/SlotImage" Name="Root/TerritoryTimeWnd2/KillRewardItem1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.867908,0},{0.87156,0},{0.982662,0},{0.980087,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

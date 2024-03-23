@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TerritoryScheduleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x領地爭奪戰時程表" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.387695,0},{0.0833333,0},{0.387695,312},{0.0833333,428}}" />
+        <Window Type="DejaVu/Static" Name="Root/TerritoryScheduleWnd/Border" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/TerritoryScheduleWnd/Border/" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0405405,0},{0.107692,0},{0.959459,0},{0.969231,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/TerritoryScheduleWnd/Border/ListPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022059,0},{0.017857,0},{0.977941,0},{0.982143,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/TerritoryScheduleWnd/Border/FilterCBX" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x過濾已經進行的爭奪戰" />
+                <Property Name="UnifiedAreaRect" Value="{{0.040541,0},{0.030769,0},{0.716217,0},{0.0769228,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/TerritoryScheduleWnd/Border/helpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.898649,0},{0.0307692,0},{0.959459,0},{0.0769231,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

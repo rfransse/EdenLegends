@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Agreement" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,610},{0,500}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/Agreement/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/Agreement/Static/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.828283,0},{0.922078,0},{0.979798,0},{0.974026,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/Agreement/Static/BorderText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020202,0},{0.025974,0},{0.979798,0},{0.896104,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/JobSkillNA" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,628},{0,458}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticText" Name="Root/JobSkillNA/Background" >
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00955414,0},{0.0131004,0},{0.990446,0},{0.9869,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/JobSkillNA/Background/Border1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.62987,0},{0.179372,0},{0.978896,0},{0.975336,0}}" />
+                <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillNA/Background/Border1/skilltext1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >x職業專用技
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.0153061,0},{0.837963,0},{0.0765306,0}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/JobSkillNA/Background/Border1/Border11" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.178571,0},{0.944444,0},{0.94898,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/JobSkillNA/Background/Border1/Border11/SkillList" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.021053,0},{0.96875,0},{0.981318,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/JobSkillNA/Background/Border1/SkillCastText1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x剩餘 96865 點JP可用" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.0765306,0},{0.944444,0},{0.153061,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JobSkillNA/Background/Border1/JobNewImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.784072,0},{0.0200098,0},{0.913702,0},{0.0531731,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/JobSkillNA/Background/Border2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0194805,0},{0.179372,0},{0.612013,0},{0.975336,0}}" />
+                <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillNA/Background/Border2/skilltext2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x一般共用技" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.015306,0},{0.815934,0},{0.0765305,0}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/JobSkillNA/Background/Border2/Border22" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.178571,0},{0.967033,0},{0.94898,0}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/JobSkillNA/Background/Border2/Border22/SkillList2" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017647,0},{0.019868,0},{0.982353,0},{0.980133,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/JobSkillNA/Background/Border2/SkillCastText2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x剩餘 80060 金 124 銀可用" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.076531,0},{0.967033,0},{0.153062,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/JobSkillNA/Background/Border2/CommonNewImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.883414,0},{0.0214907,0},{0.960337,0},{0.0546539,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/JobSkillNA/Background/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.957792,0},{0.0224215,0},{0.983766,0},{0.058296,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/JobSkillNA/Background/WaringText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0919225,0},{0.411931,0},{0.757081,0},{0.58384,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/JobSkillNA/Background/Border3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.019481,0},{0.017937,0},{0.418784,0},{0.165919,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JobSkillNA/Background/Border3/Skill01" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0325203,0},{0.0454545,0},{0.227642,0},{0.772727,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/JobSkillNA/Background/Border3/Btn" >
+                    <Property Name="Text" Value="啟動" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.666018,0},{0.557422,0},{0.974378,0},{0.905907,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JobSkillNA/Background/Border3/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="刺殺系" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.674396,0},{0.0919705,0},{0.973822,0},{0.48591,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobSkillNA/Background/Border3/Skill02" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.243902,0},{0.0454545,0},{0.439024,0},{0.772727,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobSkillNA/Background/Border3/Skill03" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.455285,0},{0.0454545,0},{0.650407,0},{0.772727,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JobSkillNA/Background/Border3/TextLv01" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Lv.50" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0325203,0},{0.772727,0},{0.227642,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JobSkillNA/Background/Border3/TextLv02" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Lv.50" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.243902,0},{0.772727,0},{0.439024,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JobSkillNA/Background/Border3/TextLv03" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Lv.50" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.455285,0},{0.772727,0},{0.650407,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

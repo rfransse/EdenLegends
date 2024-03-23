@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="cutScene" Imagefile="cutScenePlay.png" NativeHorzRes="800" NativeVertRes="600" AutoScaled="true" >
+    <Image Name="play" XPos="9" YPos="8" Width="42" Height="42" />
+    <Image Name="stop" XPos="7" YPos="60" Width="42" Height="42" />
+    <Image Name="pause" XPos="7" YPos="114" Width="42" Height="42" />
+    <Image Name="KeyBar" XPos="188" YPos="6" Width="10" Height="60" />
+    <Image Name="MainBar" XPos="177" YPos="72" Width="32" Height="32" />
+    <Image Name="playPush" XPos="126" YPos="6" Width="42" Height="42" />
+    <Image Name="stopPush" XPos="124" YPos="59" Width="42" Height="42" />
+    <Image Name="LetterBox" XPos="218" YPos="77" Width="24" Height="24" />
+    <Image Name="pausePush" XPos="123" YPos="114" Width="42" Height="42" />
+    <Image Name="playHover" XPos="68" YPos="6" Width="42" Height="42" />
+    <Image Name="stopHover" XPos="68" YPos="60" Width="42" Height="42" />
+    <Image Name="pauseHover" XPos="67" YPos="114" Width="42" Height="42" />
+    <Image Name="KeyBarSelect" XPos="220" YPos="6" Width="10" Height="60" />
+</Imageset>

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ChannelConfig" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.347079,0},{0,0},{0.347079,256},{0,508}}" />
+        <Window Type="DejaVu/Static" Name="Root/ChannelConfig/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/ChannelConfig/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.025,0},{0.0132743,0},{0.975,0},{0.931416,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check18" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代傷害" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.844907,0},{0.947368,0},{0.888889,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check17" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代傷害" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.798611,0},{0.947368,0},{0.842593,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check16" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代物品" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.752315,0},{0.947368,0},{0.796296,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check15" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代聲望" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.706019,0},{0.947368,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check14" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代金錢" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.659722,0},{0.947368,0},{0.703704,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check13" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代經驗" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.613426,0},{0.947368,0},{0.657407,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check12" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.521739,0},{0.575492,0},{0.902174,0},{0.61488,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check11" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代訊息" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.428241,0},{0.947368,0},{0.472222,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check10" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.381944,0},{0.947368,0},{0.425926,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check9" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.335648,0},{0.947368,0},{0.37963,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check8" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.289352,0},{0.947368,0},{0.333333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.56713,0},{0.947368,0},{0.611111,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.474537,0},{0.947368,0},{0.518519,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代訊息" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.243056,0},{0.947368,0},{0.287037,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.196759,0},{0.947368,0},{0.240741,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.150463,0},{0.947368,0},{0.194444,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="暫代頻道" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.104167,0},{0.947368,0},{0.148148,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check20" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="訊息暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.0120482,0},{0.916667,0},{0.0554217,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check18" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="受到暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.844907,0},{0.491228,0},{0.888889,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check17" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="造成暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.798611,0},{0.491228,0},{0.842593,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check16" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="獲得暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.752315,0},{0.491228,0},{0.796296,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check15" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="獲得暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.706019,0},{0.491228,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check14" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="獲得暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.659722,0},{0.491228,0},{0.703704,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check13" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="獲得暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.613426,0},{0.491228,0},{0.657407,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check12" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0978261,0},{0.575492,0},{0.478261,0},{0.61488,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check11" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="系統暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.428241,0},{0.491228,0},{0.472222,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check10" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="密語暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.381944,0},{0.491228,0},{0.425926,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check9" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="情侶暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.335648,0},{0.491228,0},{0.37963,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check8" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="戰場暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.289352,0},{0.491228,0},{0.333333,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="謠言暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.56713,0},{0.491228,0},{0.611111,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="世界暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.474537,0},{0.491228,0},{0.518518,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="區域暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.243056,0},{0.491228,0},{0.287037,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="城鎮暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.196759,0},{0.491228,0},{0.240741,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="隊伍暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.150463,0},{0.491228,0},{0.194444,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="一般暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.104167,0},{0.491228,0},{0.148148,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check20" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="訊息暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.0120482,0},{0.491228,0},{0.0554217,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/FrameCheck" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="外框" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.9375,0},{0.491228,0},{0.981481,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check19" >
+                    <Property Name="Text" Value="狀態暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.891204,0},{0.491228,0},{0.935185,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check19" >
+                    <Property Name="Text" Value="暫代訊息" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.891204,0},{0.947368,0},{0.935185,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG1Check2" >
+                    <Property Name="Text" Value="互助暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.520833,0},{0.491228,0},{0.564815,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/ChannelConfig/Static/Border/MSG2Check2" >
+                    <Property Name="Text" Value="互助暫代" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508772,0},{0.520833,0},{0.947368,0},{0.564815,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChannelConfig/Static/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.94469,0},{0.05,69},{0.94469,18}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChannelConfig/Static/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.658333,0},{0.94469,0},{0.658333,69},{0.94469,18}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

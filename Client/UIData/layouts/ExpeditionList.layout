@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ExpeditionList" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,484},{0,421}}" />
+        <Window Type="DejaVu/Static" Name="Root/ExpeditionList/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00826446,0},{0.00950119,0},{0.991736,0},{0.990499,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ExpeditionList/Background/MemberText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x隊員清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019981,0},{0.0138248,0},{0.269981,0},{0.0629767,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ExpeditionList/Background/MemberNumText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x目前隊伍人數：1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.68428,0},{0.0124853,0},{0.93428,0},{0.0609113,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/ExpeditionList/Background/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.955073,0},{0.0124853,0},{0.984484,0},{0.0463835,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ExpeditionList/Background/LeaderText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x隊長資訊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019981,0},{0.72568,0},{0.269981,0},{0.774107,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/ExpeditionList/Background/MemberList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0114972,0},{0.059487,0},{0.985597,0},{0.723325,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ExpeditionList/Background/LeaderBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0114972,0},{0.777357,0},{0.800682,0},{0.976458,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ExpeditionList/Background/LeaderBorder/NameText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x隊長名稱：一二三四五六七八" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0268872,0},{0.370296,0},{0.566781,0},{0.614198,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ExpeditionList/Background/LeaderBorder/GuildText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x所屬公會：一二三四五六七八" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0256289,0},{0.64568,0},{0.565995,0},{0.889583,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/ExpeditionList/Background/LeaderBorder/InstanceComboBox" >
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.204975,0},{0.0905209,0},{0.722979,0},{1.08059,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ExpeditionList/Background/LeaderBorder/InstanceText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x副本選擇：" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.025629,0},{0.0905209,0},{0.229074,0},{0.334423,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ExpeditionList/Background/CloseBtn" >
+                <Property Name="ID" Value="3" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.810099,0},{0.926882,0},{0.98364,0},{0.975308,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ExpeditionList/Background/CreateBtn" >
+                <Property Name="ID" Value="2" />
+                <Property Name="Text" Value="x成立遠征隊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.810099,0},{0.790242,0},{0.98364,0},{0.838668,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ExpeditionList/Background/InviteBtn" >
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="x邀請隊員" />
+                <Property Name="UnifiedAreaRect" Value="{{0.810099,0},{0.732375,0},{0.98364,0},{0.780801,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/ExpeditionList/Background/SelectAllCheckbox" >
+                <Property Name="Text" Value="顯示所有隊員x" />
+                <Property Name="UnifiedAreaRect" Value="{{0.270211,0},{0.0124853,0},{0.520211,0},{0.0616372,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

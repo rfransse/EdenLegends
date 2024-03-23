@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/QuestItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00125,0},{0.636667,0},{0.00125,152},{0.636667,20}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/QuestItem/gold" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.460526,0},{0.15,0},{0.552632,0},{0.85,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/QuestItem/silver" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.881448,0},{0.151667,0},{0.973553,0},{0.851667,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/QuestItem/GoldText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="0" />
+            <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+            <Property Name="UnifiedAreaRect" Value="{{0.078947,0},{0,0},{0.421052,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/QuestItem/SilverText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="0" />
+            <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+            <Property Name="UnifiedAreaRect" Value="{{0.580855,0},{0,0},{0.841975,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

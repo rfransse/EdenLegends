@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="MagicCube" Imagefile="MagicCube.png" NativeHorzRes="800" NativeVertRes="600" >
+    <Image Name="Fail" XPos="0" YPos="383" Width="207" Height="113" />
+    <Image Name="else" XPos="451" YPos="236" Width="30" Height="13" />
+    <Image Name="Success" XPos="0" YPos="270" Width="207" Height="113" />
+    <Image Name="runner0" XPos="412" YPos="47" Width="32" Height="32" />
+    <Image Name="runner1" XPos="448" YPos="47" Width="32" Height="32" />
+    <Image Name="runner2" XPos="376" YPos="47" Width="32" Height="32" />
+    <Image Name="runner3" XPos="340" YPos="47" Width="32" Height="32" />
+    <Image Name="Animation" XPos="339" YPos="87" Width="142" Height="142" />
+    <Image Name="Probability" XPos="345" YPos="5" Width="128" Height="31" />
+    <Image Name="Function01hover" XPos="4" YPos="40" Width="32" Height="32" />
+    <Image Name="Function01press" XPos="4" YPos="74" Width="32" Height="32" />
+    <Image Name="Function02hover" XPos="38" YPos="40" Width="32" Height="32" />
+    <Image Name="Function02press" XPos="38" YPos="74" Width="32" Height="32" />
+    <Image Name="Function03hover" XPos="72" YPos="40" Width="32" Height="32" />
+    <Image Name="Function03press" XPos="72" YPos="74" Width="32" Height="32" />
+    <Image Name="Function04hover" XPos="106" YPos="40" Width="32" Height="32" />
+    <Image Name="Function04press" XPos="106" YPos="74" Width="32" Height="32" />
+    <Image Name="Function05hover" XPos="140" YPos="40" Width="32" Height="32" />
+    <Image Name="Function05press" XPos="140" YPos="74" Width="32" Height="32" />
+    <Image Name="Function06hover" XPos="174" YPos="40" Width="32" Height="32" />
+    <Image Name="Function06press" XPos="174" YPos="74" Width="32" Height="32" />
+    <Image Name="Function01active" XPos="4" YPos="142" Width="32" Height="32" />
+    <Image Name="Function01hover2" XPos="4" YPos="176" Width="32" Height="32" />
+    <Image Name="Function01normal" XPos="4" YPos="6" Width="32" Height="32" />
+    <Image Name="Function01press2" XPos="4" YPos="210" Width="32" Height="32" />
+    <Image Name="Function02active" XPos="38" YPos="142" Width="32" Height="32" />
+    <Image Name="Function02hover2" XPos="38" YPos="176" Width="32" Height="32" />
+    <Image Name="Function02normal" XPos="38" YPos="6" Width="32" Height="32" />
+    <Image Name="Function02press2" XPos="38" YPos="210" Width="32" Height="32" />
+    <Image Name="Function03active" XPos="72" YPos="142" Width="32" Height="32" />
+    <Image Name="Function03hover2" XPos="72" YPos="176" Width="32" Height="32" />
+    <Image Name="Function03normal" XPos="72" YPos="6" Width="32" Height="32" />
+    <Image Name="Function03press2" XPos="72" YPos="210" Width="32" Height="32" />
+    <Image Name="Function04active" XPos="106" YPos="142" Width="32" Height="32" />
+    <Image Name="Function04hover2" XPos="106" YPos="176" Width="32" Height="32" />
+    <Image Name="Function04normal" XPos="106" YPos="6" Width="32" Height="32" />
+    <Image Name="Function04press2" XPos="106" YPos="210" Width="32" Height="32" />
+    <Image Name="Function05active" XPos="140" YPos="142" Width="32" Height="32" />
+    <Image Name="Function05hover2" XPos="140" YPos="176" Width="32" Height="32" />
+    <Image Name="Function05normal" XPos="140" YPos="6" Width="32" Height="32" />
+    <Image Name="Function05press2" XPos="140" YPos="210" Width="32" Height="32" />
+    <Image Name="Function06normal" XPos="174" YPos="6" Width="32" Height="32" />
+    <Image Name="countbackground1" XPos="350" YPos="302" Width="50" Height="72" />
+    <Image Name="countbackground2" XPos="407" YPos="319" Width="36" Height="36" />
+    <Image Name="Function01disable" XPos="4" YPos="108" Width="32" Height="32" />
+    <Image Name="Function02disable" XPos="38" YPos="108" Width="32" Height="32" />
+    <Image Name="Function03disable" XPos="72" YPos="108" Width="32" Height="32" />
+    <Image Name="Function04disable" XPos="106" YPos="108" Width="32" Height="32" />
+    <Image Name="Function05disable" XPos="140" YPos="108" Width="32" Height="32" />
+    <Image Name="Function06disable" XPos="174" YPos="108" Width="32" Height="32" />
+</Imageset>

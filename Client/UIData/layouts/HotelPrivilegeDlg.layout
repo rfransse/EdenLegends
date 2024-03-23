@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/HotelPrivilege" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.207031,0},{0.200521,0},{0.207031,258},{0.200521,164}}" />
+        <Window Type="DejaVu/Static" Name="Root/HotelPrivilege/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/HotelPrivilege/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0495868,0},{0.0952381,0},{0.950413,0},{0.619048,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelPrivilege/Static/Border/Icon1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="CentreAligned" />
+                    <Property Name="Image" Value="set:DejaVuImage image:FClass1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.417431,0},{0.181818,0},{0.5,0},{0.454545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelPrivilege/Static/Border/Icon2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="CentreAligned" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Image" Value="set:DejaVuImage image:FClass2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.527523,0},{0.181818,0},{0.610092,0},{0.454545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelPrivilege/Static/Border/Icon3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="CentreAligned" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Image" Value="set:DejaVuImage image:FClass3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.637615,0},{0.181818,0},{0.720183,0},{0.454545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelPrivilege/Static/Border/Icon4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="CentreAligned" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="Image" Value="set:DejaVuImage image:FClass4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.747706,0},{0.181818,0},{0.830275,0},{0.454545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/HotelPrivilege/Static/Border/Icon5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="CentreAligned" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="Image" Value="set:DejaVuImage image:FClass6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.857798,0},{0.181818,0},{0.940367,0},{0.454545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/HotelPrivilege/Static/Border/Text1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.055046,0},{0.181818,0},{0.389908,0},{0.454545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/HotelPrivilege/Static/Border/TitleText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x進入房間" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0550459,0},{0.545455,0},{0.422018,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/HotelPrivilege/Static/Border/Check11" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.422018,0},{0.545455,0},{0.504587,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/HotelPrivilege/Static/Border/Check21" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.53211,0},{0.545455,0},{0.614679,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/HotelPrivilege/Static/Border/Check31" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.642202,0},{0.545455,0},{0.724771,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/HotelPrivilege/Static/Border/Check41" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.752294,0},{0.545455,0},{0.834863,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/HotelPrivilege/Static/Border/Check51" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.862385,0},{0.545455,0},{0.944954,0},{0.818182,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/HotelPrivilege/Static/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.049587,0},{0.714286,0},{0.421488,0},{0.904762,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/HotelPrivilege/Static/CloseBtn" >
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.578512,0},{0.714286,0},{0.950413,0},{0.904762,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="ToolTips" Imagefile="ToolTips.png" >
+    <Image Name="EmbedNone" XPos="2" YPos="50" Width="12" Height="12" />
+    <Image Name="EmbedJewelry" XPos="18" YPos="50" Width="12" Height="12" />
+	<Image Name="StarNone" XPos="34" YPos="50" Width="12" Height="12" />
+    <Image Name="StarJewelry" XPos="50" YPos="50" Width="12" Height="12" />
+</Imageset>

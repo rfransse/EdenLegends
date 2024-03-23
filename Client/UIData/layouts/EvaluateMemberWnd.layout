@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EvaluateMemberWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.348842,0},{0.088975,0},{0.348842,200},{0.088975,456}}" />
+        <Window Type="DejaVu/Static" Name="Root/EvaluateMemberWnd/Border" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateMemberWnd/Border/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="成員名單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.0180995,0},{0.0434783,100},{0.0180995,16}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/EvaluateMemberWnd/Border/MemberInfo" >
+                <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.061224,0},{0.978261,0},{0.984301,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/EvaluateMemberWnd/Border/MemberInfo/ListBox" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00435554,0},{0.000444224,0},{0.998099,0},{0.999469,0}}" />
+              </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

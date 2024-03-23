@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root\GemBreaker" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.313477,0},{0.165365,0},{0.313477,264},{0.165365,324}}" />
+        <Window Type="DejaVu/Static" Name="Root\GemBreaker/sta" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root\GemBreaker/sta/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.58871,0},{0.874126,0},{0.951613,0},{0.958042,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root\GemBreaker/sta/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0483871,0},{0.041958,0},{0.951613,0},{0.832168,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Content" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >請選擇要取出的寶石
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.0530973,0},{0.946429,0},{0.265487,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Rune1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.336283,0},{1,0},{0.424779,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Rune2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.451327,0},{1,0},{0.539823,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Rune3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.566372,0},{1,0},{0.654867,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Rune4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.681416,0},{1,0},{0.769911,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Rune5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.79646,0},{1,0},{0.884956,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root\GemBreaker/sta/Border/Rune6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.911504,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root\GemBreaker/sta/Border/SelectBG" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.336283,0},{1,0},{0.424779,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

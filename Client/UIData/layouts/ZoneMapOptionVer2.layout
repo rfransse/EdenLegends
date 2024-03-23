@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MapOptionUI" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.20117,0},{0.2,0},{0.20117,277},{0.2,461}}" />
+        <Window Type="DejaVu/Border" Name="MapOptionUI/Boder" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/CityBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="城市功能" />
+                <Property Name="UnifiedAreaRect" Value="{{0.062147,0},{0.021505,0},{0.813559,0},{0.0860211,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/NormalMerchBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="一般商人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.09319,0},{0.932203,0},{0.157706,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/WeapMerchBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="武器商人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.164875,0},{0.932203,0},{0.229391,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/AmrMerchBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="防具商人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.236559,0},{0.932203,0},{0.301075,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/RiderMerchBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="坐騎商人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.308244,0},{0.932203,0},{0.37276,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/AutionBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="拍賣場" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.379928,0},{0.932203,0},{0.444444,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/ReBornBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="重生點" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.451613,0},{0.932203,0},{0.516129,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/CityTpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="城鎮傳送陣" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.523297,0},{0.932203,0},{0.587813,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/TpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="傳送口" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.666667,0},{0.932203,0},{0.731183,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/GetMissionBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="任務承接" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.810036,0},{0.932203,0},{0.874552,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/ReplyMissionBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="任務回報" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180791,0},{0.88172,0},{0.932203,0},{0.946236,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.104019,0},{0.141762,0},{0.144208,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.177305,0},{0.141762,0},{0.217494,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.248227,0},{0.141762,0},{0.288416,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.319149,0},{0.141762,0},{0.359338,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.390071,0},{0.141762,0},{0.43026,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage6" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.460993,0},{0.141762,0},{0.501182,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage7" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.531915,0},{0.141762,0},{0.572104,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage8" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.678487,0},{0.141762,0},{0.718676,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage9" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.822695,0},{0.141762,0},{0.862884,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage10" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.893617,0},{0.141762,0},{0.933806,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="MapOptionUI/Boder/PaySystemBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="物資需求" />
+                <Property Name="UnifiedAreaRect" Value="{{0.180077,0},{0.593381,0},{0.931034,0},{0.65721,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="MapOptionUI/Boder/iconImage11" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.076628,0},{0.602837,0},{0.141762,0},{0.643026,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/AuctionSellWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,712},{0,438}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,610},{0,400}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/AuctionSellWnd/backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.006024,0},{0.01,0},{0.993384,0},{0.991735,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/AuctionSellWnd/backgrand/closeBTn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.854908,0},{0.916279,0},{0.98293,0},{0.972093,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/goldText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0170697,0},{0.92093,0},{0.0953058,0},{0.967442,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/silverText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" >99
+
+
+
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.123755,0},{0.92093,0},{0.169275,0},{0.967442,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AuctionSellWnd/backgrand/cancleBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="cancle" />
+                <Property Name="UnifiedAreaRect" Value="{{0.709815,0},{0.916279,0},{0.837838,0},{0.972093,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/title1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="拍賣中的物品" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01707,0},{0.260465,0},{0.361309,0},{0.302325,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/AuctionSellWnd/backgrand/border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.01707,0},{0.097674,0},{0.982931,0},{0.232558,0}}" />
+                <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/border/title2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="オークション価格" />
+                    <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.381988,0},{0.551724,0},{0.537268,0},{0.896552,0}}" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/border/titile3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="オークション価格" />
+                    <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.381988,0},{0.103448,0},{0.537268,0},{0.448276,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/AuctionSellWnd/backgrand/border/SellBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.849779,0},{0.293103,0},{0.982327,0},{0.706897,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/AuctionSellWnd/backgrand/border/goldedit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="5" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.546584,0},{0.103448,0},{0.627329,0},{0.448276,0}}" />
+                    <Property Name="ValidationString" Value="[0-9]*" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/AuctionSellWnd/backgrand/border/silveredit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="3" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.667702,0},{0.103448,0},{0.714286,0},{0.448276,0}}" />
+                    <Property Name="ValidationString" Value="[0-9]*" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/border/taxGold" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.546584,0},{0.551724,0},{0.627329,0},{0.896552,0}}" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/border/taxsilver" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.667702,0},{0.551724,0},{0.714286,0},{0.896552,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/AuctionSellWnd/backgrand/border/slot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017673,0},{0.206897,0},{0.0677467,0},{0.793103,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/AuctionSellWnd/backgrand/border/GoldIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.636646,0},{0.155172,0},{0.657265,0},{0.396551,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/AuctionSellWnd/backgrand/border/GoldIcon1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.63623,0},{0.603448,0},{0.656848,0},{0.844828,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/AuctionSellWnd/backgrand/border/GoldIcon4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.723602,0},{0.155172,0},{0.744221,0},{0.396551,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/AuctionSellWnd/backgrand/border/GoldIcon5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.723602,0},{0.603448,0},{0.744221,0},{0.844827,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/AuctionSellWnd/backgrand/border/EmbedBackground" >
+                    <Property Name="BackgroundColours" Value="tl:88888888 tr:88888888 bl:88888888 br:88888888" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameColours" Value="tl:88888888 tr:88888888 bl:88888888 br:88888888" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0854197,0},{0.206897,0},{0.368189,0},{0.793103,0}}" />
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/AuctionSellWnd/backgrand/border/SlotName" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.294118,0},{0.967033,0},{0.705883,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/MultiColumnList2" Name="Root/AuctionSellWnd/backgrand/list" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="SortSettingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0170697,0},{0.330233,0},{0.98293,0},{0.888372,0}}" />
+                <Property Name="ColumnHeader" Value="text:樣式 width:{0.1,0} id:0" />
+                <Property Name="ColumnHeader" Value="text:名稱 width:{0.46,0} id:1" />
+                <Property Name="ColumnHeader" Value="text:等級 width:{0.07,0} id:2" />
+                <Property Name="ColumnHeader" Value="text:時間 width:{0.07,0} id:3" />
+                <Property Name="ColumnHeader" Value="text:賣價 width:{0.3,0} id:4" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AuctionSellWnd/backgrand/helpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.957326,0},{0.027907,0},{0.98293,0},{0.0697674,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/AuctionSellWnd/backgrand/GoldIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.099573,0},{0.927907,0},{0.119488,0},{0.960465,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/AuctionSellWnd/backgrand/silverIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.172119,0},{0.927907,0},{0.192034,0},{0.960465,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/AuctionSellWnd/backgrand/titile4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="拍賣價格" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01707,0},{0.027907,0},{0.284495,0},{0.0697675,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

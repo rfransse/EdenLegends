@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyFindingWind" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0634766,0},{0.0273438,0},{0.0634766,478},{0.0273438,476}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/FamilyFindingWind/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20.4805}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

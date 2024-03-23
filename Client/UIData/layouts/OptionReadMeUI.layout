@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ReadMe" >
+        <Property Name="Text" Value="遊戲說明" />
+        <Property Name="UnifiedAreaRect" Value="{{0.270101,0},{0.210256,0},{0.270101,379},{0.210256,314}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Window Type="DejaVu/Button" Name="Root/ReadMe/CloseBtn" >
+            <Property Name="Text" Value="關閉" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.796143,0},{0.92029,0},{0.988981,0},{0.985507,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ReadMe/TitleText" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameColours" Value="tl:FF0000FF tr:FF0000FF bl:FFFFFFFF br:FFFFFFFF" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="asdf" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.369146,0},{0.0144928,0},{0.988981,0},{0.0869565,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/ReadMe/ReadMeText" >
+            <Property Name="Text" >
+</Property>
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.369146,0},{0.108696,0},{0.988981,0},{0.898551,0}}" />
+        </Window>
+        <Window Type="DejaVu/Tree" Name="Root/ReadMe/Tree" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0110193,0},{0.0144928,0},{0.352617,0},{0.985507,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

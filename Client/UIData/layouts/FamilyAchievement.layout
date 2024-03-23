@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Achievement" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0351759,0},{0.181197,0},{0.419598,0},{0.208547,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Achievement/Type" >
+            <Property Name="Text" Value="LV01～30副本討伐" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.603896,0},{1.125,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Achievement/Point" >
+            <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
+            <Property Name="Text" Value="0點聲望" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.771242,0},{0,0},{0.998515,0},{1.125,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

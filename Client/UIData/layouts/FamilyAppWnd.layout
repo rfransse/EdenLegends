@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyAppWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.32,0},{0.115,0},{0.614922,0},{0.859792,0}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,290},{0,420}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/FamilyAppWnd/Border" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/FamilyAppWnd/Border/Title" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value=" 建鎮申請書" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.022472,0},{0.853147,0},{0.0674158,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/FamilyAppWnd/Border/Border3" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.726592,0},{0.958042,0},{0.910113,0}}" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/FamilyAppWnd/Border/Combobox" >
+                <Property Name="MaxEditTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0.454545,0},{0.659176,0},{0.958042,0},{0.812734,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/FamilyAppWnd/Border/Text2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="選擇建鎮地區：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.659176,0},{0.391608,0},{0.70412,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/FamilyAppWnd/Border/Text3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="創鎮資格：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.322097,0},{0.377622,0},{0.355805,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/FamilyAppWnd/Border/Text1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="城鎮收回條件：" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.089888,0},{0.968531,0},{0.123596,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/FamilyAppWnd/Border/Border1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.146067,0},{0.958042,0},{0.299625,0}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/FamilyAppWnd/Border/Border1/Edit" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" >1
+2
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0229008,0},{0.0731707,0},{0.977099,0},{0.926829,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyAppWnd/Border/CloseBtn" >
+                <Property Name="Text" Value="關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.643357,0},{0.932584,0},{0.958042,0},{0.977528,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyAppWnd/Border/OKBtn" >
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.932584,0},{0.356643,0},{0.977528,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/FamilyAppWnd/Border/CreateText" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.378277,0},{0.958042,0},{0.636704,0}}" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyAppWnd/Border/Title/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Text" Value="?" />
+                <Property Name="UnifiedAreaRect" Value="{{0.942623,0},{0.0172414,0},{0.97541,0},{0.0402299,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

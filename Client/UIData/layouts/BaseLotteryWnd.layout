@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/LotteryWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.152101,0},{0.130969,0},{0.152101,435},{0.130969,415}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/LotteryWnd/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20.4805}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0.004785,0},{0.010802,0},{0.997625,0},{0.992234,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

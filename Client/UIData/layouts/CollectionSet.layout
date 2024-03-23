@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CollectionSet" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.013889,0},{0.010471,0},{0.013889,245},{0.010471,303}}" />
+        <Window Type="DejaVu/Static" Name="Root/CollectionSet/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/CollectionSet/BackGround/" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0101153,0},{0.0199397,0},{0.966447,0},{0.982204,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/CollectionSet/Item/Btn2" >
+                    <Property Name="Text" Value="關閉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.625571,0},{0.87451,0},{0.968037,0},{0.972549,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CollectionSet/Item/Btn1" >
+                    <Property Name="Text" Value="儲存設定" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0319635,0},{0.87451,0},{0.374429,0},{0.972549,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228311,0},{0.0196078,0},{0.178082,0},{0.152941,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.182648,0},{0.0196078,0},{0.3379,0},{0.152941,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.342466,0},{0.0196078,0},{0.497717,0},{0.152941,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.502283,0},{0.0196078,0},{0.657534,0},{0.152941,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6621,0},{0.0196078,0},{0.817352,0},{0.152941,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.821918,0},{0.0196078,0},{0.977169,0},{0.152941,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228311,0},{0.156863,0},{0.178082,0},{0.290196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.182648,0},{0.156863,0},{0.3379,0},{0.290196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG9" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.342466,0},{0.156863,0},{0.497717,0},{0.290196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG10" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.502283,0},{0.156863,0},{0.657534,0},{0.290196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG11" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6621,0},{0.156863,0},{0.817352,0},{0.290196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG12" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.821918,0},{0.156863,0},{0.977169,0},{0.290196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG13" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228311,0},{0.294118,0},{0.178082,0},{0.427451,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG14" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.182648,0},{0.294118,0},{0.3379,0},{0.427451,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG15" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.342466,0},{0.294118,0},{0.497717,0},{0.427451,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG16" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.502283,0},{0.294118,0},{0.657534,0},{0.427451,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG17" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6621,0},{0.294118,0},{0.817352,0},{0.427451,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG18" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.821918,0},{0.294118,0},{0.977169,0},{0.427451,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG19" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228311,0},{0.431373,0},{0.178082,0},{0.564706,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG20" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.182648,0},{0.431373,0},{0.3379,0},{0.564706,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG21" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.342466,0},{0.431373,0},{0.497717,0},{0.564706,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG22" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.502283,0},{0.431373,0},{0.657534,0},{0.564706,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG23" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.6621,0},{0.431373,0},{0.817352,0},{0.564706,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG24" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.821918,0},{0.431373,0},{0.977169,0},{0.564706,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG25" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0228311,0},{0.568627,0},{0.178082,0},{0.701961,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG26" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.182648,0},{0.568627,0},{0.3379,0},{0.701961,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG27" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.342466,0},{0.568627,0},{0.497717,0},{0.701961,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG28" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.502283,0},{0.568627,0},{0.657534,0},{0.701961,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG29" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.662917,0},{0.568627,0},{0.818169,0},{0.701961,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CollectionSet/Item/SlotIMG30" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.821918,0},{0.568627,0},{0.977169,0},{0.701961,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CollectionSet/BackGround/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >拖曳到此的物品，不會被「全部收藏」
+
+
+
+
+
+
+
+
+功能進行收藏</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0365297,0},{0.712452,0},{0.974791,0},{0.85755,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

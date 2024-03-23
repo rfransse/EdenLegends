@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AchievementReport" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.24875,0},{0.17,0},{0.65207,0},{0.776771,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/AchievementReport/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/AchievementReport/Static/MCList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0302267,0},{0.0280374,0},{0.969773,0},{0.88785,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AchievementReport/Static/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.743073,0},{0.915888,0},{0.969773,0},{0.971963,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

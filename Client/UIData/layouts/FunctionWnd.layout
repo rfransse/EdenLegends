@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FunctionWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionWnd/FastBar1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:FunctionFastBar" />
+            <Property Name="UnifiedAreaRect" Value="{{0.297852,0},{0,0},{0.297852,382},{0,45}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,382},{0,40}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Embed" Name="Root/FunctionWnd/FastBar1/Embed" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0157068,0},{0.111111,0},{0.0497382,0},{0.888889,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionWnd/FastBar1/UpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:FunctionUpHover" />
+                <Property Name="NormalImage" Value="set:main image:FunctionUpNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionUpPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013089,0},{0.022222,0},{0.052356,0},{0.355555,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,12},{0,12}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionWnd/FastBar1/DownBtn" >
+                <Property Name="HoverImage" Value="set:main image:FunctionDownHover" />
+                <Property Name="NormalImage" Value="set:main image:FunctionDownNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionDownPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013089,0},{0.644444,0},{0.052356,0},{0.977777,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,12},{0,12}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.060209,0},{0.155556,0},{0.143979,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.149215,0},{0.155556,0},{0.232985,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.23822,0},{0.155556,0},{0.32199,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327225,0},{0.155556,0},{0.410995,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.41623,0},{0.155556,0},{0.5,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot6" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.505236,0},{0.155556,0},{0.589006,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot7" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594241,0},{0.155556,0},{0.678011,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot8" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.683246,0},{0.155556,0},{0.767016,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot9" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.772251,0},{0.155556,0},{0.856021,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar1/slot10" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.861257,0},{0.155556,0},{0.945027,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/FunctionWnd/FastBar1/LockBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="NormalImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionLockPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.955497,0},{0.488889,0},{0.992147,0},{0.888889,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FunctionWnd/FastBar1/PageText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="6" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0157068,0},{0.333333,0},{0.0549738,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionWnd/FastBar1/OpenBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:AdditionButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:AdditionButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:AdditionButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:AdditionButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.958115,0},{0.133333,0},{0.989529,0},{0.4,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionWnd/FastBar3" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ID" Value="2" />
+            <Property Name="Image" Value="set:main image:FunctionFastBar" />
+            <Property Name="UnifiedAreaRect" Value="{{0.297852,0},{1,-135},{0.297852,382},{1,-90}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,358},{0,40}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.060209,0},{0.155556,0},{0.143979,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.149215,0},{0.155556,0},{0.232985,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.23822,0},{0.155556,0},{0.32199,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327225,0},{0.155556,0},{0.410995,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.41623,0},{0.155556,0},{0.5,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot6" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.505236,0},{0.155556,0},{0.589006,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot7" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594241,0},{0.155556,0},{0.678011,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot8" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.683246,0},{0.155556,0},{0.767016,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot9" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.772251,0},{0.155556,0},{0.856021,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar3/slot10" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.861257,0},{0.155556,0},{0.945027,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/FunctionWnd/FastBar3/LockBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionLockPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.955497,0},{0.488889,0},{0.992147,0},{0.888889,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionWnd/FastBar3/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                <Property Name="ID" Value="3" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.958115,0},{0.133333,0},{0.989529,0},{0.4,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionWnd/FastBar2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ID" Value="1" />
+            <Property Name="Image" Value="set:main image:FunctionFastBar" />
+            <Property Name="UnifiedAreaRect" Value="{{0.297852,0},{1,-90},{0.297852,382},{1,-45}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,358},{0,40}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot10" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.861257,0},{0.155556,0},{0.945027,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot9" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.772251,0},{0.155556,0},{0.856021,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot8" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.683246,0},{0.155556,0},{0.767016,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot7" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594241,0},{0.155556,0},{0.678011,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot6" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.505236,0},{0.155556,0},{0.589006,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.41623,0},{0.155556,0},{0.5,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327225,0},{0.155556,0},{0.410995,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.23822,0},{0.155556,0},{0.32199,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.149215,0},{0.155556,0},{0.232985,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar2/slot1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.060209,0},{0.155556,0},{0.143979,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/FunctionWnd/FastBar2/LockBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionLockPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.955497,0},{0.488889,0},{0.992147,0},{0.888889,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FunctionWnd/FastBar2/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.958115,0},{0.133333,0},{0.989529,0},{0.4,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionWnd/FastBar0" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="ID" Value="1" />
+            <Property Name="Image" Value="set:main image:FunctionFastBar" />
+            <Property Name="UnifiedAreaRect" Value="{{0.37875,0},{0,0},{0.42625,344},{0,45}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,358},{0,40}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot10" >
+                <Property Name="UnifiedAreaRect" Value="{{0.861257,0},{0.155556,0},{0.945027,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.772251,0},{0.155556,0},{0.856021,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.683246,0},{0.155556,0},{0.767016,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.594241,0},{0.155556,0},{0.678011,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.505236,0},{0.155556,0},{0.589006,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.41623,0},{0.155556,0},{0.5,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.327225,0},{0.155556,0},{0.410995,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.23822,0},{0.155556,0},{0.32199,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.149215,0},{0.155556,0},{0.232985,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FunctionWnd/FastBar0/slot1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.060209,0},{0.155556,0},{0.143979,0},{0.866667,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,32},{0,32}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

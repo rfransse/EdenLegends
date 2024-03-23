@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_FunctionalWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,250},{0,100}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_FunctionalWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,240},{0,100}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_FunctionalWnd/Background/Border_Loop" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_FunctionalWnd/Background/Border_Loop/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Loop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0454545,0},{0.25,0},{0.0454545,40},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_FunctionalWnd/Background/Border_Loop/Check_Loop" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.272727,0},{0.25,0},{0.363636,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_FunctionalWnd/Background/Border_Loop/Text_Start" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Start" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.409091,0},{0.25,0},{0.409091,40},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_FunctionalWnd/Background/Border_Loop/Edit_Start" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.636364,0},{0.25,0},{0.636364,70},{0.25,20}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

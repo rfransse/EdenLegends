@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ReviveWnd" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="一二三四五六七八對你施展復活技能" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.402344,0},{0.246094,0},{0.402344,216},{0.246094,134}}" />
+        <Window Type="DejaVu/Static" Name="Root/ReviveWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/ReviveWnd/Background/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.125,0},{0.94,0},{0.3125,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ReviveWnd/Background/NearbyBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="就近復活" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.0625,0},{0.725,0},{0.3125,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ReviveWnd/Background/DirectBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="直接附活" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.375,0},{0.725,0},{0.625,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ReviveWnd/Background/ItemmallBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="2" />
+                <Property Name="Text" Value="虛寶復活" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.6875,0},{0.725,0},{0.9375,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ReviveWnd/Background/AcceptBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="3" />
+                <Property Name="Text" Value="Accept Revive" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.166667,0},{0.725,0},{0.416667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ReviveWnd/Background/RefuseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="Text" Value="Refuse Revive" />
+                <Property Name="UnifiedAreaRect" Value="{{0.275,0},{0.583333,0},{0.725,0},{0.833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/ReviveWnd/Background/CountDownText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Count Down 10 sec" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.06,0},{0.375,0},{0.94,0},{0.625,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

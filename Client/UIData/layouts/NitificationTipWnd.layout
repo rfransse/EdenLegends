@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/NotificationTipWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.507614,0},{0,199},{0.507614,161}}" />
+        <Window Type="DefaultWindow" Name="Root/NotificationTipWnd/NotificationTitle" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.01,0},{-0.00169206,0},{0.989998,0},{0.133986,0}}" />
+            <Window Type="DejaVu/TipTextLab" Name="Root/NotificationTipWnd/NotificationTitle/titleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0297028,0},{0.0737038,0},{0.411612,0},{0.978466,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NotificationTipWnd/NotificationTitle/ImageBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.814815,0},{1.01015,0},{0.925926,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/NotificationTipWnd/NotificationTitle/button" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="NormalImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionLockPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.919598,0},{0,0},{0.98995,0},{0.904762,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/DPSRecord" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{-4.37489e-007,0},{0.211476,0},{-0.000977,201},{0.099781,681}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0436242,0},{1,0},{0.0805369,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team1/icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team1/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team1/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team1/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team1/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team1/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六七八
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DPSRecord/btn1" >
+            <Property Name="DisabledImage" Value="set:CDAni image:ATPress" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:CDAni image:ATHover" />
+            <Property Name="NormalImage" Value="set:CDAni image:ATNormal" />
+            <Property Name="PushedImage" Value="set:CDAni image:ATPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.55,0},{-0.0402685,24},{0.67,0},{0,24}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team1/bar/title" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00195313,0},{0.0201342,0},{0.398047,0},{0.0402685,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DPSRecord/btn2" >
+            <Property Name="DisabledImage" Value="set:CDAni image:HTPress" />
+            <Property Name="HoverImage" Value="set:CDAni image:HTHover" />
+            <Property Name="NormalImage" Value="set:CDAni image:HTNormal" />
+            <Property Name="PushedImage" Value="set:CDAni image:HTPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.68,0},{0,0},{0.8,0},{0.0402685,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/DPSRecord/btn3" >
+            <Property Name="DisabledImage" Value="set:CDAni image:BTPress" />
+            <Property Name="HoverImage" Value="set:CDAni image:BTHover" />
+            <Property Name="NormalImage" Value="set:CDAni image:BTNormal" />
+            <Property Name="PushedImage" Value="set:CDAni image:BTPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81,0},{0,0},{0.93,0},{0.0402685,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/DPSRecord/lock" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:main image:FunctionLockNormal" />
+            <Property Name="NormalImage" Value="set:main image:FunctionLockNormal" />
+            <Property Name="PushedImage" Value="set:main image:FunctionLockPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.935,0},{0.0151007,0},{1.005,0},{0.0486577,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DPSRecord/restart" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="重置x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.650977,0},{0.971347,0},{1.00098,0},{1.00155,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team2" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0805369,0},{1,0},{0.11745,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team2/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team2/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team2/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team2/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team2/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team2/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六七八
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.0308642,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team3" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.11745,0},{1,0},{0.154362,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team3/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team3/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team3/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team3/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team3/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team3/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team4" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.154362,0},{1,0},{0.191275,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team4/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team4/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team4/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team4/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team4/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team4/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team5" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.191275,0},{1,0},{0.228188,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team5/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team5/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team5/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team5/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team5/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team5/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team6" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.228188,0},{1,0},{0.265101,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team6/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team6/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team6/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team6/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team6/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team6/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六七八
+
+
+
+
+
+</Property>
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team7" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.265101,0},{0,200},{0.265101,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team7/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team7/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team7/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team7/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team7/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team7/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team8" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.302013,0},{0,200},{0.302013,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team8/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team8/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team8/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team8/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team8/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team8/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team9" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.338926,0},{0,200},{0.338926,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team9/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team9/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team9/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team9/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team9/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team9/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team10" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.375839,0},{0,200},{0.375839,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team10/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team10/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team10/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team10/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team10/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team10/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team11" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.416107,0},{0,200},{0.416107,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team11/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team11/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team11/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team11/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team11/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team11/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team12" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.45302,0},{0,200},{0.45302,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team12/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team12/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team12/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team12/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team12/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team12/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team13" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.489933,0},{0,200},{0.489933,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team13/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team13/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team13/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team13/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team13/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team13/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team14" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.526846,0},{0,200},{0.526846,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team14/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team14/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team14/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team14/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team14/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team14/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team15" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.563758,0},{0,200},{0.563758,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team15/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team15/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team15/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team15/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team15/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team15/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team16" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.600671,0},{0,200},{0.600671,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team16/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team16/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team16/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team16/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team16/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team16/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team17" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.637584,0},{0,200},{0.637584,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team17/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team17/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team17/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team17/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team17/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team17/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team18" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.674497,0},{0,200},{0.674497,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team18/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team18/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team18/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team18/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team18/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team18/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team19" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.711409,0},{0,200},{0.711409,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team19/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team19/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team19/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team19/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team19/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team19/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team20" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.748322,0},{0,200},{0.748322,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team20/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team20/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team20/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team20/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team20/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team20/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team21" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.785235,0},{0,200},{0.785235,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team21/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team21/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team21/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team21/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team21/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team21/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team22" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.822148,0},{0,200},{0.822148,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team22/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team22/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team22/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team22/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team22/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team22/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team23" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.85906,0},{0,200},{0.85906,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team23/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team23/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team23/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team23/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team23/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team23/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team24" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.899329,0},{0,200},{0.899329,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team24/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team24/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team24/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team24/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team24/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team24/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team25" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.936242,0},{0,200},{0.936242,22}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DPSRecord/team25/icon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.136364,0},{0.15,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/DPSRecord/team25/barR" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772728,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/DPSRecord/team25/barB" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/DPSRecord/team25/barG" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.165,0},{0.227273,0},{0.975,0},{0.772727,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team25/persent" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="100%" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.227273,0},{0.96,0},{0.772727,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/DPSRecord/team25/persent/name" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="一二三四五六七八" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.030864,0},{0,0},{1.03086,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DuelRequestWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.200264,0},{0.200195,280},{0.200264,224}}" />
+        <Window Type="DejaVu/Static" Name="Root/DuelRequestWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/BorderText" Name="Root/DuelRequestWnd/Background/Msg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0454545,0},{0.0645161,0},{0.954545,0},{0.741935,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DuelRequestWnd/Background/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="ok" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0454545,0},{0.806452,0},{0.386364,0},{0.935484,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DuelRequestWnd/Background/CloseBtn" >
+                <Property Name="Text" Value="cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.613636,0},{0.806452,0},{0.954545,0},{0.935484,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

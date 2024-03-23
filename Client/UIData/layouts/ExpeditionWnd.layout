@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ExpeditionWnd" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.000977,0},{0.167969,0},{0.603516,0},{0.838542,0}}" />
+    </Window>
+</GUILayout>

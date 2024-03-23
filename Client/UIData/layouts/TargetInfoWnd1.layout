@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TargetInfoWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.26,0},{0.038333,0},{0.26,449},{0.038333,138}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,225},{0,100}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Face" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.115813,0},{0.0916667,0},{0.115813,64},{0.0916667,64}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,64},{0,64}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.652561,0},{0.695652,0}}" />
+            <Property Name="ZOrderChangeEnabled" Value="False" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/ClickBoard" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:faceFrame" />
+                <Property Name="UnifiedAreaRect" Value="{{0.153584,0},{0.0104167,0},{0.419795,0},{0.822917,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/hpBorder" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:InfoHpBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409556,0},{0.427083,0},{0.921502,0},{0.78125,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/hpBorder/HPIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniInfoHP" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0533333,0},{0.0882353,0},{0.186667,0},{0.411765,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/hpBorder/MpIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniInfoMp" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0533333,0},{0.617647,0},{0.186667,0},{0.941176,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/TargetInfoWnd/backgrand/hpBorder/HpBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.0882353,0},{0.966667,0},{0.411765,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/backgrand/hpBorder/HpBar/text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="100/100" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/MpProgressBar" Name="Root/TargetInfoWnd/backgrand/hpBorder/MpBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.617647,0},{0.966667,0},{0.941176,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/backgrand/hpBorder/MpBar/text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="100/100" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.409556,0},{0,0},{0.921502,0},{0.416667,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/MonsterStartBorder" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.213333,0},{0.05,0},{0.993333,0},{0.45,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/MonsterStartBorder/star1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:main image:MonsterStar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0512821,0},{0.0625,0},{0.17094,0},{0.9375,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/MonsterStartBorder/star2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:main image:MonsterStar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.0625,0},{0.34188,0},{0.9375,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/MonsterStartBorder/star3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:main image:MonsterStar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.393162,0},{0.0625,0},{0.512821,0},{0.9375,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/MonsterStartBorder/star4" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:main image:MonsterStar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.564103,0},{0.0625,0},{0.683761,0},{0.9375,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/MonsterStartBorder/star5" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:main image:MonsterStar" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.735043,0},{0.0625,0},{0.854701,0},{0.9375,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/CharIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013333,0},{0.05,0},{0.2,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/TextSmoothLab" Name="Root/TargetInfoWnd/backgrand/textBorder/LVText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.213333,0},{0.05,0},{0.373333,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/backgrand/textBorder/JobIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.386667,0},{0.05,0},{0.573334,0},{0.45,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/TargetInfoWnd/backgrand/textBorder/NameText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.575,0},{0.96,0},{0.925,0}}" />
+                </Window>
+                <Window Type="DejaVu/TextSmoothLab" Name="Root/TargetInfoWnd/backgrand/textBorder/JobLvText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.586667,0},{0.05,0},{0.746667,0},{0.45,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.276169,0},{0.57971,0},{0.276169,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff1/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.316258,0},{0.57971,0},{0.316258,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff2/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff3" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.356347,0},{0.57971,0},{0.356347,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff3/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff4" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.396437,0},{0.57971,0},{0.396437,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff4/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff5" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.436526,0},{0.57971,0},{0.436526,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff5/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff6" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.476615,0},{0.57971,0},{0.476615,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff6/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff7" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.516704,0},{0.57971,0},{0.516704,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff7/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff8" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.556793,0},{0.57971,0},{0.556793,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff8/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff9" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.596882,0},{0.57971,0},{0.596882,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff9/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/buff10" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.636971,0},{0.57971,0},{0.636971,16},{0.57971,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/buff10/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.276169,0},{0.710145,0},{0.276169,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff1/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.316258,0},{0.710145,0},{0.316258,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff2/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff3" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.356347,0},{0.710145,0},{0.356347,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff3/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff4" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.396437,0},{0.710145,0},{0.396437,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff4/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff5" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.436526,0},{0.710145,0},{0.436526,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff5/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff6" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.476615,0},{0.710145,0},{0.476615,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff6/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff7" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.516704,0},{0.710145,0},{0.516704,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff7/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff8" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.556793,0},{0.710145,0},{0.556793,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff8/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{16.75,0},{11,0},{17.75,0},{12.6,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff9" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.596882,0},{0.710145,0},{0.596882,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff9/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/debuff10" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.632517,0},{0.710145,0},{0.632517,16},{0.710145,16}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/debuff10/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak0" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0668151,0},{0,0},{0.0668151,21},{0,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0512249,0},{0.191667,0},{0.0512249,21},{0.191667,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0534521,0},{0.391667,0},{0.0534521,21},{0.391667,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak3" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.077951,0},{0.575,0},{0.077951,21},{0.575,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak4" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.126949,0},{0.691667,0},{0.126949,21},{0.691667,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak5" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.180401,0},{0.7,0},{0.180401,21},{0.7,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak6" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0111359,0},{0.0333333,0},{0.0111359,21},{0.0333333,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak7" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00445434,0},{0.291667,0},{0.00445434,21},{0.291667,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/Weak8" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:AntiStroke" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0200445,0},{0.55,0},{0.0200445,21},{0.55,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/BPBackground" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:InfoBpBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0.345212,0},{0.565217,0},{0.679287,0},{0.688406,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/BPBackground/BPIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:MiniInfoBP" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0533333,0},{0.176471,0},{0.186667,0},{0.823529,0}}" />
+            </Window>
+            <Window Type="DejaVu/PurpleProgressBar" Name="Root/TargetInfoWnd/BPBackground/Bar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206667,0},{0.176471,0},{0.966667,0},{0.823529,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TargetInfoWnd/BPBackground/Bar/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="100/100" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/TargetBg" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.605791,0},{0.115942,0},{0.605791,156},{0.115942,60}}" />
+            <Window Type="DejaVu/TransparentTextLab" Name="Root/TargetInfoWnd/TargetBg/Name" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.237179,0},{0.333333,0},{0.967949,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TargetInfoWnd/TargetBg/JobIcon" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.333333,0},{0.230769,0},{0.666667,0}}" />
+            </Window>
+            <Window Type="DejaVu/TextSmoothLab" Name="Root/TargetInfoWnd/TargetBg/Level" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.683333,0},{0.230769,0},{1.01667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/TargetInfoWnd/TargetBg/HpBar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.237179,0},{0.7,0},{0.967949,0},{0.833333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/TargetInfoWnd/TargetBg/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="fffff" />
+                <Property Name="UnifiedAreaRect" Value="{{0.179487,0},{0,0},{1,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/MpProgressBar" Name="Root/TargetInfoWnd/TargetBg/MpBar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.237179,0},{0.85,0},{0.967949,0},{0.983333,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/TargetInfoWnd/MonsterInfoBtn" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="HoverImage" Value="set:DejaVuImage image:ChestHover" />
+            <Property Name="NormalImage" Value="set:DejaVuImage image:ChestNormal" />
+            <Property Name="PushedImage" Value="set:DejaVuImage image:ChestPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.608018,0},{0.008333,0},{0.66147,0},{0.240217,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

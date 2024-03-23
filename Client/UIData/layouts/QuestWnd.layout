@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/QuestWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="Tatle " />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0309942,0},{0.0182741,0},{0.0309942,358},{0.0182741,664}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/QuestWnd/backgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/QuestWnd/backgrand/border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0175439,0},{0.535144,0},{0.982456,0},{0.945687,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/QuestWnd/backgrand/border/pane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0187881,0},{0.0404227,0},{0.994546,0},{0.992113,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/QuestWnd/backgrand/AcceptedBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.467836,0},{0.952096,0},{0.716374,0},{0.986527,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/QuestWnd/backgrand/closeBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.730994,0},{0.952096,0},{0.979532,0},{0.986527,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/QuestWnd/backgrand/MissionText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0175439,0},{0.0103734,0},{0.845029,0},{0.0386692,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/QuestWnd/backgrand/statusText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.842105,0},{0.0145228,0},{0.979532,0},{0.039596,0}}" />
+            </Window>
+            <Window Type="DejaVu/Listbox2" Name="Root/QuestWnd/backgrand/listbox" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DistributeCapturedInputs" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017544,0},{0.042135,0},{0.982456,0},{0.529797,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Captcha" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.200521,0},{0.200195,302},{0.200521,206}}" />
+        <Window Type="DejaVu/Static" Name="Root/Captcha/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/Captcha/Simage" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.146853,0},{0.0714286,0},{0.888112,0},{0.464286,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Captcha/static/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041958,0},{0.535714,0},{0.601399,0},{0.928571,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Captcha/Stext1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="請輸入與圖片相同文字" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.075,0},{0.181818,0},{0.925,0},{0.393939,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Captcha/Stext2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="您還有2次機會" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.075,0},{0.393939,0},{0.925,0},{0.60606,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Captcha/Stext3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="剩餘時間：59秒" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.075,0},{0.606061,0},{0.925,0},{0.818182,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/Captcha/Editbox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="Text" Value="1234" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.643357,0},{0.535714,0},{0.958042,0},{0.690476,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Captcha/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.643357,0},{0.785714,0},{0.958042,0},{0.928571,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

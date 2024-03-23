@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyBattleJoinWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,738},{0,490}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyBattleJoinWnd/Border" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00542,0},{0.008264,0},{0.99458,0},{0.991937,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleJoinWnd/Border/MapNameLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x公會淘汰賽場地" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0164384,0},{0.0311203,0},{0.235616,0},{0.0684647,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleJoinWnd/Border/ZoneMapImg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0164384,0},{0.0995851,0},{0.594521,0},{0.975104,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleJoinWnd/Border/FamilyNameLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x冠軍公會" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.338356,0},{0.0311203,0},{0.420548,0},{0.0684647,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/FamilyBattleJoinWnd/Border/FamilyName" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x傳奇網路" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.424658,0},{0.024896,0},{0.593151,0},{0.0746885,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/FamilyBattleJoinWnd/Border/TerritoryList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.609589,0},{0.099585,0},{0.982192,0},{0.385892,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/FamilyBattleJoinWnd/Border/TerritoryList/ListPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022059,0},{0.043478,0},{0.977941,0},{0.956521,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/FamilyBattleJoinWnd/Border/IntroText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.609589,0},{0.410788,0},{0.982192,0},{0.975104,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyBattleJoinWnd/Border/TimeTableBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x賽程表" />
+                <Property Name="UnifiedAreaRect" Value="{{0.860274,0},{0.0248963,0},{0.983562,0},{0.0746888,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyBattleJoinWnd/Border/RankBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x目前排名" />
+                <Property Name="UnifiedAreaRect" Value="{{0.720548,0},{0.0248963,0},{0.843836,0},{0.0746888,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

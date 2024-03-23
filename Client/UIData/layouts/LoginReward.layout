@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Activities/TabControl/Tab/EverydayTab" >
+        <Property Name="Text" Value="x推薦任務" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,742},{0,516}}" />
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00602056,0},{0.00784314,0},{0.755264,0},{0.992157,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00948767,0},{0.011976,0},{0.848197,0},{0.99002,0}}" />
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00452489,0},{0.0306122,0},{0.986425,0},{0.238776,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.017467,0},{0.019418,0},{0.137554,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block1/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0.33,0},{0.849057,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block1/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block1/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.7,0},{1,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block1/Date" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x第1天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.02,0},{0.965009,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.159389,0},{0.019418,0},{0.279476,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block2/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0.33,0},{0.849057,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block2/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block2/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.7,0},{1,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block2/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第2天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.02,0},{0.965009,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.30131,0},{0.0194175,0},{0.421397,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block3/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block3/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block3/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block3/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第3天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.443231,0},{0.019418,0},{0.563318,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block4/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0.33,0},{0.849057,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block4/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block4/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.7,0},{1,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block4/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第4天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.02,0},{0.965009,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.585153,0},{0.019418,0},{0.70524,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block5/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0.33,0},{0.849057,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block5/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block5/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.7,0},{1,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block5/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第5天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.02,0},{0.965009,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block6" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.727074,0},{0.019418,0},{0.847161,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block6/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0.33,0},{0.849057,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block6/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block6/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.7,0},{1,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block6/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第6天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.02,0},{0.965009,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block7" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.868996,0},{0.019418,0},{0.989083,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block7/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.188679,0},{0.33,0},{0.849057,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block7/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block7/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.7,0},{1,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame1/Block7/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第7天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.02,0},{0.965009,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00452489,0},{0.273469,0},{0.986425,0},{0.481633,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block8" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0174672,0},{0.0194175,0},{0.137555,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block8/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block8/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block8/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block8/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="第8天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block9" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.159389,0},{0.0194175,0},{0.279476,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block9/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block9/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block9/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block9/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第9天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block10" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.30131,0},{0.0194175,0},{0.421397,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block10/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block10/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block10/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block10/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第10天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block11" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.443231,0},{0.0194175,0},{0.563319,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block11/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block11/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block11/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block11/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第11天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block12" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.585153,0},{0.0194175,0},{0.70524,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block12/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block12/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block12/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block12/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第12天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0184408,0},{0.02,0},{0.945714,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block13" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.727074,0},{0.0194175,0},{0.847162,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block13/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block13/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block13/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block13/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第13天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block14" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.868996,0},{0.0194175,0},{0.989083,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block14/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block14/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block14/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame2/Block14/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第14天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.006536,0},{0.516327,0},{0.988436,0},{0.72449,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block15" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0174672,0},{0.0194175,0},{0.137555,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block15/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block15/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block15/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.045325,0},{0.7,0},{0.972598,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block15/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第15天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block16" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.159389,0},{0.0194175,0},{0.279476,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block16/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block16/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block16/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0.7,0},{0.963637,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block16/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第16天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block17" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.30131,0},{0.0194175,0},{0.421397,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block17/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block17/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block17/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block17/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第17天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block18" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.443231,0},{0.0194175,0},{0.563319,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block18/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block18/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block18/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.981818,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block18/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第18天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block19" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.585153,0},{0.0194175,0},{0.70524,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block19/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block19/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block19/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block19/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第19天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block20" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.727074,0},{0.0194175,0},{0.847162,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block20/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block20/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block20/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block20/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第20天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block21" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.868996,0},{0.0194175,0},{0.989083,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block21/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block21/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block21/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame3/Block21/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第21天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.004357,0},{0.761225,0},{0.986257,0},{0.969388,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block22" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0174672,0},{0.0194175,0},{0.137555,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block22/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block22/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block22/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block22/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第22天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block23" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.159389,0},{0.0194175,0},{0.279476,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block23/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block23/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block23/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.981818,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block23/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第23天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block24" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.30131,0},{0.0194175,0},{0.421397,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block24/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block24/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block24/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block24/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第24天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block25" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.443231,0},{0.0194175,0},{0.563319,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block25/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block25/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block25/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0.7,0},{0.963637,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block25/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第25天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block26" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.585153,0},{0.0194175,0},{0.70524,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block26/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block26/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block26/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block26/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第26天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block27" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.727074,0},{0.0194175,0},{0.847162,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block27/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block27/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block27/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block27/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第27天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block28" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.868996,0},{0.0194175,0},{0.989083,0},{0.990291,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block28/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block28/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block28/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border1/Frame4/Block28/Date" >
+                            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                            <Property Name="Text" Value="x第28天" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.848198,0},{0.011976,0},{0.994307,0},{0.99002,0}}" />
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.0301811,0},{1.01235,0},{0.237425,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame1/Block1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.139241,0},{0.019418,0},{0.85719,0},{0.990292,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame1/Block1/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame1/Block1/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame1/Block1/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame1/Block1/Date" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="xBOUNS" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.273642,0},{0.938272,0},{0.478873,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame2/Block2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.136986,0},{0.019608,0},{0.904109,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame2/Block2/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame2/Block2/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame2/Block2/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame2/Block2/Date" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="xBOUNS" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.517103,0},{0.938272,0},{0.722334,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame3/Block3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.136986,0},{0.019608,0},{0.904109,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame3/Block3/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame3/Block3/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame3/Block3/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame3/Block3/Date" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="xBOUNS" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.762575,0},{0.938272,0},{0.967807,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame4/Block4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.136986,0},{0.019608,0},{0.904109,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame4/Block4/Item" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.33,0},{0.818182,0},{0.68,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame4/Block4/Item/FL" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.485714,0},{0.485714,0},{0.971428,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame4/Block4/GetBtn" >
+                            <Property Name="Text" Value="x領取" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.7,0},{0.963636,0},{0.98,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static1/Border2/Frame4/Block4/Date" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="xBOUNS" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.02,0},{0.963636,0},{0.3,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/EverydayTab/Static2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.76047,0},{0.007843,0},{0.994609,0},{0.992157,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static2/Border2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0285937,0},{0.073705,0},{0.978836,0},{0.992032,0}}" />
+                <Window Type="DejaVu/BorderText" Name="Root/Activities/TabControl/Tab/EverydayTab/Static2/Border2/InfoText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Property Name="VertScrollbar" Value="True" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/EverydayTab/Static2/Border1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0289017,0},{0.0119522,0},{0.976879,0},{0.0677291,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Activities/TabControl/Tab/EverydayTab/Static2/Border1/TextLab" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x每日登入領獎說明" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.019559,0},{0.157143,0},{0.982855,0},{0.907143,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

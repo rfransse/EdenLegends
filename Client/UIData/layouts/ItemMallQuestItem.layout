@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/QuestItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.75,0},{0,200},{0.75,21}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/QuestItem/silver" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:ItemMallGold" />
+            <Property Name="UnifiedAreaRect" Value="{{0.647501,0},{0.099444,0},{0.717501,0},{0.766111,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/QuestItem/SilverText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+            <Property Name="UnifiedAreaRect" Value="{{0.2425,0},{-0.015,0},{0.622501,0},{0.985,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

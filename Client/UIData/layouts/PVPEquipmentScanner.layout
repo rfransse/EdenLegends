@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PVPLookEquipWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.0324873,0},{0.0333333,388},{0.0324873,516}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,384},{0,516}}" />
+        <Window Type="DejaVu/Static" Name="Root/PVPLookEquipWnd/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,372},{0,478}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/StaticImage" Name="Root/PVPLookEquipWnd/BackGround/TypeIcon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.0125523,0},{0.110215,0},{0.0543933,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PVPLookEquipWnd/BackGround/NameText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.110215,0},{0.012552,0},{0.405914,0},{0.054393,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PVPLookEquipWnd/BackGround/LvText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405914,0},{0.0125523,0},{0.594086,0},{0.0543933,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PVPLookEquipWnd/BackGround/classIcon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.0669456,0},{0.110215,0},{0.108787,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PVPLookEquipWnd/BackGround/ClassText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.110215,0},{0.066946,0},{0.405914,0},{0.108787,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/PVPLookEquipWnd/BackGround/ClssLvText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405914,0},{0.066946,0},{0.594086,0},{0.108787,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot16" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="101" />
+                <Property Name="Image" Value="set:DejaVuImage image:HatIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.219665,0},{0.983871,0},{0.290795,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot20" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="106" />
+                <Property Name="Image" Value="set:DejaVuImage image:EyeIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.317992,0},{0.983871,0},{0.389121,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot21" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="107" />
+                <Property Name="Image" Value="set:DejaVuImage image:AHeadIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.416318,0},{0.983871,0},{0.487448,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot17" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="103" />
+                <Property Name="Image" Value="set:DejaVuImage image:ABackIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.514644,0},{0.983871,0},{0.585774,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot15" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="102" />
+                <Property Name="Image" Value="set:DejaVuImage image:ABodyIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.612971,0},{0.983871,0},{0.6841,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot14" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="104" />
+                <Property Name="Image" Value="set:DejaVuImage image:ARWeaponIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.711297,0},{0.983871,0},{0.782427,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot18" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="105" />
+                <Property Name="Image" Value="set:DejaVuImage image:ALWeaponIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.809623,0},{0.983871,0},{0.880753,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot19" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="17" />
+                <Property Name="Image" Value="set:DejaVuImage image:PetIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.912134,0},{0.983871,0},{0.983264,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot6" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="6" />
+                <Property Name="Image" Value="set:DejaVuImage image:BackIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.121339,0},{0.107527,0},{0.192469,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot12" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="11" />
+                <Property Name="Image" Value="set:DejaVuImage image:NecklaceIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.219665,0},{0.107527,0},{0.290795,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot13" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="7" />
+                <Property Name="Image" Value="set:DejaVuImage image:RWeaponIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.317992,0},{0.107527,0},{0.389121,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot9" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="8" />
+                <Property Name="Image" Value="set:DejaVuImage image:LWeaponIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.514644,0},{0.107527,0},{0.585774,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot7" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="12" />
+                <Property Name="Image" Value="set:DejaVuImage image:RingIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.612971,0},{0.107527,0},{0.6841,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot8" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="13" />
+                <Property Name="Image" Value="set:DejaVuImage image:RingIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.711297,0},{0.107527,0},{0.782427,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot10" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="15" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.809623,0},{0.107527,0},{0.880753,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot11" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="14" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.912134,0},{0.107527,0},{0.983264,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PVPLookEquipWnd/Equio/Border/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.946237,0},{0.0125523,0},{0.983871,0},{0.041841,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/PVPLookEquipWnd/BackGround/TotalPoint" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610215,0},{0.0146444,0},{0.932796,0},{0.106695,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/PVPLookEquipWnd/BackGround/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.123656,0},{0.83682,0},{0.876344,0},{0.987448,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/TabControl" Name="Root/PVPLookEquipWnd/Equio/Border/Tab" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TabHeight" Value="{0,20.4805}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.139785,0},{0.845188,0},{0.860215,0},{0.889121,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+                <Window Type="DefaultWindow" Name="Root/PVPLookEquipWnd/Equio/Border/Tab/Cloth" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/PVPLookEquipWnd/Equio/Border/Tab/Leather" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/PVPLookEquipWnd/Equio/Border/Tab/Armor" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/BackGround/Icons" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="18" />
+                <Property Name="UnifiedAreaRect" Value="{{0.892473,0},{0.121339,0},{0.983871,0},{0.192469,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PVPLookEquipWnd/DressRoomUI/ViewAvatar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.123656,0},{0.119309,0},{0.876344,0},{0.822238,0}}" />
+                <Property Name="ZOrderChangeEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Image" Value="set:DejaVuImage image:HeadIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.206989,0},{0.895397,0},{0.298387,0},{0.966527,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="Image" Value="set:DejaVuImage image:BodyIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.330645,0},{0.895397,0},{0.422043,0},{0.966527,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="3" />
+                <Property Name="Image" Value="set:DejaVuImage image:PantsIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.454301,0},{0.895397,0},{0.545699,0},{0.966527,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="5" />
+                <Property Name="Image" Value="set:DejaVuImage image:ShoesIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.577957,0},{0.895397,0},{0.669355,0},{0.966527,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="4" />
+                <Property Name="Image" Value="set:DejaVuImage image:HandIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.701613,0},{0.895397,0},{0.793011,0},{0.966527,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PVPLookEquipWnd/Equio/Border/Slot22" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="10" />
+                <Property Name="Image" Value="set:DejaVuImage image:ArrowIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.416318,0},{0.107527,0},{0.487448,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

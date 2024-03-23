@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/NewKnowledge" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,380},{0,486}}" />
+        <Window Type="DejaVu/Static" Name="Root/NewKnowledge/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0105263,0},{0.00823045,0},{0.989474,0},{0.99177,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/NewKnowledge/Background/BackBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.050209,0},{0.983871,0},{0.949791,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Background/BGImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0107527,0},{0,0},{0.978495,0},{1,0}}" />
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/KnowledgeAvailable" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.956067,0},{0.280556,0},{0.993724,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/KnowledgePoint" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="國國國" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.297222,0},{0.956067,0},{0.577778,0},{0.993724,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/NewKnowledge/Detail/KnowledgeConfirm" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.597222,0},{0.956803,0},{0.791666,0},{0.99446,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/NewKnowledge/Detail/KnowledgeRecover" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.805556,0},{0.956803,0},{1,0},{0.99446,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/NewKnowledge/Background/BGImage/HelpBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.961111,0},{0.0125523,0},{1,0},{0.041841,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow14" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.401674,0},{0.277778,0},{0.518828,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow15" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.514644,0},{0.277778,0},{0.631799,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow16" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.627615,0},{0.277778,0},{0.74477,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow17" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.740586,0},{0.277778,0},{0.857741,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow21" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.0627615,0},{0.527778,0},{0.179916,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow22" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.175732,0},{0.527778,0},{0.292887,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow23" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.288703,0},{0.527778,0},{0.405858,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow24" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.401674,0},{0.527778,0},{0.518828,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow25" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.514644,0},{0.527778,0},{0.631799,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow26" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.627615,0},{0.527778,0},{0.74477,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow27" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.472222,0},{0.740586,0},{0.527778,0},{0.857741,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow31" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.0627615,0},{0.777778,0},{0.179916,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow32" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.175732,0},{0.777778,0},{0.292887,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow33" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.288703,0},{0.777778,0},{0.405858,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow34" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.401674,0},{0.777778,0},{0.518828,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow35" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.514644,0},{0.777778,0},{0.631799,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow36" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.627615,0},{0.777778,0},{0.74477,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow37" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.722222,0},{0.740586,0},{0.777778,0},{0.857741,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.0627615,0},{0.277778,0},{0.179916,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow12" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.175732,0},{0.277778,0},{0.292887,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/NewKnowledge/Detail/InnateBorder/Arrow13" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:TreeListOpened" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.288703,0},{0.277778,0},{0.405858,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot15" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.514644,0},{0.297222,0},{0.585774,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo15" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot17" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.740586,0},{0.297222,0},{0.811716,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo17" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot21" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.0627615,0},{0.547222,0},{0.133891,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo21" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot23" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.288703,0},{0.547222,0},{0.359833,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo23" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot25" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.514644,0},{0.547222,0},{0.585774,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo25" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot27" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.740586,0},{0.547222,0},{0.811716,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo27" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot31" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.0627615,0},{0.797222,0},{0.133891,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo31" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{0.529412,22},{0.588235,18}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot33" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.288703,0},{0.797222,0},{0.359833,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo33" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot35" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.514644,0},{0.797222,0},{0.585774,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo35" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot37" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.740586,0},{0.797222,0},{0.811716,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo37" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot11" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.0627615,0},{0.297222,0},{0.133891,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo11" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                        <Property Name="ZOrderChangeEnabled" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot13" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.288703,0},{0.297222,0},{0.359833,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo13" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot14" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.401674,0},{0.297222,0},{0.472804,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo14" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot16" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.627615,0},{0.297222,0},{0.698745,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo16" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot18" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.853557,0},{0.297222,0},{0.924687,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo18" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot22" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.175732,0},{0.547222,0},{0.246862,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo22" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot26" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.627615,0},{0.547222,0},{0.698745,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo26" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot28" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.853557,0},{0.547222,0},{0.924687,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo28" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot32" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.175732,0},{0.797222,0},{0.246862,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo32" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot34" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.401674,0},{0.797222,0},{0.472804,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo34" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot36" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.627615,0},{0.797222,0},{0.698745,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo36" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot38" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.702778,0},{0.853557,0},{0.797222,0},{0.924687,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo38" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot12" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.202778,0},{0.175732,0},{0.297222,0},{0.246862,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo12" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/NewKnowledge/Detail/InnateBorder/Slot24" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.452778,0},{0.401674,0},{0.547222,0},{0.472804,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/NewKnowledge/Detail/InnateBorder/PointInfo24" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="ClippedByParent" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.529412,0},{0.588235,0},{1.17647,0},{1.11765,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

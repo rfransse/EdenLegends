@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Bag" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="MouseCursorImage" Value="set:DejaVu image:MouseNormal" />
+        <Property Name="Text" Value="背包" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2575,0},{0.184692,0},{0.2575,394},{0.184692,122}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/Bag/tab" >
+            <Property Name="TabHeight" Value="{0,21.9149}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0119048,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/Bag/tab/TabCommon" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/Border" Name="Root/Bag/tab/TabCommon/listbox" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,4},{0,4},{1,-4},{1,-4}}" />
+                    <Window Type="DejaVu/HintImage" Name="Root/Bag/tab/TabCommon/listbox/backgrand" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00243624,0},{-0.0284021,0},{1.00244,0},{0.613107,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Bag/tab/TabCommon/listbox/stimage1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0162162,0},{0,0},{0.108108,0},{1,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/Bag/tab/TabCommon/listbox/stimage2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.113514,0},{0,0},{0.205405,0},{1,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/Bag/tab/TabCommon/listbox/stimage3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.210811,0},{0,0},{0.302703,0},{1,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/Bag/tab/TabCommon/listbox/stimage4" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.308108,0},{0,0},{0.4,0},{1,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/Bag/tab/TabCommon/listbox/stimage5" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.405405,0},{0,0},{0.497297,0},{1,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/Bag/tab/TabCommon/listbox/stimage6" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.940379,0},{0.470588,0},{0.97832,0},{0.882353,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Bag/tab/TabCommon/listbox/SilverText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.848238,0},{0.470588,0},{0.924119,0},{0.882353,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/Bag/tab/TabCommon/listbox/stimage7" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.788618,0},{0.470588,0},{0.826558,0},{0.882353,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Bag/tab/TabCommon/listbox/GoldText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999999" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.617886,0},{0.470588,0},{0.775068,0},{0.882353,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/Bag/tab/TabCommon/listbox/backgrand/Supporter" >
+                            <Property Name="DisabledImage" Value="set:DejaVuImage image:HelperDisable" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="HoverImage" Value="set:DejaVuImage image:HelperHover" />
+                            <Property Name="NormalImage" Value="set:DejaVuImage image:HelperNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVuImage image:HelperPress" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.506262,0},{0,0},{0.571127,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/Bag/tab/TabCommon/listbox/backgrand/Stall" >
+                            <Property Name="DisabledImage" Value="set:DejaVuImage image:StallDisable" />
+                            <Property Name="Font" Value="F001-scale" />
+                            <Property Name="HoverImage" Value="set:DejaVuImage image:StallHover" />
+                            <Property Name="NormalImage" Value="set:DejaVuImage image:StallNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVuImage image:StallPress" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.574526,0},{0,0},{0.639566,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/Bag/tab/TabCommon/listbox/stimage61" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:CNDejaVu image:SilverIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.940379,0},{0,0},{0.97832,0},{0.411765,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Bag/tab/TabCommon/listbox/SilverText1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.848238,0},{0,0},{0.924119,0},{0.411765,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/Bag/tab/TabCommon/listbox/stimage71" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:CNDejaVu image:GoldIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.788618,0},{0,0},{0.826558,0},{0.411765,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/Bag/tab/TabCommon/listbox/GoldText1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999999" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.617886,0},{0,0},{0.775068,0},{0.411765,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Bag/TextToken" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x寶箱錢幣：9999000" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.579365,0},{0.011905,0},{0.928571,0},{0.178572,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Bag/ImageToken" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:ItemMallbox" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.939153,0},{0.011905,0},{0.97619,0},{0.178572,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

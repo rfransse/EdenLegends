@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EquipmentWndSwitch" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0136719,0},{0.0104167,0},{0.0136719,272},{0.0104167,478}}" />
+        <Window Type="DejaVu/Static" Name="Root/EquipmentWndSwitch/Equio2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0,0},{1.00063,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/EquipmentWndSwitch/Equio2/Weapon2" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.113636,0},{0.96875,0},{0.913636,0}}" />
+                <Window Type="DejaVu/Border" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.252841,0},{0.916667,0},{0.423295,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth/TextLab" >
+                        <Property Name="Text" Value="x布衣" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.000975,0},{0,0},{0.999025,0},{1.06897,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth/Slot1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="601" />
+                            <Property Name="Image" Value="set:DejaVuImage image:HeadIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.104545,0},{0.333333,0},{0.254545,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth/Slot2" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="602" />
+                            <Property Name="Image" Value="set:DejaVuImage image:BodyIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.281818,0},{0.333333,0},{0.431818,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth/Slot3" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="603" />
+                            <Property Name="Image" Value="set:DejaVuImage image:PantsIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.459091,0},{0.333333,0},{0.609091,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth/Slot4" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="605" />
+                            <Property Name="Image" Value="set:DejaVuImage image:ShoesIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.640909,0},{0.333333,0},{0.790909,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Cloth/Slot5" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="604" />
+                            <Property Name="Image" Value="set:DejaVuImage image:HandIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.333333,0},{0.968182,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ClothSw1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0727273,0},{0.216667,0},{0.145455,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ClothSw2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.254545,0},{0.216667,0},{0.327273,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ClothSw3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.431818,0},{0.216667,0},{0.504545,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ClothSw4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.607306,0},{0.214286,0},{0.607306,16},{0.214286,15}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ClothSw5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.786364,0},{0.216667,0},{0.859091,0},{0.466667,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.639205,0},{0.916667,0},{0.809659,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor/TextLab" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x鎧甲" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.06897,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor/Slot1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="621" />
+                            <Property Name="Image" Value="set:DejaVuImage image:HeadIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.104545,0},{0.333333,0},{0.254545,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor/Slot2" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="622" />
+                            <Property Name="Image" Value="set:DejaVuImage image:BodyIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.286364,0},{0.333333,0},{0.436364,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor/Slot3" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="623" />
+                            <Property Name="Image" Value="set:DejaVuImage image:PantsIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.463636,0},{0.333333,0},{0.613636,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor/Slot4" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="625" />
+                            <Property Name="Image" Value="set:DejaVuImage image:ShoesIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.640909,0},{0.333333,0},{0.790909,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Armor/Slot5" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="624" />
+                            <Property Name="Image" Value="set:DejaVuImage image:HandIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.818182,0},{0.333333,0},{0.968182,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ArmorSw1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0727273,0},{0.216667,0},{0.145455,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ArmorSw2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.254545,0},{0.216667,0},{0.327273,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ArmorSw3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.431818,0},{0.216667,0},{0.504545,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ArmorSw4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.604545,0},{0.216667,0},{0.677273,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/ArmorSw5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.781818,0},{0.216667,0},{0.854545,0},{0.466667,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.446023,0},{0.9125,0},{0.616477,0}}" />
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather/TextLab" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x皮甲" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00457,0},{1.06897,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather/Slot1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="611" />
+                            <Property Name="Image" Value="set:DejaVuImage image:HeadIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.105023,0},{0.333333,0},{0.255708,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather/Slot2" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="612" />
+                            <Property Name="Image" Value="set:DejaVuImage image:BodyIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.283105,0},{0.333333,0},{0.43379,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather/Slot3" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="613" />
+                            <Property Name="Image" Value="set:DejaVuImage image:PantsIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.461187,0},{0.333333,0},{0.611872,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather/Slot4" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="615" />
+                            <Property Name="Image" Value="set:DejaVuImage image:ShoesIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.639269,0},{0.333333,0},{0.789954,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/Leather/Slot5" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="ID" Value="614" />
+                            <Property Name="Image" Value="set:DejaVuImage image:HandIcon" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.817352,0},{0.333333,0},{0.968037,0},{0.883333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/LeatherSw1" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0730594,0},{0.216667,0},{0.146119,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/LeatherSw2" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.255708,0},{0.216667,0},{0.328767,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/LeatherSw3" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.43379,0},{0.216667,0},{0.506849,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/LeatherSw4" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.607306,0},{0.216667,0},{0.680365,0},{0.466667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon2/LeatherSw5" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.785388,0},{0.216667,0},{0.858447,0},{0.466667,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/EquipmentWndSwitch/Btn_00" >
+                    <Property Name="Text" Value="x全啟/全關" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.520833,0},{0.826705,0},{0.958333,0},{0.897728,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/EquipmentWndSwitch/Btn_01" >
+                    <Property Name="Text" Value="x存取/套用" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.914773,0},{0.958334,0},{0.985796,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/EquipmentWndSwitch/Btn_02" >
+                    <Property Name="Text" Value="x清空" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.041667,0},{0.826705,0},{0.479167,0},{0.897728,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="11" />
+                    <Property Name="Image" Value="set:DejaVuImage image:NecklaceIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0458333,0},{0.136364,0},{0.183333,0},{0.230114,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="12" />
+                    <Property Name="Image" Value="set:DejaVuImage image:RingIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.136364,0},{0.354167,0},{0.230114,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot7" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="13" />
+                    <Property Name="Image" Value="set:DejaVuImage image:RingIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3875,0},{0.136364,0},{0.525,0},{0.230114,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot8" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="Image" Value="set:DejaVuImage image:BackIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.816667,0},{0.136364,0},{0.954167,0},{0.230114,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="Image" Value="set:DejaVuImage image:RWeaponIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0458333,0},{0.0198864,0},{0.183333,0},{0.113636,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LWeaponIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.216667,0},{0.0170455,0},{0.354167,0},{0.110795,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="14" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HonorIcon1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.645833,0},{0.0170455,0},{0.783333,0},{0.110795,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HonorIcon2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.816667,0},{0.0170455,0},{0.954167,0},{0.110795,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{-0.00568182,0},{0.0833333,0},{0.0539773,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{-0.00568182,0},{0.254167,0},{0.0539773,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.616667,0},{-0.00568182,0},{0.683333,0},{0.0539773,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7875,0},{-0.00568182,0},{0.854167,0},{0.0539773,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.110795,0},{0.0791667,0},{0.170455,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.110795,0},{0.254167,0},{0.170455,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw7" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.358333,0},{0.110795,0},{0.425,0},{0.170455,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw8" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.7875,0},{0.110795,0},{0.854167,0},{0.170455,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Slot9" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="10" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ArrowIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3875,0},{0.0170455,0},{0.525,0},{0.110795,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWndSwitch/Equio2/Weapon1/Sw9" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.358333,0},{-0.00568182,0},{0.425,0},{0.0539773,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EquipmentWndSwitch/ImgBtn04" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0234375,0},{0.0136364,0},{0.0546875,0},{0.0590909,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EquipmentWndSwitch/Btn_04" >
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.519531,0},{0.927273,0},{0.929688,0},{0.984091,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Slot1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.013636,0},{0.1875,0},{0.104545,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Slot2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.199219,0},{0.0136364,0},{0.355469,0},{0.104545,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWndSwitch/Equio2/Slot3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.367188,0},{0.0136364,0},{0.523438,0},{0.104545,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

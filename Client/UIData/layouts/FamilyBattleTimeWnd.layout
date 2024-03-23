@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyBattleTimeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.488203,0},{0.106667,0},{0.5175,276},{0.106667,149}}" />
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/WarTimeName" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0402685,0},{0,130},{0.0402685,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/WarTimeName/TitleText" >
+				<Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x戰場剩餘時間" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00769231,0},{0.0384615,0},{1.00769,0},{0.961538,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/Timetable" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.45098,0},{0.0402685,0},{0.973856,0},{0.214765,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/Timetable/TimeText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x0：00：0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.0384615,0},{1.00625,0},{0.961538,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleTimeWnd/ImageBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.241611,0},{0,300},{0.241611,1}}" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/WarPopulation" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.275168,0},{0,130},{0.275168,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/WarPopulation/FightsFigure" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x對戰人數" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007692,0},{0.038462,0},{1.00769,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/WarFigure" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.45098,0},{0.275168,0},{0.973856,0},{0.449664,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/WarFigure/PlayerCntTxt" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x49 VS 50" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.038462,0},{1.00625,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/FamilyBattleTimeWnd/ImageBG2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.47651,0},{0.980392,0},{0.483221,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/BlueKillBt" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.140523,0},{0.503356,0},{0.401961,0},{0.637584,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/BlueKillBt/BlueKill" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x藍軍殺人數" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0125,0},{0.05,0},{0.9875,0},{0.95,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/BuleKillPopulation" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.352941,0},{0.503356,0},{0.581699,0},{0.637584,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/BuleKillPopulation/KillHeadCount" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014286,0},{0.05,0},{1.01429,0},{0.95,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/RedKillBt" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.140523,0},{0.66443,0},{0.388889,0},{0.798658,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/RedKillBt/RedKill" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x紅軍殺人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013158,0},{0.05,0},{1.03947,0},{0.95,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/RedKillPopulation" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.352941,0},{0.66443,0},{0.581699,0},{0.798658,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/RedKillPopulation/KillHeadCount01" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014286,0},{0.05,0},{1.01429,0},{0.95,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/IndividualKillBt" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.140523,0},{0.825503,0},{0.388889,0},{0.959732,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/IndividualKillBt/IndividualKill" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x個人殺人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.013158,0},{0.05,0},{1.01316,0},{0.95,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/FamilyBattleTimeWnd/IndividualKillPopulation" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.352941,0},{0.825503,0},{0.581699,0},{0.959732,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleTimeWnd/IndividualKillPopulation/KillHeadCount03" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x0" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014286,0},{0.05,0},{1.01429,0},{0.95,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

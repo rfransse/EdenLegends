@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ScriptSlot" >
+        <Property Name="Text" Value="1234	" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/ImageCheckbox" Name="Root/ScriptSlot/Column" >
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.299663,0},{0.3,162},{0.299663,18}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ScriptSlot/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.300251,0},{0.340541,0},{0.300251,180},{0.340541,36}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/SlotImage" Name="Root/ScriptSlot/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.006098,0},{0.029412,0},{0.213415,0},{0.973856,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/ScriptSlot/Item/Name" >
+                <Property Name="Text" Value="一二三四五六七八九十" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.219512,0},{0.027778,0},{0.977805,0},{0.972222,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ScriptSlot/Item/newImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0243902,0},{0.111111,0},{0.195122,0},{0.5,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="Root/ScriptSlot/Item/SelectFrame" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ID" Value="4" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/RaidWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00249994,0},{0.166667,0},{0.497501,0},{0.836667,0}}" />
+    </Window>
+</GUILayout>

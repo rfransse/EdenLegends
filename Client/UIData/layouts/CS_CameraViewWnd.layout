@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CS_CameraViewWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.160772,0},{0,400},{-0.160772,300}}" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Window Type="DejaVu/Static" Name="Root/CS_CameraViewWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/CS_CameraViewWnd/Background/View" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

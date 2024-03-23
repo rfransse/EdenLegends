@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="root/CNArrowMessage" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.272436,0},{0.155943,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="root/CNArrowMessage/DownArrow" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:CNDejaVu2 image:BottomArrow" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.188235,0},{0.223776,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="root/CNArrowMessage/UpArrow" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:CNDejaVu2 image:UpArrow" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.223776,0},{0.188235,0},{0.447552,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="root/CNArrowMessage/RightArrow" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:CNDejaVu2 image:RightArrow" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.447552,0},{0.188235,0},{0.671328,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="root/CNArrowMessage/LeftArrow" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:CNDejaVu2 image:LeftArrow" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.671329,0},{0.188235,0},{0.895105,0}}" />
+        </Window>
+        <Window Type="DejaVu/TipTextLab" Name="root/CNArrowMessage/Novice" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiLineEditbox" Name="root/CNArrowMessage/Novice/TextBox" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="Text" >12132
+
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0294117,0},{0.160847,0},{0.982353,0},{0.972036,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="root/CNArrowMessage/Novice/CloseBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:CNDejaVu image:CloseButtonPress" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:CNDejaVu image:CloseButtonHover" />
+                <Property Name="NormalImage" Value="set:CNDejaVu image:CloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:CNDejaVu image:CloseButtonPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.858824,0},{0.048951,0},{0.941176,0},{0.146853,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="root/CNArrowMessage/Novice/SkipBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="新手引導" />
+                <Property Name="UnifiedAreaRect" Value="{{0.023166,0},{0.028302,0},{0.401544,0},{0.150944,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

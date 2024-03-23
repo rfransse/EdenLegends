@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DressRoomUI" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,320},{0,464}}" />
+        <Window Type="DejaVu/Static" Name="Root/DressRoomUI/Backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/DressRoomUI/resetBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="RESET" />
+                <Property Name="UnifiedAreaRect" Value="{{0.351974,0},{0.915493,0},{0.648026,0},{0.971831,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/DressRoomUI/ViewAvatar" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0394737,0},{0.0985916,0},{0.960526,0},{0.887324,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/DressRoomUI/TutorialBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.901316,0},{0.028169,0},{0.960526,0},{0.0704225,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

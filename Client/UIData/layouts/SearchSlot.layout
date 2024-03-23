@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SearchSlot" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.000188765,0},{0.00276534,0},{0.510434,0},{0.50779,0}}" />
+        <Window Type="DejaVu/ImageCheckbox" Name="SearchSlot/Column" >
+            <Property Name="Text" Value="近戰防禦系" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.246305,0},{0.0745763,0},{0.246305,99},{0.0745763,20}}" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="SearchSlot/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.246305,0},{0.335593,0},{0.246305,99},{0.335593,20}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/Checkbox" Name="SearchSlot/Item/CheckBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.20202,0},{0,0},{0.989899,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SearchSlot/Item/FakeImage" >
+                <Property Name="ID" Value="4" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.30303,0},{0.3,0},{0.555556,0},{0.55,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

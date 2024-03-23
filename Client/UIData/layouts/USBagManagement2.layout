@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BagManagement" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.01125,0},{0.0116667,0},{0.01125,269},{0.0116667,193}}" />
+        <Window Type="DejaVu/Static" Name="Root/BagManagement/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/BagManagement/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018358,0},{0.143834,0},{0.981321,0},{0.800105,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/EquipmentCheck" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="Text" Value="裝備" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0294118,0},{0.410526,0},{0.990196,0},{0.589474,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/EquipmentCheck/UseText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="道具" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.593333,0},{0,0},{0.776667,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/EquipmentCheck/ActionText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="修理" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.901361,0},{0,0},{1.01361,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/BagManagement/Static/Border/EquipmentCheck/Slot" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.765306,0},{0,0},{0.878639,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/BagManagement/Static/Border/EquipmentCheck/Edit" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" Value="9999" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.205882,0},{0.583333,0},{0.794118,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/WeaponCheck" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="Text" Value="主手武器耐久度低於" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0294118,0},{0.6,0},{0.990196,0},{0.778947,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/WeaponCheck/UseText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="使用武器" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.593333,0},{0,0},{0.776667,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/WeaponCheck/ActionText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="替換" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.901361,0},{0,0},{1.01361,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/BagManagement/Static/Border/WeaponCheck/Slot" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="ID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.765306,0},{0,0},{0.878639,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Editbox" Name="Root/BagManagement/Static/Border/WeaponCheck/Edit" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="Text" >0000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.205882,0},{0.583333,0},{0.794117,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/DropText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="丟棄" />
+                    <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029412,0},{0.031579,0},{0.988428,0},{0.314912,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/DropText/White" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="白裝" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268967,0},{0.0089187,0},{0.613296,0},{1.00892,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/DropText/Green" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="ID" Value="1" />
+                        <Property Name="Text" Value="綠裝" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.639985,0},{0.0089187,0},{0.984315,0},{1.00892,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/SellText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="販售" />
+                    <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0294118,0},{0.452946,0},{0.988428,0},{0.73628,0}}" />
+                    <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/SellText/White" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="ID" Value="2" />
+                        <Property Name="Text" Value="白裝" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.268967,0},{0.0089187,0},{0.613296,0},{1.00892,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/SellText/Green" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="ID" Value="3" />
+                        <Property Name="Text" Value="綠裝" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.639985,0},{0,0},{0.984315,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/BagManagement/Static/Border/SubWeaponCheck" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="Text" Value="副手" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0294118,0},{0.789474,0},{0.990196,0},{0.968421,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Editbox" Name="Root/BagManagement/Static/Border/SubWeaponCheck/Edit" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.44,0},{0.205882,0},{0.583333,0},{0.794117,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/SubWeaponCheck/UseText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.593333,0},{0,0},{0.776667,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/BagManagement/Static/Border/SubWeaponCheck/ActionText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.901361,0},{0,0},{1.01361,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/BagManagement/Static/Border/SubWeaponCheck/Slot" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="ID" Value="2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.765306,0},{0,0},{0.878639,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BagManagement/Static/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.740431,0},{0.841079,0},{0.977586,0},{0.957208,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BagManagement/Static/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.475864,0},{0.841079,0},{0.713018,0},{0.957208,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/BagManagement/Static/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.929607,0},{0.02439,0},{0.984943,0},{0.114713,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/BagManagement/Static/HTextLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="背包管理" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.02439,0},{0.353243,0},{0.114713,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

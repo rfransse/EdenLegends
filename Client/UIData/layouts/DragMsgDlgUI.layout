@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DragMsgDlgUI" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="DistributeCapturedInputs" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="RiseOnClick" Value="False" />
+        <Property Name="Text" Value="彈出對話框" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.191667,0},{0,232},{0.191667,184}}" />
+        <Window Type="DejaVu/BorderText" Name="Root/DragMsgDlgUI/MsgLb" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+            <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.082192,0},{0.944445,0},{0.671233,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DragMsgDlgUI/Btn1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="OK!" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.753425,0},{0.472222,0},{0.917808,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DragMsgDlgUI/Btn2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="No" />
+            <Property Name="UnifiedAreaRect" Value="{{0.300926,0},{0.753425,0},{0.703704,0},{0.90411,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/DragMsgDlgUI/Btn3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Cancel" />
+            <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.753425,0},{0.944444,0},{0.917808,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/DragMsgDlgUI/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PersonalCardViewWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.085,0},{0.0100334,0},{0.085,396},{0.0100334,452}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/PersonalCardViewWnd/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0144231,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/PersonalCardViewWnd/EditPCardTab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="test" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/PersonalCardViewWnd/MainBorder" >
+                    <Property Name="BackgroundColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0105263,0},{0.0103093,0},{0.989474,0},{0.989691,0}}" />
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleLevelText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.0942408,0},{0.231183,0},{0.157068,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleClassText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.172775,0},{0.231183,0},{0.235602,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/LevelText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.0942408,0},{0.575269,0},{0.157068,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/ClassText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.172775,0},{0.575269,0},{0.235602,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleFamilyText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.251309,0},{0.231183,0},{0.314136,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/FamilyText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.251309,0},{0.575269,0},{0.314136,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleClassLVText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591398,0},{0.172775,0},{0.806452,0},{0.235602,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/ClassLVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.825161,0},{0.170493,0},{0.986451,0},{0.23332,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleGenderText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.329843,0},{0.231183,0},{0.39267,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleBloodText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591398,0},{0.329843,0},{0.806452,0},{0.39267,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleBirthDayText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.408377,0},{0.231183,0},{0.471204,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleSignText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591398,0},{0.408377,0},{0.806452,0},{0.471204,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleRegionText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.486911,0},{0.231183,0},{0.549738,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleMoodText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591398,0},{0.486911,0},{0.806452,0},{0.549738,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/LikeHateText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.565445,0},{0.231183,0},{0.628272,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PersonalCardViewWnd/MainBorder/LikeSlotA" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.293011,0},{0.565445,0},{0.384409,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PersonalCardViewWnd/MainBorder/Block1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:Love" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.565445,0},{0.287634,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PersonalCardViewWnd/MainBorder/LikeSlotB" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.389785,0},{0.565445,0},{0.481183,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PersonalCardViewWnd/MainBorder/LikeSlotC" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.486559,0},{0.565445,0},{0.577957,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PersonalCardViewWnd/MainBorder/Block2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:brokenLove" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.591398,0},{0.565445,0},{0.63172,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PersonalCardViewWnd/MainBorder/HateSlotA" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.637097,0},{0.565445,0},{0.728495,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PersonalCardViewWnd/MainBorder/HateSlotB" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733871,0},{0.565445,0},{0.825269,0},{0.65445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/MainBorder/TitleIntrocutionText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.670157,0},{0.231183,0},{0.732984,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/PersonalCardViewWnd/MainBorder/IntroductBorder" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.748691,0},{0.983871,0},{0.919744,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/PersonalCardViewWnd/MainBorder/IntroductBorder/ScrollalbePane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:330 b:53" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.092308,0},{0.983334,0},{0.907693,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:330 b:53" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:330 b:53" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Window Type="DejaVu/Border" Name="Root/PersonalCardViewWnd/MainBorder/IntroductBorder/ScrollalbePane/IntroductText" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.948276,0},{1,0}}" />
+                                </Window>
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/GenderText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.329843,0},{0.575269,0},{0.39267,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/BloodText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.822581,0},{0.329843,0},{0.983871,0},{0.39267,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/BirthDayText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.408377,0},{0.575269,0},{0.471204,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/RegionText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.247312,0},{0.486911,0},{0.575269,0},{0.549738,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/SignText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.822581,0},{0.408377,0},{0.983871,0},{0.471204,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/PersonalCardViewWnd/MainBorder/MoodText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.822581,0},{0.486911,0},{0.983871,0},{0.549738,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/PersonalCardViewWnd/MainBorder/TutorialBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.946237,0},{0.0157068,0},{0.983871,0},{0.052356,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/PersonalCardViewWnd/TitleNameText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.0157068,0},{0.231183,0},{0.078534,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PersonalCardViewWnd/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.0157068,0},{0.577957,0},{0.078534,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PersonalCardViewWnd/MoodIcon" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.59661,0},{0.029469,0},{0.644997,0},{0.0765894,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/PersonalCardViewWnd/AddFriendBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.932692,0},{0.973684,0},{0.975962,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BuyMsgDlg" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="彈出對話框" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.375,0},{0.325521,0},{0.375,234},{0.325521,188}}" />
+        <Window Type="DejaVu/Static" Name="Root/BuyMsgDlg/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/BuyMsgDlg/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0550459,0},{0.08,0},{0.944954,0},{0.68,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/BuyMsgDlg/Static/Border/MsgLb" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.061856,0},{0.133333,0},{0.938145,0},{0.511111,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BuyMsgDlg/Static/Border/GoldText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.061856,0},{0.577778,0},{0.938145,0},{0.866667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BuyMsgDlg/Static/Btn1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="OK!" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0550459,0},{0.76,0},{0.46789,0},{0.92,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BuyMsgDlg/Static/Btn3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0.53211,0},{0.76,0},{0.944954,0},{0.92,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BuyMsgDlg/Static/Btn2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="No" />
+                <Property Name="UnifiedAreaRect" Value="{{0.293578,0},{0.76,0},{0.706422,0},{0.92,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

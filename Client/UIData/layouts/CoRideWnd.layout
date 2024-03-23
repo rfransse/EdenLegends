@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CoRideWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0.359375,0},{0.28195,0},{0.359375,232},{0.28195,224}}" />
+        <Window Type="DejaVu/Static" Name="Root/CoRideWnd/BackGround" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/CoRideWnd/BackGround/ConText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="請選擇移除哪一位共乘者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.064516,0},{0.944445,0},{0.16129,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CoRideWnd/BackGround/RiderBorder" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.225806,0},{0.944444,0},{0.741935,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/CoRideWnd/BackGround/RiderBorder/Rider1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="這事第一位共乘者" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.125,0},{0.869792,0},{0.322917,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CoRideWnd/BackGround/RiderBorder/Rider2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="第二位" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.3125,0},{0.864583,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CoRideWnd/BackGround/RiderBorder/Rider3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="第三位" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.5,0},{0.864583,0},{0.6875,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CoRideWnd/BackGround/RiderBorder/Rider4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="第四位" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.6875,0},{0.864583,0},{0.875,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CoRideWnd/BackGround/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="確認" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.806452,0},{0.472222,0},{0.935484,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CoRideWnd/BackGround/CloseBtn" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="Text" Value="關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.806452,0},{0.944445,0},{0.935484,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

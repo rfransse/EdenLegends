@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SetConditionWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.16625,0},{0.103333,0},{0.16625,408},{0.103333,322}}" />
+        <Window Type="DejaVu/Static" Name="Root/SetConditionWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/SetConditionWnd/Static/SettingText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x選擇要找的隊友" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0306122,0},{0.0211268,0},{0.647959,0},{0.0704225,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/SetConditionWnd/Static/TypeBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030612,0},{0.091549,0},{0.540816,0},{0.40845,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/SetConditionWnd/Static/ChangeWindow" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00510204,0},{0.179577,0},{0.994898,0},{0.992958,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/SetConditionWnd/Static/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.94898,0},{0.0211268,0},{0.984694,0},{0.0704225,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

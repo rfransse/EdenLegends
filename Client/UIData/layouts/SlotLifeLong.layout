@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="SlotLifeLong" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.2,142},{0.2,40}}" />
+        <Window Type="DejaVu/SlotImage" Name="SlotLifeLong/Icon" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:FunctionSlot" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0211268,0},{0.075,0},{0.260563,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="SlotLifeLong/Name" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="領地戰擊殺數" />
+            <Property Name="UnifiedAreaRect" Value="{{0.295775,0},{0.075,0},{0.950705,0},{0.475,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="SlotLifeLong/LvText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="疲勞 2" />
+            <Property Name="UnifiedAreaRect" Value="{{0.690141,0},{0.45,0},{1,0},{0.9,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="SlotLifeLong/Text" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" >16000
+</Property>
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.295775,0},{0.45,0},{0.647888,0},{0.9,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

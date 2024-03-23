@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TransportTip" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.298203,0},{0.2756,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/TransportTip/Tipframe" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00921197,0},{0.0181848,0},{0.970724,0},{0.958253,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/StaticImage" Name="Root/TransportTip/Tipframe/kindput" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.321954,0},{0.617066,0},{0.570512,0},{0.877415,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TransportTip/Tipframe/kindput/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="123" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.287361,0},{-0.494277,0},{1.17221,0},{0.331615,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TransportTip/Tipframe/Name" >
+                <Property Name="Text" Value="傳送到" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0580198,0},{0.143238,0},{0.858057,0},{0.455143,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TransportTip/Tipframe/kind" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.621354,0},{0.164482,0},{0.786996,0},{0.497022,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TransportTip/Tipframe/NeedText" >
+                <Property Name="Text" Value="需要" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0567054,0},{0.45873,0},{0.351035,0},{0.935713,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TransportTip/Tipframe/kindText" >
+                <Property Name="Text" Value="傳送石" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.634412,0},{0.490744,0},{0.953601,0},{0.77998,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

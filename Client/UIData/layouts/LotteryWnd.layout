@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/LotteryWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.065,0},{0.0766667,0},{0.065,432},{0.0766667,388}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Window Type="DejaVu/Static" Name="Root/LotteryWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,416},{0,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/LotteryWnd/Static/Border1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0144231,0},{0.0114286,0},{0.860577,0},{0.828571,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,352},{0,286}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC7_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.020979,0},{0.727273,0},{0.13986,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC7_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.020979,0},{0.829545,0},{0.13986,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC7_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.020979,0},{0.931818,0},{0.13986,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC6_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528409,0},{0.160839,0},{0.625,0},{0.27972,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC6_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.160839,0},{0.727273,0},{0.27972,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC6_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.160839,0},{0.829545,0},{0.27972,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC6_4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.160839,0},{0.931818,0},{0.27972,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC5_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.426136,0},{0.300699,0},{0.522727,0},{0.41958,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC5_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528409,0},{0.300699,0},{0.625,0},{0.41958,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC5_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.300699,0},{0.727273,0},{0.41958,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC5_4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.300699,0},{0.829545,0},{0.41958,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC5_5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.300699,0},{0.931818,0},{0.41958,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC4_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.323864,0},{0.440559,0},{0.420455,0},{0.559441,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC4_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.426136,0},{0.440559,0},{0.522727,0},{0.559441,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC4_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528409,0},{0.440559,0},{0.625,0},{0.559441,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC4_4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.440559,0},{0.727273,0},{0.559441,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC4_5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.440559,0},{0.829545,0},{0.559441,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC4_6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.440559,0},{0.931818,0},{0.559441,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221591,0},{0.58042,0},{0.318182,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.323864,0},{0.58042,0},{0.420455,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.426136,0},{0.58042,0},{0.522727,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528409,0},{0.58042,0},{0.625,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.58042,0},{0.727273,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.58042,0},{0.829545,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC3_7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.58042,0},{0.931818,0},{0.699301,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.119318,0},{0.72028,0},{0.215909,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221591,0},{0.72028,0},{0.318182,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.323864,0},{0.72028,0},{0.420455,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.426136,0},{0.72028,0},{0.522727,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528409,0},{0.72028,0},{0.625,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.72028,0},{0.727273,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.72028,0},{0.829545,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC2_8" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.72028,0},{0.931818,0},{0.839161,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0170455,0},{0.86014,0},{0.113636,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.119318,0},{0.86014,0},{0.215909,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221591,0},{0.86014,0},{0.318182,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.323864,0},{0.86014,0},{0.420455,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.426136,0},{0.86014,0},{0.522727,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528409,0},{0.86014,0},{0.625,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.630682,0},{0.86014,0},{0.727273,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_8" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.732955,0},{0.86014,0},{0.829545,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/SImageC1_9" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835227,0},{0.86014,0},{0.931818,0},{0.979021,0}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/LotteryWnd/Static/Border1/ExtraReward" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0170455,0},{0.020979,0},{0.420455,0},{0.41958,0}}" />
+                    <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/Border1/ExtraReward/TutorialBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.859155,0},{0.0526316,0},{0.957747,0},{0.175439,0}}" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/Border1/ExtraReward/SImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.084507,0},{0.245614,0},{0.323944,0},{0.54386,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/LotteryWnd/Static/Border1/ExtraReward/NumText" >
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Text" Value="X5" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.408451,0},{0.333333,0},{0.619718,0},{0.45614,0}}" />
+                        <Property Name="FrameEnabled" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/LotteryWnd/Static/Border1/ExtraReward/Text" >
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0422535,0},{0.561404,0},{0.943662,0},{0.912281,0}}" />
+                        <Property Name="FrameEnabled" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/LotteryWnd/Static/Border1/ExtraReward/Title" >
+                        <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Text" Value="轉化額外獎勵" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0422535,0},{0.0526316,0},{0.823944,0},{0.175439,0}}" />
+                        <Property Name="FrameEnabled" Value="False" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/LotteryWnd/Static/SImage1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.177143,0},{0.985577,0},{0.36,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/SImage1/SImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.09375,0},{0.869565,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/SImage1/Btn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.65625,0},{0.869565,0},{0.90625,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/LotteryWnd/Static/SImage2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.405714,0},{0.985577,0},{0.588571,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/SImage2/SImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.09375,0},{0.869565,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/SImage2/Btn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.65625,0},{0.869565,0},{0.90625,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/LotteryWnd/Static/SImage3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.875,0},{0.634286,0},{0.985577,0},{0.817143,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/SImage3/SImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.09375,0},{0.869565,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/SImage3/Btn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.65625,0},{0.869565,0},{0.90625,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/TutorialBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.951923,0},{0.0114286,0},{0.985577,0},{0.0514286,0}}" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/LotteryWnd/Static/border2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0144231,0},{0.851429,0},{0.629808,0},{0.982857,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/border2/SImage" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.046875,0},{0.130435,0},{0.179688,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintText" Name="Root/LotteryWnd/Static/border2/Title" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.173913,0},{0.796875,0},{0.478261,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/HintText" Name="Root/LotteryWnd/Static/border2/Text" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.521739,0},{0.945313,0},{0.826087,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/Btn1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.634615,0},{0.868571,0},{0.802885,0},{0.965714,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/Btn2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.817308,0},{0.868571,0},{0.985577,0},{0.965714,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/LotteryWnd/SelectImage" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:DejaVu image:TabButtonScrollLeftHover" />
+            <Property Name="UnifiedAreaRect" Value="{{0.805288,0},{0.274286,0},{0.867788,0},{0.34,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/LotteryWnd/ResultImage" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Image" Value="set:DejaVu image:chainArrow" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0480769,0},{0.774286,0},{0.110577,0},{0.848571,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

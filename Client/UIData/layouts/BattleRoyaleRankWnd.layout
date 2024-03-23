@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BattleRoyaleRankWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x戰場排名" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.18457,0},{0.0221354,0},{0.18457,386},{0.0221354,556}}" />
+        <Window Type="DejaVu/Static" Name="Root/BattleRoyaleRankWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/BattleRoyaleRankWnd/Static/MultiColumnList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03252,0},{0.092843,0},{0.970358,0},{0.919098,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BattleRoyaleRankWnd/Static/RankNow" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x目前排名" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03252,0},{0.023211,0},{0.466124,0},{0.0580273,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BattleRoyaleRankWnd/Static/LeaveBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x離開戰場" />
+                <Property Name="UnifiedAreaRect" Value="{{0.378378,0},{0.930502,0},{0.621622,0},{0.976834,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

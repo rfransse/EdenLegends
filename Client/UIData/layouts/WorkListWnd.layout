@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Work" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.327148,0},{0.214844,0},{0.327148,292},{0.214844,306}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/Work/Static" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Work/Static/Border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.156716,0},{0.956521,0},{0.955223,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,252},{0,214}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/Work/Static/TotalText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="測試" />
+                <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.044776,0},{0.938406,0},{0.11194,0}}" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/Work/Static/ScrollabelPane" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0652174,0},{0.179104,0},{0.934783,0},{0.932836,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

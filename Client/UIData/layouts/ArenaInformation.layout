@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ArenaInformation" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.14875,0},{0.02,0},{0.14875,334},{0.02,186}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Window Type="DejaVu/Static" Name="Root/ArenaInformation/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3text" >
+                <Property Name="Text" Value="3v3隊伍資訊" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.0405405,0},{0.289308,0},{0.135135,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ArenaInformation/Background/3v3Info" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0188679,0},{0.175676,0},{0.981132,0},{0.959459,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info/TeamName" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="隊伍名稱" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.106195,0},{0.196078,0},{0.230089,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info/TeamNameText" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="天上天下唯我獨尊" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.215686,0},{0.079646,0},{0.607843,0},{0.25206,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info/LeaderName" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="隊長" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.327586,0},{0.196078,0},{0.448276,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info/MemberName1" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="隊員" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.551724,0},{0.196078,0},{0.672414,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info/MemberName2" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="隊員" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.775862,0},{0.196078,0},{0.896552,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info/LeaderNameText" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="天上天下唯我獨尊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.215686,0},{0.301724,0},{0.607843,0},{0.474138,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info/MemberNameText1" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="天上天下唯我獨尊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.215686,0},{0.525862,0},{0.607843,0},{0.698276,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info/MemberNameText2" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="天上天下唯我獨尊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.215686,0},{0.75,0},{0.607843,0},{0.922414,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info/WeekPoint" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="本週積分" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.627451,0},{0.327586,0},{0.784314,0},{0.448276,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info/WeekPointText" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="99999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.803922,0},{0.301724,0},{0.960785,0},{0.474138,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info/MatchName" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="Text" Value="隊伍賽制" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.627451,0},{0.106195,0},{0.784314,0},{0.226885,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info/MatchNameText" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="鬥士賽" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.803922,0},{0.079646,0},{0.960785,0},{0.25206,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ArenaInformation/Background/3v3Info/MatchBtn" >
+                    <Property Name="Text" Value="積分賽" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.735294,0},{0.758621,0},{0.964052,0},{0.913793,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaInformation/Background/3v3Info/LeaderIcon" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniInfoLeaderIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.318966,0},{0.0915033,0},{0.456897,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/ArenaInformation/Background/HelpBTn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.937107,0},{0.0405405,0},{0.981132,0},{0.135135,0}}" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

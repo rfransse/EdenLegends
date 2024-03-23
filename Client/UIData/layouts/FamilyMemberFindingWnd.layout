@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TownFinding" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.240234,0},{0.152344,0},{0.240234,370},{0.152344,404}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/TownFinding/Stc" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/TownFinding/Stc/MultiList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.114754,0},{0.966102,0},{0.868852,0}}" />
+                <Property Name="ColumnHeader" Value="text:名稱 width:{0.4,0} id:0" />
+                <Property Name="ColumnHeader" Value="text:等級 width:{0.1,0} id:1" />
+                <Property Name="ColumnHeader" Value="text:階級 width:{0.25,0} id:2" />
+                <Property Name="ColumnHeader" Value="text:所在位置 width:{0.25,0} id:3" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TownFinding/Stc/Btn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.711864,0},{0.901639,0},{0.966102,0},{0.967213,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/TownFinding/Stc/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value=" 阿卡貝拉友愛之鎮(搜尋到 5 位)" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033898,0},{0.032787,0},{0.853107,0},{0.0819673,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/TownFinding/Stc/Help" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.915254,0},{0.0327869,0},{0.966102,0},{0.0819672,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

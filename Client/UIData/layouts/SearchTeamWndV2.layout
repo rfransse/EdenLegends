@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/NewTeamWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.116845,0},{0.0324675,0},{0.116845,744},{0.0324675,574}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/NewTeamWnd/TabContro" >
+            <Property Name="TabHeight" Value="{0,20.4805}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.992537,0}}" />
+            <Window Type="DefaultWindow" Name="Root/NewTeamWnd/TabContro/LookingForTeam" >
+                <Property Name="Text" Value="x尋求組隊" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.008242,0},{0.01173,0},{0.991758,0},{0.98921,0}}" />
+                    <Window Type="DejaVu/HintTextLab" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/SearchKeyText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x搜尋條件" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00838,0},{0.012,0},{0.324022,0},{0.048,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/Boder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00837989,0},{0.06,0},{0.368715,0},{0.16,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/Boder/CheckGrade" >
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="x僅顯示適合等級" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.12,0},{0.852713,0},{0.52,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/Boder/CheckDuplicate" >
+                            <Property Name="ID" Value="1" />
+                            <Property Name="Text" Value="x僅顯示尚未攻略副本" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.52,0},{0.852713,0},{0.92,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/SceneText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x場景選單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00837989,0},{0.172,0},{0.324022,0},{0.208,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/SelectText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x選擇定位" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.382682,0},{0.012,0},{0.698324,0},{0.048,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.382682,0},{0.06,0},{0.988827,0},{0.28,0}}" />
+                        <Window Type="DejaVu/Static" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/TankStatic" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0184332,0},{0.0727273,0},{0.248848,0},{0.927273,0}}" />
+                            <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/TankStatic/TankBoder" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.24,0},{0.042553,0},{0.76,0},{0.595744,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/TankStatic/TankBoder/TankImage" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Image" Value="set:main image:DefenderIcon" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/TankLightBD" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0357716,0},{0.653388,0},{0.22932,0},{0.889751,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/TankRadio" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:TankBtnPressed" />
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:TankBtnHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:TankBtnPressed" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:TankBtnNormal" />
+                            <Property Name="Text" Value="x傷害承擔" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0439616,0},{0.68385,0},{0.223685,0},{0.865669,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/HealerStatic" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.387097,0},{0.0727273,0},{0.617512,0},{0.927273,0}}" />
+                            <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/HealerStatic/HealerBorder" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.24,0},{0.042553,0},{0.76,0},{0.595744,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/HealerStatic/HealerBorder/HealerImage" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Image" Value="set:main image:HealerIcon" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/HealerLightBD" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.407621,0},{0.653388,0},{0.601169,0},{0.889751,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/HealerRadio" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:HealerBtnPressed" />
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:HealerBtnHover" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:HealerBtnPressed" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:HealerBtnNormal" />
+                            <Property Name="Text" Value="x治療者" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.415897,0},{0.68385,0},{0.59562,0},{0.865669,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/DDStatic" >
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.751152,0},{0.0727273,0},{0.981567,0},{0.927273,0}}" />
+                            <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/DDStatic/DDkBorder" >
+                                <Property Name="MousePassThroughEnabled" Value="True" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.24,0},{0.042553,0},{0.76,0},{0.595744,0}}" />
+                                <Window Type="DejaVu/StaticImage" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/DDStatic/DDBorder/DDImage" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Image" Value="set:main image:AttackIcon" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/DDLightBD" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.770439,0},{0.653388,0},{0.963987,0},{0.889751,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageRadioButton" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/LocateBorder/DDRadio" >
+                            <Property Name="AlwaysOnTop" Value="True" />
+                            <Property Name="DisabledImage" Value="set:DejaVu image:DDBtnPressed" />
+                            <Property Name="GroupID" Value="1" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:DDBtnHover" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:DDBtnPressed" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:DDBtnNormal" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="X輸出攻擊" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.775525,0},{0.68385,0},{0.955248,0},{0.865669,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/Recruitment" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x招募資訊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.382682,0},{0.292,0},{0.698324,0},{0.328,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/MultiColumnList" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="ForceVertScrollbar" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.382682,0},{0.332,0},{0.988827,0},{0.936,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/RecruitmentBtn" >
+                        <Property Name="Text" Value="X設定招募" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00837989,0},{0.948,0},{0.141061,0},{0.992,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/BroadcastBtn" >
+                        <Property Name="Disabled" Value="True" />
+                        <Property Name="ID" Value="2" />
+                        <Property Name="Text" Value="X廣播招募" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.321229,0},{0.948,0},{0.453911,0},{0.992,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/ConveyBtn" >
+                        <Property Name="Disabled" Value="True" />
+                        <Property Name="ID" Value="3" />
+                        <Property Name="Text" Value="X副本傳送" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.530726,0},{0.948,0},{0.663408,0},{0.992,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/JoinBtn" >
+                        <Property Name="Disabled" Value="True" />
+                        <Property Name="ID" Value="4" />
+                        <Property Name="Text" Value="x加入隊伍" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.692737,0},{0.948,0},{0.825419,0},{0.992,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/SearchBtn" >
+                        <Property Name="ID" Value="5" />
+                        <Property Name="Text" Value="X搜尋" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.854749,0},{0.948,0},{0.98743,0},{0.992,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/HelpBtn" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.963687,0},{0.012,0},{0.986033,0},{0.044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Tree" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/Tree" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.00837989,0},{0.214196,0},{0.368715,0},{0.936,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/NewTeamWnd/TabContro/LookingForTeam/Static/CancelRecruitBtn" >
+                        <Property Name="Disabled" Value="True" />
+                        <Property Name="ID" Value="1" />
+                        <Property Name="Text" Value="x取消招募" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.161697,0},{0.948,0},{0.294378,0},{0.992,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

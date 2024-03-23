@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/party" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.138672,0},{0.0494792,0},{0.138672,346},{0.0494792,478}}" />
+        <Window Type="DejaVu/Static" Name="Root/party/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/party/Background/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.0954545,0},{0.175758,0},{0.2,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/party/Background/BG/PartyGoodsIcon" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/InfoTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x請放置舉辦宴會的功能物品" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0.027273,0},{0.824243,0},{0.0681821,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/party/Background/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.212121,0},{0.095455,0},{0.963636,0},{0.513637,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/ItemText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" >派二三四五六七八九十一二三是舞對二三四五六七八九十一二三是舞
+舞二三四五六七八九十一二三是舞
+台二三四五六七八九十一二三是舞
+哈二三四五六七八九十一二三是舞</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.032967,0},{0.970297,0},{0.417582,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/PrettyText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x華麗度需求" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.450549,0},{0.425743,0},{0.527473,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/PrettyValue" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="9/9" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.618812,0},{0.450549,0},{0.955446,0},{0.527473,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/ComfortText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x舒適度需求" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.56044,0},{0.425743,0},{0.637363,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/StrangeValue" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="9999/9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.618812,0},{0.67033,0},{0.955446,0},{0.747253,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/StrangeText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x奇特度需求" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.67033,0},{0.425743,0},{0.747253,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/ComfortValue" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="9999/9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.618812,0},{0.56044,0},{0.955446,0},{0.637363,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/TimeText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x舉辦時間" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.031349,0},{0.78022,0},{0.427389,0},{0.857143,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/TimeValue" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="5分鐘" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.618812,0},{0.78022,0},{0.955446,0},{0.857143,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/PartyCost" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x舉辦費用" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.89011,0},{0.425743,0},{0.967033,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/Gold" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.469636,0},{0.888889,0},{0.672065,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/party/Background/Border/GoldIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.696356,0},{0.888889,0},{0.753036,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/Border/Silver" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.777328,0},{0.888889,0},{0.882591,0},{0.966667,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/party/Background/Border/SilverIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.906883,0},{0.888889,0},{0.963563,0},{0.966667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/party/Background/EffectTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x宴會效果清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0.540909,0},{0.718182,0},{0.581818,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/party/Background/Border1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036364,0},{0.609091,0},{0.963637,0},{0.890909,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/party/Background/Border1/EffectIcon1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.0967742,0},{0.150327,0},{0.370968,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/party/Background/Border1/EffectIcon2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0392157,0},{0.629032,0},{0.150327,0},{0.903226,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/party/Background/Border1/EffectText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十
+一二三四五六七八九十
+
+
+
+
+
+一二三四五六七八九十
+
+
+
+
+
+一二三四五六七八九十</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.169935,0},{0.048387,0},{0.960785,0},{0.475806,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/party/Background/Border1/EffectText2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >一二三四五六七八九十
+一二三四五六七八九十
+一二三四五六七八九十</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.169935,0},{0.524194,0},{0.960785,0},{0.951613,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/party/Background/StartBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="X舉辦宴會" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0363636,0},{0.918182,0},{0.309091,0},{0.972727,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/party/Background/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="X關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.690909,0},{0.918182,0},{0.963636,0},{0.972727,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/party/Background/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.921212,0},{0.0227273,0},{0.969697,0},{0.0590909,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/PetItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0.12625,0},{0.168333,0},{0.12625,219},{0.168333,56}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,175},{0,38}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/PetItem/Icon" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0319635,0},{0.203125,0},{0.0319635,38},{0.203125,38}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/PetItem/Name" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="xLV.30魔法的小喜馬拉雅犬" />
+            <Property Name="UnifiedAreaRect" Value="{{0.233503,0},{0.0689655,0},{0.969543,0},{0.344828,0}}" />
+        </Window>
+        <Window Type="DejaVu/PurpleProgressBar" Name="Root/PetItem/ExpBar" >
+            <Property Name="CurrentProgress" Value="0.3" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.233503,0},{0.724138,0},{0.969543,0},{0.896552,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/PetItem/StatusText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="X戰鬥狀態" />
+            <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+            <Property Name="UnifiedAreaRect" Value="{{0.57868,0},{0.413793,0},{0.944162,0},{0.689655,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/PetItem/StarBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.228426,0},{0.37931,0},{0.683504,0},{0.62931,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/PetItem/StarBG/Star1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.14,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PetItem/StarBG/Star2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.169582,0},{0,0},{0.309582,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PetItem/StarBG/Star3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.34679,0},{0,0},{0.48679,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/PetItem/StarBG/Star4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.523742,0},{0,0},{0.663742,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

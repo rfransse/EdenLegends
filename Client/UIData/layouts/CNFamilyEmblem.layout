@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyEmblem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.14875,0},{0.02,0},{0.14875,266},{0.02,200}}" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyEmblem/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/BorderTextLab" Name="Root/FamilyEmblem/MsgText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >設置徽章規則：
+1.圖案需要32X32的bmp檔案。
+2.60分鐘內不可重複設置，但可進行徽章測試。
+3.徽章測試只是確認圖案是否有效，並非正式設置。</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.024,0},{0.037037,0},{0.976,0},{0.716049,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyEmblem/Background/EmblemBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="設置徽章" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232,0},{0.790123,0},{0.552,0},{0.938272,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyEmblem/Background/EmblemTestBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="測試徽章" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.790123,0},{0.92,0},{0.932099,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyEmblem/Background/BoderEmblem" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052,0},{0.759259,0},{0.18,0},{0.95679,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/FamilyEmblem/Background/BoderEmblem/EmblemBlockSlot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyEmblem/Background/BoderEmblem/EmblemBlock" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052,0},{0.759259,0},{0.18,0},{0.95679,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

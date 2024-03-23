@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/PetFunctionWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="UnifiedAreaRect" Value="{{0.37875,0},{1,-180},{0.37875,265},{1,-135}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/PetFunctionWnd/BackGround" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:main image:FunctionFastBar" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/PetFunctionWnd/BackGround/Slot1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.158491,0},{0.155556,0},{0.279246,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PetFunctionWnd/BackGround/Slot2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.286792,0},{0.155556,0},{0.407547,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PetFunctionWnd/BackGround/Slot3" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.415094,0},{0.155556,0},{0.535849,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PetFunctionWnd/BackGround/Slot4" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.543396,0},{0.155556,0},{0.664151,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PetFunctionWnd/BackGround/Slot5" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.671698,0},{0.155556,0},{0.792453,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/PetFunctionWnd/BackGround/Slot6" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.155556,0},{0.920755,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/PetFunctionWnd/BackGround/LockBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="NormalImage" Value="set:main image:FunctionLockNormal" />
+                <Property Name="PushedImage" Value="set:main image:FunctionLockPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.932076,0},{0.466667,0},{0.981132,0},{0.866667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageOnlyCheckbox" Name="Root/PetFunctionWnd/BackGround/PetMode" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:main image:PetCollectMode" />
+                <Property Name="NormalImage" Value="set:main image:PetCollectMode" />
+                <Property Name="PushedImage" Value="set:main image:PetAttackMode" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0226415,0},{0.155556,0},{0.0226415,32},{0.155556,32}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PetFunctionWnd/BackGround/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:NewCloseButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:NewCloseButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:NewCloseButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.937502,0},{0.120133,0},{0.982785,0},{0.3868,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

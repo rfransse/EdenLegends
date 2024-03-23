@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AchievementInputWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.15332,0},{0.268579,0},{0.420898,0},{0.413299,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/AchievementInputWnd/static" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/AchievementInputWnd/static/Edit" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="Text" >一二三四五六七八九時一二三四五六七吧九時一二三四五六七八九時
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.136986,0},{0.79845,0},{0.876712,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AchievementInputWnd/static/okBtn" >
+                <Property Name="Text" Value="確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.821705,0},{0.30137,0},{0.976744,0},{0.69863,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

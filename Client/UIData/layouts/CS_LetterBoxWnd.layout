@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_LetterBoxWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/CS_LetterBoxWnd/Top" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:cutScene image:LetterBox" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.1,0}}" />
+            <Window Type="DejaVu/StaticText" Name="Root/CS_LetterBoxWnd/Hint" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="Text" Value="     Press ESC To Skip" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CS_LetterBoxWnd/Bottom" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:cutScene image:LetterBox" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.1,0}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/CS_LetterBoxWnd/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="Delphine : I&apos;m not stubborn. Life is stubborn toward me." />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.107181,0},{0.6,0},{1.41561e-007,0}}" />
+            <Property Name="VertFormatting" Value="BottomAligned" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/JobInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.12125,0},{0.0466667,0},{0.12125,446},{0.0466667,451}}" />
+        <Window Type="DejaVu/Static" Name="Root/JobInfo/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/JobInfo/Border/Detail/JobModel" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.423256,0},{0.140436,0},{0.865116,0},{0.731235,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/JobInfo/Border/Detail/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0139535,0},{0.0145278,0},{0.990698,0},{0.125908,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/border/JobIcon" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.014286,0},{0.130435,0},{0.0952384,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/TextSmoothLab" Name="Root/JobInfo/Border/Detail/border/JobText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.109524,0},{0.0869565,0},{0.897619,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/JobInfo/Background/InfoBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0139535,0},{0.743341,0},{0.990698,0},{0.98063,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.22449,0},{0.0952381,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JobInfo/Border/Detail/JobSkillText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0285714,0},{0.0510204,0},{0.457143,0},{0.193878,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.101266,0},{0.22449,0},{0.182218,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.189873,0},{0.22449,0},{0.270825,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.278481,0},{0.22449,0},{0.359433,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.367089,0},{0.22449,0},{0.448041,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.455696,0},{0.22449,0},{0.536648,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.591837,0},{0.0952381,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.101266,0},{0.591837,0},{0.182218,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.189873,0},{0.591837,0},{0.270825,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon9" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.278481,0},{0.591837,0},{0.359433,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/JobInfo/Border/Detail/JobSkillText1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.640476,0},{0.05102,0},{0.92619,0},{0.193877,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon10" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.367089,0},{0.591837,0},{0.448041,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/JobSkillIcon11" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.455696,0},{0.591837,0},{0.536648,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon0" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.62619,0},{0.22449,0},{0.707143,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.714286,0},{0.22449,0},{0.795238,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.804762,0},{0.22449,0},{0.885714,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0.22449,0},{0.97381,0},{0.571429,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.62619,0},{0.591837,0},{0.707143,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.714286,0},{0.591837,0},{0.795238,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/JobInfo/Border/Detail/HelpBtn" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.502381,0},{0.0612245,0},{0.535714,0},{0.204082,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/JobInfo/Border/Detail/LicenseHelp" >
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.940476,0},{0.0612245,0},{0.97381,0},{0.204082,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.804762,0},{0.591837,0},{0.885714,0},{0.938776,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/LicenseIcon7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.892857,0},{0.591837,0},{0.97381,0},{0.938776,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/TabControl" Name="Root/JobInfo/Background/Detail/Tab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TabHeight" Value="{0,20.4805}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0139535,0},{0.157385,0},{0.404651,0},{0.731235,0}}" />
+                <Window Type="DefaultWindow" Name="Root/JobInfo/Background/Detail/Tab/JobDetail" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="Global" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Border" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00222,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/TalentText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="先天特性" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.077381,0},{0.018474,0},{0.809524,0},{0.0831333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/TalenHelp" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.018474,0},{0.940476,0},{0.0831333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/TalenIcon0" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.053571,0},{0.09237,0},{0.25,0},{0.2494,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/TalenIcon1" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.279762,0},{0.0923704,0},{0.47619,0},{0.2494,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/TalenIcon2" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.505952,0},{0.0923704,0},{0.702381,0},{0.2494,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/TalenIcon3" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.732143,0},{0.0923704,0},{0.928571,0},{0.2494,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="職業加成" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.077381,0},{0.2494,0},{0.809524,0},{0.314059,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText0" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.053571,0},{0.318678,0},{0.428571,0},{0.401811,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText1" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.411048,0},{0.428571,0},{0.494182,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText2" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.503419,0},{0.428571,0},{0.586552,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText3" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.595789,0},{0.428571,0},{0.678923,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText4" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.68816,0},{0.428571,0},{0.771293,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText5" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.78053,0},{0.428571,0},{0.863664,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityText6" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.872901,0},{0.428571,0},{0.956034,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum0" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.318678,0},{0.946428,0},{0.401811,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum1" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.411048,0},{0.946429,0},{0.494182,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum2" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.503419,0},{0.946429,0},{0.586552,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum3" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.595789,0},{0.946429,0},{0.678923,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum4" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.68816,0},{0.946429,0},{0.771293,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum5" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.78053,0},{0.946429,0},{0.863664,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/JobInfo/Background/Detail/Tab/JobDetail/Border/FeatureAbilityNum6" >
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.470238,0},{0.872901,0},{0.946429,0},{0.956034,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/JobInfo/Background/Detail/Tab/MonthlyShow" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="Team" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Border" Name="Root/JobInfo/Background/Detail/Tab/MonthlyShow/Border" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00222,0}}" />
+                        <Window Type="DejaVu/ImageButton" Name="Root/JobInfo/Background/Detail/Tab/MonthlyShow/Border/HelpBtn" >
+                            <Property Name="DisabledImage" Value="et:DejaVu image:HelpButtonHover" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                            <Property Name="ID" Value="7" />
+                            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.018474,0},{0.940476,0},{0.0831333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/JobInfo/Background/Detail/Tab/MonthlyShow/Border/ListPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.029762,0},{0.09237,0},{0.982143,0},{0.969889,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/JobInfo/Border/Detail/newImage" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                <Property Name="UnifiedAreaRect" Value="{{0.867598,0},{0.125908,0},{0.937365,0},{0.159806,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon0" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.140436,0},{0.974419,0},{0.188862,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.193705,0},{0.974419,0},{0.242131,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.246973,0},{0.974419,0},{0.295399,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.300242,0},{0.974419,0},{0.348668,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.353511,0},{0.974419,0},{0.401937,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.40678,0},{0.974419,0},{0.455206,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.460048,0},{0.974419,0},{0.508475,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.513317,0},{0.974419,0},{0.561743,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.566586,0},{0.974419,0},{0.615012,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobInfo/Border/Detail/ModelIcon9" >
+                <Property Name="UnifiedAreaRect" Value="{{0.881395,0},{0.619855,0},{0.974419,0},{0.668281,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/JobInfo/Background/CCBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="換裝" />
+                <Property Name="UnifiedAreaRect" Value="{{0.872093,0},{0.673123,0},{0.983721,0},{0.731235,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

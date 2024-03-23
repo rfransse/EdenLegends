@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ItemMal" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0566406,0},{0.0872396,0},{0.0566406,762},{0.0872396,546}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+        <Window Type="DefaultWindow" Name="Root/ItemMal/VigourTab" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00536193,0},{0.102362,0},{0.994638,0},{0.992126,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/ItemMal/VigourTab/panel" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+                <Window Type="DejaVu/Border" Name="Root/ItemMalVigourTab/panel/box" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.192412,0},{0.09292,0},{0.704607,0},{0.893805,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,378},{0,362}}" />
+                    <Window Type="DejaVu/Border" Name="Root/ItemMal/VigourTab/panel/box/list" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.015873,0},{0.0165746,0},{0.984127,0},{0.922652,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,366},{0,324}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/ItemMal/VigourTab/panel/box/list/mostbackBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftMostH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftMost" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.325397,0},{0.939227,0},{0.357143,0},{0.972376,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/ItemMal/VigourTab/panel/box/list/backBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.378307,0},{0.939227,0},{0.410053,0},{0.972376,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/box/list/pageText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99/99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.425926,0},{0.936464,0},{0.574074,0},{0.975138,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/ItemMal/VigourTab/panel/box/list/nextBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.589947,0},{0.939227,0},{0.621693,0},{0.972376,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/ItemMal/VigourTab/panel/box/list/mostnextBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightMostH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightMost" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.637566,0},{0.939227,0},{0.669312,0},{0.972376,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Listbox" Name="Root/ItemMal/VigourTab/panel/itembox" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0162602,0},{0.473451,0},{0.176152,0},{0.893805,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,118},{0,190}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0508475,0},{0.0315789,0},{0.338983,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.355932,0},{0.0315789,0},{0.644068,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.661017,0},{0.0315789,0},{0.949153,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0508475,0},{0.221053,0},{0.338983,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.355932,0},{0.221053,0},{0.644068,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp6" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.661017,0},{0.221053,0},{0.949153,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp7" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0508475,0},{0.410526,0},{0.338983,0},{0.589474,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp8" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.355932,0},{0.410526,0},{0.644068,0},{0.589474,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp9" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.661017,0},{0.410526,0},{0.949153,0},{0.589474,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp10" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0508475,0},{0.6,0},{0.338983,0},{0.778947,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp11" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.355932,0},{0.6,0},{0.644068,0},{0.778947,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp12" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.661017,0},{0.6,0},{0.949153,0},{0.778947,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp13" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0508475,0},{0.789474,0},{0.338983,0},{0.968421,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp14" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.355932,0},{0.789474,0},{0.644068,0},{0.968421,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/ItemMal/VigourTab/panel/itembox/sp15" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.661017,0},{0.789474,0},{0.949153,0},{0.968421,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Listbox" Name="Root/ItemMal/VigourTab/panel/list" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.01626,0},{0.09292,0},{0.176152,0},{0.446902,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,118},{0,160}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/st1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="choose" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01626,0},{0.026549,0},{0.176152,0},{0.066372,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/st2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="index" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.192412,0},{0.026549,0},{0.547426,0},{0.066372,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMal/VigourTab/panel/getallBtn" >
+                    <Property Name="Text" Value="全部領取" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0162602,0},{0.920354,0},{0.138211,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMal/VigourTab/panel/getBtn" >
+                    <Property Name="Text" Value="領取虛寶" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.471545,0},{0.920354,0},{0.593496,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/moneyText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.151762,0},{0.920354,0},{0.222223,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemMal/VigourTab/panel/coin" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ItemMallGold" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.233062,0},{0.931416,0},{0.252033,0},{0.962389,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/st3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="hot" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.720867,0},{0.0265487,0},{0.944444,0},{0.0663717,0}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/ItemMal/VigourTab/panel/toplist" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.720867,0},{0.0929204,0},{0.98374,0},{0.893805,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,194},{0,362}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMal/VigourTab/panel/passBtn" >
+                    <Property Name="Text" Value="設定密碼" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.601626,0},{0.920354,0},{0.723577,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMal/VigourTab/panel/saveBtn" >
+                    <Property Name="Text" Value="儲 值" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.731707,0},{0.920354,0},{0.853659,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ItemMal/VigourTab/panel/closeBtn" >
+                    <Property Name="Text" Value="關 閉" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.861789,0},{0.920354,0},{0.98374,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/ItemMal/VigourTab/panel/HelpBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.96206,0},{0.0221239,0},{0.98374,0},{0.0575221,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/BonusmoneyText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="999999" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.260163,0},{0.920354,0},{0.330623,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemMal/VigourTab/panel/coin1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:itemmallBonus" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.338753,0},{0.931416,0},{0.357724,0},{0.962389,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/VigourTab/panel/ForeverGoldText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.365854,0},{0.920354,0},{0.436315,0},{0.973451,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ItemMal/VigourTab/panel/coin2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ItemMallPoint" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.444444,0},{0.931416,0},{0.463415,0},{0.962389,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ItemMal/MsgBGImage" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="Tiled" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0472441,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMal/MsgBGImage/text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{0.55,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/TabControl" Name="Root/ItemMal/tab" >
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0590551,0},{1,0},{0.0944882,0}}" />
+            <Window Type="DefaultWindow" Name="Root/ItemMal/tab/Tab1" >
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMal/tab/Tab2" >
+                <Property Name="Text" Value="Team" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ItemMal/tab/Tab3" >
+                <Property Name="Text" Value="forever" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{1.05,0},{1.05,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Achievement" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,637},{-0.0437158,573}}" />
+        <Window Type="DejaVu/Static" Name="Root/Achievement/LeftPanel" >
+            <Property Name="UnifiedAreaRect" Value="{{0.012559,0},{0.012397,0},{0.351648,0},{0.878017,0}}" />
+            <Window Type="DejaVu/Tree" Name="Root/Achievement/LeftPanel/TreeList" >
+                <Property Name="MultiSelect" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.201946,0},{0.962963,0},{0.985402,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Achievement/LeftPanel/Altogether" >
+                <Property Name="UnifiedAreaRect" Value="{{0.033333,0},{0.012165,0},{0.538596,0},{0.0608268,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/LeftPanel/Altogether/HintTextLab" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x總成就" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.1,0},{0.954128,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Achievement/LeftPanel/MonsterStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.032258,0},{0.075893,0},{0.537521,0},{0.124555,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/LeftPanel/Altogether/MonsterHintLab" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x怪物討伐積分" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.1,0},{0.981651,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Achievement/LeftPanel/TownStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.029586,0},{0.141119,0},{0.534849,0},{0.189781,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/LeftPanel/Altogether/TownHintLab" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x城鎮成就積分" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.1,0},{1,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/LeftPanel/AltogetherAmount" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="123" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.568421,0},{0.014599,0},{0.968421,0},{0.0583946,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/LeftPanel/MonsterAmount" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="123" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.568421,0},{0.080292,0},{0.966569,0},{0.12441,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/LeftPanel/TownAmount" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="123" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.568421,0},{0.143552,0},{0.966569,0},{0.18767,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel" >
+            <Property Name="UnifiedAreaRect" Value="{{0.360267,0},{0.012397,0},{0.98978,0},{0.878017,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Achievement/AchiPanel/ContentBar" >
+                <Property Name="UnifiedAreaRect" Value="{{0.014963,0},{0.068627,0},{0.985038,0},{0.915401,0}}" />
+                <Window Type="DejaVu/VerticalScrollbar" Name="Root/Achievement/AchiPanel/ContentBar/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.949809,0},{0.005764,0},{0.992704,0},{0.994237,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot1" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0205656,0},{0.0214286,0},{0.935733,0},{0.128571,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot1/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0168539,0},{0.111111,0},{0.115169,0},{0.888889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot1/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982405,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot1/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0224719,0},{0.111111,0},{0.103933,0},{0.4,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot1/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot1/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot3" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0205656,0},{0.264286,0},{0.935733,0},{0.371429,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot3/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot3/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" >穫得2000成就擊敗英國炸魚一二三四五六七八九十
+
+</Property>
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot3/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot3/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot3/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0205656,0},{0.142857,0},{0.935733,0},{0.25,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot2/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot2/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot2/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot2/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot2/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot5" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.020566,0},{0.507143,0},{0.935733,0},{0.614286,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot5/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot5/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot5/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot5/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot5/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot4" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.020566,0},{0.385714,0},{0.935733,0},{0.492857,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot4/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot4/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot4/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot4/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot4/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot6" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.020566,0},{0.628571,0},{0.935733,0},{0.735714,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot6/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot6/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.109164,0},{0.982404,0},{0.848294,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot6/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot6/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot6/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot7" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.020566,0},{0.75,0},{0.935733,0},{0.857143,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot7/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot7/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot7/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot7/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot7/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/Achievement/AchiPanel/ContentBar/slot8" >
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0205656,0},{0.871429,0},{0.935733,0},{0.978571,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/Achievement/AchiPanel/ContentBar/slot8/icon" >
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016854,0},{0.119048,0},{0.115169,0},{0.896826,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot8/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="Text" Value="穫得2000成就擊敗英國炸魚一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Achievement/AchiPanel/ContentBar/slot8/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.119048,0},{0.104921,0},{0.407937,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/Achievement/AchiPanel/ContentBar/slot8/pointText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.714689,0},{0.276596,0},{0.929379,0},{0.702128,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/ContentBar/slot8/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.980675,0},{0.463768,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/AchiPanel/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="LV01～30副本討伐完成率：0.00％" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0311688,0},{0.013544,0},{0.597403,0},{0.0451467,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Achievement/AchiPanel/ReportBtn" >
+                <Property Name="Text" Value="成就報告" />
+                <Property Name="UnifiedAreaRect" Value="{{0.793017,0},{0.939516,0},{0.975062,0},{0.979839,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/Achievement/AchiPanel/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.937656,0},{0.0174292,0},{0.977556,0},{0.0522876,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Achievement/vLeftBar" >
+            <Property Name="UnifiedAreaRect" Value="{{0.012559,0},{0.889037,0},{0.494506,0},{0.989528,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/vLeftBar/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="勝利宣言 :" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0423453,0},{0.105263,0},{0.589577,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/vLeftBar/Content" >
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九時一二三四五六七八九十" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.042345,0},{0.403509,0},{0.693811,0},{0.842106,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Achievement/vLeftBar/setupBtn" >
+                <Property Name="Text" Value="設 定 感 言" />
+                <Property Name="UnifiedAreaRect" Value="{{0.736156,0},{0.403509,0},{0.938111,0},{0.894737,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Achievement/vRightBar" >
+            <Property Name="UnifiedAreaRect" Value="{{0.507064,0},{0.888022,0},{0.989011,0},{0.989529,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/vRightBar/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="落敗感言 :" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0418006,0},{0.105263,0},{0.578778,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Achievement/vRightBar/setupBtn" >
+                <Property Name="Text" Value="設 定 感 言" />
+                <Property Name="UnifiedAreaRect" Value="{{0.73955,0},{0.403509,0},{0.945338,0},{0.894737,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/Achievement/vRightBar/Content" >
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九時一二三四五六七八九十" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.041801,0},{0.403509,0},{0.684888,0},{0.842106,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

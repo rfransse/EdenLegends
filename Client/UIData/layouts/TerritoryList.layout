@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TerritoryList" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0661458,0},{0.149239,0},{0.0661458,700},{0.149239,288}}" />
+        <Window Type="DejaVu/Static" Name="Root/TerritoryList/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/TerritoryList/Static/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.957602,0},{0.048,0},{0.980994,0},{0.112,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/TerritoryList/Static/RedList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.023256,0},{0.168,0},{0.488372,0},{0.808,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/TerritoryList/Static/BlueList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.511628,0},{0.168,0},{0.976744,0},{0.808,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TerritoryList/Static/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.802326,0},{0.856,0},{0.976744,0},{0.952,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryList/Static/RedText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x紅軍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.139535,0},{0.048,0},{0.372093,0},{0.12,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryList/Static/BlueText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x藍軍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.627907,0},{0.048,0},{0.860465,0},{0.12,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

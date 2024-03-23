@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FamilyWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0908203,0},{0.0234375,0},{0.0908203,776},{0.0234375,681}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,658},{0,567}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/FamilyWnd/TabControl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20.7777}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,642},{0,529}}" />
+        </Window>
+    </Window>
+</GUILayout>

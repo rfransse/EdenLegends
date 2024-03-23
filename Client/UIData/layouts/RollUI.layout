@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/RollWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,256},{0,210}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/RollWnd/BackGrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RollWnd/BackGrand/TitleTextLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="獲得物品後將自動榜定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.069767,0},{0.8,0},{0.174418,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/RollWnd/BackGrand/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.244186,0},{0.95,0},{0.930233,0}}" />
+                <Window Type="DejaVu/channelImage" Name="Root/RollWnd/BackGrand/Border/BG" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.101695,0},{0.944445,0},{0.389831,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/RollWnd/BackGrand/Border/BG/ItemIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.177083,0},{1,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/RollWnd/BackGrand/Border/BG/ItemIcon/CountText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="MousePassThroughEnabled" Value="True" />
+                            <Property Name="Text" Value="0" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="VertFormatting" Value="BottomAligned" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/RollWnd/BackGrand/Border/BG/ItemName" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="一二三四五六七八九十" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.208333,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/RollWnd/BackGrand/Border/NeedBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="需求" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.694915,0},{0.472222,0},{0.898305,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/RollWnd/BackGrand/Border/GreedBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="貪婪" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.694915,0},{0.944444,0},{0.898305,0}}" />
+                </Window>
+                <Window Type="DejaVu/ProgressBar" Name="Root/RollWnd/BackGrand/Border/TimeBar" >
+                    <Property Name="CurrentProgress" Value="1" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.491525,0},{0.944445,0},{0.59322,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

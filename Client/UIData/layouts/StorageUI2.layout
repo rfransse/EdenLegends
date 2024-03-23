@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/StorageUI" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2575,0},{0.266667,0},{0.2575,385},{0.266667,135}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Border" Name="Root/StorageUI/backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,-20}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Window Type="DejaVu/Border" Name="Root/StorageUI/backgrand/border" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,-6},{1,0},{0,28}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Window Type="DejaVu/SlotImage" Name="Root/StorageUI/backgrand/border/bag0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0,0},{0.016129,34},{0,34}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StorageUI/backgrand/border/bag1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.112903,0},{0,0},{0.112903,34},{0,34}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StorageUI/backgrand/border/bag2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.212366,0},{0,0},{0.212366,34},{0,34}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StorageUI/backgrand/border/bag3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.308943,0},{0,0},{0.308943,34},{0,34}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StorageUI/backgrand/border/bag4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.406504,0},{0,0},{0.406504,34},{0,34}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/StorageUI/backgrand/border/function011" >
+                    <Property Name="DisabledImage" Value="set:Radar image:BONAD" />
+                    <Property Name="HoverImage" Value="set:Radar image:BONAH" />
+                    <Property Name="NormalImage" Value="set:Radar image:BONAN" />
+                    <Property Name="PushedImage" Value="set:Radar image:BONAP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.513514,0},{0,0},{0.601626,0},{0.941176,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/StorageUI/border" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,18}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Button" Name="Root/StorageUI/border/closeBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.810298,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/StorageUI/border/rentBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Rent" />
+                <Property Name="UnifiedAreaRect" Value="{{0.604336,0},{0,0},{0.794038,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AgainstIndulgesNotifyWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.357422,0},{0.365885,0},{0.357422,240},{0.365885,182}}" />
+        <Window Type="DejaVu/Static" Name="Root/AgainstIndulgesNotifyWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/AgainstIndulgesNotifyWnd/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0535714,0},{0.0833333,0},{0.946429,0},{0.666667,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/AgainstIndulgesNotifyWnd/Static/Border/MsgText" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="HorzScrollbar" Value="True" />
+                    <Property Name="Text" >一二三四五六七八九時一二三四五
+
+
+一二三四五六七八九時一二三四五
+
+
+一二三四五六七八九時一二三四五
+
+
+一二三四五六七八九時一二三四五
+
+
+一二三四五六七八九時一二三四五</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03,0},{0.071429,0},{0.96,0},{0.928572,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/AgainstIndulgesNotifyWnd/Static/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.299107,0},{0.75,0},{0.700893,0},{0.916667,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

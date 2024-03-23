@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/RankPersonalWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,726},{0,562}}" />
+        <Window Type="DejaVu/Static" Name="Root/RankPersonalWnd/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00565,0},{0.007874,0},{0.994631,0},{0.993639,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RankPersonalWnd/Background/TitleList" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x排行表列表" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016713,0},{0.0217,0},{0.222841,0},{0.0542497,0}}" />
+            </Window>
+            <Window Type="DejaVu/Tree" Name="Root/RankPersonalWnd/Background/Tree" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0167131,0},{0.0759494,0},{0.233983,0},{0.437613,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/RankPersonalWnd/Background/PlayerRankBoard" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0167131,0},{0.459313,0},{0.233983,0},{0.560579,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/RankPersonalWnd/Background/PlayerRankBoard/PlayerRankText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x您於此排行榜上的名次為" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.107143,0},{1,0},{0.764677,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/RankPersonalWnd/Background/PlayerRankBoard/Rank" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x第999名" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.115385,0},{0.464286,0},{0.891025,0},{0.892857,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RankPersonalWnd/Background/RankList" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x百大冒險者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.250696,0},{0.0216607,0},{0.651811,0},{0.0541516,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/RankPersonalWnd/Background/RenewTime" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x更新時間　14：00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.713092,0},{0.021661,0},{0.941504,0},{0.054152,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/RankPersonalWnd/Background/HelpBTn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.958217,0},{0.0216607,0},{0.983287,0},{0.0541516,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/RankPersonalWnd/Background/BackgroundBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.250696,0},{0.075949,0},{0.983287,0},{0.978476,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/RankPersonalWnd/Background/BackgroundBorder/ListBox" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00570342,0},{0.00342962,0},{0.998099,0},{0.950211,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RankPersonalWnd/Background/BackgroundBorder/LLBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftMostH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftMost" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.365019,0},{0.959402,0},{0.387833,0},{0.985043,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RankPersonalWnd/Background/BackgroundBorder/LBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.39924,0},{0.959402,0},{0.422054,0},{0.985043,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RankPersonalWnd/Background/BackgroundBorder/RBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.577947,0},{0.959402,0},{0.600761,0},{0.985043,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/RankPersonalWnd/Background/BackgroundBorder/RRBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightMostH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightMost" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.612167,0},{0.959402,0},{0.634981,0},{0.985043,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/RankPersonalWnd/Background/BackgroundBorder/PageText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1/1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.43346,0},{0.957265,0},{0.56654,0},{0.98718,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/RankPersonalWnd/Background/ExplainText" >
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" Value="" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0167131,0},{0.581227,0},{0.233983,0},{0.978339,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

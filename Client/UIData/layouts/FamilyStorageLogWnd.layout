@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/FBHistory" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.396484,0},{0.121094,0},{0.396484,406},{0.121094,302}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/FBHistory/st" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/FBHistory/st/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.738462,0},{0.863636,0},{0.969231,0},{0.954545,0}}" />
+            </Window>
+            <Window Type="DejaVu/Listbox" Name="Root/FBHistory/st/Listbox" >
+                <Property Name="UnifiedAreaRect" Value="{{0.030769,0},{0.045455,0},{0.969231,0},{0.818182,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

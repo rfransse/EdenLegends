@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ArenaMain" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.09375,0},{0.0360825,0},{0.09375,778},{0.0360825,554}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/ArenaMain/Tab" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20.4805}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.0387597,0}}" />
+            <Window Type="DefaultWindow" Name="Root/ArenaMain/Tab/Tab 1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Global" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ArenaMain/Tab/Tab 2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Team" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ArenaMain/Tab/Tab 3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Friends" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/ArenaMain/Tab/Tab 4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="Admin" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/ArenaMain/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00542,0},{0.0442831,0},{0.994921,0},{0.99002,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaMain/Static/MapNameLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x3v3炎鷹競技場" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0212202,0},{0.0327869,0},{0.591512,0},{0.0901639,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ArenaMain/Static/ZoneMapImg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0159151,0},{0.10041,0},{0.594164,0},{0.97541,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ArenaMain/Static/Border1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610959,0},{0.0995851,0},{0.983562,0},{0.207469,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/ArenaMain/Static/Border1/Slot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ArenaMain/Static/Border1/Slot/SlotImage" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0427046,0},{0.150943,0},{0.16726,0},{0.811321,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaMain/Static/Border1/Slot/Text1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x3v3炎鷹競技場" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206406,0},{0.150943,0},{0.597865,0},{0.471698,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaMain/Static/Border1/Slot/Text11" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x21:00 開始" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.206406,0},{0.471698,0},{0.676157,0},{0.90566,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/ArenaMain/Static/Border1/Slot/JoinBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="x未開放" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.741803,0},{0.5,0},{0.987705,0},{0.925,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaMain/Static/Border1/Slot/HintText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorizontalAlignment" Value="Right" />
+                        <Property Name="UnifiedAreaRect" Value="{{-0.0142349,0},{0.150943,0},{0.345196,0},{0.471698,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/ArenaMain/Static/IntroText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610959,0},{0.232365,0},{0.983562,0},{0.975104,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaMain/Static/MapNameLab1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x榮譽之星" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.610959,0},{0.024896,0},{0.693151,0},{0.0746885,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ArenaMain/Static/TimeTableBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x時間表" />
+                <Property Name="UnifiedAreaRect" Value="{{0.860274,0},{0.024896,0},{0.983562,0},{0.0746885,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/ArenaMain/Static/GloryIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:HonorIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.70137,0},{0.0352697,0},{0.720548,0},{0.0643154,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaMain/Static/GloryText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.728767,0},{0.0248963,0},{0.810959,0},{0.0746888,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/NewSkillList" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,380},{0,486}}" />
+        <Window Type="DejaVu/Static" Name="Root/NewSkillList/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0105263,0},{0.00823045,0},{0.989474,0},{0.99177,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/NewSkillList/Background/BGImage" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0,0},{0.983871,0},{1,0}}" />
+                <Window Type="DejaVu/BorderTextLab" Name="Root/NewSkillList/Background/BGImage/Text1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="共用技能爹斯" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.0125523,0},{0.416667,0},{0.041841,0}}" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/NewSkillList/Background/BGImage/Text11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="職業技能爹死" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.583333,0},{0.0125523,0},{0.916667,0},{0.041841,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/NewSkillList/Background/BGImage/HelpBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.961111,0},{0.0125523,0},{1,0},{0.041841,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/NewSkillList/Detail/Skill/SkillCastText1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525,0},{0.956067,0},{0.983333,0},{0.993724,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/NewSkillList/Detail/Skill/border/Money" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.956067,0},{0.475,0},{0.993724,0}}" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/NewSkillList/Detail/Skill/border/SkillList" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="InheritsTooltipText" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.516667,0},{0.056485,0},{0.991667,0},{0.945606,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/NewSkillList/Background/BorderL" >
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0523013,0},{0.491667,0},{0.951883,0}}" />
+                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/NewSkillList/Background/BorderR" >
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.508333,0},{0.0523013,0},{1,0},{0.951883,0}}" />
+                    <Property Name="ZOrderChangeEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/ScrollablePane" Name="Root/NewSkillList/Detail/Skill/border/CommonSkillList" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.008333,0},{0.056485,0},{0.483333,0},{0.945606,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

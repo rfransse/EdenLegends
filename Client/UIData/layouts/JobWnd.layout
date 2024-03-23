@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Job" >
+        <Property Name="Text" Value="職業介面" />
+        <Property Name="UnifiedAreaRect" Value="{{0.12375,0},{0.07,0},{0.12375,640},{0.07,512}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,640},{0,512}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Window Type="DejaVu/TabControl" Name="Root/Job/TabControl" >
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.997988,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

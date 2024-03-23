@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.320313,0},{0.236979,0},{0.320313,312},{0.236979,308}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,290},{0,268}}" />
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0669014,0},{0.121951,0},{0.947183,0},{0.174797,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="Text" Value="一二三四五六" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.49635,0},{0.109756,0},{0.718181,0},{0.178862,0}}" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/CommonDlg/Privilege/Border" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0405405,0},{0.0444444,0},{0.959459,0},{0.822222,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,262},{0,200}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/Privilege/Border/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.045802,0},{0.038095,0},{0.376684,0},{0.104762,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,80},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon1" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.386029,0},{0.0285714,0},{0.452206,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon2" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.459559,0},{0.0285714,0},{0.525735,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon3" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.533088,0},{0.0285714,0},{0.599265,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon4" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.606618,0},{0.0285714,0},{0.672794,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon5" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.680147,0},{0.0285714,0},{0.746324,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/CommonDlg/Privilege/Border/ScrollPane" >
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022901,0},{0.142857,0},{0.978783,0},{0.971428,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,250},{0,164}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon6" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.753676,0},{0.0285714,0},{0.819853,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/CommonDlg/Privilege/Border/Icon7" >
+                <Property Name="HorzFormatting" Value="CentreAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.827206,0},{0.0285714,0},{0.893382,0},{0.114286,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,18},{0,18}}" />
+                <Property Name="VertFormatting" Value="CentreAligned" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0405405,0},{0.866667,0},{0.344595,0},{0.955556,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.385135,0},{0.866667,0},{0.631757,0},{0.940741,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.655405,0},{0.866667,0},{0.95946,0},{0.955556,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

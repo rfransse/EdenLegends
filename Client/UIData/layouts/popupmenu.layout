@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/PopupMenu" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00150755,0},{0.00530971,0},{0.997738,0},{0.997197,0}}" />
+    </Window>
+</GUILayout>

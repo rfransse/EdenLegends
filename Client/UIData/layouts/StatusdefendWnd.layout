@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/StatusSupporter" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,356},{0,428}}" />
+        <Window Type="DejaVu/Static" Name="Root/StatusSupporter/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/StatusSupporter/static/BorderHeal" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0180723,0},{0.0666667,0},{0.981928,0},{0.461538,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/StatusSupporter/static/BorderHeal/Cbox1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="生命" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.038961,0},{0.982165,0},{0.25974,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StatusSupporter/static/BorderHeal/Cbox1/SitText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.411392,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/StatusSupporter/static/BorderHeal/Cbox2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="生命" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.272727,0},{0.532781,0},{0.493506,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StatusSupporter/static/BorderHeal/Cbox2/UseText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.769231,0},{0,0},{1.02367,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/StatusSupporter/static/BorderHeal/Cbox3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Text" Value="生命" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.506494,0},{0.532781,0},{0.727273,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StatusSupporter/static/BorderHeal/Cbox3/UseText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.769231,0},{0,0},{1.02367,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/StatusSupporter/static/BorderHeal/Cbox4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="Text" Value="能量" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.74026,0},{0.532781,0},{0.961039,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/StatusSupporter/static/BorderHeal/Cbox4/UseText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:C8000000 tr:C8000000 bl:C8000000 br:C8000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.769231,0},{0,0},{1.02367,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548781,0},{0.272727,0},{0.652439,0},{0.493506,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0.272727,0},{0.762195,0},{0.493506,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.768293,0},{0.272727,0},{0.871951,0},{0.493506,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.878049,0},{0.272727,0},{0.981707,0},{0.493506,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548781,0},{0.506494,0},{0.652439,0},{0.727273,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0.506494,0},{0.762195,0},{0.727273,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.768293,0},{0.506494,0},{0.871951,0},{0.727273,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.878049,0},{0.506494,0},{0.981707,0},{0.727273,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage8" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548781,0},{0.74026,0},{0.652439,0},{0.961039,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage9" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0.74026,0},{0.762195,0},{0.961039,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage10" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="10" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.768293,0},{0.74026,0},{0.871951,0},{0.961039,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderHeal/SImage11" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="11" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.878049,0},{0.74026,0},{0.981707,0},{0.961039,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/StatusSupporter/static/BorderHeal/Ebox1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.293812,0},{0.0844156,0},{0.407016,0},{0.214286,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/StatusSupporter/static/BorderHeal/Ebox2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="Text" Value="0000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.293812,0},{0.318182,0},{0.407016,0},{0.448052,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/StatusSupporter/static/BorderHeal/Ebox3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.293812,0},{0.551948,0},{0.407016,0},{0.681818,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/StatusSupporter/static/BorderHeal/Ebox4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.293812,0},{0.785714,0},{0.407016,0},{0.915584,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/StatusSupporter/static/BorderRevive" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0180723,0},{0.712821,0},{0.981928,0},{0.923077,0}}" />
+                <Window Type="DejaVu/RadioButton" Name="Root/StatusSupporter/static/BorderRevive/DirectRevive" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="直接復活" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.0731707,0},{0.869157,0},{0.487805,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/StatusSupporter/static/BorderRevive/ItemRevive" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Text" Value="使用道具" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.512195,0},{0.421189,0},{0.926829,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderRevive/SImage0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="20" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.439024,0},{0.512195,0},{0.542683,0},{0.926829,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderRevive/SImage1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="21" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548781,0},{0.512195,0},{0.652439,0},{0.926829,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderRevive/SImage2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="22" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0.512195,0},{0.762195,0},{0.926829,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderRevive/SImage3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="23" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.768293,0},{0.512195,0},{0.871951,0},{0.926829,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/StatusSupporter/static/closeBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.776471,0},{0.938462,0},{0.982353,0},{0.984615,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/StatusSupporter/static/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.552941,0},{0.938462,0},{0.758824,0},{0.984615,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/StatusSupporter/static/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.939759,0},{0.0153846,0},{0.981928,0},{0.0512821,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/StatusSupporter/static/HTextLab1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="回復" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036145,0},{0.015385,0},{0.506733,0},{0.0512824,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/StatusSupporter/static/HTextLab2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="道具" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035294,0},{0.476923,0},{0.505882,0},{0.51282,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/StatusSupporter/static/HTextLab3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="復活" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035294,0},{0.661538,0},{0.505882,0},{0.697435,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/StatusSupporter/static/BorderItem" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0180723,0},{0.528205,0},{0.981928,0},{0.646154,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/StatusSupporter/static/BorderItem/Check" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.130435,0},{0.06875,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem0" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="12" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.109756,0},{0.130435,0},{0.213415,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="13" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.219512,0},{0.130435,0},{0.323171,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="14" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.329268,0},{0.130435,0},{0.432927,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.439024,0},{0.130435,0},{0.542683,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="16" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548781,0},{0.130435,0},{0.65244,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="17" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.658537,0},{0.130435,0},{0.762196,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem6" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="18" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.768293,0},{0.130435,0},{0.871952,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/StatusSupporter/static/BorderItem/SItem7" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="19" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.878049,0},{0.130435,0},{0.981708,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/StaticImage" Name="NitificationTipItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="Image" Value="set:DejaVuImage image:NotificationBG1" />
+        <Property Name="UnifiedAreaRect" Value="{{0.12625,0},{0.463333,0},{0.12625,181},{0.463333,25}}" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Window Type="DejaVu/StaticImage" Name="NitificationTipItem/image" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:NotificationTitle" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.475,0},{0.4,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="NitificationTipItem/button" >
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVu image:QuestLogDone" />
+            <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.345,0},{0.111066,0},{0.905,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="NitificationTipItem/text" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.154696,0},{0.36,0},{0.98895,0},{0.96,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

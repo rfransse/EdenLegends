@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/MsgBoard" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/MsgBoard/ReadFWin" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.320352,0},{0.249573,0},{0.320352,296},{0.249573,294}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/ReadFWin/TitleText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Text" Value="標題" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.015625,0},{0.135714,0},{0.09375,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/ReadFWin/DateText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="發表日期" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.482143,0},{0.015625,0},{0.675,0},{0.09375,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/ReadFWin/ContentText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="內容" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.214844,0},{0.135714,0},{0.269531,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/ReadFWin/AuthorText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Text" Value="留言者" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.824219,0},{0.185714,0},{0.878906,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/ReadFWin/PublishDateText" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="12:30 11/22" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.7,0},{0.015625,0},{0.985714,0},{0.09375,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/MsgBoard/ReadFWin/ContentMLEBox" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.292969,0},{0.985714,0},{0.804688,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/ReadFWin/TitleEBox" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="123123" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.117188,0},{0.985714,0},{0.195313,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/MsgBoard/ReadFWin/NameEBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0142857,0},{0.898438,0},{0.364286,0},{0.976563,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MsgBoard/ReadFWin/DelBtn" >
+                <Property Name="Text" Value="刪除" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.460714,0},{0.90625,0},{0.710714,0},{0.976563,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MsgBoard/ReadFWin/CancelBtn" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.735714,0},{0.90625,0},{0.985714,0},{0.976563,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/FrameWindow" Name="Root/MsgBoard/WriteFWin" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.399497,0},{0.249573,0},{0.399497,212},{0.249573,293}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/WriteFWin/TitleText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Text" Value="標題" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0510204,0},{0.0156863,0},{0.19898,0},{0.0705882,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/WriteFWin/ContentText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Text" Value="內容" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0510204,0},{0.196078,0},{0.19898,0},{0.25098,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/MsgBoard/WriteFWin/TitleEBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0.0941176,0},{0.97449,0},{0.172549,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/MsgBoard/WriteFWin/ContentMLEBox" >
+                <Property Name="Text" >
+</Property>
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0204082,0},{0.27451,0},{0.97449,0},{0.815686,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/MsgBoard/WriteFWin/AgreeChBox" >
+                <Property Name="Text" Value="我同意留言規章" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.433673,0},{0.831373,0},{0.97449,0},{0.894118,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MsgBoard/WriteFWin/OKBtn" >
+                <Property Name="Text" Value="確定" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.229592,0},{0.913725,0},{0.586735,0},{0.984314,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MsgBoard/WriteFWin/CancelBtn" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.622449,0},{0.913725,0},{0.979592,0},{0.984314,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/FrameWindow" Name="Root/MsgBoard/MsgBorardFWin" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.199749,0},{0.2,0},{0.199749,506},{0.2,325}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Window Type="DejaVu/TabControl" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00816326,0},{0.0139373,0},{0.991837,0},{0.902439,0}}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="TabHeight" Value="{0,24.7388}" />
+                <Window Type="DefaultWindow" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabMsg" >
+                    <Property Name="Text" Value="留言板" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Visible" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabMsg/TitleText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0124481,0},{0.026087,0},{0.987552,0},{0.113043,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabMsg/ContentMCList" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0124481,0},{0.13913,0},{0.987552,0},{0.843478,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabMsg/PagesText" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="1 / 1" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.437759,0},{0.869565,0},{0.562241,0},{0.973913,0}}" />
+                        <Property Name="FrameEnabled" Value="False" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabMsg/BackBtn" >
+                        <Property Name="NormalImage" Value="set:DejaVu image:TabButtonScrollLeftNormal" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.375519,0},{0.869565,0},{0.425311,0},{0.973913,0}}" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:TabButtonScrollLeftHover" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabMsg/NextBtn" >
+                        <Property Name="NormalImage" Value="set:DejaVu image:TabButtonScrollRightNormal" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.574689,0},{0.869565,0},{0.624481,0},{0.973913,0}}" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:TabButtonScrollRightHover" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabRule" >
+                    <Property Name="Text" Value="留言規章" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabRule/TitleText" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0124481,0},{0.026087,0},{0.987552,0},{0.113043,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiLineEditbox" Name="Root/MsgBoard/MsgBorardFWin/MsgBoardTabCtrl/TabRule/ContentMLEBox" >
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="MaxTextLength" Value="1073741823" />
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0124481,0},{0.13913,0},{0.987552,0},{0.973913,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/MsgBoard/MsgBorardFWin/CapacityText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Text" Value="剩餘空間 100篇" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00816326,0},{0.930314,0},{0.259184,0},{0.979094,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MsgBoard/MsgBorardFWin/WriteBtn" >
+                <Property Name="Text" Value="我要留言" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.693878,0},{0.923345,0},{0.836735,0},{0.986063,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/MsgBoard/MsgBorardFWin/CancelBtn" >
+                <Property Name="Text" Value="取消" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.84898,0},{0.923345,0},{0.991837,0},{0.986063,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

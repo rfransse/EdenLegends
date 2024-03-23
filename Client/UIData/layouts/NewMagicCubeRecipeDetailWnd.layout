@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/NewMagicCubeRecipeDetailWnd" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.166667,0},{0.125,245},{0.166667,40}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/NewMagicCubeRecipeDetailWnd/ItemSlot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0122449,0},{0.075,0},{0.15102,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/NewMagicCubeRecipeDetailWnd/ItemText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x物品名稱" />
+            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.477542,0},{0.753247,0},{0.827542,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AppellationWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="Appellation" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00124999,0},{-0.00166665,0},{0.00124999,356},{-0.00166665,462}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,328},{0,432}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/AppellationWnd/NicknameTree" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/AppellationWnd/NicknameTree/SetBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.776471,0},{0.943396,0},{0.982353,0},{0.985849,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AppellationWnd/NicknameTree/HelpBTn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.941176,0},{0.0141509,0},{0.982353,0},{0.0471698,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/AppellationWnd/NicknameTree/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0176471,0},{0.70283,0},{0.982353,0},{0.929245,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/AppellationWnd/NicknameTree/CharactTitle" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.014151,0},{0.924632,0},{0.0849057,0}}" />
+            </Window>
+            <Window Type="DejaVu/Tree" Name="Root/AppellationWnd/NicknameTree/Tree" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017647,0},{0.099057,0},{0.982353,0},{0.68868,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

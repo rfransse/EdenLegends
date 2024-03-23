@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ActitviesLable" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.472122,0},{1,0}}" />
+        <Window Type="DejaVu/ImageCheckbox" Name="ActitviesLable/Column" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125628,0},{0.167521,0},{0.125628,156},{0.167521,18}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="ActitviesLable/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.029656,0},{0.0251309,0},{0.029656,272},{0.0251309,46}}" />
+            <Window Type="DejaVu/SlotImage" Name="ActitviesLable/Item/Slot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Image" Value="set:main image:FunctionSlot" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0220588,0},{0.130435,0},{0.147059,0},{0.869565,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ActitviesLable/Item/ActivityTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈" />
+                <Property Name="UnifiedAreaRect" Value="{{0.169118,0},{0.130435,0},{0.977941,0},{0.434783,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ActitviesLable/Item/ActivityTime" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="11:00~13:00" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.584559,0},{0.565217,0},{0.977941,0},{0.869565,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ActitviesLable/Item/Difficult" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="個人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.169118,0},{0.565217,0},{0.5625,0},{0.869565,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="ActitviesLable/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="ActitviesLable/Item/Trace" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="string開啟追蹤" />
+                <Property Name="UnifiedAreaRect" Value="{{0.661765,0},{0.565217,0},{0.955882,0},{0.956522,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

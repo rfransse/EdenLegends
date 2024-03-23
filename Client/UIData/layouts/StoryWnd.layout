@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/StoryWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.200521,0},{0.200195,760},{0.200521,600}}" />
+        <Window Type="DejaVu/Static" Name="Root/StoryWnd/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.754448,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/StoryWnd/BackGround/Image" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.0283019,0},{0.983871,0},{0.971698,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/StoryWnd/BG2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.754448,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/StoryWnd/BG2/NextBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x繼續" />
+                <Property Name="UnifiedAreaRect" Value="{{0.725806,0},{0.73913,0},{0.846774,0},{0.913043,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/StoryWnd/BG2/CloseBtn" >
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.862903,0},{0.73913,0},{0.983871,0},{0.913043,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/StoryWnd/BG2/TextBG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016129,0},{0.086957,0},{0.983871,0},{0.652174,0}}" />
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/StoryWnd/BG2/TextBG/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" >國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國國
+透過幫助別西普，你對聖徽城的各種生產機制也有了更深刻的了解。
+毀滅之子帶走了惡魔召喚禁典，雖然想立刻追回來，但還是得先清除留守的大軍才行。
+在聽完鎮長的請求後，你決定前往海岸邊尋找烏亞茲並將他打敗。</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

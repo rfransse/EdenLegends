@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FunctionBarWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="VerticalAlignment" Value="Bottom" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,302},{0,44}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,302},{0,44}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionBarWnd/expBackGrand" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Image" Value="set:main image:FunctionExpBackgrand" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.5,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMinSize" Value="{{0,302},{0,22}}" />
+            <Window Type="DejaVu/GreenProgressBar" Name="Root/FunctionBarWnd/expBackGrand/bar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.108,0},{0.244601,0},{0.982,0},{0.771595,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FunctionBarWnd/expBackGrand/bar/text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FunctionBarWnd/expBackGrand/icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00662252,0},{0.136364,0},{0.0993377,0},{0.863636,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/FunctionBarWnd/SoulBackGrand" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Image" Value="set:main image:FunctionExpBackgrand" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMinSize" Value="{{0,302},{0,22}}" />
+            <Window Type="DejaVu/PurpleProgressBar" Name="Root/FunctionBarWnd/SoulBackGrand/bar" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.108,0},{0.244601,0},{0.982,0},{0.771595,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FunctionBarWnd/SoulBackGrand/bar/text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FunctionBarWnd/SoulBackGrand/icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00662252,0},{0.136364,0},{0.0993377,0},{0.863636,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

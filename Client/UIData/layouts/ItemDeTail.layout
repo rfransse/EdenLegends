@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/ItemDeTail" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.166667,0},{0.125,245},{0.166667,40}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/ItemDeTail/itemslot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0122449,0},{0.075,0},{0.15102,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemDeTail/ItemDeatilText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="ItemName" />
+            <Property Name="UnifiedAreaRect" Value="{{0.181818,0},{0.477542,0},{0.753247,0},{0.827542,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemDeTail/Itemopennote" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="Note" />
+            <Property Name="UnifiedAreaRect" Value="{{0.523423,0},{0.0665254,0},{0.972403,0},{0.416525,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ItemDeTail/MutiText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="x" />
+            <Property Name="UnifiedAreaRect" Value="{{0.813687,0},{0.490254,0},{0.87083,0},{0.840254,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/ItemDeTail/Itemamount" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" >
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.867904,0},{0.454237,0},{0.969945,0},{0.879237,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

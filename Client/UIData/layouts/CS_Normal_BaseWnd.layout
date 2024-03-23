@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_Normal_BaseWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.010718,0},{0,220},{0.010718,330}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_Normal_BaseWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,330}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.530303,0},{0,110},{0.530303,115}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Edit_Pos_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.290909,0},{0.304348,0},{0.290909,70},{0.304348,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Text_Pos" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Position" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.090909,0},{0.727273,0},{0.264822,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Text_Pos_X" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.304348,0},{0.0909091,20},{0.304348,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Text_Pos_Y" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.521739,0},{0.0909091,20},{0.521739,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Text_Pos_Z" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.73913,0},{0.0909091,20},{0.73913,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Edit_Pos_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.290909,0},{0.521739,0},{0.290909,70},{0.521739,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Pos/Edit_Pos_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.290909,0},{0.73913,0},{0.290909,70},{0.73913,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.530303,0},{0.5,110},{0.530303,115}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Edit_Rot_X" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.290909,0},{0.304348,0},{0.290909,70},{0.304348,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Edit_Rot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Rotate" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.090909,0},{0.727273,0},{0.264822,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Text_Rot_X" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.304348,0},{0.0909091,20},{0.304348,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Text_Rot_Y" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Y" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.521739,0},{0.0909091,20},{0.521739,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Text_Rot_Z" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Z" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.73913,0},{0.0909091,20},{0.73913,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Edit_Rot_Y" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.290909,0},{0.521739,0},{0.290909,70},{0.521739,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Rot/Edit_Rot_Z" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.290909,0},{0.73913,0},{0.290909,70},{0.73913,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_Scale" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.409091,0},{0.5,110},{0.409091,40}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Scale/Edit_Scale" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.5,45},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Scale/Text_Scale" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Scale" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.25,0},{0.0909091,40},{0.25,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_Person" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,55}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Person/Con_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.090909,0},{0.977272,0},{0.909091,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_Locate" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.287879,0},{0,220},{0.287879,40}}" />
+                <Window Type="DejaVu/Combobox" Name="Root/CS_Normal_BaseWnd/Background/Border_Locate/Combobox_Locate" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.142857,0},{0.022727,210},{0.142857,180}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_Fly" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.409091,0},{0,110},{0.409091,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_Fly/Text_Fly" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Fly" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.25,0},{0.0909091,40},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Normal_BaseWnd/Background/Border_Fly/Check_Fly" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.636364,0},{0.25,0},{0.818182,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_ID" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.166667,0},{0,220},{0.166667,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Normal_BaseWnd/Background/Border_ID/Text_ID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="ID" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0444444,0},{0.25,0},{0.0444444,30},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/CS_Normal_BaseWnd/Background/Border_ID/Con_ID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="ID" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.222222,0},{0.25,0},{0.222222,160},{0.25,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Normal_BaseWnd/Background/Border_FreeMove" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.878788,0},{0,110},{0.878788,40}}" />
+                <Window Type="DejaVu/Button" Name="Root/CS_Normal_BaseWnd/Background/Border_FreeMove/Button_FreeMove" >
+                    <Property Name="Text" Value="Mapping Camera" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0454545,0},{0.260718,0},{0.954545,0},{0.760718,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

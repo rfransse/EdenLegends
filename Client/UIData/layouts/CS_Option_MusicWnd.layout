@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_Option_MusicWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.010718,0},{0,200},{0.010718,140}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_Option_MusicWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,140}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_Option_MusicWnd/Background/Border_Name" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,50}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_MusicWnd/Background/Border_Name/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Name" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.2,0},{0.05,50},{0.2,30}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Name/Edit_Name" >
+                    <Property Name="Font" Value="F001-14" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.2,0},{0.35,120},{0.2,30}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_Option_MusicWnd/Background/Border_Other" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.357143,0},{0,200},{0.357143,80}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Text_Loop" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Loop" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.125,0},{0.05,40},{0.125,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Check_Loop" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.125,0},{0.4,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Text_Volume" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Volume" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.425,0},{0.125,0},{0.425,60},{0.125,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Edit_Volume" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.125,0},{0.75,40},{0.125,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Text_FadeTime" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="FadeTime" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.625,0},{0.05,80},{0.625,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_Option_MusicWnd/Background/Border_Other/Edit_FadeTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.625,0},{0.5,80},{0.625,20}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

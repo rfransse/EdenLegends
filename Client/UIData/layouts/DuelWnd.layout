@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/DuelWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.00125,0},{0,0},{0.99875,0},{1,0}}" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/DuelWnd/StartText" >
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.343751,0},{0.168334,0},{0.65875,0},{0.233334,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/DuelWnd/TitleText" >
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.33375,0},{0.28,0},{0.67375,0},{0.486668,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DuelWnd/TitleText/CountText" >
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{1,0},{1,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

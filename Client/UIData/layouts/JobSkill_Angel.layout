@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/JobSkillAngel" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,628},{0,458}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/JobSkillAngel/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00955414,0},{0.0131004,0},{0.990446,0},{0.9869,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/JobSkillAngel/Background/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.957792,0},{0.0224215,0},{0.983766,0},{0.058296,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/ImgBtn0" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0243506,0},{0.0112108,0},{0.0827922,0},{0.0919283,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/ImgBtn1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0909091,0},{0.0112108,0},{0.149351,0},{0.0919283,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/ImgBtn2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.157468,0},{0.0112108,0},{0.215909,0},{0.0919283,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border0" >
+                <Property Name="UnifiedAreaRect" Value="{{0,10},{0.09417,0},{1,-10},{1,-10}}" />
+                <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.635906,0},{-0.00507614,0},{0.998322,0},{0.989848,0}}" />
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/skilltext1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="X技能配置" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.0127551,0},{0.324074,0},{0.0739796,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.0638705,0},{0.944444,0},{0.915816,0}}" />
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.0060241,0},{0.96875,0},{0.141566,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext1" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615385,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background//Border1/Border11/skilltext11" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="1." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126374,0},{0.733333,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill2" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.126506,0},{0.96875,0},{0.262048,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext2" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext22" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="2." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill3" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.246988,0},{0.96875,0},{0.38253,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext3" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext33" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="3." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill4" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.36747,0},{0.96875,0},{0.503012,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext4" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext44" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="4." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill5" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.487952,0},{0.96875,0},{0.623494,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk5" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext5" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext55" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="5." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill6" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.608434,0},{0.96875,0},{0.743976,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk6" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk6" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext6" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext66" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="6." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill7" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.728916,0},{0.96875,0},{0.864458,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk7" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk7" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext7" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext77" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="7." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border1/Border11/skill8" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0208333,0},{0.849398,0},{0.96875,0},{0.98494,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border1/Border11/sk8" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0934066,0},{0.155556,0},{0.28022,0},{0.911112,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/JobSkillAngel/Background/Border1/Border11/SkillList/sk8" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.313187,0},{0.177778,0},{0.978022,0},{0.577778,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext8" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.32967,0},{0.666667,0},{0.615384,0},{0.911111,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border1/Border11/skilltext88" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="Text" Value="8." />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0164835,0},{0.355556,0},{0.126373,0},{0.733334,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/JobSkillAngel/Background/Border1/ClearBtn" >
+                        <Property Name="Text" Value="X清空配置" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.925641,0},{0.472222,0},{0.989744,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/JobSkillAngel/Background/Border1/ApplyBtn" >
+                        <Property Name="Text" Value="X套用" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.925641,0},{0.944444,0},{0.989744,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00167785,0},{-0.00507614,0},{0.612416,0},{0.989848,0}}" />
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border2/skilltext2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="X技能列表" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0302198,0},{0.0127551,0},{0.197802,0},{0.0739796,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/JobSkillAngel/Background/Border2/Border22" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.255102,0},{0.967033,0},{0.819205,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/JobSkillAngel/Background/Border2/Border22/SkillList2" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.017647,0},{0.019868,0},{0.982353,0},{0.980133,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border2/skilltext3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="X防具配置" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0302198,0},{0.815385,0},{0.200549,0},{0.876923,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.0739796,0},{0.142857,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage7" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.148352,0},{0.0739796,0},{0.258242,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage13" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.263736,0},{0.0739796,0},{0.373626,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage18" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.379121,0},{0.0739796,0},{0.489011,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.510989,0},{0.0739796,0},{0.620879,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage9" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.626374,0},{0.0739796,0},{0.736264,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage11" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.741758,0},{0.0739796,0},{0.851648,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage16" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.0739796,0},{0.967033,0},{0.125,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.130102,0},{0.142857,0},{0.181122,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage8" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.148352,0},{0.130102,0},{0.258242,0},{0.181122,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage14" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.263736,0},{0.130102,0},{0.373626,0},{0.181122,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.510989,0},{0.130102,0},{0.620879,0},{0.181122,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage6" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.626374,0},{0.130102,0},{0.736264,0},{0.181122,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage12" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.741758,0},{0.130102,0},{0.851648,0},{0.181122,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage17" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.130769,0},{0.967033,0},{0.182051,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.032967,0},{0.187179,0},{0.142857,0},{0.238462,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage10" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.148352,0},{0.187179,0},{0.258242,0},{0.238462,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage15" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.263736,0},{0.187179,0},{0.373626,0},{0.238462,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/ArmorSlot1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0395787,0},{0.887179,0},{0.143974,0},{0.984615,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/ArmorSlot2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.186813,0},{0.887179,0},{0.291209,0},{0.984615,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/ArmorSlot3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.332418,0},{0.887179,0},{0.436813,0},{0.984615,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/JobSkillAngel/Background/Border2/Checkbox1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0247253,0},{0.864103,0},{0.0686813,0},{0.917949,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/JobSkillAngel/Background/Border2/Checkbox2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.17033,0},{0.864103,0},{0.214286,0},{0.917949,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/JobSkillAngel/Background/Border2/Checkbox3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.315934,0},{0.864103,0},{0.35989,0},{0.917949,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/SlotImage19" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.379121,0},{0.187179,0},{0.489011,0},{0.238462,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/JobSkillAngel/Background/Border2/RadioBtn1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0245067,0},{0.867555,0},{0.0805206,0},{0.919705,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/JobSkillAngel/Background/Border2/RadioBtn2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.166891,0},{0.86502,0},{0.221836,0},{0.916302,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/JobSkillAngel/Background/Border2/RadioBtn3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.315795,0},{0.863929,0},{0.37074,0},{0.915211,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderTextLab" Name="Root/JobSkillAngel/Background/Border2/skilltext31" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x武器配置" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.697802,0},{0.815385,0},{0.868132,0},{0.876923,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/WeaponSlot0" >
+                        <Property Name="Image" Value="set:DejaVuImage image:RWeaponIcon" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.711538,0},{0.887179,0},{0.815934,0},{0.984615,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/JobSkillAngel/Background/Border2/WeaponSlot1" >
+                        <Property Name="Image" Value="set:DejaVuImage image:ArrowIcon" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.857143,0},{0.887179,0},{0.961538,0},{0.984615,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/JobSkillAngel/Background/Border2/Weapon0" >
+                        <Property Name="GroupID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.692308,0},{0.864103,0},{0.736264,0},{0.917949,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/JobSkillAngel/Background/Border2/Weapon1" >
+                        <Property Name="GroupID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.837912,0},{0.864103,0},{0.881868,0},{0.917949,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

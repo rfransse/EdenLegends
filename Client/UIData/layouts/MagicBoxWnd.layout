@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MagicBox" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0855759,0},{0.124368,0},{0.0855759,518},{0.124368,413}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/MagicBox/TabControl" >
+            <Property Name="TabHeight" Value="{0,20.4805}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00674369,0},{-0.00303694,0},{0.995945,0},{0.995066,0}}" />
+            <Window Type="DefaultWindow" Name="Root/MagicBox/TabControl/Tab1" >
+                <Property Name="Text" Value="x轉化" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/MagicBox/TabControl/Tab1/Background" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00165,0}}" />
+                    <Window Type="DejaVu/Button" Name="Root/MagicBox/TabControl/Tab1/Background/OkButton" >
+                        <Property Name="Text" Value="x轉化" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0603448,0},{0.885893,0},{0.215517,0},{0.965227,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/MagicBox/TabControl/Tab1/Background/CloseButton" >
+                        <Property Name="Text" Value="x關閉" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.786207,0},{0.885893,0},{0.941379,0},{0.965227,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0175,0},{0.082611,0},{0.492349,0},{0.874647,0}}" />
+                        <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Title01" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x主要裝備" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.010909,0},{0.012766,0},{0.988353,0},{0.0893617,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Title02" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x消耗裝備" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0109091,0},{0.425532,0},{0.989091,0},{0.502128,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second01" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.615044,0},{0.284211,0},{0.765487,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second02" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.310526,0},{0.615044,0},{0.489474,0},{0.765487,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second03" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.512727,0},{0.617021,0},{0.691674,0},{0.767464,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second04" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.710526,0},{0.615044,0},{0.889474,0},{0.765487,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second05" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.800885,0},{0.284211,0},{0.951327,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second06" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.310526,0},{0.800885,0},{0.489474,0},{0.951327,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second07" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.512727,0},{0.8,0},{0.691674,0},{0.950442,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Second08" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.710526,0},{0.800885,0},{0.889474,0},{0.951327,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Text01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x需求裝備:" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0526316,0},{0.526549,0},{0.368421,0},{0.606195,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/ColorText01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x紅橙黃" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.347368,0},{0.526549,0},{0.642105,0},{0.60177,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/EquipText01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x刀槍砲劍" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.636842,0},{0.526549,0},{0.963158,0},{0.60177,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Text02" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x主裝備" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.115789,0},{0.110619,0},{0.457895,0},{0.190266,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/Text03" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x特殊虛寶" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.552632,0},{0.110619,0},{0.894737,0},{0.190265,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/First01" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.168421,0},{0.185841,0},{0.394737,0},{0.380531,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/First01/UseItem01" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.116279,0},{0.136364,0},{0.906977,0},{0.909091,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/First02" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.605263,0},{0.185841,0},{0.831579,0},{0.380531,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundLeft02/First02/UseItem01" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.116279,0},{0.136364,0},{0.906977,0},{0.909091,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.508621,0},{0.082639,0},{0.98347,0},{0.874674,0}}" />
+                        <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Title01" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x轉化預覽" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.010909,0},{0.012766,0},{0.989091,0},{0.0893617,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Text01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x魔方能量" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0947368,0},{0.110619,0},{0.436842,0},{0.190265,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Star01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.101695,0},{0.346294,0},{0.237288,0},{0.462236,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Star02" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266949,0},{0.347826,0},{0.402542,0},{0.463768,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Star03" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.432203,0},{0.347826,0},{0.567797,0},{0.463768,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Star04" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.601695,0},{0.347826,0},{0.737288,0},{0.463768,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Star05" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.766949,0},{0.347826,0},{0.902542,0},{0.463768,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Energy01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:main image:InfoBackGrand" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.087273,0},{0.195745,0},{0.912728,0},{0.293617,0}}" />
+                            <Window Type="DejaVu/MpProgressBar" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Energy01/MpBar" >
+                                <Property Name="CurrentProgress" Value="0" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                <Property Name="StepSize" Value="0.01" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0113208,0},{0.108108,0},{0.984906,0},{0.918919,0}}" />
+                                <Window Type="DejaVu/StaticTextLab" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Energy01/MpBar/text" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="MousePassThroughEnabled" Value="True" />
+                                    <Property Name="Text" Value="100/100" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.09091,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.058182,0},{0.52766,0},{0.941818,0},{0.953192,0}}" />
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Title01" >
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x魔方力量" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.007042,0},{0.01875,0},{0.992957,0},{0.1875,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Image01" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.007042,0},{0.1875,0},{0.992957,0},{0.45625,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Image01/Power01" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x1111111" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.00582705,0},{0,0},{1.00583,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Image02" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.45,0},{0.992958,0},{0.71875,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Image02/Power02" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x2222222" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Image03" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.00704225,0},{0.7125,0},{0.992958,0},{0.98125,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab1/Background/BackgroundRight02/Power01/Image03/Power03" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x3333333" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MagicBox/TabControl/Tab1/Background/Help" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.9425,0},{0.0172105,0},{0.9825,0},{0.0722843,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/MagicBox/TabControl/Tab2" >
+                <Property Name="Text" Value="x洗鍊" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/MagicBox/TabControl/Tab2/Background" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00159,0}}" />
+                    <Window Type="DejaVu/Button" Name="Root/MagicBox/TabControl/Tab2/Background/OkButton" >
+                        <Property Name="Text" Value="x洗鍊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0603448,0},{0.885893,0},{0.215517,0},{0.965227,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/MagicBox/TabControl/Tab2/Background/CloseButton" >
+                        <Property Name="Text" Value="關閉" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.786207,0},{0.885893,0},{0.941379,0},{0.965227,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.0175,0},{0.082611,0},{0.492349,0},{0.874647,0}}" />
+                        <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Title01" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x主要裝備" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.010909,0},{0.012766,0},{0.989091,0},{0.0893617,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Title02" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x消耗裝備" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0109091,0},{0.426777,0},{0.989091,0},{0.503373,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second01" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.615044,0},{0.28421,0},{0.765486,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second02" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.310526,0},{0.615044,0},{0.489473,0},{0.765486,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second03" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.512727,0},{0.617021,0},{0.691674,0},{0.767464,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second04" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.710526,0},{0.615044,0},{0.889473,0},{0.765486,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second05" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.105263,0},{0.800885,0},{0.28421,0},{0.951328,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second06" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.310526,0},{0.800885,0},{0.489473,0},{0.951328,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second07" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.512727,0},{0.8,0},{0.691674,0},{0.950442,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Second08" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.710526,0},{0.800885,0},{0.889473,0},{0.951328,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Text01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x需求裝備:" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.526549,0},{0.368421,0},{0.606195,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Text02" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x主裝備" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.115789,0},{0.110619,0},{0.457894,0},{0.190265,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/Text03" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x特殊虛寶" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.552632,0},{0.110619,0},{0.894737,0},{0.190266,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/First01" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.168421,0},{0.185841,0},{0.394737,0},{0.380531,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/First01/UseItem01" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.116279,0},{0.136364,0},{0.906977,0},{0.909091,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/Static" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/First02" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.605263,0},{0.185841,0},{0.831579,0},{0.380531,0}}" />
+                            <Window Type="DejaVu/SlotImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/First02/UseItem02" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.116279,0},{0.136364,0},{0.906977,0},{0.909091,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/ColorText01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x紅橙黃" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.368421,0},{0.526549,0},{0.631579,0},{0.60177,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundLeft02/EquipText01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x刀槍砲劍" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.636842,0},{0.526549,0},{0.963158,0},{0.60177,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.508621,0},{0.082639,0},{0.98347,0},{0.874674,0}}" />
+                        <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/Title01" >
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x洗鍊成果" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.010909,0},{0.012766,0},{0.989091,0},{0.0893617,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0581818,0},{0.340426,0},{0.941818,0},{0.953191,0}}" />
+                            <Window Type="DejaVu/TextSmoothLab" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Title01" >
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="HorzFormatting" Value="HorzCentred" />
+                                <Property Name="Text" Value="x魔方力量" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.005181,0},{0.020979,0},{0.989637,0},{0.153846,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Image01" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.010363,0},{0.153846,0},{0.989638,0},{0.440559,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Image01/Power01" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x1111111" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Image02" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.010363,0},{0.433566,0},{0.989638,0},{0.706293,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Image02/Power02" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" >x2222222
+</Property>
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Image03" >
+                                <Property Name="BackgroundEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.010363,0},{0.699301,0},{0.989638,0},{0.986014,0}}" />
+                                <Window Type="DejaVu/StaticText" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/PowerBG/Image03/Power03" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                                    <Property Name="Text" Value="x3333333" />
+                                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/Star01" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.101695,0},{0.163043,0},{0.237288,0},{0.278986,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/Star02" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.266949,0},{0.163043,0},{0.402542,0},{0.278985,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/Star03" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.432203,0},{0.163043,0},{0.567796,0},{0.278985,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/Star04" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.601695,0},{0.163043,0},{0.737288,0},{0.278985,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/MagicBox/TabControl/Tab2/Background/BackgroundRight02/Star05" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.766949,0},{0.163043,0},{0.902542,0},{0.278985,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MagicBox/TabControl/Tab2/Background/Help" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="ID" Value="1" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.9425,0},{0.0172105,0},{0.9825,0},{0.0722843,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

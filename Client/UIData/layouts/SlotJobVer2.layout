@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SlotJobVer2" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/SlotJobVer2/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,156},{0,60}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/SlotJobVer2/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Image" Value="set:main image:FunctionSlot" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0769231,0},{0.166667,0},{0.288462,0},{0.733333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/SlotJobVer2/Item/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="戰士" />
+                <Property Name="UnifiedAreaRect" Value="{{0.320513,0},{0.166667,0},{0.769231,0},{0.433333,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/SlotJobVer2/Item/LvText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="Lv.99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.705128,0},{0.166667,0},{0.923077,0},{0.433333,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="Root/SlotJobVer2/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/SlotJobVer2/Item/newImage" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.737179,0},{0.5,0},{0.910256,0},{0.716667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/SlotJobVer2/Item/Disable" >
+                <Property Name="Alpha" Value="0.5" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/SlotJobVer2/Item/Disable/Lock" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:FunctionLockPress" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.865385,0},{0.583333,0},{0.948718,0},{0.883333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/SlotJobVer2/Item/NowJobText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="目前職業" />
+                <Property Name="UnifiedAreaRect" Value="{{0.320513,0},{0.5,0},{0.769231,0},{0.766667,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SlotJobVer2/Item/ChangeJob" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="轉換職業" />
+                <Property Name="UnifiedAreaRect" Value="{{0.480769,0},{0.45,0},{0.961538,0},{0.866667,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

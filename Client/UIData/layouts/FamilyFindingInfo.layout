@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/FamilyFindingInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,462},{0,418}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/Title" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" >string
+招募中公會</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{0.028708,0},{0.380952,0},{0.0717702,0}}" />
+        </Window>
+        <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/MultiList" >
+            <Property Name="ColumnsMovable" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{0.100478,0},{0.974026,0},{0.885167,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/Closebutton" >
+            <Property Name="Text" Value="string關閉" />
+            <Property Name="UnifiedAreaRect" Value="{{0.779221,0},{0.913876,0},{0.974026,0},{0.971292,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/Joinbutton" >
+            <Property Name="Text" Value="string申請加入" />
+            <Property Name="UnifiedAreaRect" Value="{{0.558442,0},{0.913876,0},{0.753247,0},{0.971292,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/FindingTownbutton" >
+            <Property Name="Text" Value="string尋找城鎮" />
+            <Property Name="UnifiedAreaRect" Value="{{0.025974,0},{0.913876,0},{0.220779,0},{0.971292,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/pageText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="99/99" />
+            <Property Name="UnifiedAreaRect" Value="{{0.324675,0},{0.913876,0},{0.448052,0},{0.971292,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/nextBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+            <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+            <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+            <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.454545,0},{0.92823,0},{0.480519,0},{0.956938,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/backBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+            <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+            <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+            <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.298701,0},{0.92823,0},{0.324675,0},{0.956938,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/mostnextBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightMostP" />
+            <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightMostH" />
+            <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightMost" />
+            <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightMostP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.493506,0},{0.92823,0},{0.51948,0},{0.956938,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/mostbackBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+            <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftMostH" />
+            <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftMost" />
+            <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+            <Property Name="UnifiedAreaRect" Value="{{0.25974,0},{0.92823,0},{0.285714,0},{0.956938,0}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/FamilyFindingInfo/tab/Tab1/Stc/Help" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.939394,0},{0.0239234,0},{0.974026,0},{0.062201,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

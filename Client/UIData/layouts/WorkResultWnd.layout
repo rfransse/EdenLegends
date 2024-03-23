@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/WorkResult" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.361328,0},{0.27474,0},{0.361328,232},{0.27474,230}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/WorkResult/Static" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/WorkResult/Static/Border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.0625,0},{0.944444,0},{0.75,0}}" />
+                <Window Type="DejaVu/HintText" Name="Root/WorkResult/Static/Border/Text1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" >親愛的白撫子您好
+，本次委託結果為：</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.0909091,0},{0.96875,0},{0.30303,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/ResultItem1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.348485,0},{0.260417,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/HintText" Name="Root/WorkResult/Static/Border/Text2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" >感謝惠顧，我們將持續精進技術，
+給予顧客更好的服務，也期待您繼
+續給予批評跟指教</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.651515,0},{0.96875,0},{0.954545,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/ResultItem2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.302083,0},{0.348485,0},{0.479167,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/ResultItem3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.520833,0},{0.348485,0},{0.697917,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/ResultItem4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.739583,0},{0.348485,0},{0.916667,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/HintText" Name="Root/WorkResult/Static/Border/ErrText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0366972,0},{0.320442,0},{0.977064,0},{0.607735,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintText" Name="Root/WorkResult/Static/Border/EventTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="123" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.090909,0},{0.96875,0},{0.30303,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintText" Name="Root/WorkResult/Static/Border/EventContent" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.138122,0},{0.972477,0},{0.723757,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/EventItem1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0833333,0},{0.348485,0},{0.260417,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/EventItem2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.302083,0},{0.348485,0},{0.479167,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/EventItem3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.520833,0},{0.348485,0},{0.697917,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/WorkResult/Static/Border/EventItem4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.739583,0},{0.348485,0},{0.916667,0},{0.606061,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/WorkResult/Static/CloseBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.8125,0},{0.944444,0},{0.9375,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/WorkResult/Static/OKBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0555556,0},{0.8125,0},{0.472222,0},{0.9375,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SetConditionInstance" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,388},{0,231}}" />
+        <Window Type="DejaVu/Border" Name="Root/SetConditionInstance/Border" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0103093,0},{0.017316,0},{0.989691,0},{0.982684,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/SetConditionInstance/Border/ChoseText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x請選擇副本中要扮演的腳色定位" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.042857,0},{0.026906,0},{0.94812,0},{0.116592,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/SetConditionInstance/Border/InstanceList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="Text" Value="123" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0315789,0},{0.336323,0},{0.968421,0},{0.865471,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SetConditionInstance/Border/ClearBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="x清除" />
+                <Property Name="UnifiedAreaRect" Value="{{0.584211,0},{0.892377,0},{0.768421,0},{0.973094,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SetConditionInstance/Border/OKBtn" >
+                <Property Name="Text" Value="x進入佇列" />
+                <Property Name="UnifiedAreaRect" Value="{{0.784211,0},{0.892377,0},{0.968421,0},{0.973094,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/SetConditionInstance/Border/ChoseText1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x請左鍵點選至多4個欲參加的副本" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.042857,0},{0.233184,0},{0.94812,0},{0.32287,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/SetConditionInstance/Border/BtnBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.113158,0},{0.116592,0},{0.328947,0},{0.224215,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/SetConditionInstance/Border/BtnBorder2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.423684,0},{0.116592,0},{0.639473,0},{0.224215,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/SetConditionInstance/Border/BtnBorder3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.734211,0},{0.116592,0},{0.950001,0},{0.224215,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageRadioButton" Name="Root/SetConditionInstance/Border/TankRadio" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:TankBtnPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverImage" Value="set:DejaVu image:TankBtnNormal" />
+                <Property Name="NormalImage" Value="set:DejaVu image:TankBtnPressed" />
+                <Property Name="PushedImage" Value="set:DejaVu image:TankBtnHover" />
+                <Property Name="Text" Value="x坦克" />
+                <Property Name="UnifiedAreaRect" Value="{{0.121053,0},{0.130045,0},{0.321053,0},{0.210762,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageRadioButton" Name="Root/SetConditionInstance/Border/HealerRadio" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:HealerBtnPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HealerBtnNormal" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HealerBtnPressed" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HealerBtnHover" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="Text" Value="x治療者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.431579,0},{0.130045,0},{0.631579,0},{0.210762,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageRadioButton" Name="Root/SetConditionInstance/Border/DDRadio" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:DDBtnPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverImage" Value="set:DejaVu image:DDBtnNormal" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:DDBtnPressed" />
+                <Property Name="PushedImage" Value="set:DejaVu image:DDBtnHover" />
+                <Property Name="Text" Value="x輸出者" />
+                <Property Name="UnifiedAreaRect" Value="{{0.742105,0},{0.130045,0},{0.942105,0},{0.210762,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/SetConditionInstance/Border/TankIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:DefenderIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.130045,0},{0.0973684,0},{0.210762,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/SetConditionInstance/Border/HealerIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:HealerIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.360526,0},{0.130045,0},{0.407895,0},{0.210762,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/SetConditionInstance/Border/DDIcon" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:main image:AttackIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.671429,0},{0.130045,0},{0.671429,18},{0.130045,18}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/QuestAutoNotifyWnd" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{0,32},{0.3,335}}" />
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q1" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00298507,0},{1,0},{0.0985075,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q2" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0955224,0},{1,0},{0.191045,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q3" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.191045,0},{1,0},{0.286567,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q4" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.286567,0},{1,0},{0.38209,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q5" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.38209,0},{1,0},{0.477612,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q6" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.477612,0},{1,0},{0.573134,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q7" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.573134,0},{1,0},{0.668657,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q8" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.668657,0},{1,0},{0.764179,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q9" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.764179,0},{1,0},{0.859702,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestAutoNotifyWnd/Q10" >
+            <Property Name="HoverImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.859702,0},{1,0},{0.955224,0}}" />
+            <Property Name="PushedImage" Value="set:DejaVu image:Nofoto" />
+            <Property Name="NormalImage" Value="set:DejaVu image:Nofoto" />
+        </Window>
+    </Window>
+</GUILayout>

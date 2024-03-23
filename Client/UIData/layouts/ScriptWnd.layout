@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Script" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,634},{0,570}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/Script/TreeStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,8},{0.372239,0},{1,-8}}" />
+            <Window Type="DejaVu/Border" Name="Root/Script/TreeStatic/" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.021352,0},{0.947369,0},{0.978647,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/Script/TreeStatic/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0304569,0},{0.0115607,0},{0.979695,0},{0.988439,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Script/ScriptContent" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.384858,0},{0,8},{1,-8},{1,-8}}" />
+            <Window Type="DejaVu/BorderText" Name="Root/Script/Chapter" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" >榮譽高地
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.031088,0},{0.021352,0},{0.891192,0},{0.0640566,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/Script/SubChapter" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                <Property Name="Text" >榮譽高地
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.031088,0},{0.085409,0},{0.891192,0},{0.128114,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/Script/SubChapter/newImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0361446,0},{0.208333,0},{0.114458,0},{0.791667,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Script/help" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.932642,0},{0.016187,0},{0.974093,0},{0.044964,0}}" />
+            </Window>
+            <Window Type="DejaVu/TabControl" Name="Root/Script/ScriptContent/TabControl" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TabHeight" Value="{0,20}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0310881,0},{0.578292,0},{0.968912,0},{0.978648,0}}" />
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptContent/Tab1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="任務一" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00976,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptContent/Static1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01105,0},{0.019512,0},{0.988951,0},{0.965853,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Script/ScriptContent/TaskImg1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.0612245,0},{0.129944,0},{0.234694,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptContent/Task1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.163842,0},{0.030612,0},{0.983051,0},{0.969388,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptContent/Tab2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="任務二" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00851,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptContent/Static2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01105,0},{0.019512,0},{0.988951,0},{0.965853,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Script/ScriptContent/TaskImg2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.0609137,0},{0.129944,0},{0.236171,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptContent/Task2" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.163842,0},{0.030457,0},{0.983051,0},{0.969232,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptContent/Tab3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Text" Value="任務三" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00851,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptContent/Static3" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01108,0},{0.017316,0},{0.988981,0},{0.963657,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Script/ScriptContent/TaskImg3" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.0609137,0},{0.129944,0},{0.236171,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptContent/Task3" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.163842,0},{0.030457,0},{0.983051,0},{0.969232,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptContent/Tab4" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="Text" Value="任務四" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00851,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptContent/Static4" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01105,0},{0.019512,0},{0.988951,0},{0.965853,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Script/ScriptContent/TaskImg4" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.0609137,0},{0.129944,0},{0.236171,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptContent/Task4" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.163842,0},{0.030457,0},{0.983051,0},{0.969232,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptContent/Tab5" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="Text" Value="任務五" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.00851,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptContent/Static5" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01105,0},{0.019512,0},{0.988951,0},{0.965853,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/Script/ScriptContent/TaskImg5" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0338983,0},{0.0609137,0},{0.129944,0},{0.236171,0}}" />
+                            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                        </Window>
+                        <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptContent/Task5" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.163842,0},{0.030457,0},{0.983051,0},{0.969232,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                            <Property Name="VertScrollbar" Value="True" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/TabControl" Name="Root/Script/ScriptStory/TabControl" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TabHeight" Value="{0,20}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0310881,0},{0.151246,0},{0.968912,0},{0.556939,0}}" />
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptStory/TabControl/Tab1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="背景" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1.01923,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptStory/TabControl/Tab1/static" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.01105,0},{0.019231,0},{0.988951,0},{0.961539,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptStory/TabControl/Tab1/Text" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027624,0},{0.048077,0},{0.972375,0},{0.932692,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                    </Window>
+                </Window>
+                <Window Type="DefaultWindow" Name="Root/Script/ScriptStory/Tabcontrol/Tab2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="完結" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="Visible" Value="False" />
+                    <Window Type="DejaVu/BorderText" Name="Root/Script/ScriptStory/TabControl/Tab2/Text" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.027624,0},{0.048077,0},{0.972375,0},{0.951923,0}}" />
+                        <Property Name="VertFormatting" Value="TopAligned" />
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/Script/ScriptStory/Tabcontrol/Tab2/static" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0110497,0},{0.0192308,0},{0.98895,0},{0.980769,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

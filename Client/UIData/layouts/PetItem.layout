@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/PetItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0.12625,0},{0.168333,0},{0.12625,202},{0.168333,58}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,175},{0,38}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/PetItem/Icon" >
+            <Property Name="UnifiedAreaRect" Value="{{0.030457,0},{0.206897,0},{0.198774,0},{0.793104,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/PetItem/Name" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="xLV.30魔法的小喜馬拉雅犬" />
+            <Property Name="UnifiedAreaRect" Value="{{0.232673,0},{0.206897,0},{0.970297,0},{0.448276,0}}" />
+        </Window>
+        <Window Type="DejaVu/ProgressBar" Name="Root/PetItem/ExpBar" >
+            <Property Name="CurrentProgress" Value="0" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0.232673,0},{0.62069,0},{0.970297,0},{0.793103,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

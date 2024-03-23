@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DyeingWindow" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.232422,0},{0.0368906,0},{0.232422,426},{0.0368906,534}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/DyeingWindow/" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/DyeingWindow//Model" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0292683,0},{0.116935,0},{0.785366,0},{0.870968,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/DyeingWindow//Finish" >
+                <Property Name="UnifiedAreaRect" Value="{{0.804878,0},{0.895161,0},{0.980488,0},{0.975806,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon0" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.116935,0},{0.970732,0},{0.181452,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.193548,0},{0.970732,0},{0.258065,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.270161,0},{0.970732,0},{0.334677,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.346774,0},{0.970732,0},{0.41129,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.423387,0},{0.970732,0},{0.487903,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.5,0},{0.970732,0},{0.564516,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon6" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.576613,0},{0.970732,0},{0.641129,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon7" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.653226,0},{0.970732,0},{0.717742,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon8" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.729839,0},{0.970732,0},{0.794355,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//ModelIcon9" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.806452,0},{0.970732,0},{0.870968,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/DyeingWindow//Part" >
+                <Property Name="UnifiedAreaRect" Value="{{0.029268,0},{0.895161,0},{0.785366,0},{0.975806,0}}" />
+                <Window Type="DejaVu/RadioButton" Name="Root/DyeingWindow//Part/1" >
+                    <Property Name="Text" Value="第一部位" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0387097,0},{0.2,0},{0.329032,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/DyeingWindow//Part/2" >
+                    <Property Name="Text" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.348387,0},{0.2,0},{0.63871,0},{0.8,0}}" />
+                </Window>
+                <Window Type="DejaVu/RadioButton" Name="Root/DyeingWindow//Part/3" >
+                    <Property Name="Text" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.658065,0},{0.2,0},{0.948387,0},{0.8,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/DyeingWindow//Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="此染劑有機會染成以下顏色" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030151,0},{0.024194,0},{0.396005,0},{0.0927424,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//Color1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.42439,0},{0.024194,0},{0.507317,0},{0.0927424,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//Color2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.521951,0},{0.024194,0},{0.604878,0},{0.0927424,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//Color3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.619512,0},{0.024194,0},{0.702439,0},{0.0927424,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//Color4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.717073,0},{0.024194,0},{0.8,0},{0.0927424,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/DyeingWindow//Color5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.814634,0},{0.024194,0},{0.897561,0},{0.0927424,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/DyeingWindow//help" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.926829,0},{0.0241935,0},{0.970732,0},{0.0604839,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

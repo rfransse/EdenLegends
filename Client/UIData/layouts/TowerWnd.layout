@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TowerWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.238281,0},{0.102731,0},{0.238281,329},{0.102731,241}}" />
+        <Window Type="DejaVu/Static" Name="Root/TowerWnd/Border" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TowerWnd/Border/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x異界塔挑戰紀錄" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0384615,0},{0.0291262,0},{0.666667,0},{0.106796,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/TowerWnd/Border/Info" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0191693,0},{0.118227,0},{0.977636,0},{0.837438,0}}" />
+                <Property Name="UnifiedMaxSize" Value="{{0,300},{0,146}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,300},{0,146}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TowerWnd/Border/Info/NameTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x玩家姓名" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.0821918,0},{0.34,0},{0.219178,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/TowerWnd/Border/Info/Name" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x一二三四五六七八九十" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.493333,0},{0.082192,0},{0.96,0},{0.219178,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TowerWnd/Border/Info/HisfloorTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x最高通關層數" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.260274,0},{0.34,0},{0.39726,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TowerWnd/Border/Info/floorTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x本週記錄層數" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.438356,0},{0.34,0},{0.575342,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TowerWnd/Border/Info/TeamfloorTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x隊伍記錄層數" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.616438,0},{0.34,0},{0.753424,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/TowerWnd/Border/Info/Hisfloor" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.76,0},{0.260274,0},{0.96,0},{0.39726,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/TowerWnd/Border/Info/floor" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.76,0},{0.438356,0},{0.96,0},{0.575342,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/TowerWnd/Border/Info/Teamfloor" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x無組隊" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.76,0},{0.616438,0},{0.96,0},{0.753425,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TowerWnd/Border/Info/DateTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x本日挑戰次數" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.04,0},{0.794521,0},{0.34,0},{0.931507,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/TowerWnd/Border/Info/Date" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x99／99" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.794521,0},{0.96,0},{0.931507,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/TowerWnd/Border/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.929487,0},{0.029126,0},{0.974215,0},{0.0980915,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TowerWnd/Border/EnterBtn" >
+                <Property Name="Text" Value="進入異界塔" />
+                <Property Name="UnifiedAreaRect" Value="{{0.371795,0},{0.854369,0},{0.628205,0},{0.970874,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CharacterUI" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.28625,0},{0.038333,0},{0.28625,359},{0.038333,537}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,344},{0,516}}" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Window Type="DejaVu/TabControl" Name="Root/CharacterUI/tabcontrol" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="TabHeight" Value="{0,20.7777}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0521042,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CharacterUI/TypeIcon" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.102041,0},{0.0400802,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CharacterUI/NameText" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.102041,0},{0,0},{0.451895,0},{0.0400802,0}}" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/CharacterUI/classIcon" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.571429,0},{0,0},{0.673469,0},{0.0400802,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CharacterUI/ClassText" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.673469,0},{0,0},{0.883382,0},{0.0400802,0}}" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CharacterUI/LvText" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.451895,0},{0,0},{0.568513,0},{0.0400802,0}}" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CharacterUI/ClssLvText" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.883382,0},{0,0},{1,0},{0.0400802,0}}" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+        </Window>
+    </Window>
+</GUILayout>

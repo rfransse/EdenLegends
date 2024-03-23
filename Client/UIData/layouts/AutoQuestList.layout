@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MissionList" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{-0.00319044,0},{-0.107728,0},{-0.00319044,380},{-0.107728,338}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/MissionList/AchiPanel" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.994475,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/MissionList/AchiPanel/ContentBar" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0140845,0},{0.0777778,0},{0.982394,0},{0.988889,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/MissionList/AchiPanel/ContentBar/ScrollPane" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022727,0},{0.029412,0},{0.980113,0},{0.955883,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/MissionList/AchiPanel/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="未接任務清單(主線)" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031169,0},{0.015831,0},{0.501368,0},{0.0695223,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/MissionList/AchiPanel/LevelFilter" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="HoverTextColour" Value="AAFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="Text" Value="等級篩選" />
+                <Property Name="UnifiedAreaRect" Value="{{0.623626,0},{0.0167785,0},{0.895604,0},{0.0704698,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

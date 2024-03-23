@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MonsterInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.200521,0},{0.200195,314},{0.200521,420}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/MonsterInfo/tab" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/MonsterInfo/tab/TreasureInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="特殊掉寶" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/MonsterInfo/tab/TreasureInfo/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013986,0},{0.012195,0},{0.98714,0},{0.984571,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MonsterInfo/tab/TreasureInfo/static/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="裝備品質將會隨機決定" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041379,0},{0.034188,0},{0.617241,0},{0.0854701,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MonsterInfo/tab/TreasureInfo/static/HelpBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.896552,0},{0.034188,0},{0.958621,0},{0.0854701,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/MonsterInfo/tab/TreasureInfo/static/Border" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.041379,0},{0.119658,0},{0.95862,0},{0.863976,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/MonsterInfo/tab/TreasureInfo/static/Border/ScrollPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0181156,0},{0.0187892,0},{0.976853,0},{0.983273,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/MonsterInfo/tab/TreasureInfo/static/CloseBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="關閉" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.648276,0},{0.897727,0},{0.958621,0},{0.965909,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/MonsterInfo/tab/SkillInfo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="使用技能" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/MonsterInfo/tab/SkillInfo/Static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013986,0},{0.012195,0},{0.98714,0},{0.984571,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="Root/MonsterInfo/tab/SkillInfo/Static/HelpBtn" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.896552,0},{0.034091,0},{0.958621,0},{0.0852274,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/MonsterInfo/tab/SkillInfo/Static/Border" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.041379,0},{0.119318,0},{0.95862,0},{0.863636,0}}" />
+                        <Window Type="DejaVu/ScrollablePane" Name="Root/MonsterInfo/tab/SkillInfo/Static/Border/ScrollPane" >
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="HorzOverlapSize" Value="0.01" />
+                            <Property Name="HorzScrollPosition" Value="0" />
+                            <Property Name="HorzStepSize" Value="0.1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.018797,0},{0.019084,0},{0.977444,0},{0.984733,0}}" />
+                            <Property Name="VertOverlapSize" Value="0.01" />
+                            <Property Name="VertScrollPosition" Value="0" />
+                            <Property Name="VertStepSize" Value="0.1" />
+                            <AutoWindow NameSuffix="__auto_container__" >
+                                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="MouseInputPropagationEnabled" Value="True" />
+                            </AutoWindow>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/MonsterInfo/tab/SkillInfo/Static/CloseBtn" >
+                        <Property Name="Text" Value="關閉" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.648276,0},{0.897727,0},{0.958621,0},{0.965909,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

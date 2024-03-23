@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Reputation" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,312},{0,20}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Reputation/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.224359,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/Reputation/Type" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.224359,0},{0,0},{0.705128,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/Reputation/Point" >
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" >TEST
+</Property>
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.711538,0},{0,0},{0.967949,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

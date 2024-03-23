@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/QuestTraceWnd" >
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.331115,0},{0,300},{0.331115,400}}" />
+        <Window Type="DejaVu/channelImage" Name="Root/QuestTraceWnd/backgrand" >
+            <Property Name="Alpha" Value="0.5" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/ScrollablePane" Name="Root/QuestTraceWnd/Panel" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.05,0},{0,298},{0.05,379}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+            </AutoWindow>
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/QuestTraceWnd/AutoTransport" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0118601,0},{0.0690516,0},{0.0118601,152},{0.0690516,21}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/QuestTraceWnd/backgrand/HelpText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,-22},{0,0},{0,250},{0,24}}" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/QuestTraceWnd/checkBG" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.495,0},{0.0673853,0},{0.51,145},{0.07,21}}" />
+        </Window>
+        <Window Type="DejaVu/ScrollablePane" Name="Root/QuestTraceWnd/RecommendActivitiesPanel" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00177462,0},{0.0521459,0},{0.000887311,299},{0.051073,380}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+            </AutoWindow>
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/QuestTraceWnd/ShowMission" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="String任務追蹤" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.125,0},{0.0166667,120},{0.125,24}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/QuestTraceWnd/ShowRecommend" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="String推薦任務追蹤" />
+            <Property Name="UnifiedAreaRect" Value="{{0.433333,0},{0.125,0},{0.433333,120},{0.125,24}}" />
+        </Window>
+        <Window Type="DejaVu/HintImage" Name="Root/QuestTraceWnd/ShowMissionBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0166667,0},{0.125,0},{0.0166667,120},{0.125,24}}" />
+        </Window>
+        <Window Type="DejaVu/HintImage" Name="Root/QuestTraceWnd/ShowRecommendBG" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.433333,0},{0.125,0},{0.433333,120},{0.125,24}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/QuestTraceWnd/SizeBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="DisabledImage" Value="set:DejaVu image:CreateZoomInNor" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="HoverImage" Value="set:DejaVu image:CreateZoomInHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:CreateZoomInNor" />
+            <Property Name="PushedImage" Value="set:DejaVu image:CreateZoomInPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,22},{0,22}}" />
+        </Window>
+    </Window>
+</GUILayout>

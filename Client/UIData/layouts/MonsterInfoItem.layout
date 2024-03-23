@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="PrestigeItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,801},{0,590}}" />
+        <Window Type="DejaVu/Static" Name="PrestigeItem/Item" >
+            <Property Name="UnifiedAreaRect" Value="{{0.095469,0},{0.117949,0},{0.095469,239},{0.117949,46}}" />
+            <Window Type="DejaVu/SlotImage" Name="PrestigeItem/Item/SlotImage" >
+                <Property Name="ID" Value="1" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0218978,0},{0.130435,0},{0.0218978,34},{0.130435,34}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="PrestigeItem/Item/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.185361,0},{0.130435,0},{0.185361,177},{0.130435,34}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageCheckbox" Name="PrestigeItem/Column" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="UnifiedAreaRect" Value="{{0.101124,0},{0.0232945,0},{0.101124,200},{0.0232945,18}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CNLootRuleWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.108478,0},{0.128527,0},{0.108478,384},{0.128527,308}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/CNLootRuleWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CNLootRuleWnd/LootText1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="string隊伍目的" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0326087,0},{0.444444,0},{0.241848,0},{0.496296,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CNLootRuleWnd/Static/CheckBoxR" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Selected" Value="True" />
+                <Property Name="Text" Value="string登錄到組隊清單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0434783,0},{0.77037,0},{0.451087,0},{0.837037,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CNLootRuleWnd/Static/CheckBoxS" >
+                <Property Name="Selected" Value="True" />
+                <Property Name="Text" Value="string他人加入時進行確認" />
+                <Property Name="UnifiedAreaRect" Value="{{0.451087,0},{0.77037,0},{0.836957,0},{0.837037,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/CNLootRuleWnd/Static/PurposeTextLab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="220" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.021739,0},{0.503704,0},{0.978261,0},{0.740741,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/CNLootRuleWnd/Frame" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.016304,0},{0.088889,0},{0.423913,0},{0.4,0}}" />
+            <Window Type="DejaVu/RadioButton" Name="Root/CNLootRuleWnd/RandRadioBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="GroupID" Value="1" />
+                <Property Name="Text" Value="string隨機制" />
+                <Property Name="UnifiedAreaRect" Value="{{0.065574,0},{0.404762,0},{0.930439,0},{0.595238,0}}" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/CNLootRuleWnd/FreeRadioBtn" >
+                <Property Name="GroupID" Value="1" />
+                <Property Name="Text" Value="string自由制" />
+                <Property Name="UnifiedAreaRect" Value="{{0.067568,0},{0.142857,0},{0.932433,0},{0.333333,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CNLootRuleWnd/AcceptBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.404891,0},{0.888889,0},{0.595109,0},{0.977778,0}}" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/CNLootRuleWnd/DuplicateGB" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.440217,0},{0.088889,0},{0.983695,0},{0.4,0}}" />
+            <Window Type="DejaVu/RadioButton" Name="Root/CNLootRuleWnd/DuplicateGB/GreenBtn" >
+                <Property Name="GroupID" Value="2" />
+                <Property Name="Text" Value="string綠色品質以上的裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.065574,0},{0.404762,0},{0.930439,0},{0.595238,0}}" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/CNLootRuleWnd/DuplicateGB/WhiteBtn" >
+                <Property Name="GroupID" Value="2" />
+                <Property Name="Text" Value="string白色品質以上的裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.065574,0},{0.142857,0},{0.930439,0},{0.333333,0}}" />
+            </Window>
+            <Window Type="DejaVu/RadioButton" Name="Root/CNLootRuleWnd/DuplicateGB/BlueBtn" >
+                <Property Name="GroupID" Value="2" />
+                <Property Name="Text" Value="string藍色品質以上的裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.065574,0},{0.666667,0},{0.930439,0},{0.857143,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CNLootRuleWnd/LootText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="string一般場景分配" />
+            <Property Name="UnifiedAreaRect" Value="{{0.032609,0},{0.02069,0},{0.241848,0},{0.0725418,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CNLootRuleWnd/RollText1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="string副本擲骰" />
+            <Property Name="UnifiedAreaRect" Value="{{0.461957,0},{0.02069,0},{0.788044,0},{0.0725418,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

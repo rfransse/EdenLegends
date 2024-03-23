@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ShaderEditor" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,416},{0,440}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ShaderEditor/ShaderText" >
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,8},{0,72},{0,36}}" />
+        </Window>
+        <Window Type="DejaVu/Combobox" Name="Root/ShaderEditor/Shader" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,72},{0,8},{0,392},{0,136}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ShaderEditor/InputText" >
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,40},{0,72},{0,68}}" />
+        </Window>
+        <Window Type="DejaVu/Combobox" Name="Root/ShaderEditor/Input" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,72},{0,40},{0,392},{0,168}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ShaderEditor/OutputText" >
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,72},{0,72},{0,100}}" />
+        </Window>
+        <Window Type="DejaVu/Combobox" Name="Root/ShaderEditor/Output" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,72},{0,72},{0,392},{0,200}}" />
+        </Window>
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/ShaderEditor/Code" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="Text" >
+</Property>
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,104},{0,392},{0,392}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Wedding" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0946981,0},{0.127054,0},{0.0946981,513},{0.127054,357}}" />
+        <Window Type="DejaVu/Static" Name="Wedding/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.996416,0}}" />
+            <Window Type="DejaVu/Border" Name="Wedding/BackGround/Border01" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00805288,0},{0.0913738,0},{0.988823,0},{0.990654,0}}" />
+                <Window Type="DejaVu/Button" Name="Wedding/BackGround/Border01/Btn1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.580392,0},{0.917209,0},{0.753922,0},{0.994964,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Wedding/BackGround/Border01/Btn2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.776164,0},{0.916971,0},{0.949694,0},{0.994726,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiColumnList" Name="Wedding/BackGround/Border01/MethodList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0234887,0},{-0.00327844,0},{0.989338,0},{0.862851,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Wedding/BackGround/FunctionText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="婚禮教堂排程" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0128205,0},{0.028777,0},{0.333333,0},{0.0755396,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Wedding/BackGround/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.952543,0},{0.0215827,0},{0.990385,0},{0.0719424,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TerritoryRankWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,738},{0,490}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/TerritoryRankWnd/Border" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00555556,0},{0.00865801,0},{0.994444,0},{0.991342,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryRankWnd/Border/MapNameLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016438,0},{0.03112,0},{0.235616,0},{0.0684644,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/TerritoryRankWnd/Border/BackgroundImg" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:WorldMap image:Background" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016438,0},{0.099585,0},{0.59452,0},{0.975104,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.699052,0},{0.270142,0},{0.765403,0},{0.341232,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.758174,0},{0.110793,0},{0.824524,0},{0.181883,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.814363,0},{0.180483,0},{0.880714,0},{0.251573,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn4" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.718009,0},{0.165877,0},{0.78436,0},{0.236967,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn5" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.641056,0},{0.117976,0},{0.707406,0},{0.189066,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn6" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.553739,0},{0.171182,0},{0.62009,0},{0.242273,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn7" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.481043,0},{0.21327,0},{0.547393,0},{0.28436,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn8" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.401438,0},{0.134564,0},{0.467789,0},{0.205654,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn9" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="9" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.393365,0},{0.28673,0},{0.459716,0},{0.35782,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn10" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="10" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.525866,0},{0.335733,0},{0.592216,0},{0.406823,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn11" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="11" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.611374,0},{0.419431,0},{0.677725,0},{0.490521,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn12" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="12" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.376777,0},{0.386256,0},{0.443128,0},{0.457346,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn13" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="13" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.258294,0},{0.405213,0},{0.324645,0},{0.476303,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn14" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="14" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.448228,0},{0.462369,0},{0.514579,0},{0.533459,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn15" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.438389,0},{0.545024,0},{0.504739,0},{0.616114,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn16" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="16" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.835445,0},{0.399176,0},{0.901796,0},{0.470266,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn22" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="22" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.238405,0},{0.304582,0},{0.304756,0},{0.375672,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn23" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="23" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.109475,0},{0.36032,0},{0.175826,0},{0.43141,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/TerritoryRankWnd/Border/BackgroundImg/mapBtn24" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity image:CityNormal" />
+                    <Property Name="PushedImage" Value="set:worldmapcity image:CityHover" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.159475,0},{0.251955,0},{0.225826,0},{0.323045,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/TerritoryRankWnd/Border/BillBoard" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.609589,0},{0.099585,0},{0.982192,0},{0.975104,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/TerritoryRankWnd/Border/BillBoard/ListPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022059,0},{0.066351,0},{0.977941,0},{0.985782,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+                <Window Type="DejaVu/TextSmoothLab" Name="Root/TerritoryRankWnd/Border/BillBoard/Title" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.017395,0},{0.010804,0},{0.976954,0},{0.053458,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/TerritoryRankWnd/Border/BillBoard/Title2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.625,0},{0.0118483,0},{0.966912,0},{0.049763,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/TerritoryRankWnd/Border/TimeTableBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.860274,0},{0.024896,0},{0.983562,0},{0.0746885,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

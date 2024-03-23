@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BaListUIFWindow" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.339258,0},{0.133842,0},{0.676563,0},{0.755598,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/ReadTitleStT" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.66,0},{0.95,0},{0.71,0}}" />
+        </Window>
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/BaListUIFWindow/ReadMLEditBox" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" >
+</Property>
+            <Property Name="MaxTextLength" Value="1073741823" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.718414,0},{0.95,0},{0.96099,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/PageNumStT" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.361291,0},{0.61,0},{0.540236,0},{0.65,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/PageDownBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.569798,0},{0.61,0},{0.634502,0},{0.65,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/PageUpBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.268699,0},{0.61,0},{0.333402,0},{0.65,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/LeaveBtn" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="離開戰場" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.72,0},{0.61,0},{0.95,0},{0.65,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/BaListUIFWindow/WarPlaneStatic" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.069737,0},{0.95,0},{0.60004,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0,0},{0.99,0},{0.2,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT1/WarImg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.2,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT1/WarNameStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.05,0},{0.65,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT1/WarStateStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.5,0},{0.65,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT1/WarPeopleStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.05,0},{0.95,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT1/WarJoinBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.2,0},{0.99,0},{0.4,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT2/WarImg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.2,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT2/WarNameStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.05,0},{0.65,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT2/WarStateStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.5,0},{0.65,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT2/WarPeopleStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.05,0},{0.95,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT2/WarJoinBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.4,0},{0.99,0},{0.6,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT3/WarImg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.2,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT3/WarNameStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.05,0},{0.65,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT3/WarStateStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.5,0},{0.65,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT3/WarPeopleStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.05,0},{0.95,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT3/WarJoinBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.6,0},{0.99,0},{0.8,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT4/WarImg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.2,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT4/WarNameStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.05,0},{0.65,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT4/WarStateStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.5,0},{0.65,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT4/WarPeopleStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.05,0},{0.95,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT4/WarJoinBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.8,0},{0.99,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT5/WarImg" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.05,0},{0.2,0},{0.9,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT5/WarNameStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.05,0},{0.65,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT5/WarStateStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.21,0},{0.5,0},{0.65,0},{0.95,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT5/WarPeopleStT" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.05,0},{0.95,0},{0.5,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/BaListUIFWindow/WarPlaneStatic/WarSelectStT5/WarJoinBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.66,0},{0.55,0},{0.95,0},{0.9,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

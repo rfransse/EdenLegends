@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ArenaDuel" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.192383,0},{0.208333,0},{0.192383,408},{0.208333,403}}" />
+        <Window Type="DejaVu/Static" Name="Root/ArenaDuel/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/ArenaDuel/BackGround/BorderL" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0306122,0},{0.30137,0},{0.484694,0},{0.967123,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderL/JobSlotL1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.0288066,0},{0.241573,0},{0.168724,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.0205761,0},{0.949438,0},{0.185185,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL1/CharIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL1/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL1/ClassIcon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL1/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL1/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderL/JobSlotL2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.226337,0},{0.241573,0},{0.366255,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderL/JobSlotL3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.427984,0},{0.241573,0},{0.567901,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.218107,0},{0.949438,0},{0.382716,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL2/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL2/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL2/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL2/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL2/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.419753,0},{0.949438,0},{0.584362,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL3/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL3/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL3/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL3/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL3/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointL1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.148148,0},{0.679775,0},{0.185185,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointTextL1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.139918,0},{0.949438,0},{0.193416,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointL2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.341564,0},{0.679775,0},{0.378601,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointTextL2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.333333,0},{0.949438,0},{0.386831,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointL3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0842697,0},{0.530864,0},{0.696629,0},{0.567901,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointTextL3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.526749,0},{0.949438,0},{0.580247,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.617284,0},{0.949438,0},{0.781893,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL4/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL4/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL4/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL4/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL4/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderL/JobSlotL4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.625514,0},{0.241573,0},{0.765432,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointL4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0842697,0},{0.716049,0},{0.696629,0},{0.753086,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointTextL4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.716049,0},{0.949438,0},{0.769547,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.814815,0},{0.949438,0},{0.979424,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL5/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL5/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL5/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL5/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderL/MemberInfoL5/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderL/JobSlotL5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.823045,0},{0.241573,0},{0.958848,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointL5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0842697,0},{0.930041,0},{0.696629,0},{0.967078,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderL/TeamPointTextL5" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.921811,0},{0.949438,0},{0.975309,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ArenaDuel/BackGround/BorderR" >
+                <Property Name="UnifiedAreaRect" Value="{{0.515306,0},{0.30137,0},{0.969388,0},{0.967123,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderR/JobSlotL1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.0288066,0},{0.241573,0},{0.168724,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.0205761,0},{0.949438,0},{0.185185,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL1/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL1/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL1/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL1/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL1/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderR/JobSlotL2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.222222,0},{0.241573,0},{0.36214,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderR/JobSlotL3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.419753,0},{0.241573,0},{0.559671,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.213992,0},{0.949438,0},{0.378601,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL2/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL2/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL2/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL2/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL2/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.411523,0},{0.949438,0},{0.576132,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL3/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL3/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL3/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL3/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL3/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointL2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.341564,0},{0.679775,0},{0.378601,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointTextL2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.333333,0},{0.949438,0},{0.386831,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointL1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.148148,0},{0.679775,0},{0.185185,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointTextL1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.139918,0},{0.949438,0},{0.193416,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointL3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.530864,0},{0.679775,0},{0.567901,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointTextL3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.522634,0},{0.949438,0},{0.576132,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.617284,0},{0.949438,0},{0.781893,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL4/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL4/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL4/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL4/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL4/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderR/JobSlotL4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.625514,0},{0.241573,0},{0.765432,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointL4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.740741,0},{0.679775,0},{0.777778,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointTextL4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.73251,0},{0.949438,0},{0.786008,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:MiniinfoBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.275281,0},{0.814815,0},{0.949438,0},{0.979424,0}}" />
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL5/CharIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.016667,0},{0.05,0},{0.25,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL5/LVText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.266667,0},{0.05,0},{0.466667,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL5/ClassIcon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.483333,0},{0.05,0},{0.716666,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/TextSmoothLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL5/JobLvText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.733333,0},{0.05,0},{0.933333,0},{0.45,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaDuel/BackGround/BorderR/MemberInfoL5/NameText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.575,0},{0.95,0},{0.925,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/ArenaDuel/BackGround/BorderR/JobSlotL5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0505618,0},{0.823045,0},{0.241573,0},{0.962963,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointTextL5" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.921811,0},{0.949438,0},{0.975309,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaDuel/BackGround/BorderR/TeamPointL5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0674157,0},{0.930041,0},{0.679775,0},{0.967078,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/ArenaDuel/BackGround/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.923469,0},{0.0328767,0},{0.969388,0},{0.0821918,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/ArenaDuel/BackGround/Round" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="ROUND 4" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.379679,0},{0.0328767,0},{0.620321,0},{0.0986301,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ArenaDuel/BackGround/BorderMid" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0382653,0},{0.131507,0},{0.961735,0},{0.268493,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/VSImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaVS" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.39779,0},{0.12,0},{0.60221,0},{0.92,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightL11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOff" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0331492,0},{0.12,0},{0.138122,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightL1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOn" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0331492,0},{0.12,0},{0.138122,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightL2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOn" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.154696,0},{0.12,0},{0.259669,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightL3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOn" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.276243,0},{0.12,0},{0.381215,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightR3" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOn" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.618785,0},{0.12,0},{0.723757,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightR2" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOn" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.740331,0},{0.12,0},{0.845304,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightR1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOn" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.861878,0},{0.12,0},{0.966851,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightL12" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOff" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.154696,0},{0.12,0},{0.259669,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightL13" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOff" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.276243,0},{0.12,0},{0.381215,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightR11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOff" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.861878,0},{0.12,0},{0.966851,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightR12" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOff" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.740331,0},{0.12,0},{0.845304,0},{0.88,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaDuel/BackGround/LightR13" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:ArenaLightOff" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.618785,0},{0.12,0},{0.723757,0},{0.88,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

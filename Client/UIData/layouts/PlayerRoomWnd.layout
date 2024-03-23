@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PlayerRoomWnd" >
+        <Property Name="Font" Value="F001-scale" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.09,0},{0.0516667,0},{0.09,375},{0.0516667,350}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/PlayerRoomWnd/TabControl" >
+            <Property Name="Font" Value="F001-scale" />
+            <Property Name="TabHeight" Value="{0,20}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/PlayerRoomWnd/TabControl/ItemTab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="個人房間" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00266668,0},{-0.00285715,0},{0.997333,0},{0.997143,0}}" />
+                <Window Type="DejaVu/Border" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder01" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0586592,0},{0.0412371,0},{0.787709,0},{0.254296,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder01/ItemSlot01" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0496183,0},{0.209677,0},{0.179389,0},{0.758065,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder01/ItemSlot02" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.248092,0},{0.209677,0},{0.377863,0},{0.758065,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder01/ItemSlot03" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.466574,0},{0.209677,0},{0.596843,0},{0.758064,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder01/ItemSlot04" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.668449,0},{0.225806,0},{0.798718,0},{0.774194,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder02" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0646656,0},{0.298571,0},{0.792017,0},{0.511429,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder02/ItemSlot01" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0498084,0},{0.209677,0},{0.180077,0},{0.758065,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder02/ItemSlot02" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.265028,0},{0.220394,0},{0.395296,0},{0.768781,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder02/ItemSlot03" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.466574,0},{0.2231,0},{0.596842,0},{0.771487,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder02/ItemSlot04" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.672116,0},{0.225806,0},{0.802384,0},{0.774193,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder03" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0673322,0},{0.558572,0},{0.794684,0},{0.771429,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder03/ItemSlot01" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0498084,0},{0.209677,0},{0.180077,0},{0.758065,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder03/ItemSlot02" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.265028,0},{0.220394,0},{0.395296,0},{0.768781,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder03/ItemSlot03" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.466574,0},{0.2231,0},{0.596843,0},{0.771487,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PlayerRoomWnd/TabControl/ItemTab/ItemBorder03/ItemSlot04" >
+                        <Property Name="Font" Value="F001-scale" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.675782,0},{0.225806,0},{0.806051,0},{0.774194,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

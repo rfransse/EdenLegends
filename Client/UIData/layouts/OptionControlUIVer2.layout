@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/OpControl/OptionControlUI" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.360352,0},{0.188802,0},{0.360352,344},{0.188802,594}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/OpControl/OptionControlUI/TabCtrl" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="TabHeight" Value="{0,23.0149}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/OpControl/OptionControlUI/TabVideo" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015748,0},{0.0102568,0},{0.984252,0},{0.989781,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/OpControl/OptionControlUI/TabVideo/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/QuickSetText" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.022989,0},{0.289308,0},{0.0574718,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/OQ" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Text" Value="最佳化" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.022989,0},{0.289308,0},{0.0574718,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/OpControl/OptionControlUI/TabVideo/NormalBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="普通" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.339623,0},{0.017241,0},{0.534592,0},{0.063218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/OpControl/OptionControlUI/TabVideo/GoodBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="良好" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.553459,0},{0.017241,0},{0.748428,0},{0.063218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/OpControl/OptionControlUI/TabVideo/PerfactBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="細緻" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.767296,0},{0.017241,0},{0.962265,0},{0.063218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Listbox" Name="Root/OpControl/OptionControlUI/TabVideo/List" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.08046,0},{0.962264,0},{0.908046,0}}" />
+                        <Property Name="UnifiedMaxSize" Value="{{0,800},{0,600}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,224},{0,282}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextDpi" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="解析度" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.027778,0},{0.306122,0},{0.0833336,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextCharacterView" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="人物顯示" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.152778,0},{0.306122,0},{0.194445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/CharScroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.155093,0},{0.959184,0},{0.19213,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextSceneView" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="場景視距" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.208333,0},{0.306122,0},{0.25,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/SceneScroll" >
+                            <Property Name="DocumentSize" Value="5" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.210648,0},{0.959184,0},{0.247685,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextEffNum" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="特效人數" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.263889,0},{0.306122,0},{0.305556,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/EffectScroll" >
+                            <Property Name="DocumentSize" Value="25" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.266204,0},{0.959184,0},{0.303241,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextShadowQuality" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="陰影品質" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.319444,0},{0.306122,0},{0.361111,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/ShadowScroll" >
+                            <Property Name="DocumentSize" Value="0" />
+                            <Property Name="ID" Value="3" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.321759,0},{0.959184,0},{0.358796,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextCharacterTex" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="角色材質" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.375,0},{0.306122,0},{0.416667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/CharacterTexNormal" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="4" />
+                            <Property Name="Text" Value="普通" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.375,0},{0.561225,0},{0.416667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/CharacterTexGood" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="4" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="Text" Value="細緻" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.55102,0},{0.375,0},{0.765306,0},{0.416667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextSceneTex" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="場景材質" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.430556,0},{0.306122,0},{0.472223,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/SceneTexNormal" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.430556,0},{0.561225,0},{0.472223,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/SceneTexGood" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="5" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.55102,0},{0.430556,0},{0.765306,0},{0.472223,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextPostprocess" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="畫面效果" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.803512,0},{0.306122,0},{0.845179,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/BWEffectCBX" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.803512,0},{0.653061,0},{0.845179,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/PictureCBX" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.653061,0},{0.803512,0},{0.959183,0},{0.845179,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/SceneDepthCBX" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.845859,0},{0.653061,0},{0.887526,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextBloomShader" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="泛光效果" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.486111,0},{0.306122,0},{0.527778,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/LightEfNoneRdBtn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="7" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.486111,0},{0.561225,0},{0.527778,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/LigLightEfNormalRdBtn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="7" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.55102,0},{0.486111,0},{0.765306,0},{0.527778,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/LightEfMaxRdBtn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="7" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0.486111,0},{0.969388,0},{0.527778,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextForegroundFps" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="前景張數" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.541667,0},{0.306122,0},{0.583334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextModelEdge" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="模型邊框" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.648148,0},{0.306122,0},{0.689815,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/ModelEdgeBtnClose" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.648148,0},{0.561224,0},{0.689815,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/ModelEdgeBtnCharacter" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="9" />
+                            <Property Name="ID" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.55102,0},{0.648148,0},{0.765306,0},{0.689815,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/ModelEdgeBtnAll" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="9" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0.648148,0},{0.969388,0},{0.689815,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Combobox" Name="Root/OpControl/OptionControlUI/TabVideo/List/ResCB" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MaxEditTextLength" Value="1073741823" />
+                            <Property Name="Text" Value="視窗模式" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.311787,0},{0.0163934,0},{0.969582,0},{0.387978,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/SceneTexPerfect" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="GroupID" Value="5" />
+                            <Property Name="ID" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.755102,0},{0.430556,0},{0.969388,0},{0.472223,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/GodRayCBX" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ID" Value="3" />
+                            <Property Name="Text" Value="眩光" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.653061,0},{0.845859,0},{0.959183,0},{0.887526,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextWeedRange" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="地面雜物" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.701389,0},{0.306122,0},{0.743056,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/WeedRangeScroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ID" Value="10" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.701389,0},{0.959184,0},{0.743056,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/AAText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="反鋸齒" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00760456,0},{0.0928962,0},{0.311787,0},{0.144809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/AA1x" >
+                            <Property Name="Text" Value="關閉" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319392,0},{0.0928962,0},{0.532319,0},{0.144809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/AA2x" >
+                            <Property Name="Text" Value="二倍" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.543726,0},{0.0928962,0},{0.756654,0},{0.144809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabVideo/List/AA4x" >
+                            <Property Name="Text" Value="四倍" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.756654,0},{0.0928962,0},{0.969582,0},{0.144809,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/SSAOCBX" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ID" Value="4" />
+                            <Property Name="Text" Value="一二三四五" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.653061,0},{0.888208,0},{0.959183,0},{0.929875,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/WaterEffect" >
+                            <Property Name="ID" Value="5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.888208,0},{0.653061,0},{0.929875,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/ForegroundFpsScroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="ID" Value="8" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.543981,0},{0.959184,0},{0.581019,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextBackgroundFps" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="背景張數" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.597222,0},{0.306122,0},{0.638889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/BackgroundFpsScroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="ID" Value="14" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.599537,0},{0.959184,0},{0.636574,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabVideo/List/BackLightEffect" >
+                            <Property Name="ID" Value="6" />
+                            <Property Name="Text" Value="背光效果" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.930556,0},{0.653061,0},{0.972222,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabVideo/List/TextGamma" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="伽瑪校正" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.756944,0},{0.306122,0},{0.798611,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabVideo/List/GammaScroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="ID" Value="15" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.346939,0},{0.756944,0},{0.959184,0},{0.798611,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/OpControl/OptionControlUI/TabAudio" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015748,0},{0.0102568,0},{0.984252,0},{0.989781,0}}" />                
+                <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabAudio/SoundMuteCBX" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="全部靜音" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.022989,0},{0.289308,0},{0.0574718,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OpControl/OptionControlUI/TabAudio/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="RiseOnClick" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/Listbox" Name="Root/OpControl/OptionControlUI/TabAudio/List" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.08046,0},{0.962264,0},{0.908046,0}}" />
+                    <Property Name="UnifiedMaxSize" Value="{{0,800},{0,600}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,224},{0,282}}" />                    
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabAudio/List/TextBgmVol" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="音樂音量" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.041667,0},{1,0},{0.0833337,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabAudio/List/TextSfxVol" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="音效音量" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.152778,0},{1,0},{0.194445,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabAudio/List/BGMScroll" >
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="StepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.097222,0},{0.959183,0},{0.138889,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabAudio/List/SoundScroll" >
+                        <Property Name="DocumentSize" Value="1" />
+                        <Property Name="OverlapSize" Value="0" />
+                        <Property Name="PageSize" Value="0" />
+                        <Property Name="ScrollPosition" Value="0" />
+                        <Property Name="StepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.208333,0},{0.959183,0},{0.25,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/OpControl/OptionControlUI/TabSetting" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0152439,0},{0.00938112,0},{0.984756,0},{0.988771,0}}" />                
+                <Window Type="DejaVu/Static" Name="Root/OpControl/OptionControlUI/TabSetting/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Listbox" Name="Root/OpControl/OptionControlUI/TabSetting/List" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.08046,0},{0.962264,0},{0.908046,0}}" />
+                        <Property Name="UnifiedMaxSize" Value="{{0,800},{0,600}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,224},{0,282}}" />                        
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabSetting/List/TextMouseSpeed" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="滑鼠速度" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.041667,0},{1,0},{0.0833337,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabSetting/List/MouseSpeedScroll" >
+                            <Property Name="DocumentSize" Value="0" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="Text" Value="滑鼠速度bar" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.097222,0},{0.959183,0},{0.138889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NameCBX" >
+                            <Property Name="Text" Value="0" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.152778,0},{0.479592,0},{0.194445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/GroupCBX" >
+                            <Property Name="ID" Value="1" />
+                            <Property Name="Text" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.208333,0},{0.479592,0},{0.25,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/ElfCBX" >
+                            <Property Name="ID" Value="2" />
+                            <Property Name="Text" Value="2" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.263889,0},{0.479592,0},{0.305556,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/MsgCBX" >
+                            <Property Name="ID" Value="3" />
+                            <Property Name="Text" Value="3" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.319444,0},{0.479592,0},{0.361111,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/LifeBarCBX" >
+                            <Property Name="ID" Value="4" />
+                            <Property Name="Text" Value="4" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.375,0},{0.479592,0},{0.416667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/DamageCBX" >
+                            <Property Name="ID" Value="5" />
+                            <Property Name="Text" Value="5" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.430556,0},{0.479592,0},{0.472223,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/MagicSelfCBX" >
+                            <Property Name="ID" Value="6" />
+                            <Property Name="Text" Value="6" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.486111,0},{0.479592,0},{0.527778,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NPCNameCBX" >
+                            <Property Name="ID" Value="7" />
+                            <Property Name="Text" Value="7" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.541667,0},{0.479592,0},{0.583334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/ReverseCBX" >
+                            <Property Name="ID" Value="8" />
+                            <Property Name="Text" Value="8" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.152778,0},{0.959184,0},{0.194445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/Emblem" >
+                            <Property Name="ID" Value="9" />
+                            <Property Name="Text" Value="9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.208333,0},{0.959184,0},{0.25,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NoTradeCBX" >
+                            <Property Name="ID" Value="10" />
+                            <Property Name="Text" Value="10" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.263889,0},{0.959184,0},{0.305556,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NoFightCBX" >
+                            <Property Name="ID" Value="11" />
+                            <Property Name="Text" Value="11" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.319444,0},{0.959184,0},{0.361111,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NoTeamCBX" >
+                            <Property Name="ID" Value="12" />
+                            <Property Name="Text" Value="12" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.375,0},{0.959184,0},{0.416667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NoSearchCBX" >
+                            <Property Name="ID" Value="13" />
+                            <Property Name="Text" Value="13" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.430556,0},{0.959184,0},{0.472223,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/CriticalShake" >
+                            <Property Name="ID" Value="14" />
+                            <Property Name="Text" Value="14" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.597222,0},{0.479592,0},{0.638889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/camaraRotationCBX" >
+                            <Property Name="ID" Value="15" />
+                            <Property Name="Text" Value="15" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.597222,0},{0.959184,0},{0.638889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/autoResttackCBX" >
+                            <Property Name="ID" Value="16" />
+                            <Property Name="Text" Value="16" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.708333,0},{0.479592,0},{0.75,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/CheckBox17" >
+                            <Property Name="ID" Value="17" />
+                            <Property Name="Text" Value="17(RejectCoRide)" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.763889,0},{0.479592,0},{0.805556,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/NotificheckBox" >
+                            <Property Name="ID" Value="18" />
+                            <Property Name="Text" Value="18 Notificheck" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.486111,0},{0.959184,0},{0.527778,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/UIeffect" >
+                            <Property Name="ID" Value="19" />
+                            <Property Name="Text" Value="19 UIeffect" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.541667,0},{0.959184,0},{0.583334,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/DpsCBX" >
+                            <Property Name="ID" Value="20" />
+                            <Property Name="Text" Value="20" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.652778,0},{0.959184,0},{0.694445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/EventBossCBX" >
+                            <Property Name="ID" Value="21" />
+                            <Property Name="Text" Value="21" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.708333,0},{0.959184,0},{0.75,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/Shock" >
+                            <Property Name="ID" Value="22" />
+                            <Property Name="Text" Value="22" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.652778,0},{0.479592,0},{0.694444,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/TerritoryModelCBX" >
+                            <Property Name="ID" Value="23" />
+                            <Property Name="Text" Value="23" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.763889,0},{0.959184,0},{0.805556,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/ClickToMove" >
+                            <Property Name="ID" Value="24" />
+                            <Property Name="Text" Value="24 ClickToMove" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.819444,0},{0.479592,0},{0.861111,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/OnlyFriendMail" >
+                            <Property Name="ID" Value="25" />
+                            <Property Name="Text" Value="25 OnlyFriendMail" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.819444,0},{0.479592,0},{0.861111,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/LeftBtnTrace" >
+                            <Property Name="ID" Value="26" />
+                            <Property Name="Text" Value="26" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.520408,0},{0.819444,0},{0.959184,0},{0.861111,0}}" />
+                        </Window>
+                      <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabSetting/List/RecommendEquipment" >
+                        <Property Name="ID" Value="27" />
+                        <Property Name="Text" Value="27" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0408163,0},{0.875,0},{0.479592,0},{0.916667,0}}" />
+                      </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/TabContentPane" Name="Root/OpControl/OptionControlUI/TabHotkey" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.997626,0}}" />                
+                <Window Type="DejaVu/MultiColumnList" Name="Root/OpControl/OptionControlUI/TabHotkey/List" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.051829,0},{0.088346,0},{0.94817,0},{0.900376,0}}" />
+                    <Property Name="UnifiedMaxSize" Value="{{0,800},{0,600}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,224},{0,282}}" />
+                    <Property Name="ColumnHeader" Value="text:項目 width:{0.5,0} id:0" />
+                    <Property Name="ColumnHeader" Value="text:快捷鍵 width:{0.5,0} id:1" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabHotkey/Text" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.143293,0},{0.0319549,0},{0.856707,0},{0.0657895,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/OpControl/OptionControlUI/TabHotkey/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015748,0},{0.010309,0},{0.983946,0},{0.99336,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/OpControl/OptionControlUI/TabHotkey/HelpBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.893293,0},{0.0319549,0},{0.948171,0},{0.0657895,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/OpControl/OptionControlUI/TabCtrl/UI" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015748,0},{0.0102568,0},{0.984252,0},{0.989781,0}}" />                
+                <Window Type="DejaVu/Static" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Border" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0377358,0},{0.0804598,0},{0.962264,0},{0.908046,0}}" />
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabAudio/List/scrollsize" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.097222,0},{0.959183,0},{0.138889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border/fontscroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.208333,0},{0.959183,0},{0.25,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border/UIsizeLab" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="調整主畫面UI大小" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.041667,0},{1,0},{0.0833337,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border/fontsizeLab" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="調整字體大小" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.152778,0},{1,0},{0.194445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border/channelLab" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="調整頻道字體大小" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.263889,0},{1,0},{0.305556,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border/channelFontscroll" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.319444,0},{0.959183,0},{0.361111,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Combobox" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/border/changeStyleBox" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MaxEditTextLength" Value="2147483647" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.040816,0},{0.375,0},{0.959183,0},{0.652778,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/static/waringText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.132075,0},{0.022989,0},{0.867924,0},{0.0574718,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/OpControl/OptionControlUI/TabCtrl/UI/HelpBtn" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.90566,0},{0.0229885,0},{0.962264,0},{0.0574713,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015748,0},{0.0102568,0},{0.984252,0},{0.989781,0}}" />                
+                <Window Type="DejaVu/Static" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/static" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Window Type="DejaVu/Border" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.037736,0},{0.08046,0},{0.962264,0},{0.908046,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/UITextureCache" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x介面快取" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.037037,0},{0.312925,0},{0.087963,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/Thread" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x核心數量" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.007634,0},{0.097983,0},{0.312978,0},{0.149856,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/CoreTemp" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x核心溫度" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.157407,0},{0.312925,0},{0.208333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/VideoTemp" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x顯卡溫度" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.217593,0},{0.312925,0},{0.268519,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/BelowLoading" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x背景載入" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.277778,0},{0.312925,0},{0.328704,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/ParticlesInstancing" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x分子複製" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.337963,0},{0.312925,0},{0.388889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/SoftParticles" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x軟式分子" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.398148,0},{0.312925,0},{0.449074,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/UITextureCacheDisable" >
+                            <Property Name="GroupID" Value="100" />
+                            <Property Name="Text" Value="x關閉" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.037037,0},{0.663265,0},{0.0833333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/UITextureCacheEnable" >
+                            <Property Name="GroupID" Value="100" />
+                            <Property Name="Text" Value="x開啟" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.64966,0},{0.037037,0},{0.993197,0},{0.0833333,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/ThreadNumber" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="1" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.320611,0},{0.0979827,0},{0.389313,0},{0.149856,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/ThreadCount" >
+                            <Property Name="DocumentSize" Value="1" />
+                            <Property Name="OverlapSize" Value="0" />
+                            <Property Name="PageSize" Value="0" />
+                            <Property Name="ScrollPosition" Value="0" />
+                            <Property Name="StepSize" Value="1" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.40458,0},{0.0979827,0},{0.977099,0},{0.144092,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/CoreTempCheck" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.157407,0},{0.976191,0},{0.203704,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/VideoTempCheck" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.217593,0},{0.976191,0},{0.263889,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/BelowLoadingDisable" >
+                            <Property Name="GroupID" Value="101" />
+                            <Property Name="Text" Value="x關閉" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.277778,0},{0.64966,0},{0.328704,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/BelowLoadingEnable" >
+                            <Property Name="GroupID" Value="101" />
+                            <Property Name="Text" Value="x開啟" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.64966,0},{0.277778,0},{0.979592,0},{0.324074,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/ParticlesInstancingDisable" >
+                            <Property Name="GroupID" Value="102" />
+                            <Property Name="Text" Value="x關閉" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.337963,0},{0.64966,0},{0.384259,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/ParticlesInstancingEnable" >
+                            <Property Name="GroupID" Value="102" />
+                            <Property Name="Text" Value="x開啟" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.64966,0},{0.337963,0},{0.979592,0},{0.384259,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/SoftParticlesDisable" >
+                            <Property Name="GroupID" Value="103" />
+                            <Property Name="Text" Value="x關閉" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.398148,0},{0.64966,0},{0.444444,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/RadioButton" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/SoftParticlesEnable" >
+                            <Property Name="GroupID" Value="103" />
+                            <Property Name="Text" Value="x開啟" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.64966,0},{0.398148,0},{0.979592,0},{0.444444,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/SysMemText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x系統記憶體" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.00680272,0},{0.458333,0},{0.312925,0},{0.509259,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/SysMem" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.458333,0},{0.931973,0},{0.509259,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/AppMemText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x程式記憶體" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.518519,0},{0.312925,0},{0.569445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/AppMem" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.518519,0},{0.931973,0},{0.569445,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/VidMemText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" Value="x顯示記憶體" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.006803,0},{0.578704,0},{0.312925,0},{0.62963,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/OpControl/OptionControlUI/TabCtrl/Hardware/border/VidMem" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.319728,0},{0.578704,0},{0.931973,0},{0.62963,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/OpControl/OptionControlUI/DefaultValueBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0487805,0},{0.926259,0},{0.323171,0},{0.969424,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/OpControl/OptionControlUI/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.359756,0},{0.926259,0},{0.634146,0},{0.969424,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/OpControl/OptionControlUI/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.670732,0},{0.926259,0},{0.945122,0},{0.969424,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

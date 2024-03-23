@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/QuestExp" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,160},{0,20}}" />
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/QuestExp/Exp" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.4375,0},{0,0},{0.9375,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/QuestExp/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.4375,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

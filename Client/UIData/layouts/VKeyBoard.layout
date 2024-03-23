@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/VKeyBoard" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.571608,0},{0.454701,0},{0.571608,234},{0.454701,182}}" />
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.0361446,0},{0.137615,0},{0.180723,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146789,0},{0.0361446,0},{0.256881,0},{0.180723,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a3" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.266055,0},{0.0361446,0},{0.376147,0},{0.180723,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a4" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.385321,0},{0.0361446,0},{0.495413,0},{0.186747,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a5" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.504587,0},{0.0361446,0},{0.614679,0},{0.180723,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623853,0},{0.0361446,0},{0.733945,0},{0.180723,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.743119,0},{0.0361446,0},{0.743119,24},{0.0361446,24}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n3" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.862385,0},{0.0361446,0},{0.972477,0},{0.180723,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a6" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.192771,0},{0.137615,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a7" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146789,0},{0.192771,0},{0.256881,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a8" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.266055,0},{0.192771,0},{0.376147,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a9" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.385321,0},{0.192771,0},{0.495413,0},{0.343373,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a10" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.504587,0},{0.192771,0},{0.614679,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n4" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623853,0},{0.192771,0},{0.733945,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n5" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.743119,0},{0.192771,0},{0.853211,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n6" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.862385,0},{0.192771,0},{0.972477,0},{0.337349,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a11" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.349398,0},{0.137615,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a12" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146789,0},{0.349398,0},{0.256881,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a13" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.266055,0},{0.349398,0},{0.376147,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a14" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.385321,0},{0.349398,0},{0.495413,0},{0.5,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n7" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623853,0},{0.349398,0},{0.733945,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n8" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.743119,0},{0.349398,0},{0.853211,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a15" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.504587,0},{0.349398,0},{0.614679,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n9" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.862385,0},{0.349398,0},{0.972477,0},{0.493976,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a16" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.506024,0},{0.137615,0},{0.650602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a17" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146789,0},{0.506024,0},{0.256881,0},{0.650602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a18" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.266055,0},{0.506024,0},{0.376147,0},{0.650602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a19" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.385321,0},{0.506024,0},{0.495413,0},{0.656627,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a20" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.504587,0},{0.506024,0},{0.614679,0},{0.650602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/n0" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623853,0},{0.506024,0},{0.733945,0},{0.650602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/back" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.743119,0},{0.506024,0},{0.972477,0},{0.650602,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/clear" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623853,0},{0.662651,0},{0.972477,0},{0.807229,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a21" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.662651,0},{0.137615,0},{0.807229,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a22" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146789,0},{0.662651,0},{0.256881,0},{0.807229,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a23" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.266055,0},{0.662651,0},{0.376147,0},{0.807229,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a24" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.385321,0},{0.662651,0},{0.495413,0},{0.807229,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a25" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.504587,0},{0.662651,0},{0.614679,0},{0.807229,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/ok" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.623853,0},{0.819277,0},{0.972477,0},{0.963855,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/capslock" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.146789,0},{0.819277,0},{0.614679,0},{0.963855,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/VKeyBoard/a26" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0275229,0},{0.819277,0},{0.137615,0},{0.963855,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

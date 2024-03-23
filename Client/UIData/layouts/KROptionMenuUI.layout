@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/System" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,150},{0,210}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/System/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.0246914,0},{0.955224,0},{0.135802,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.44186,0},{0.955224,0},{0.552326,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn5" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.581395,0},{0.955224,0},{0.69186,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn6" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.72093,0},{0.955224,0},{0.831395,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.162791,0},{0.955224,0},{0.273256,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.302326,0},{0.955224,0},{0.412791,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/System/btn7" >
+	    <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0447761,0},{0.860465,0},{0.955224,0},{0.965116,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

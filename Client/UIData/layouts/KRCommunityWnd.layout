@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Community" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.111212,0},{0.062165,0},{0.111212,780},{0.062165,484}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/Community/TabControl" >
+            <Property Name="TabHeight" Value="{0,24.6911}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DefaultWindow" Name="Root/Community/TabControl/FriendTab" >
+                <Property Name="Text" Value="人際關係" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/Community/TabControl/FriendTab/backGround" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.008264,0},{0.009569,0},{0.991735,0},{0.990567,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/Community/TabControl/FriendTab/backGround/FriendList" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="ForceVertScrollbar" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.0634146,0},{0.987395,0},{0.697561,0}}" />
+                        <Property Name="ColumnHeader" Value="text:分流 width:{0.09,0} id:0" />
+                        <Property Name="ColumnHeader" Value="text:角色名稱 width:{0.225,0} id:0" />
+                        <Property Name="ColumnHeader" Value="text:等級 width:{0.09,0} id:1" />
+                        <Property Name="ColumnHeader" Value="text:職業 width:{0.18,0} id:2" />
+                        <Property Name="ColumnHeader" Value="text:所在地點 width:{0.18,0} id:3" />
+                        <Property Name="ColumnHeader" Value="text:名片 width:{0.235,0} id:4" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/Community/TabControl/FriendTab/backGround/BlockList" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.761408,0},{0.827731,0},{0.98659,0}}" />
+                        <Property Name="ColumnHeader" Value="text: width:{1,0} id:0" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/FriendTab/backGround/EditCardBtn" >
+                        <Property Name="Text" Value="編輯名片" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.840336,0},{0.759709,0},{0.987395,0},{0.803398,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/FriendTab/backGround/AddFriendBtn" >
+                        <Property Name="Text" Value="加入好友" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.840336,0},{0.882927,0},{0.987395,0},{0.926829,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/FriendTab/backGround/BlockBtn" >
+                        <Property Name="Text" Value="加入封鎖" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.840336,0},{0.941463,0},{0.987395,0},{0.985366,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/FriendTab/backGround/FriendListText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="好友名單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0252101,0},{0.0146341,0},{0.829832,0},{0.0487805,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/FriendTab/backGround/BlockListText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="封鎖名單" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0252101,0},{0.712195,0},{0.802521,0},{0.746341,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Community/TabControl/FriendTab/backGround/HelpBtn" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Text" Value="?" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.967252,0},{0.014634,0},{0.985894,0},{0.0485323,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/Community/TabControl/SearchTab" >
+                <Property Name="Text" Value="在線搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.000911577,0},{0,0},{0.999088,0},{0.998336,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/Community/TabControl/SearchTab/Backgrand" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.008264,0},{0.009501,0},{0.991735,0},{0.990499,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/Community/TabControl/SearchTab/Backgrand/List" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="ForceVertScrollbar" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.062651,0},{0.710084,0},{0.985169,0}}" />
+                        <Property Name="ColumnHeader" Value="text:角色名稱 width:{0.27,0} id:0" />
+                        <Property Name="ColumnHeader" Value="text:等級 width:{0.09,0} id:1" />
+                        <Property Name="ColumnHeader" Value="text:職業 width:{0.18,0} id:2" />
+                        <Property Name="ColumnHeader" Value="text:所在地點 width:{0.18,0} id:3" />
+                        <Property Name="ColumnHeader" Value="text: width:{0.28,0} id:4" />
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/SearchTab/Backgrand/SearchBtn" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.840336,0},{0.941463,0},{0.987395,0},{0.985366,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/ResultText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="搜尋結果" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0259581,0},{0.0154852,0},{0.563082,0},{0.0491391,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="篩選條件" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.735294,0},{0.0144578,0},{0.90126,0},{0.0481928,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Community/TabControl/SearchTab/Backgrand/HelpBtn" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Text" Value="?" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.967252,0},{0.014528,0},{0.985894,0},{0.0484263,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterBorder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.722689,0},{0.0634146,0},{0.987395,0},{0.239024,0}}" />
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterBorder/Minitext" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="等級下限" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.388889,0},{0.928571,0},{0.611111,0}}" />
+                            <Window Type="DejaVu/Editbox" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterBorder/Minitext/editBox" >
+                                <Property Name="MaxTextLength" Value="2" />
+                                <Property Name="TextParsingEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.92381,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterBorder/Maxtext" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="等級上限" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.694444,0},{0.928571,0},{0.916667,0}}" />
+                            <Window Type="DejaVu/Editbox" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterBorder/Maxtext/editBox" >
+                                <Property Name="MaxTextLength" Value="2" />
+                                <Property Name="TextParsingEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0,0},{0.92381,0},{1,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/FilterBorder/LevelText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="等級" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.0833333,0},{0.484127,0},{0.305556,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/SearchTab/Backgrand/ClassBorder" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.722689,0},{0.253659,0},{0.987395,0},{0.741463,0}}" />
+                        <Window Type="DejaVu/Tree" Name="Root/Community/TabControl/SearchTab/Backgrand/ClassBorder/Tree" >
+                            <Property Name="ForceVertScrollbar" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.031746,0},{0.13,0},{0.031746,118},{0.13,174}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/ClassBorder/Title" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="職業" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.03,0},{0.912698,0},{0.1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Border" Name="Root/Community/TabControl/SearchTab/Backgrand/ClassBorder/OptionBorder" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.128713,0},{1,0},{0.99936,0}}" />
+                            <Window Type="DejaVu/ScrollablePane" Name="Root/Community/TabControl/SearchTab/Backgrand/ClassBorder/OptionBorder/ScrollPane" >
+                                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                <Property Name="Font" Value="F001-9" />
+                                <Property Name="HorzOverlapSize" Value="0.01" />
+                                <Property Name="HorzScrollPosition" Value="0" />
+                                <Property Name="HorzStepSize" Value="0.1" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0172414,0},{0.976191,0},{0.982759,0}}" />
+                                <Property Name="VertOverlapSize" Value="0.01" />
+                                <Property Name="VertScrollPosition" Value="0" />
+                                <Property Name="VertStepSize" Value="0.1" />
+                                <AutoWindow NameSuffix="__auto_container__" >
+                                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                                </AutoWindow>
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/SearchTab/Backgrand/CheckBorder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.722689,0},{0.756098,0},{0.987395,0},{0.926829,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/Community/TabControl/SearchTab/Backgrand/CheckBorder/TeamBtn" >
+                            <Property Name="Text" Value="過濾不組隊玩家" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.371429,0},{0.936508,0},{0.6,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/Community/TabControl/SearchTab/Backgrand/CheckBorder/CardBtn" >
+                            <Property Name="Text" Value="過濾無名片玩家" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.685714,0},{0.936508,0},{0.914286,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/SearchTab/Backgrand/CheckBorder/OtherText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="其他" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.0857143,0},{0.547619,0},{0.285714,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/Community/TabControl/TeamTab" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="隊伍搜尋" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/Community/TabControl/TeamTab/Background" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.008264,0},{0.009501,0},{0.991735,0},{0.990499,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="Root/Community/TabControl/TeamTab/Background/HelpBTn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.967252,0},{0.014528,0},{0.985894,0},{0.0484263,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.062954,0},{0.247899,0},{0.457627,0}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect/CheckBox1" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="僅顯示同場景" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0803571,0},{0.257669,0},{0.973214,0},{0.355828,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect/CheckBox11" >
+                            <Property Name="Text" Value="僅顯示同分流" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0803571,0},{0.392638,0},{0.973214,0},{0.490798,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect/CheckBox12" >
+                            <Property Name="Text" Value="顯示適合等級" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0803571,0},{0.527607,0},{0.973214,0},{0.625767,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect/CheckBox13" >
+                            <Property Name="Text" Value="過濾封鎖隊員" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0803571,0},{0.662577,0},{0.973214,0},{0.760736,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Combobox" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect/TypeBox" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="MaxEditTextLength" Value="2147483647" />
+                            <Property Name="ReadOnly" Value="True" />
+                            <Property Name="Text" Value="隊伍" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.232143,0},{0.0736196,0},{0.767857,0},{0.581138,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/Button" Name="Root/Community/TabControl/TeamTab/Background/SearchSelect/SearchBtn" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="搜尋" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.852761,0},{0.8125,0},{0.96319,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/TeamTab/Background/SearchKeyText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="搜尋條件" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02521,0},{0.014528,0},{0.378151,0},{0.0484263,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/TeamTab/Background/SearchListText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="搜尋結果（共有15隊）" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.273109,0},{0.0145278,0},{0.705882,0},{0.0484262,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/MultiColumnList" Name="Root/Community/TabControl/TeamTab/Background/SearchList" >
+                        <Property Name="ColumnsMovable" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="ForceVertScrollbar" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.260504,0},{0.062954,0},{0.987395,0},{0.457627,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/TeamTab/Background/DetailText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="隊伍明細（3/5）" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0252101,0},{0.472155,0},{0.457983,0},{0.506053,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/TeamTab/Background/DetailBorder" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.520581,0},{0.987395,0},{0.985472,0}}" />
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/TeamTab/Background/PurposeText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="隊伍目的" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0258621,0},{0.0315789,0},{0.137931,0},{0.136842,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/TeamTab/Background/DemandText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="隊伍需求" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0258621,0},{0.166667,0},{0.137931,0},{0.270833,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/TeamTab/Background/DetailBorder/PurposeTextLab" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Text" Value="一二三四五六七八九十" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.150862,0},{0.03125,0},{0.426724,0},{0.135417,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/TeamTab/Background/DetailBorder/DemandTextLab" >
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.150862,0},{0.166667,0},{0.94013,0},{0.416667,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/MultiColumnList" Name="Root/Community/TabControl/TeamTab/Background/DetailBorder/MemberList" >
+                            <Property Name="ColumnsMovable" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="ForceVertScrollbar" Value="True" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.150862,0},{0.447917,0},{0.987069,0},{0.96875,0}}" />
+                            <Property Name="ColumnHeader" Value="text:角色名稱 width:{0.25,0} id:0" />
+                            <Property Name="ColumnHeader" Value="text:等級 width:{0.1,0} id:1" />
+                            <Property Name="ColumnHeader" Value="text:職業 / 職等 width:{0.25,0} id:2" />
+                            <Property Name="ColumnHeader" Value="text:所在地點 width:{0.4,0} id:3" />
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/TeamTab/Background/DemandText1" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="隊員清單" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0258621,0},{0.447917,0},{0.137931,0},{0.552083,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/TeamTab/Background/RecruitBtn" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="Text" Value="隊員招募" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.798319,0},{0.00968523,0},{0.945378,0},{0.0532688,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root/Community/TabControl/LoverTab" >
+                <Property Name="Text" Value="情侶資訊" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Static" Name="Root/Community/TabControl/LoverTab/backgrand" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.008264,0},{0.009501,0},{0.991735,0},{0.990499,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,1},{0,1}}" />
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/LoverTab/backgrand/BreakBtn" >
+                        <Property Name="Text" Value="提出分手" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.840336,0},{0.731235,0},{0.987395,0},{0.774818,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/Community/TabControl/LoverTab/backgrand/HelpBTn" >
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="Text" Value="?" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.967252,0},{0.014458,0},{0.985894,0},{0.0483563,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.0626506,0},{0.642857,0},{0.274699,0}}" />
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/NameTitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="キアラクタ-" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0333333,0},{0.0681818,0},{0.963333,0},{0.340909,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/NameTitle/Text" >
+                                <Property Name="Text" Value="一二三四五六七八九哈" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.215054,0},{0.0833333,0},{0.903226,0},{0.916667,0}}" />
+                            </Window>
+                            <Window Type="DejaVu/StaticImage" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/NameTitle/Icon" >
+                                <Property Name="FrameEnabled" Value="False" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.924731,0},{0.125,0},{0.96564,0},{0.875,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/LvTitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="等級" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.12,0},{0.363636,0},{0.52,0},{0.636364,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/LvTitle/Text" >
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.283333,0},{0.0833333,0},{0.991667,0},{0.916667,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/Classtitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="職業" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.12,0},{0.659091,0},{0.52,0},{0.931818,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/Classtitle/Text" >
+                                <Property Name="Text" Value="死零法師哈哈" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.283333,0},{0.0833333,0},{0.991667,0},{0.916667,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/sexTitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="性別" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.56,0},{0.363636,0},{0.96,0},{0.636363,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/sexTitle/Text" >
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.277769,0},{0.0254465,0},{0.986102,0},{0.85878,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/ClassLvTitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="職等" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.56,0},{0.659091,0},{0.96,0},{0.931818,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/CharacterBorder/ClassLvTitle/Text" >
+                                <Property Name="Text" Value="123" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.272727,0},{0.083333,0},{0.98106,0},{0.916666,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.655462,0},{0.062954,0},{0.987395,0},{0.276029,0}}" />
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder/BonusTiTle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="每週紅利" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0759494,0},{0.0681818,0},{0.924051,0},{0.340909,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder/BonusTiTle/Text" >
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.399988,0},{0.0833333,0},{0.997003,0},{0.916667,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder/DateTitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="交往日期" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0759494,0},{0.363636,0},{0.924051,0},{0.636364,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder/DateTitle/Text" >
+                                <Property Name="Text" Value="2010/8/25" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.402985,0},{0.0833333,0},{1,0},{0.916667,0}}" />
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder/DateCountTitle" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="交往天數" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.0746784,0},{0.659091,0},{0.92278,0},{0.931818,0}}" />
+                            <Window Type="DejaVu/EmbedTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/DetailBorder/DateCountTitle/Text" >
+                                <Property Name="Text" Value="0天" />
+                                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                                <Property Name="UnifiedAreaRect" Value="{{0.402985,0},{0.0833333,0},{1,0},{0.916667,0}}" />
+                            </Window>
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Button" Name="Root/Community/TabControl/LoverTab/backgrand/LoveTalkBtn" >
+                        <Property Name="Text" Value="編輯情話" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.840336,0},{0.673123,0},{0.987395,0},{0.716707,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.673123,0},{0.634007,0},{0.985472,0}}" />
+                        <Window Type="DejaVu/Border" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0154639,0},{0.0461538,0},{0.984536,0},{0.8,0}}" />
+                            <Window Type="DejaVu/Static" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item1" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0159574,0},{0.0612245,0},{0.49734,0},{0.489796,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item1/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.022099,0},{0.095238,0},{0.178062,0},{0.904762,0}}" />
+                                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                                </Window>
+                                <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item1/Text" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="Text" Value="情侶技能一" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253038,0},{0.261905,0},{0.908177,0},{0.738095,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item3" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.50266,0},{0.0612245,0},{0.984043,0},{0.489796,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item3/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.022099,0},{0.095238,0},{0.178062,0},{0.904762,0}}" />
+                                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                                </Window>
+                                <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item3/Text" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253038,0},{0.261905,0},{0.908177,0},{0.738095,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item2" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.0159574,0},{0.510204,0},{0.49734,0},{0.938776,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item2/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.022099,0},{0.095238,0},{0.178062,0},{0.904762,0}}" />
+                                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                                </Window>
+                                <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item2/Text" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253038,0},{0.261905,0},{0.908177,0},{0.738095,0}}" />
+                                </Window>
+                            </Window>
+                            <Window Type="DejaVu/Static" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item4" >
+                                <Property Name="UnifiedAreaRect" Value="{{0.50266,0},{0.510204,0},{0.984043,0},{0.938776,0}}" />
+                                <Window Type="DejaVu/SlotImage" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item4/Slot" >
+                                    <Property Name="UnifiedAreaRect" Value="{{0.022099,0},{0.095238,0},{0.178062,0},{0.904762,0}}" />
+                                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                                </Window>
+                                <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/Border/Item4/Text" >
+                                    <Property Name="BackgroundEnabled" Value="False" />
+                                    <Property Name="Font" Value="F001-9" />
+                                    <Property Name="FrameEnabled" Value="False" />
+                                    <Property Name="UnifiedAreaRect" Value="{{0.253038,0},{0.261905,0},{0.908177,0},{0.738095,0}}" />
+                                </Window>
+                            </Window>
+                        </Window>
+                        <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/PageText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="HorzCentred" />
+                            <Property Name="Text" >9/9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</Property>
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.46134,0},{0.821705,0},{0.53866,0},{0.976744,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/LeftBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                            <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                            <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+                            <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.409794,0},{0.844961,0},{0.445876,0},{0.953488,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/ImageButton" Name="Root/Community/TabControl/LoverTab/backgrand/SkillBorder/RightBtn" >
+                            <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                            <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                            <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+                            <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.554124,0},{0.844961,0},{0.590206,0},{0.953488,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/MoneyTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="愛情硬幣
+
+
+
+
+
+
+
+
+
+" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0252101,0},{0.296386,0},{0.12605,0},{0.330121,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ProgressBar" Name="Root/Community/TabControl/LoverTab/backgrand/progressBar" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.138655,0},{0.293976,0},{0.810924,0},{0.33253,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/MoneyText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.813025,0},{0.289157,0},{0.939076,0},{0.337349,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/ToMeTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="一二三四五六七八九十對你說" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0226681,0},{0.341463,0},{0.42813,0},{0.390244,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/ToHeTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我想對他說" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.518908,0},{0.341463,0},{0.92437,0},{0.390244,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/Community/TabControl/LoverTab/backgrand/InfoText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0267847,0},{0.0144231,0},{0.321521,0},{0.0625,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/Community/TabControl/LoverTab/backgrand/MoneyTextIcon" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.94958,0},{0.291566,0},{0.973548,0},{0.33515,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/LoverTab/backgrand/MessageBorderToMe" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.012605,0},{0.395122,0},{0.493697,0},{0.659045,0}}" />
+                        <Window Type="DejaVu/HintText" Name="Root/Community/TabControl/LoverTab/backgrand/TalktomeText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="一二三四五六七八九十" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.104803,0},{0.056075,0},{0.934497,0},{0.943925,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Border" Name="Root/Community/TabControl/LoverTab/backgrand/MessageBorderToLover" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.506303,0},{0.395122,0},{0.987395,0},{0.659045,0}}" />
+                        <Window Type="DejaVu/HintText" Name="Root/Community/TabControl/LoverTab/backgrand/TalkToHeText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" Value="伊二三四五伊二三四五伊二三四五伊二三四五伊二三四五" />
+                            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.104803,0},{0.056075,0},{0.934497,0},{0.943925,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

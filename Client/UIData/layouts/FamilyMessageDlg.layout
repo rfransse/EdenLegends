@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CommonDlg" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.304688,0},{0.285156,0},{0.304688,350},{0.285156,274}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,338},{0,240}}" />
+        <Window Type="DejaVu/Static" Name="Root/CommonDlg/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/CommonDlg/EditBox" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="12" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.191617,0},{0.0508475,0},{0.964072,0},{0.152542,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Text" Value="確定" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0359281,0},{0.847458,0},{0.305389,0},{0.949153,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.365269,0},{0.847458,0},{0.634731,0},{0.949153,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/CommonDlg/CloseBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Text" Value="關閉" />
+            <Property Name="UnifiedAreaRect" Value="{{0.694611,0},{0.847458,0},{0.964072,0},{0.949153,0}}" />
+        </Window>
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/CommonDlg/MultEdit" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="MaxTextLength" Value="50" />
+            <Property Name="Text" >
+</Property>
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0359281,0},{0.20339,0},{0.964072,0},{0.79661,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/CommonDlg/MsgText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="標題：" />
+            <Property Name="UnifiedAreaRect" Value="{{0.035928,0},{0.050847,0},{0.173653,0},{0.152542,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

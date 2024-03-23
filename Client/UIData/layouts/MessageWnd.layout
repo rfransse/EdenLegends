@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MessageWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.321289,0},{0.330729,0},{0.321289,290},{0.330729,168}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/MultiLineEditbox" Name="Root/MessageWnd/EditWnd" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="MaxTextLength" Value="160" />
+            <Property Name="Text" >
+</Property>
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0437956,0},{0.0923077,0},{0.956204,0},{0.630769,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MessageWnd/OKBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0437956,0},{0.723077,0},{0.372263,0},{0.907692,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/MessageWnd/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.627737,0},{0.723077,0},{0.956204,0},{0.907692,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/MessageWnd/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

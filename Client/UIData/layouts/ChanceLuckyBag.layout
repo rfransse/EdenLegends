@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ChanceLuckyBag" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="寶盒結果" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.196311,0},{0.200195,344},{0.196311,220}}" />
+        <Window Type="DejaVu/Static" Name="Root/ChanceLuckyBag/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ChanceLuckyBag/Static/StaticTextLab" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="是否領取？" />
+                <Property Name="UnifiedAreaRect" Value="{{0.316176,0},{0.065934,0},{0.68203,0},{0.164835,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ChanceLuckyBag/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036585,0},{0.230769,0},{0.963414,0},{0.934066,0}}" />
+                <Window Type="DejaVu/channelImage" Name="Root/ChanceLuckyBag/Static/Border/BG1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.040268,0},{0.09375,0},{0.961321,0},{0.34375,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/ChanceLuckyBag/Static/Border/BG1/Icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.115942,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImageItem" Name="Root/ChanceLuckyBag/Static/Border/BG1/Icon/ItemIcon" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/ChanceLuckyBag/Static/Border/BG1/HintTextLab" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="一二三四五六七八九十一二三四" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.196429,0},{0,0},{0.839286,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChanceLuckyBag/Static/Border/Button" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="領取" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.664474,0},{0.4375,0},{0.960526,0},{0.625,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/ChanceLuckyBag/Static/Border/Button1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="重抽" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.664474,0},{0.71875,0},{0.960526,0},{0.90625,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/ChanceLuckyBag/Static/Border/StaticTextLab" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="抽重消失機率90%" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.118421,0},{0.71875,0},{0.644737,0},{0.90625,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ChanceLuckyBag/Static/Border/" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ServerRed" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0394737,0},{0.742188,0},{0.0953947,0},{0.875,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/ChanceLuckyBag/Static/" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.908537,0},{0.0659341,0},{0.963415,0},{0.164835,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

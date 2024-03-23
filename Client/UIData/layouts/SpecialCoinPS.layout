@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SpecialCoinPS" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,170},{0,20}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialCoinPS/Text" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.411765,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/EmbedTextLab" Name="Root/SpecialCoinPS/Point" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.411765,0},{0,0},{0.882353,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/SpecialCoinPS/Icon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.894118,0},{0.1,0},{0.976471,0},{0.8,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

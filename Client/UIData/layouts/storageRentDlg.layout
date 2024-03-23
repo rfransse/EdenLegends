@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/StorageRentDlg" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.370117,0},{0.315104,0},{0.370117,232},{0.315104,218}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/StorageRentDlg/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/StorageRentDlg/cancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.527778,0},{0.8,0},{0.944445,0},{0.933333,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/StorageRentDlg/okBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.055556,0},{0.8,0},{0.472223,0},{0.933333,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/StorageRentDlg/ContextText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="一份倉庫租約可租用一個月" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.066667,0},{1,0},{0.166667,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/StorageRentDlg/radioBtn1" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Selected" Value="True" />
+            <Property Name="Text" Value="第一格" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.233333,0},{0.324074,0},{0.333333,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/StorageRentDlg/radioBtn2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="第二格" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.366667,0},{0.324074,0},{0.466667,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/StorageRentDlg/radioBtn3" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="第三格" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0.324074,0},{0.6,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/StorageRentDlg/radioBtn4" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HoverTextColour" Value="FFFFFFFF" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="PushedTextColour" Value="FFFFFFFF" />
+            <Property Name="Text" Value="第四格" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.633333,0},{0.324074,0},{0.733333,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

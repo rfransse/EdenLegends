@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PetUparadeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0791016,0},{0.109375,0},{0.0791016,588},{0.109375,440}}" />
+        <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/PetUparadeWnd/Pet2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.583916,0},{0.104478,0},{0.979021,0},{0.970149,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet2/FightSKill" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.053097,0},{0.597701,0},{0.946902,0},{0.764368,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/FightSKill/S1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.413793,0},{0.168317,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/FightSKill/S2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.207921,0},{0.413793,0},{0.376238,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/FightSKill/S5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.831683,0},{0.413793,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/FightSKill/S3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.415842,0},{0.413793,0},{0.584158,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/FightSKill/S4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.613861,0},{0.413793,0},{0.782178,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Pet2/FightSKill/Title" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x戰鬥技能" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.526596,0},{0.310345,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet2/Main" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.053097,0},{0.034483,0},{0.946902,0},{0.20115,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/Main/Icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.038462,0},{0.210526,0},{0.201924,0},{0.807017,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Pet2/Main/Name" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="xLV.30魔法的小喜馬拉雅犬" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.252475,0},{0.155172,0},{0.975248,0},{0.413793,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ProgressBar" Name="Root/PetUparadeWnd/Pet2/Main/ExpBar" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.242424,0},{0.689655,0},{0.949495,0},{0.862069,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet2/Value" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0530973,0},{0.235632,0},{0.946903,0},{0.563218,0}}" />
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet2/Value/N1" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x攻擊/魔力" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.410891,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet2/Value/T1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x9999999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.017544,0},{0.851485,0},{0.192983,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet2/Value/N2" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x命中" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.263158,0},{0.410891,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet2/Value/N3" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x爆擊/魔爆" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.526316,0},{0.410891,0},{0.736842,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet2/Value/N4" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x攻速" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.789474,0},{0.410891,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet2/Value/T2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x999999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.280702,0},{0.851485,0},{0.456141,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet2/Value/T3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x99999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.54386,0},{0.851485,0},{0.719299,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet2/Value/T4" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.807018,0},{0.851485,0},{0.982457,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet2/Value/G1" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiHoly" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0,0},{1,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet2/Value/G2" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiFire" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0.263158,0},{1,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet2/Value/G3" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiChop" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0.526316,0},{1,0},{0.736842,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet2/Value/G4" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiNature" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0.789474,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet2/PraySkill" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.053097,0},{0.798851,0},{0.946902,0},{0.965518,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/PraySkill/S1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.413793,0},{0.168317,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/PraySkill/S2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.207921,0},{0.413793,0},{0.376238,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/PraySkill/S3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.415842,0},{0.413793,0},{0.584158,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/PraySkill/S4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.623762,0},{0.413793,0},{0.792079,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet2/PraySkill/S5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.831683,0},{0.413793,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Pet2/PraySkill/Title" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x祈禱技能" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.526596,0},{0.310345,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Title2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="X輔助寵物" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594406,0},{0.0298507,0},{0.812937,0},{0.0746269,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/PetUparadeWnd/Pet1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.020979,0},{0.104478,0},{0.416084,0},{0.970149,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet1/FightSKill" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.053097,0},{0.597701,0},{0.946902,0},{0.764368,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/FightSKill/S1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.413793,0},{0.168317,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/FightSKill/S2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.207921,0},{0.413793,0},{0.376238,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/FightSKill/S3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.415842,0},{0.413793,0},{0.584158,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/FightSKill/S4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.623762,0},{0.413793,0},{0.792079,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/FightSKill/S5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.831683,0},{0.413793,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Pet1/FightSKill/Title" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x戰鬥技能" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.524752,0},{0.310345,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet1/Main" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0530973,0},{0.0344828,0},{0.946903,0},{0.201149,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/Main/Icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.206897,0},{0.19802,0},{0.793104,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Pet1/Main/Name" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="xLV.30魔法的小喜馬拉雅犬" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.243357,0},{0.149713,0},{0.964169,0},{0.408334,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ProgressBar" Name="Root/PetUparadeWnd/Pet1/Main/ExpBar" >
+                        <Property Name="CurrentProgress" Value="0" />
+                        <Property Name="StepSize" Value="0.01" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.242424,0},{0.689655,0},{0.949495,0},{0.862069,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet1/Value" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0530973,0},{0.235632,0},{0.946903,0},{0.563218,0}}" />
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet1/Value/N1" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x攻擊/魔力" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.410891,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet1/Value/T1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x9999999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.0175439,0},{0.851485,0},{0.192982,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet1/Value/N2" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x命中" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.263158,0},{0.410891,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet1/Value/N3" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x爆擊/魔爆" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.526316,0},{0.410891,0},{0.736842,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintTextLab" Name="Root/PetUparadeWnd/Pet1/Value/N4" >
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x攻速" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.789474,0},{0.410891,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet1/Value/T2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x999999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.280702,0},{0.851485,0},{0.45614,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet1/Value/T3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x99999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.54386,0},{0.851485,0},{0.719298,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/PetUparadeWnd/Pet1/Value/T4" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="x9999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.440594,0},{0.807018,0},{0.851485,0},{0.982456,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet1/Value/G1" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiHoly" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.879227,0},{0,0},{0.998039,0},{0.210526,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet1/Value/G2" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiFire" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0.263158,0},{1,0},{0.473684,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet1/Value/G3" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiChop" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0.526316,0},{1,0},{0.736842,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/PetUparadeWnd/Pet1/Value/G4" >
+                        <Property Name="Image" Value="set:DejaVuImage image:AntiNature" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.881188,0},{0.789474,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Pet1/PraySkill" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0530973,0},{0.798851,0},{0.946903,0},{0.965517,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/PraySkill/S1" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.413793,0},{0.168317,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/PraySkill/S2" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.207921,0},{0.413793,0},{0.376238,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/PraySkill/S3" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.415842,0},{0.413793,0},{0.584158,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/PraySkill/S4" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.623762,0},{0.413793,0},{0.792079,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Pet1/PraySkill/S5" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.831683,0},{0.413793,0},{1,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Pet1/PraySkill/Title" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x祈禱技能" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.526596,0},{0.310345,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PetUparadeWnd/Static/Help" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.954545,0},{0.0248756,0},{0.982517,0},{0.0646766,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Title1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="X進階寵物" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0314685,0},{0.0298507,0},{0.25,0},{0.0746269,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/PetUparadeWnd/Item" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.437063,0},{0.104478,0},{0.562937,0},{0.283582,0}}" />
+                <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/Item/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="X特殊寶物" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.083333,0},{1,0},{0.333333,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/PetUparadeWnd/Item/Slot" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.263889,0},{0.361111,0},{0.736111,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/PetUparadeWnd/Btn" >
+                <Property Name="DisabledImage" Value="set:DejaVuImage image:PetUpgradeDisable" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVuImage image:PetUpgradeHover" />
+                <Property Name="NormalImage" Value="set:DejaVuImage image:PetUpgradeNormal" />
+                <Property Name="PushedImage" Value="set:DejaVuImage image:PetUpgradePress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.444056,0},{0.681592,0},{0.555944,0},{0.840796,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/PetUparadeWnd/BtnName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="X開始進階" />
+                <Property Name="UnifiedAreaRect" Value="{{0.417832,0},{0.621891,0},{0.585664,0},{0.666667,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/BuffWnd" >
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/BuffWindow" Name="Root/BuffWnd/Background" >
+			<Property Name="AutoRenderingSurface" Value="False" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="RollUpEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,192},{0,60}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,189},{0,60}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/BuffWnd/Background/BuffBtn" >
+              <Property Name="MousePassThroughEnabled" Value="True" />
+              <Property Name="AlwaysOnTop" Value="False" />
+              <Property Name="BackgroundEnabled" Value="False" />
+              <Property Name="ClippedByParent" Value="False" />
+              <Property Name="FrameEnabled" Value="False" />
+              <Property Name="HorizontalAlignment" Value="Right" />
+              <Property Name="Image" Value="set:DejaVuImage image:BuffBtn" />
+              <Property Name="UnifiedAreaRect" Value="{{0,5},{0,5},{0,20},{0,20}}" />
+              <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/BuffWnd/Background/Pane" >
+              <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+              <Property Name="HorzOverlapSize" Value="0.01" />
+              <Property Name="HorzScrollPosition" Value="0" />
+              <Property Name="HorzStepSize" Value="0.1" />
+              <Property Name="UnifiedAreaRect" Value="{{0,2},{0,16},{1,-2},{1,-2}}" />
+              <Property Name="VertOverlapSize" Value="0.01" />
+              <Property Name="VertScrollPosition" Value="0" />
+              <Property Name="VertStepSize" Value="0.1" />
+              <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+              </AutoWindow>
+            </Window>     
+        </Window>
+    </Window>
+</GUILayout>

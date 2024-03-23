@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="Root/ShopItem" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.125,0},{0.166667,0},{0.125,245},{0.166667,40}}" />
+        <Window Type="DejaVu/SlotImage" Name="Root/ShopItem/itemslot" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0122449,0},{0.075,0},{0.15102,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ShopItem/ItemDeatilText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="一二三四五六七八九十一二三四五六" />
+            <Property Name="UnifiedAreaRect" Value="{{0.163265,0},{0.075,0},{0.97551,0},{0.425,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ShopItem/GlodText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="999999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.170918,0},{0.575,0},{0.681633,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ShopItem/si1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.710204,0},{0.575,0},{0.767347,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ShopItem/SilverText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.164336,0},{0.575,0},{0.906122,0},{0.925,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/ShopItem/si2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.930612,0},{0.575,0},{0.987755,0},{0.925,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SlotLicense" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="SlotLicense/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,100},{0,100},{0,136},{0,136}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/SlotImage" Name="SlotLicense/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Image" Value="set:main image:FunctionSlot" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.0277778,0},{0.972222,0},{0.972222,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

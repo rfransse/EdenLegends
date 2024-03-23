@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/AchievementGroup" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.193359,0},{0.139323,0},{0.193359,413},{0.139323,415}}" />
+        <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/AchievementGroup/BackGround/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="LV01～30副本討伐完成率：0.00％" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030227,0},{0.03183,0},{0.690177,0},{0.0795754,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/AchievementGroup/BackGround/Title2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999999點聲望" />
+                <Property Name="UnifiedAreaRect" Value="{{0.642317,0},{0.0318302,0},{0.894207,0},{0.0795756,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.924433,0},{0.0318302,0},{0.969773,0},{0.0795756,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/AchievementGroup/BackGround/ContentBar" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0302267,0},{0.111406,0},{0.969773,0},{0.96817,0}}" />
+                <Window Type="DejaVu/VerticalScrollbar" Name="Root/AchievementGroup/BackGround/ContentBar/Scroll" >
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.951743,0},{0.006192,0},{0.994638,0},{0.993808,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround/ContentBar/slot1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021448,0},{0.024768,0},{0.935657,0},{0.167183,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot1/icon" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.017595,0},{0.130435,0},{0.117302,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot1/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot1/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.108696,0},{0.105571,0},{0.413044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot1/pointText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="穫得2000成就" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715542,0},{0.130435,0},{0.929618,0},{0.565218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/ContentBar/slot1/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.982405,0},{0.434783,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround/ContentBar/slot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0214477,0},{0.185759,0},{0.935657,0},{0.328173,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot2/icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.017595,0},{0.130435,0},{0.117302,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot2/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot2/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.108696,0},{0.105571,0},{0.413044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot2/pointText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="穫得2000成就" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715542,0},{0.130435,0},{0.929618,0},{0.565218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/ContentBar/slot2/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.982405,0},{0.434783,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround/ContentBar/slot3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0214477,0},{0.346749,0},{0.935657,0},{0.489164,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot3/icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.017595,0},{0.130435,0},{0.117302,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot3/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot3/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.108696,0},{0.105571,0},{0.413044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot3/pointText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="穫得2000成就" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715542,0},{0.130435,0},{0.929618,0},{0.565218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/ContentBar/slot3/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.982405,0},{0.434783,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround/ContentBar/slot4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0214477,0},{0.50774,0},{0.935657,0},{0.650155,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot4/icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.017595,0},{0.130435,0},{0.117302,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot4/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot4/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.108696,0},{0.105571,0},{0.413044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot4/pointText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="穫得2000成就" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715542,0},{0.130435,0},{0.929618,0},{0.565218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/ContentBar/slot4/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.982405,0},{0.434783,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround/ContentBar/slot5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0214477,0},{0.668731,0},{0.935657,0},{0.811146,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot5/icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.017595,0},{0.130435,0},{0.117302,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot5/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.134897,0},{0.130435,0},{0.982404,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot5/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.108696,0},{0.105571,0},{0.413044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot5/pointText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="穫得2000成就" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715542,0},{0.130435,0},{0.929618,0},{0.565218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/ContentBar/slot5/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.982405,0},{0.434783,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/AchievementGroup/BackGround/ContentBar/slot6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0214477,0},{0.829721,0},{0.935657,0},{0.972136,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot6/icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.017595,0},{0.130435,0},{0.117302,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot6/pointText" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.133701,0},{0.130435,0},{0.981208,0},{0.869565,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/AchievementGroup/BackGround/ContentBar/slot6/newImage" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02346,0},{0.108696,0},{0.105571,0},{0.413044,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedTextLab" Name="Root/AchievementGroup/BackGround/ContentBar/slot6/pointText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                        <Property Name="Text" Value="穫得2000成就" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715542,0},{0.130435,0},{0.929618,0},{0.565218,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/AchievementGroup/BackGround/ContentBar/slot6/HelpBtn" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.941349,0},{0.130435,0},{0.982405,0},{0.434783,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

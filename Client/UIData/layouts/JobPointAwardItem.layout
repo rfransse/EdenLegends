@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="JobPointAwardItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,801},{0,590}}" />
+        <Window Type="DejaVu/Static" Name="JobPointAwardItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0299625,0},{0.0254237,0},{0.0299625,240},{0.0254237,46}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="JobPointAwardItem/Item/BuffText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="職業積分好加成不加嗎" />
+                <Property Name="UnifiedAreaRect" Value="{{0.204444,0},{0.565217,0},{0.987777,0},{0.869565,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="JobPointAwardItem/Item/PointText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.191667,0},{0.130435,0},{0.975,0},{0.434783,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="JobPointAwardItem/Item/icon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.026667,0},{0.130435,0},{0.168334,0},{0.869565,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

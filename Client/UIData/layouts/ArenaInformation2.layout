@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ArenaInformation" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.148438,0},{0.0208333,0},{0.148438,344},{0.0208333,258}}" />
+        <Window Type="DejaVu/Static" Name="Root/ArenaInformation/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="參賽者資訊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.0545455,0},{0.338415,0},{0.136364,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/ArenaInformation/MsgText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="Text" >...點擊願意參加鈕後，進入配對佇列等候開戰，中途離開
+者會得到叛逃者狀態。</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.190909,0},{0.963415,0},{0.418182,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ArenaInformation/Background/3v3Info2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.609091,0},{0.969512,0},{0.781818,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3Info2/Glory" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="Text" Value="榮譽之心" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.205882,0},{0.315789,0},{0.454248,0},{0.684211,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/ArenaInformation/Background/3v3Info2/GloryIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HonorIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.473856,0},{0.289474,0},{0.519608,0},{0.657895,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/ArenaInformation/Background/3v3Info2/GloryText" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="99999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.545752,0},{0.236842,0},{0.702614,0},{0.763158,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ArenaInformation/OKBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="願意參加" />
+                <Property Name="UnifiedAreaRect" Value="{{0.362805,0},{0.836364,0},{0.637195,0},{0.945455,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ArenaInformation/Background/3v3text2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="目前玩家積分" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.472727,0},{0.338415,0},{0.554545,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ArenaInformation/CloseBtn" >
+                <Property Name="Text" Value="願意參加" />
+                <Property Name="UnifiedAreaRect" Value="{{0.689024,0},{0.836364,0},{0.963415,0},{0.945455,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ArenaInformation/CancelBtn" >
+                <Property Name="Text" Value="願意參加" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.836364,0},{0.310976,0},{0.945455,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/ArenaInformation/EditBox" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.314465,0},{0.47619,0},{0.481132,0},{0.541667,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/ArenaInformation/HelpBtn" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.908537,0},{0.0545455,0},{0.963415,0},{0.136364,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

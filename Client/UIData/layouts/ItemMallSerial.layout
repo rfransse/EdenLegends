@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ItemMallSerial" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.200195,0},{0.200521,0},{0.200195,266},{0.200521,158}}" />
+        <Window Type="DejaVu/Static" Name="Root/ItemMallSerial/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/ItemMallSerial/OkBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.048,0},{0.7,0},{0.408,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMallSerial/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.592,0},{0.7,0},{0.952,0},{0.9,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallSerial/SerialText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="序號" />
+                <Property Name="UnifiedAreaRect" Value="{{0.048,0},{0.1,0},{0.208,0},{0.3,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMallSerial/PasswordText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="密碼" />
+                <Property Name="UnifiedAreaRect" Value="{{0.048,0},{0.4,0},{0.208,0},{0.6,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/ItemMallSerial/SerialInput" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="Text" Value="123456789012345678901234" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232,0},{0.1,0},{0.952,0},{0.3,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/ItemMallSerial/PasswordInput" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.232,0},{0.4,0},{0.952,0},{0.6,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

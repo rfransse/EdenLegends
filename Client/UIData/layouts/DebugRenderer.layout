@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/DebugRenderer" >
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0.240586,0},{0.0802534,0},{0.67887,0},{0.744456,0}}" />
+        <Property Name="Shadow" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/DebugRenderer/Bar" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.364029,0},{0.033436,0},{0.983535,0},{0.0564224,0}}" />
+            <Property Name="Shadow" Value="True" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="PageSize" Value="0" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DebugRenderer/Texture" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.360942,0},{0.118728,0},{0.983813,0},{0.97635,0}}" />
+            <Property Name="Shadow" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/DebugRenderer/Text" >
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="VertExtent" Value="12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.364439,0},{0.0662956,0},{0.980789,0},{0.103259,0}}" />
+            <Property Name="Shadow" Value="True" />
+            <Property Name="Text" Value="1234" />
+        </Window>
+        <Window Type="DejaVu/ScrollablePane" Name="Root/DebugRenderer/Pane" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="UnifiedAreaRect" Value="{{0.021718,0},{0.0311605,0},{0.327804,0},{0.969555,0}}" />
+            <Property Name="Shadow" Value="True" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <Property Name="HorzScrollPosition" Value="0" />
+        </Window>
+    </Window>
+</GUILayout>

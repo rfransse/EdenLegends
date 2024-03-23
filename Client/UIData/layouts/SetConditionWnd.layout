@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SetConditionWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.04625,0},{0.06,0},{0.04625,360},{0.06,286}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Window Type="DejaVu/Static" Name="Root/SetConditionWnd/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/SetConditionWnd/BackGround/SettingText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Text" Value="x選擇要找的隊友" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0348837,0},{0.0241935,0},{0.55814,0},{0.0806452,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/SetConditionWnd/BackGround/TypeBox1" >
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017442,0},{0.104839,0},{0.540698,0},{0.467742,0}}" />
+            </Window>
+            <Window Type="DejaVu/Combobox" Name="Root/SetConditionWnd/BackGround/TypeBox2" >
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="UnifiedAreaRect" Value="{{0.017442,0},{0.225806,0},{0.540698,0},{0.951612,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/SetConditionWnd/BackGround/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0116279,0},{0.346774,0},{0.976744,0},{0.887097,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/SetConditionWnd/BackGround/Border/PurposeText" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍目的" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.036145,0},{0.044776,0},{0.192772,0},{0.19403,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/SetConditionWnd/BackGround/Border/DemandText" >
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍需求" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.036145,0},{0.238806,0},{0.192772,0},{0.38806,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/SetConditionWnd/BackGround/Border/PurposeEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="20" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.210843,0},{0.044776,0},{0.596385,0},{0.19403,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/SetConditionWnd/BackGround/Border/DemandEdit" >
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="180" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.210843,0},{0.238806,0},{0.981927,0},{0.955224,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/SetConditionWnd/BackGround/AutoJoinBox" >
+                <Property Name="Text" Value="他人加入不須詢問" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0174419,0},{0.91129,0},{0.395349,0},{0.975806,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/SetConditionWnd/BackGround/StartRecruitBox" >
+                <Property Name="Text" Value="他人加入不須詢問" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.395349,0},{0.91129,0},{0.773256,0},{0.975806,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SetConditionWnd/BackGround/ClearBtn" >
+                <Property Name="Text" Value="x清除" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.77907,0},{0.25,0},{0.982558,0},{0.322581,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SetConditionWnd/BackGround/SettingBtn" >
+                <Property Name="Text" Value="x清除" />
+                <Property Name="UnifiedAreaRect" Value="{{0.77907,0},{0.907258,0},{0.982558,0},{0.979839,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

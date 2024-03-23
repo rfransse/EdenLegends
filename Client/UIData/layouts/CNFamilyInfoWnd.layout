@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,760},{0,622}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,634},{0,500}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyInfo/NameBackGrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.276,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyNameText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="阿卡貝拉友愛之鎮" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.020177,0},{0.043478,0},{0.272543,0},{0.144927,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/FamilyInfo/NameBackGrand/BorText" >
+                <Property Name="UnifiedAreaRect" Value="{{0.561514,0},{0.188406,0},{0.990536,0},{0.956522,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,272},{0,106}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/FamilyInfo/NameBackGrand/BorText/BulletinEdit" >
+                    <Property Name="MaxTextLength" Value="40" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" >一二三四五六七八九十一二三四五六七八九十
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0220588,0},{0.245283,0},{0.977941,0},{0.943396,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyInfo/NameBackGrand/BorText/Bulletin" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="城鎮公告：" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0441176,0},{0.0566038,0},{0.632353,0},{0.188679,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FamilyInfo/NameBackGrand/BorText/NoticeBtn" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="編輯公告" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.723502,0},{0.0566038,0},{0.980855,0},{0.226415,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyInfo/NameBackGrand/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.968454,0},{0.0434783,0},{0.990536,0},{0.144928,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/FamilyInfo/NameBackGrand/FamilyBor" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00946372,0},{0.188406,0},{0.55205,0},{0.956522,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,344},{0,106}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/FamilyLeader" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="會長：一二三四五六七八九十" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0348837,0},{0.0566038,0},{0.5,0},{0.188679,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/FamilyMember" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="人口：300/300，300位線上" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0348837,0},{0.245283,0},{0.5,0},{0.377358,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/Reputation" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="聲望：999999/999999" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.534884,0},{0.433962,0},{1,0},{0.566038,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GoldText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="資金：" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0348837,0},{0.415094,0},{0.5,0},{0.584906,0}}" />
+                    <Window Type="DejaVu/EmbedText" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GoldText/GoldValue" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.225,0},{0.0555556,0},{0.5375,0},{0.944444,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GoldText/SilverValue" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="999" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.6625,0},{0.0555556,0},{0.85,0},{0.944444,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GoldText/GoldImage" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.55,0},{0.111111,0},{0.6375,0},{0.888889,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticImage" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GoldText/SliverImage" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.8625,0},{0.111111,0},{0.95,0},{0.888889,0}}" />
+                        <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/MemberTax" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="鎮民稅率：100％" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0348837,0},{0.622642,0},{0.5,0},{0.754717,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/BusinessTax" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="營業稅率：" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0319767,0},{0.811321,0},{0.497093,0},{0.943396,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GetAward" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="每日領地獎勵：未領取" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.534884,0},{0.622642,0},{1,0},{0.754717,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/BoderEmblemBackgrand" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.537791,0},{0.066038,0},{0.630814,0},{0.367925,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/BoderEmblemBackgrand/EmblemSlot" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VerticalAlignment" Value="Bottom" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/EditEmblem" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="編輯徽章" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.656977,0},{0.207547,0},{0.860465,0},{0.377358,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GetBuff" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="每日聖物效果：未領取" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.534884,0},{0.811321,0},{1,0},{0.943396,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/BoderEmblemBackgrand/Emblem" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.537791,0},{0.066038,0},{0.630814,0},{0.367925,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyLevel" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="等級：" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.21875,0},{0.0490342,0},{0.471116,0},{0.150484,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/FamilyInfo/NameBackGrand/FamilyBor/GoodCommentText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x威望：" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.566246,0},{0.0507246,0},{0.817035,0},{0.152174,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyInfo/ListBackgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.288,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyInfo/ListBackgrand/ListBox" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.009464,0},{0.073034,0},{0.990537,0},{0.915731,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/RecruitBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="招攬人員" />
+                <Property Name="UnifiedAreaRect" Value="{{0.665789,0},{0.93228,0},{0.771053,0},{0.981941,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/DonateBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="捐獻金錢" />
+                <Property Name="UnifiedAreaRect" Value="{{0.776316,0},{0.93228,0},{0.881579,0},{0.981941,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyInfo/ListBackgrand/EmblemMark" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.911462,0},{0.747512,0},{0.961935,0},{0.8374,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyInfo/ListBackgrand/EmblemBlock" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.911672,0},{0.746942,0},{0.962145,0},{0.83683,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/ExitBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="退出公會" />
+                <Property Name="UnifiedAreaRect" Value="{{0.885526,0},{0.93228,0},{0.990789,0},{0.981941,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyInfo/ListBackgrand/ListTitle" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="會員清單" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0189274,0},{0.0168539,0},{0.298107,0},{0.0561798,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/FamilyInfo/ListBackgrand/OnlineBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="顯示離線鎮民" />
+                <Property Name="UnifiedAreaRect" Value="{{0.791798,0},{0.011236,0},{0.949527,0},{0.0617978,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyInfo/ListBackgrand/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.968454,0},{0.0168539,0},{0.990536,0},{0.0561798,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/CmtNew" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="招募新人" />
+                <Property Name="UnifiedAreaRect" Value="{{0.555263,0},{0.93228,0},{0.660526,0},{0.981941,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/FamilyListBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="找尋城鎮" />
+                <Property Name="UnifiedAreaRect" Value="{{0.117105,0},{0.93228,0},{0.222368,0},{0.981941,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/EnterTorritoryBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="回到城鎮" />
+                <Property Name="UnifiedAreaRect" Value="{{0.009464,0},{0.932584,0},{0.114727,0},{0.982245,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/FamilyMission01" >
+                <Property Name="Text" Value="公會任務-野外" />
+                <Property Name="UnifiedAreaRect" Value="{{0.226316,0},{0.93228,0},{0.331579,0},{0.981941,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/FamilyMission02" >
+                <Property Name="Text" Value="公會任務-副本" />
+                <Property Name="UnifiedAreaRect" Value="{{0.335526,0},{0.93228,0},{0.440789,0},{0.981941,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyInfo/ListBackgrand/FamilyFix" >
+                <Property Name="Text" Value="修理裝備" />
+                <Property Name="UnifiedAreaRect" Value="{{0.444737,0},{0.93228,0},{0.55,0},{0.981941,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

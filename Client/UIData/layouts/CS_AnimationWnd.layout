@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_AnimationWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,250},{0,360}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_AnimationWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,240},{0,360}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_AnimationWnd/Background/Border_Loop" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.745342,0},{0,110},{0.745342,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_AnimationWnd/Background/Border_Loop/Text_Use" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Loop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.272727,0},{0.25,0},{0.272727,70},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_AnimationWnd/Background/Border_Loop/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.090909,0},{0.25,0},{0.272727,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_AnimationWnd/Background/Border_Invert" >
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.738462,0},{0.5,110},{0.738462,40}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_AnimationWnd/Background/Border_Invert/Text_Use" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Invert" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.25,0},{0.25,70},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_AnimationWnd/Background/Border_Invert/Check_Use" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.090909,0},{0.25,0},{0.272727,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_AnimationWnd/Background/Border_Time" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.869565,0},{0,220},{0.869565,40}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CS_AnimationWnd/Background/Border_Time/Edit_Start" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.25,0},{0.25,50},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_AnimationWnd/Background/Border_Time/Text_Start" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Start" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045454,0},{0.25,0},{0.045454,40},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_AnimationWnd/Background/Border_Time/Text_End" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="End" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.522727,0},{0.25,0},{0.522727,40},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_AnimationWnd/Background/Border_Time/Edit_End" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.727273,0},{0.25,0},{0.727273,50},{0.25,20}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_AnimationWnd/Background/Border_PreView" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,200}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_AnimationWnd/Background/Border_PreView/PreView" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.934579,0},{0.95,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_AnimationWnd/Background/Border_Animation" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.621118,0},{0,220},{0.621118,40}}" />
+              <Window Type="DejaVu/StaticTextLab" Name="Root/CS_AnimationWnd/Background/Border_Loop/Text_ID" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Animation ID" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.045455,100},{0.25,20}}" />
+              </Window>
+              <Window Type="DejaVu/Editbox" Name="Root/CS_AnimationWnd/Background/Border_Frequency/Edit_ID" >
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.25,0},{0.545455,90},{0.25,20}}" />
+              </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_AnimationWnd/Background/Border_Frequency" >
+                <Property Name="UnifiedAreaRect" Value="{{0.491071,0},{0.745342,0},{0.491071,110},{0.745342,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_AnimationWnd/Background/Border_Frequency/Text_Frequency" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Freq" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.090909,0},{0.25,0},{0.090909,40},{0.25,20}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_AnimationWnd/Background/Border_Frequency/Edit_Frequency" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.545455,0},{0.25,0},{0.545455,40},{0.25,20}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

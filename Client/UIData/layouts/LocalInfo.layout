@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/LocalInfo" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00812993,0},{0.122392,0},{0.328688,0},{0.645342,0}}" />
+        <Window Type="DejaVu/ScrollablePane" Name="Root/LocalInfo/ShowInfoPane" >
+            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+            <Property Name="HorzOverlapSize" Value="0.01" />
+            <Property Name="HorzScrollPosition" Value="0" />
+            <Property Name="HorzStepSize" Value="0.1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.019231,0},{0.147929,0},{0.557693,0},{1.00592,0}}" />
+            <Property Name="VertOverlapSize" Value="0.01" />
+            <Property Name="VertScrollPosition" Value="0" />
+            <Property Name="VertStepSize" Value="0.1" />
+            <AutoWindow NameSuffix="__auto_container__" >
+                <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="MouseInputPropagationEnabled" Value="True" />
+            </AutoWindow>
+        </Window>
+        <Window Type="DejaVu/HorizontalScrollbar" Name="Root/LocalInfo/TimeControlBar" >
+            <Property Name="DocumentSize" Value="1" />
+            <Property Name="OverlapSize" Value="0" />
+            <Property Name="PageSize" Value="0" />
+            <Property Name="ScrollPosition" Value="0" />
+            <Property Name="StepSize" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.019231,0},{0.073964,0},{0.634616,0},{0.133136,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/TimeTex" >
+            <Property Name="UnifiedAreaRect" Value="{{0.665323,0},{0.07716,0},{0.947581,0},{0.138888,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticText" Name="Root/LocalInfo/FPSTex" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0192308,0},{0,0},{0.326923,0},{0.0591716,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/FreeCameraBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.384615,0},{0,0},{0.779263,0},{0.0591716,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/LocalInfo/MapEdit" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.576923,0},{0.147929,0},{0.961538,0},{0.221893,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/ChangeMapBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.576923,0},{0.236686,0},{0.884615,0},{0.295858,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/LocalInfo/XGotoEdit" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.576923,0},{0.384615,0},{0.769231,0},{0.45858,0}}" />
+        </Window>
+        <Window Type="DejaVu/Editbox" Name="Root/LocalInfo/YGotoEdit" >
+            <Property Name="MaxTextLength" Value="2147483647" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.788462,0},{0.384615,0},{0.980769,0},{0.45858,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/LocalInfo/GotoBtn" >
+            <Property Name="UnifiedAreaRect" Value="{{0.576923,0},{0.473373,0},{0.807692,0},{0.547338,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

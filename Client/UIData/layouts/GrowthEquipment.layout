@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/GrowthEquipment" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.136719,0},{0.21875,0},{0.136719,372},{0.21875,364}}" />
+        <Window Type="DejaVu/Static" Name="Root/GrowthEquipment/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/GrowthEquipment/Background/Border1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0337079,0},{0.128834,0},{0.966292,0},{0.355828,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/GrowthEquipment/Background/Border1/Static1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0180723,0},{0.189189,0},{0.156627,0},{0.810811,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/GrowthEquipment/Background/Border1/Static1/Slot" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/GrowthEquipment/Background/Border1/Text1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.174699,0},{0.162162,0},{0.903615,0},{0.405405,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/GrowthEquipment/Background/Border1/Text2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.174699,0},{0.405405,0},{0.536145,0},{0.648648,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/GrowthEquipment/Background/Border1/Text3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.548193,0},{0.405405,0},{0.987952,0},{0.648648,0}}" />
+                </Window>
+                <Window Type="DejaVu/GreenProgressBar" Name="Root/GrowthEquipment/Background/Border1/ExpBar" >
+                    <Property Name="CurrentProgress" Value="0" />
+                    <Property Name="StepSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.174699,0},{0.648649,0},{0.981928,0},{0.837838,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/GrowthEquipment/Background/Border1/ExpBar/BarText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.174699,0},{0.648649,0},{0.981928,0},{0.837838,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/GrowthEquipment/Background/TitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033708,0},{0.03681,0},{0.643259,0},{0.0920247,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/GrowthEquipment/Background/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.91573,0},{0.0368098,0},{0.966292,0},{0.0920245,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/GrowthEquipment/Background/TitleText1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033708,0},{0.392638,0},{0.463483,0},{0.447853,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/GrowthEquipment/Background/Border2" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.033708,0},{0.484663,0},{0.966292,0},{0.852761,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/GrowthEquipment/Background/Border2/ScrollablePane1" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentPaneAutoSized" Value="False" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentPaneAutoSized" Value="False" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/GrowthEquipment/Background/OKBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.426966,0},{0.889571,0},{0.679775,0},{0.96319,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/GrowthEquipment/Background/NOBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.713483,0},{0.889571,0},{0.966292,0},{0.96319,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/GrowthEquipment/Background/TitleText11" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.460674,0},{0.392638,0},{0.966292,0},{0.447853,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SearchTeamWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.12,0},{0.08,0},{0.12,550},{0.08,451}}" />
+        <Window Type="DejaVu/Static" Name="Root/SearchTeamWnd/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/SearchTeamWnd/Background/HelpBTn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.960674,0},{0.0145278,0},{0.986891,0},{0.0484262,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/SearchTeamWnd/Background/SearchSelect" >
+                <Property Name="UnifiedAreaRect" Value="{{0.011905,0},{0.062954,0},{0.322766,0},{0.506053,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/SearchTeamWnd/Background/SearchSelect/CheckBox1" >
+                    <Property Name="Text" Value="僅顯示同場景" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0857143,0},{0.229508,0},{0.914286,0},{0.31694,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/SearchTeamWnd/Background/SearchSelect/CheckBox11" >
+                    <Property Name="Text" Value="僅顯示同分流" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0857143,0},{0.349727,0},{0.914286,0},{0.437158,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/SearchTeamWnd/Background/SearchSelect/CheckBox12" >
+                    <Property Name="Text" Value="顯示適合等級" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.085714,0},{0.469945,0},{0.914285,0},{0.557377,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/SearchTeamWnd/Background/SearchSelect/CheckBox13" >
+                    <Property Name="Text" Value="過濾封鎖隊員" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.085714,0},{0.590164,0},{0.914285,0},{0.677596,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/SearchTeamWnd/Background/SearchSelect/TypeBox" >
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" Value="無隊伍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.080357,0},{0.065574,0},{0.908928,0},{0.519126,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SearchTeamWnd/Background/SearchSelect/SearchBtn" >
+                    <Property Name="Text" Value="搜尋" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.294118,0},{0.852459,0},{0.705882,0},{0.961749,0}}" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/SearchTeamWnd/Background/SearchSelect/SetConditionBtn" >
+                    <Property Name="Text" Value="設定條件" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.294118,0},{0.721311,0},{0.705882,0},{0.830601,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/SearchTeamWnd/Background/SearchKeyText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="搜尋條件" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0243446,0},{0.0145278,0},{0.338951,0},{0.0484262,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/SearchTeamWnd/Background/SearchListText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="搜尋結果（共有15隊）" />
+                <Property Name="UnifiedAreaRect" Value="{{0.344569,0},{0.0145278,0},{0.730337,0},{0.0484262,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/SearchTeamWnd/Background/SearchList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.333333,0},{0.062954,0},{0.988764,0},{0.457627,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/SearchTeamWnd/Background/DetailBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.011236,0},{0.520581,0},{0.988764,0},{0.985472,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/SearchTeamWnd/Background/PurposeText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍目的" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022989,0},{0.03125,0},{0.130269,0},{0.135417,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/SearchTeamWnd/Background/DemandText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍需求" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022989,0},{0.166667,0},{0.130269,0},{0.270834,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/SearchTeamWnd/Background/DetailBorder/PurposeTextLab" >
+                    <Property Name="Text" Value="一二三四五六七八九十" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142276,0},{0.03125,0},{0.467479,0},{0.135417,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/SearchTeamWnd/Background/DetailBorder/DemandTextLab" >
+                    <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                    <Property Name="Text" Value="一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142276,0},{0.166667,0},{0.914634,0},{0.416667,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiColumnList" Name="Root/SearchTeamWnd/Background/DetailBorder/MemberList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.142276,0},{0.447917,0},{0.987805,0},{0.96875,0}}" />
+                    <Property Name="ColumnHeader" Value="text:角色名稱 width:{0.25,0} id:0" />
+                    <Property Name="ColumnHeader" Value="text:等級 width:{0.1,0} id:1" />
+                    <Property Name="ColumnHeader" Value="text:職業 / 職等 width:{0.25,0} id:2" />
+                    <Property Name="ColumnHeader" Value="text:所在地點 width:{0.4,0} id:3" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/SearchTeamWnd/Background/MemberListText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊員清單" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022989,0},{0.447917,0},{0.130269,0},{0.552084,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/SearchTeamWnd/Background/JoinBtn" >
+                <Property Name="Text" Value="加入隊伍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.857678,0},{0.467312,0},{0.988764,0},{0.510896,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

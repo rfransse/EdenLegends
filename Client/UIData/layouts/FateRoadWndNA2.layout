@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FateRoadWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="推薦任務" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00101523,0},{0,742},{0.00101523,510}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Main" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0.700809,0},{1,-10}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Main/Map" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.102041,0},{0.95098,0},{0.918367,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Main/Token" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:CDAni image:Chess" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.094922,0},{0.091938,0},{0.160901,0},{0.191938,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Main/Map/Message" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="Tiled" />
+                    <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{1.11887,0},{0.9875,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/Map/Message/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="XXXXXXXXXXXXXXXXX" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.815094,0},{0.488889,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015571,0},{0.015,0},{0.108355,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015571,0},{0.1375,0},{0.108355,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015571,0},{0.26,0},{0.108355,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.125773,0},{0.26,0},{0.218557,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.235052,0},{0.26,0},{0.327835,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.235052,0},{0.1375,0},{0.327835,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon7" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.235052,0},{0.015,0},{0.327835,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon8" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.34433,0},{0.015,0},{0.437113,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon9" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.453608,0},{0.015,0},{0.546392,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon10" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.562887,0},{0.015,0},{0.65567,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.672165,0},{0.015,0},{0.764948,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon12" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.781443,0},{0.015,0},{0.874227,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon13" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.890722,0},{0.015,0},{0.983505,0},{0.1275,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon14" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.890722,0},{0.1375,0},{0.983505,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon15" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.890722,0},{0.26,0},{0.983505,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon16" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.781443,0},{0.26,0},{0.874227,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon17" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.672165,0},{0.26,0},{0.764948,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon18" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.562887,0},{0.26,0},{0.65567,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon19" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.453608,0},{0.26,0},{0.546392,0},{0.3725,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon20" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.453608,0},{0.3825,0},{0.546392,0},{0.495,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon21" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.453608,0},{0.505,0},{0.546392,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon22" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.562887,0},{0.505,0},{0.65567,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon23" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.672165,0},{0.505,0},{0.764948,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon24" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.781443,0},{0.505,0},{0.874227,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon25" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.890722,0},{0.505,0},{0.983505,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon26" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.890722,0},{0.627861,0},{0.983505,0},{0.740361,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon27" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.890722,0},{0.75,0},{0.983505,0},{0.8625,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon28" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.781443,0},{0.75,0},{0.874227,0},{0.8625,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon29" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.672165,0},{0.75,0},{0.764948,0},{0.8625,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon30" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.562887,0},{0.75,0},{0.65567,0},{0.8625,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon31" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.453608,0},{0.748407,0},{0.546392,0},{0.860907,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon32" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.34433,0},{0.748407,0},{0.437113,0},{0.860907,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon33" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.235052,0},{0.748407,0},{0.327835,0},{0.860907,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon34" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.235052,0},{0.627861,0},{0.327835,0},{0.740361,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon35" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.235052,0},{0.505,0},{0.327835,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon36" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.125773,0},{0.505,0},{0.218557,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon37" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015571,0},{0.505,0},{0.108355,0},{0.6175,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon38" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015571,0},{0.627861,0},{0.108355,0},{0.740361,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/RoadIcon39" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:Radar image:AppNormal" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.015571,0},{0.748407,0},{0.108355,0},{0.860907,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Main/Map/Dice" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.302666,0},{0.206186,0},{0.552665,0}}" />
+                    <Window Type="DejaVu/LightStatic" Name="Root/FateRoadWnd/Main/Map/Dice/Light" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/Dice/Light/Icon" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorizontalAlignment" Value="Centre" />
+                            <Property Name="Image" Value="set:Radar image:AppNormal" />
+                            <Property Name="InheritsAlpha" Value="False" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.9,0},{0.9,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/LightStatic" Name="Root/FateRoadWnd/Main/Map/NotifyLight" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3475,0},{0.742268,0},{0.5075,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Main/Map/NotifyLight/NotifyEvent" >
+                        <Property Name="AlwaysOnTop" Value="True" />
+                        <Property Name="HorizontalAlignment" Value="Centre" />
+                        <Property Name="InheritsAlpha" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.95,0},{0.88,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                        <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Main/Map/NotifyLight/NotifyEvent/Icon" >
+                            <Property Name="UnifiedAreaRect" Value="{{0.0292398,0},{0,0},{0.143275,0},{0.714286,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/Map/NotifyLight/NotifyEvent/Text" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="XXXXXXXXXXXXXXXXX" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.171152,0},{-0.0586461,0},{0.960121,0},{0.489949,0}}" />
+                            <Property Name="VerticalAlignment" Value="Centre" />
+                        </Window>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Main/Map/BG" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.8675,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FateRoadWnd/Main/Help" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0196078,0},{0.0204082,0},{0.0117647,0},{0.0530612,0}}" />
+            </Window>
+            <Window Type="DejaVu/PurpleProgressBar" Name="Root/FateRoadWnd/Main/ExpBar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.329412,0},{0.940816,0},{0.623529,0},{0.981633,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/ExpBar/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x50%" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.000768,0},{0.083333,0},{0.999232,0},{1.08333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/ExpTitle" >
+                <Property Name="BackgroundColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFFF br:FFFFFFFF" />
+                <Property Name="Text" Value="x命運條" />
+                <Property Name="UnifiedAreaRect" Value="{{0.515686,0},{0.928571,0},{0.682353,0},{0.985714,0}}" />
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/FateRoadWnd/Main/ExpTitle/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x10" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.682353,0},{0.142857,0},{0.941176,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/FateRoadWnd/Main/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x命運之路" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022449,0},{0.9,0},{0.0897959,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="Root/FateRoadWnd/Main/VitBar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.192157,0},{0.940816,0},{0.486274,0},{0.981633,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/VitBar/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x50%" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.000768006,0},{0.083333,0},{0.999232,0},{1.08333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/VitTitle" >
+                <Property Name="Text" Value="x探險值" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0254902,0},{0.928571,0},{0.192157,0},{0.985714,0}}" />
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/FateRoadWnd/Main/VitTitle/Text" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="x10" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.682353,0},{0.142857,0},{0.941176,0},{0.857143,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Second" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.711756,0},{0,10},{1,-10},{1,-10}}" />
+            <Window Type="DejaVu/Border" Name="Root/FateRoadWnd/Second/PointCntroll" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.387755,0},{0.901961,0},{0.981633,0}}" />
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.020619,0},{0.956521,0},{0.189004,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn1/Icon" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0816327,0},{0.261905,0},{0.897959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn1/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x加一或減一" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.487805,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn2" >
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.178694,0},{0.956521,0},{0.347079,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn2/Icon" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0238095,0},{0.0816327,0},{0.261905,0},{0.897959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn2/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x乘以二" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.487805,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn3" >
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.33677,0},{0.956521,0},{0.505155,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn3/Icon" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.081633,0},{0.261905,0},{0.897959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn3/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x加三" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.487805,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn4" >
+                    <Property Name="ID" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.494915,0},{0.956521,0},{0.6633,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn4/Icon" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.081633,0},{0.261905,0},{0.897959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn4/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x減四" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.487805,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn5" >
+                    <Property Name="ID" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.652921,0},{0.956521,0},{0.821306,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn5/Icon" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.081633,0},{0.261905,0},{0.897959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn5/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x等於五" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.487805,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn6" >
+                    <Property Name="ID" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.043478,0},{0.810997,0},{0.956521,0},{0.979382,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn6/Icon" >
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.02381,0},{0.081633,0},{0.261905,0},{0.897959,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/PointCntroll/FunctionBtn6/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="MousePassThroughEnabled" Value="True" />
+                        <Property Name="Text" Value="x重骰一次" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.487805,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FateRoadWnd/Second/Help" >
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.0490196,0},{0.0204082,0},{0.0294118,0},{0.0530612,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/FateRoadWnd/Second/ActionBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0673469,0},{0.901961,0},{0.338776,0}}" />
+                <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Second/ActionBorder/ItemMall" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0451128,0},{0.923913,0},{0.406015,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/ActionBorder/ItemMall/Icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.023077,0},{0,0},{0.258371,0},{0.833333,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/ActionBorder/ItemMall/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x虛寶" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.48,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/ActionBorder/ActionBtn" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="x動作鈕" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.923913,0},{0.18797,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Second/Counter" >
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.593985,0},{0.923913,0},{0.954887,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/ActionBorder/Counter/Icon" >
+                        <Property Name="UnifiedAreaRect" Value="{{0.023077,0},{0,0},{0.258371,0},{0.833333,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/ActionBorder/Counter/Text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="x剩餘次數 : 9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.48,0}}" />
+                        <Property Name="VerticalAlignment" Value="Centre" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/FateRoadWnd/Second/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x功能選單" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0784314,0},{0.022449,0},{0.833333,0},{0.0714286,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/FateRoadWnd/Second/Title2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x點數操作列" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0784314,0},{0.342857,0},{0.833333,0},{0.391837,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

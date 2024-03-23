@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/TutorailWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0934058,0},{0.12781,0},{0.187626,0},{0.242117,0}}" />
+        <Window Type="DejaVu/StaticText" Name="Root/TutorailWnd/Text" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Text" />
+            <Property Name="HorzExtent" Value="26" />
+            <Property Name="VertExtent" Value="11.4835" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF00000F" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

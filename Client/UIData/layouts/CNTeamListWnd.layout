@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CNTeamListWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.127621,0},{0.121212,0},{0.127621,396},{0.121212,336}}" />
+        <Window Type="DejaVu/Static" Name="Root/CNTeamListWnd/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CNTeamListWnd/Background/HelpBTn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.945714,0},{0.01875,0},{0.982556,0},{0.0657299,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CNTeamListWnd/Background/DetailBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.015789,0},{0.075949,0},{0.98421,0},{0.975278,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/CNTeamListWnd/Background/PurposeText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍目的" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032609,0},{0.020979,0},{0.377718,0},{0.110531,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiColumnList" Name="Root/CNTeamListWnd/Background/DetailBorder/MemberList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016304,0},{0.5,0},{0.983695,0},{0.977612,0}}" />
+                    <Property Name="ColumnHeader" Value="text:角色名稱 width:{0.45,0} id:0" />
+                    <Property Name="ColumnHeader" Value="text:等級 width:{0.15,0} id:1" />
+                    <Property Name="ColumnHeader" Value="text:職業 / 職等 width:{0.4,0} id:2" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/CNTeamListWnd/Background/MemberListText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊員清單" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0244565,0},{0.410448,0},{0.369565,0},{0.492537,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/CNTeamListWnd/Background/DetailBorder/PurposeTextLab" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" >以吟詩作對為目的練級勿入三四五六七八九十一二三四五六七八
+
+
+
+
+二
+
+
+
+
+三
+
+
+
+
+四
+
+
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0246423,0},{0.110763,0},{0.977795,0},{0.397944,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

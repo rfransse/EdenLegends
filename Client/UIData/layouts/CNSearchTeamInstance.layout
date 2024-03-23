@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CNSearchTeamInstance" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,376},{0,394}}" />
+        <Window Type="DejaVu/Static" Name="Root/CNSearchTeamInstance/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/CNSearchTeamInstance/Background/ChoseText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x請選擇副本中的定位" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0326087,0},{0.611399,0},{0.904891,0},{0.673575,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/CNSearchTeamInstance/Background/InstanceList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+                <Property Name="Text" Value="123" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016304,0},{0.088083,0},{0.983695,0},{0.601036,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CNSearchTeamInstance/Background/ClearBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="x清除" />
+                <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0.015544,0},{0.842391,0},{0.0777202,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CNSearchTeamInstance/Background/OKBtn" >
+                <Property Name="Text" Value="x進入佇列" />
+                <Property Name="UnifiedAreaRect" Value="{{0.788043,0},{0.917098,0},{0.978261,0},{0.979275,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/CNSearchTeamInstance/Background/ChoseText1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="string左鍵點選副本   ( 2 / 4 )" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.032609,0},{0.020725,0},{0.644181,0},{0.0725385,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CNSearchTeamInstance/Background/BtnBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.016304,0},{0.673575,0},{0.983695,0},{0.906736,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CNSearchTeamInstance/Background/BtnBorder/TankIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:DefenderIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0337079,0},{0.4,0},{0.0842697,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/CNSearchTeamInstance/Background/BtnBorder/HealerIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:HealerIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.356742,0},{0.4,0},{0.407303,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/SetConditionInstance/Border/BtnBorder/DDIcon" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:AttackIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.679775,0},{0.4,0},{0.730337,0},{0.6,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageRadioButton" Name="Root/CNSearchTeamInstance/Background/BtnBorder/TankRadio" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:TankBtnPressed" />
+                    <Property Name="GroupID" Value="1" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:TankBtnNormal" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:TankBtnPressed" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:TankBtnHover" />
+                    <Property Name="Text" Value="x坦克" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0898876,0},{0.366667,0},{0.286517,0},{0.633333,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageRadioButton" Name="Root/CNSearchTeamInstance/Background/BtnBorder/HealerRadio" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:HealerBtnPressed" />
+                    <Property Name="GroupID" Value="1" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:HealerBtnNormal" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:HealerBtnPressed" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:HealerBtnHover" />
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="Text" Value="x治療者" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.412921,0},{0.366667,0},{0.60955,0},{0.633334,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageRadioButton" Name="Root/CNSearchTeamInstance/Background/BtnBorder/DDRadio" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="DisabledImage" Value="set:DejaVu image:DDBtnPressed" />
+                    <Property Name="GroupID" Value="1" />
+                    <Property Name="HoverImage" Value="set:DejaVu image:DDBtnNormal" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="NormalImage" Value="set:DejaVu image:DDBtnPressed" />
+                    <Property Name="PushedImage" Value="set:DejaVu image:DDBtnHover" />
+                    <Property Name="Text" Value="x輸出者" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.735955,0},{0.366667,0},{0.932584,0},{0.633334,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CNSearchTeamInstance/Background/HelpBTn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.945652,0},{0.015544,0},{0.983696,0},{0.0518135,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

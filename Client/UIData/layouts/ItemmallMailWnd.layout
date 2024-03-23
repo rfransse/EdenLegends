@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ItemMaillMailWnd" >
+        <Property Name="DistributeCapturedInputs" Value="True" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.316406,0},{0.169271,0},{0.316406,344},{0.169271,390}}" />
+        <Window Type="DejaVu/Static" Name="Root/ItemMaillMailWnd/backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/ItemMaillMailWnd/backgrand/closeBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="close" />
+                <Property Name="UnifiedAreaRect" Value="{{0.689024,0},{0.897727,0},{0.963415,0},{0.965909,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMaillMailWnd/backgrand/sendBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="send" />
+                <Property Name="UnifiedAreaRect" Value="{{0.378049,0},{0.897727,0},{0.652439,0},{0.965909,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ItemMaillMailWnd/backgrand/AddressbookBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="通訊錄" />
+                <Property Name="UnifiedAreaRect" Value="{{0.615854,0},{0.034091,0},{0.890244,0},{0.102273,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMaillMailWnd/backgrand/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Title" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036585,0},{0.136364,0},{0.189024,0},{0.204546,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ItemMaillMailWnd/backgrand/targetText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Target" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036585,0},{0.034091,0},{0.189024,0},{0.102273,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/ItemMaillMailWnd/backgrand/contextEdit" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="50" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036585,0},{0.238636,0},{0.963414,0},{0.664772,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/ItemMaillMailWnd/backgrand/TargetEdit" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="16" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.207317,0},{0.034091,0},{0.597561,0},{0.102273,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/ItemMaillMailWnd/backgrand/titleEdit" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="24" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.207317,0},{0.136364,0},{0.963415,0},{0.204546,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/ItemMaillMailWnd/backgrand/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.908537,0},{0.034091,0},{0.963415,0},{0.0852274,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/ItemMaillMailWnd/backgrand/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.036585,0},{0.698864,0},{0.963414,0},{0.863637,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/ItemMaillMailWnd/backgrand/border/itemslot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.848684,0},{0.206897,0},{0.960526,0},{0.793103,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

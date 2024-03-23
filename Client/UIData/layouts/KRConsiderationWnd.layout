@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/KRConsiderationWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.24875,0},{0.17,0},{0.24875,635},{0.17,444}}" />
+        <Window Type="DejaVu/Static" Name="Root/KRConsiderationWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/KRConsiderationWnd/Static/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.802597,0},{0.940298,0},{0.984415,0},{0.985074,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/KRConsiderationWnd/Static/Img" >
+                <Property Name="Image" Value="set:KRConsideration image:Img" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0142612,0},{0.019704,0},{0.986514,0},{0.913793,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

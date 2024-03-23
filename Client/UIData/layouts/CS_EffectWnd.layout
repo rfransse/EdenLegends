@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_EffectWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.195313,0},{0.482315,0}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_EffectWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,240},{0,450}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_EffectID" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.508475,0},{0,220},{0.508475,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_EffectWnd/Background/Border_Dummy/Text_EffectID" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="EffectID" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.318182,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EffectWnd/Background/Border_EffectID/Edit_EffectID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.363636,0},{0.25,0},{0.954545,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_LinkNode" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.605327,0},{0,220},{0.605327,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_EffectWnd/Background/Border_LinkNode/Text_LinkNode" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="LinkNode" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.318182,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_EffectWnd/Background/Border_LinkNode/Combo_LinkNode" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.363636,0},{0.25,0},{0.954545,0},{4.25,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_Scale" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.799031,0},{0,100},{0.799031,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_EffectWnd/Background/Border_Scale/Text_Scale" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Scale" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.445455,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EffectWnd/Background/Border_Scale/Edit_Scale" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.9,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_PlayType" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.702179,0},{0,220},{0.702179,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_EffectWnd/Background/Border_PlayType/Text_PlayType" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="PlayType" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.318182,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Combobox" Name="Root/CS_EffectWnd/Background/Border_PlayType/Combo_PlayType" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="MaxEditTextLength" Value="2147483647" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.363636,0},{0.25,0},{0.954545,0},{2.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_LifeTime" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.42735,0},{0.800971,0},{0.42735,120},{0.800971,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_EffectWnd/Background/Border_LifeTime/Text_LifeTime" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="LifeTime" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0416667,0},{0.25,0},{0.583333,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EffectWnd/Background/Border_LifeTime/Edit_LifeTime" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.583333,0},{0.25,0},{0.916666,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_Dir" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.895884,0},{0,100},{0.895884,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_EffectWnd/Background/Border_Dir/Text_Dir" >
+                    <Property Name="ClippedByParent" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Dir" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.25,0},{0.45,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_EffectWnd/Background/Border_Dir/Edit_Dir" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.25,0},{0.9,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_EffectWnd/Background/Border_Preview" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,200}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/CS_EffectWnd/Background/Border_PreView/PreView" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.025,0},{0.977273,0},{0.975,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

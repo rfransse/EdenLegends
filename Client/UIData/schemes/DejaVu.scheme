@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="DejaVu">
+	<Imageset Name="DejaVu" Filename="DejaVu.imageset" />
+	<Font Name="F001-9" Filename="F001-9.font" />
+	<Font Name="F001-10" Filename="F001-10.font" />
+
+	<Font Name="F001-scale" Filename="F001-scale.font" />
+	<LookNFeel Filename="DejaVu.looknfeel" />
+	<WindowRendererSet Filename="CEGUIFalagardWRBase" />
+	<FalagardMapping WindowType="DejaVu/Button"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="DejaVu/Button" />
+	<FalagardMapping WindowType="DejaVu/ImageCheckbox" TargetType="CEGUI/Checkbox"  Renderer="Falagard/ToggleButton"       LookNFeel="DejaVu/ImageCheckbox" />
+	<FalagardMapping WindowType="DejaVu/Checkbox"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="DejaVu/Checkbox" />
+	<FalagardMapping WindowType="DejaVu/RedCheckbox"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="DejaVu/RedCheckbox" />
+	<FalagardMapping WindowType="DejaVu/ImageButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="DejaVu/ImageButton" />
+	<FalagardMapping WindowType="DejaVu/RadioButton" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="DejaVu/RadioButton" />
+	<FalagardMapping WindowType="DejaVu/ImageRadioButton" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="DejaVu/ImageRadioButton" />
+	<FalagardMapping WindowType="DejaVu/FrameWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="DejaVu/FrameWindow" />
+	<FalagardMapping WindowType="DejaVu/ChannelWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="DejaVu/ChannelWindow" />
+	<FalagardMapping WindowType="DejaVu/BuffWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="DejaVu/BuffWindow" />
+	<FalagardMapping WindowType="DejaVu/ChatFrameWnd"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="DejaVu/ChatFrameWnd" />
+	
+	<FalagardMapping WindowType="DejaVu/Titlebar"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="DejaVu/Titlebar" />
+	<FalagardMapping WindowType="DejaVu/SystemButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/SystemButton" LookNFeel="DejaVu/Button" />
+	<FalagardMapping WindowType="DejaVu/Editbox"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="DejaVu/Editbox" />
+	<FalagardMapping WindowType="DejaVu/MultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="DejaVu/MultiLineEditbox" />
+	<FalagardMapping WindowType="DejaVu/Menubar"   TargetType="CEGUI/Menubar"   Renderer="Falagard/Menubar"   LookNFeel="DejaVu/Menubar" />
+	<FalagardMapping WindowType="DejaVu/PopupMenu" TargetType="CEGUI/PopupMenu" Renderer="Falagard/PopupMenu" LookNFeel="DejaVu/PopupMenu" />
+	<FalagardMapping WindowType="DejaVu/MenuItem"  TargetType="CEGUI/MenuItem"  Renderer="Falagard/MenuItem"  LookNFeel="DejaVu/MenuItem" />
+	<FalagardMapping WindowType="DejaVu/AlternateProgressBar" TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="DejaVu/AltProgressBar" />
+	<FalagardMapping WindowType="DejaVu/ProgressBar"          TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="DejaVu/ProgressBar" />
+	<FalagardMapping WindowType="DejaVu/MpProgressBar"          TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="DejaVu/MpProgressBar" />
+	<FalagardMapping WindowType="DejaVu/PurpleProgressBar"          TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="DejaVu/PurpleProgressBar" />
+	<FalagardMapping WindowType="DejaVu/GreenProgressBar"          TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="DejaVu/GreenProgressBar" />
+	<FalagardMapping WindowType="DejaVu/VUMeter"              TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="DejaVu/VUMeter" />
+	<FalagardMapping WindowType="DejaVu/VerticalScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="DejaVu/VerticalScrollbar" />
+	<FalagardMapping WindowType="DejaVu/ChannelScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="DejaVu/ChannelScrollbar" />
+	
+	
+	<FalagardMapping WindowType="DejaVu/HorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="DejaVu/HorizontalScrollbar" />
+	<FalagardMapping WindowType="DejaVu/VerticalScrollbarThumb"   TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="DejaVu/VerticalScrollbarThumb" />
+	<FalagardMapping WindowType="DejaVu/HorizontalScrollbarThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="DejaVu/HorizontalScrollbarThumb" />
+	<FalagardMapping WindowType="DejaVu/LargeVerticalScrollbar"      TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="DejaVu/LargeVerticalScrollbar" />
+	<FalagardMapping WindowType="DejaVu/LargeVerticalScrollbarThumb" TargetType="CEGUI/Thumb"     Renderer="Falagard/Button"    LookNFeel="DejaVu/LargeVerticalScrollbarThumb" />
+	<FalagardMapping WindowType="DejaVu/TabButton"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="DejaVu/TabButton" />
+	<FalagardMapping WindowType="DejaVu/TabControl" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="DejaVu/TabControl" />
+	<FalagardMapping WindowType="DejaVu/TabContentPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="DejaVu/TabContentPane" />
+	<FalagardMapping WindowType="DejaVu/TabButtonPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="DejaVu/TabButtonPane" />
+	<FalagardMapping WindowType="DejaVu/ComboDropList" TargetType="CEGUI/ComboDropList" Renderer="Falagard/Listbox" LookNFeel="DejaVu/ComboDropList" />
+	<FalagardMapping WindowType="DejaVu/ComboEditbox"  TargetType="CEGUI/Editbox"	 Renderer="Falagard/Editbox" LookNFeel="DejaVu/ComboEditbox" />
+	<FalagardMapping WindowType="DejaVu/Combobox"	TargetType="CEGUI/Combobox"	 Renderer="Falagard/Default" LookNFeel="DejaVu/Combobox" />
+	<FalagardMapping WindowType="DejaVu/Listbox"           TargetType="CEGUI/Listbox"           Renderer="Falagard/Listbox"           LookNFeel="DejaVu/Listbox" />
+	<FalagardMapping WindowType="DejaVu/Listbox2"           TargetType="CEGUI/ComboDropList"           Renderer="Falagard/Listbox"           LookNFeel="DejaVu/Listbox" />
+	<FalagardMapping WindowType="DejaVu/ListHeader"        TargetType="CEGUI/ListHeader"        Renderer="Falagard/ListHeader"        LookNFeel="DejaVu/ListHeader" />
+	<FalagardMapping WindowType="DejaVu/ListHeaderSegment" TargetType="CEGUI/ListHeaderSegment" Renderer="Falagard/ListHeaderSegment" LookNFeel="DejaVu/ListHeaderSegment" />
+	<FalagardMapping WindowType="DejaVu/MultiColumnList"   TargetType="CEGUI/MultiColumnList"   Renderer="Falagard/MultiColumnList"   LookNFeel="DejaVu/MultiColumnList" />
+	<FalagardMapping WindowType="DejaVu/MultiColumnList2"   TargetType="CEGUI/MultiColumnList"   Renderer="Falagard/MultiColumnList"   LookNFeel="DejaVu/MultiColumnList2" />
+	
+	<FalagardMapping WindowType="DejaVu/Slider"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="DejaVu/Slider" />
+	<FalagardMapping WindowType="DejaVu/SliderThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="DejaVu/SliderThumb" />
+	 <!--
+	<FalagardMapping WindowType="DejaVu/HorSlider"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="DejaVu/HorSlider" />
+	<FalagardMapping WindowType="DejaVu/HorSliderThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="DejaVu/HorSliderThumb" />
+	-->
+	<FalagardMapping WindowType="DejaVu/ScrollablePane" TargetType="CEGUI/ScrollablePane" Renderer="Falagard/ScrollablePane" LookNFeel="DejaVu/ScrollablePane" />
+	<FalagardMapping WindowType="DejaVu/channelScrollablePane" TargetType="CEGUI/ScrollablePane" Renderer="Falagard/ScrollablePane" LookNFeel="DejaVu/channelScrollablePane" />
+	<FalagardMapping WindowType="DejaVu/Spinner" TargetType="CEGUI/Spinner" Renderer="Falagard/Default" LookNFeel="DejaVu/Spinner" />
+	<FalagardMapping WindowType="DejaVu/Tooltip" TargetType="CEGUI/Tooltip" Renderer="Falagard/Tooltip" LookNFeel="DejaVu/Tooltip" />
+	
+	
+	<FalagardMapping WindowType="DejaVu/LightStatic"      TargetType="DefaultWindow" Renderer="Falagard/Static"      LookNFeel="DejaVu/LightStatic" />
+	
+	<FalagardMapping WindowType="DejaVu/zStatic"      TargetType="DefaultWindow" Renderer="Falagard/Static"      LookNFeel="DejaVu/zStatic" />
+	<FalagardMapping WindowType="DejaVu/Static"      TargetType="DefaultWindow" Renderer="Falagard/Static"      LookNFeel="DejaVu/Static" />
+	<FalagardMapping WindowType="DejaVu/Border"      TargetType="DefaultWindow" Renderer="Falagard/Static"      LookNFeel="DejaVu/Border" />
+	<FalagardMapping WindowType="DejaVu/Embed"      TargetType="DefaultWindow" Renderer="Falagard/Static"      LookNFeel="DejaVu/Embed" />
+	
+	<FalagardMapping WindowType="DejaVu/CastingBarImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="DejaVu/CastingImage" />
+	
+	<FalagardMapping WindowType="DejaVu/StaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="DejaVu/StaticImage" />
+	
+	<FalagardMapping WindowType="DejaVu/SlotImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="DejaVu/SlotImage" />
+	<FalagardMapping WindowType="DejaVu/SlotImageItem" TargetType="CEGUI/SlotImageItem" Renderer="Falagard/SlotImageItem" LookNFeel="DejaVu/SlotImageItem" />
+	<FalagardMapping WindowType="DejaVu/RoundImage" TargetType="CEGUI/RoundImage" Renderer="Falagard/RoundImage" LookNFeel="DejaVu/StaticImage" />
+	
+	<FalagardMapping WindowType="DejaVu/channelImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="DejaVu/ChannelImage" />
+	<FalagardMapping WindowType="DejaVu/HintImage"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/HintImage" />
+  	<FalagardMapping WindowType="DejaVu/Zframe"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/Zframe" />
+	
+	<FalagardMapping WindowType="DejaVu/TransparentTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/TransparentTextLab" />
+	
+	<FalagardMapping WindowType="DejaVu/TextSmoothLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/TextSmoothLab" />
+	<FalagardMapping WindowType="DejaVu/StaticTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/StaticTextLab" />
+	<FalagardMapping WindowType="DejaVu/HintTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/HintTextLab" />
+	<FalagardMapping WindowType="DejaVu/EmbedTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/EmbedTextLab" />
+	<FalagardMapping WindowType="DejaVu/BorderTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/BorderTextLab" />
+	<FalagardMapping WindowType="DejaVu/TipTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/TipTextLab" />
+	
+	
+	<FalagardMapping WindowType="DejaVu/StaticText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/StaticText" />
+	<FalagardMapping WindowType="DejaVu/HintText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/HintText" />
+	<FalagardMapping WindowType="DejaVu/EmbedText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/EmbedText" />
+  	<FalagardMapping WindowType="DejaVu/BorderText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/BorderText" />
+
+  
+	<FalagardMapping WindowType="DejaVu/ItemListbox" TargetType="CEGUI/ItemListbox" Renderer="Falagard/ItemListbox" LookNFeel="DejaVu/ItemListbox" />
+	<FalagardMapping WindowType="DejaVu/ListboxItem" TargetType="CEGUI/ItemEntry"   Renderer="Falagard/ItemEntry"   LookNFeel="DejaVu/ListboxItem" />
+	<FalagardMapping WindowType="DejaVu/GroupBox" TargetType="CEGUI/GroupBox"   Renderer="Falagard/Default"   LookNFeel="DejaVu/GroupBox" />
+	<FalagardMapping WindowType="DejaVu/Tree" TargetType="CEGUI/Tree"   Renderer="Falagard/Tree"   LookNFeel="DejaVu/Tree" />
+	
+	<FalagardMapping WindowType="DejaVu/TabTextLab"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="DejaVu/TabTextLab" />
+	
+	<FalagardMapping WindowType="DejaVu/BuffBackground" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="DejaVu/BuffBackground" />
+	
+	<FalagardMapping WindowType="DejaVu/QualityW"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/QualityW" />
+	<FalagardMapping WindowType="DejaVu/QualityG"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/QualityG" />
+	<FalagardMapping WindowType="DejaVu/QualityO"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/QualityO" />
+	<FalagardMapping WindowType="DejaVu/QualityB"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/QualityB" />
+	<FalagardMapping WindowType="DejaVu/QualityY"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/QualityY" />
+	<FalagardMapping WindowType="DejaVu/QualityP"  TargetType="DefaultWindow" Renderer="Falagard/StaticImage"  LookNFeel="DejaVu/QualityP" />
+	
+	<FalagardMapping WindowType="DejaVu/ImageOnlyCheckbox" TargetType="CEGUI/Checkbox"  Renderer="Falagard/ToggleButton"       LookNFeel="DejaVu/ImageOnlyCheckbox" />
+</GUIScheme>

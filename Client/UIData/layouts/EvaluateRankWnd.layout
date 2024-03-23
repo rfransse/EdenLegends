@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EvaluateRankWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.172396,0},{0.0194175,0},{0.172396,619},{0.0194175,833}}" />
+        <Window Type="DejaVu/Static" Name="Root/TeamScoreRank" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.00166,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/EvaluateRankWnd/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.956882,0},{0.00251572,0},{0.956882,15},{0.00251572,15}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/EvaluateRankWnd/Border1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0172187,0},{0.0226415,0},{0.98571,0},{0.661635,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Title1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-24" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="特殊挑戰項目" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.022222,0},{0.023622,0},{0.876923,0},{0.102362,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateRankWnd/Border1/Score1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="+10000" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.328205,0},{0.129921,0},{0.478632,0},{0.173228,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Chellenge01" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="擊殺怪物數量" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.129921,0},{0.181197,0},{0.173228,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Chellenge03" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="擊殺王怪數量" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.500855,0},{0.129921,0},{0.651282,0},{0.173228,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Chellenge02" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="擊殺精英數量" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.188976,0},{0.181197,0},{0.232283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Chellenge04" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >團隊總陣亡數
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.500855,0},{0.188976,0},{0.651282,0},{0.232283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Chellenge05" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="通關時間總計" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.444882,0},{0.181197,0},{0.488189,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Chellenge06" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >戰鬥擊殺積分
+</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.502564,0},{0.444882,0},{0.65641,0},{0.488189,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/result1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="100/100" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.164103,0},{0.129921,0},{0.31453,0},{0.173228,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Title2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-24" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="戰鬥表現" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023932,0},{0.338583,0},{0.878633,0},{0.417323,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Title3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-24" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="團隊總成績" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.023932,0},{0.653543,0},{0.536753,0},{0.732283,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateRankWnd/Border1/Score2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="+10000" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.328205,0},{0.188976,0},{0.478632,0},{0.232283,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateRankWnd/Border1/Score3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="+10000" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.129921,0},{0.950427,0},{0.173228,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateRankWnd/Border1/Score4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="+10000" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.188976,0},{0.950427,0},{0.232283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/result2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="20/20" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.164103,0},{0.188976,0},{0.31453,0},{0.232283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/result3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="3/4" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.635897,0},{0.129921,0},{0.786325,0},{0.173228,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/result4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="0/5" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.635897,0},{0.188976,0},{0.786325,0},{0.232283,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/result5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="01:00:25" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.164103,0},{0.444882,0},{0.31453,0},{0.488189,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateRankWnd/Border1/Score5" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="+10000" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.328205,0},{0.444882,0},{0.478632,0},{0.488189,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/result6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="29600" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.635897,0},{0.444882,0},{0.786325,0},{0.488189,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateRankWnd/Border1/Score6" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="+29600" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.8,0},{0.444882,0},{0.950427,0},{0.488189,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border1/Total" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-24" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="79600" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0307692,0},{0.759843,0},{0.54359,0},{0.917323,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EvaluateRankWnd/Border1/Rank" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.615385,0},{0.653543,0},{0.888889,0},{0.968504,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/EvaluateRankWnd/Border2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0172187,0},{0.666667,0},{0.98571,0},{0.928302,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border2/Title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-24" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="請選擇獎勵" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0239316,0},{0.0576923,0},{0.974359,0},{0.25,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border2/SelectText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="剩餘抽獎次數：　　次" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0239316,0},{0.769231,0},{0.974359,0},{0.961538,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateRankWnd/Border2/SelectTimes" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Ｘ" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.555556,0},{0.769231,0},{0.610256,0},{0.961538,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EvaluateRankWnd/Border2/RewardImage1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0410959,0},{0.288462,0},{0.191781,0},{0.711538,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EvaluateRankWnd/Border2/RewardImage2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.232877,0},{0.288462,0},{0.383562,0},{0.711538,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EvaluateRankWnd/Border2/RewardImage3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.424658,0},{0.288462,0},{0.575342,0},{0.711538,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EvaluateRankWnd/Border2/RewardImage4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.616438,0},{0.288462,0},{0.767123,0},{0.711538,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EvaluateRankWnd/Border2/RewardImage5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.808219,0},{0.288462,0},{0.958904,0},{0.711538,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EvaluateRankWnd/Border/ResetBtn" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="Text" Value="額外抽獎次數：　　次" />
+                <Property Name="UnifiedAreaRect" Value="{{0.169154,0},{0.938365,0},{0.487562,0},{0.988679,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EvaluateRankWnd/Border/GetBtn" >
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="Text" Value="確定領取" />
+                <Property Name="UnifiedAreaRect" Value="{{0.514096,0},{0.938365,0},{0.832504,0},{0.988679,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

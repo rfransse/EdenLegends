@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/VersusInstanceRankWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="積分結算" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.011922,0},{0.11849,0},{0.011922,557},{0.11849,314}}" />
+        <Window Type="DejaVu/Static" Name="Root/VersusInstanceRankWnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/VersusInstanceRankWnd/Static/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.933438,0},{0.048,0},{0.96671,0},{0.105692,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/VersusInstanceRankWnd/Static/RedList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0332717,0},{0.166667,0},{0.476895,0},{0.84058,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/VersusInstanceRankWnd/Static/BlueList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.523105,0},{0.166667,0},{0.966728,0},{0.84058,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/VersusInstanceRankWnd/Static/LeaveBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.739372,0},{0.882943,0},{0.966729,0},{0.972687,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VersusInstanceRankWnd/Static/RedText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x紅軍" />
+                <Property Name="TextColours" Value="tl:FFFA0300 tr:FFFA0300 bl:FFFA0300 br:FFFA0300" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0487291,0},{0.048,0},{0.281287,0},{0.12,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VersusInstanceRankWnd/Static/BlueText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x藍軍" />
+                <Property Name="TextColours" Value="tl:FF0300FA tr:FF0300FA bl:FF0300FA br:FF0300FA" />
+                <Property Name="UnifiedAreaRect" Value="{{0.537101,0},{0.048,0},{0.769659,0},{0.12,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/VersusInstanceRankWnd/Static/RedWinImg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:CDAni image:BattleDungeonWinner" />
+                <Property Name="UnifiedAreaRect" Value="{{0.314233,0},{0.0217391,0},{0.397412,0},{0.155797,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/VersusInstanceRankWnd/Static/BlueWinImg" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:CDAni image:BattleDungeonWinner" />
+                <Property Name="UnifiedAreaRect" Value="{{0.804067,0},{0.0217391,0},{0.887246,0},{0.155797,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SlotJob" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/ImageCheckbox" Name="SlotJob/Column" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="HoverImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="NormalImage" Value="set:DejaVu image:TreeListClosed" />
+            <Property Name="PushedImage" Value="set:DejaVu image:TreeListOpened" />
+            <Property Name="Text" Value="1234" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125628,0},{0.167521,0},{0.125628,156},{0.167521,18}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="SlotJob/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.125521,0},{0.332982,0},{0.125521,156},{0.332982,40}}" />
+            <Window Type="DejaVu/SlotImage" Name="SlotJob/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="1" />
+                <Property Name="Image" Value="set:main image:FunctionSlot" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01875,0},{0.075,0},{0.23125,0},{0.925,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="SlotJob/Item/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="2" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="戰士" />
+                <Property Name="UnifiedAreaRect" Value="{{0.26875,0},{0.075,0},{0.71875,0},{0.475,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="SlotJob/Item/LvText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="ID" Value="3" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="Lv.99" />
+                <Property Name="UnifiedAreaRect" Value="{{0.753645,0},{0.0855374,0},{0.973437,0},{0.485537,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="SlotJob/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="ID" Value="4" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="SlotJob/Item/newImage" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:NotificationNew" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.28125,0},{0.55,0},{0.45625,0},{0.875,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="SlotJob/Item/Disable" >
+                <Property Name="Alpha" Value="0.5" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="SlotJob/Item/Disable/Lock" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:FunctionLockPress" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.897436,0},{0.5,0},{0.980769,0},{0.95,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

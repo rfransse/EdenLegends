@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/ChangeTypeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.390625,0},{0.210804,0},{0.390625,236},{0.210804,454}}" />
+        <Window Type="DejaVu/Static" Name="Root/ChangeTypeWnd/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/ChangeTypeWnd/BackGround/SName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="請選擇欲改變的英雄特質" />
+                <Property Name="UnifiedAreaRect" Value="{{0.054545,0},{0.028846,0},{0.945454,0},{0.0721152,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/ChangeTypeWnd/BackGround/text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0545455,0},{0.322115,0},{0.945455,0},{0.884615,0}}" />
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/ChangeTypeWnd/BackGround/text/text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="ReadOnly" Value="True" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.039024,0},{0.033473,0},{0.960975,0},{0.966527,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.109091,0},{0.100962,0},{0.263636,0},{0.182692,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature2" >
+                <Property Name="UnifiedAreaRect" Value="{{0.318182,0},{0.100962,0},{0.472727,0},{0.182692,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature3" >
+                <Property Name="UnifiedAreaRect" Value="{{0.527273,0},{0.100962,0},{0.681818,0},{0.182692,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature4" >
+                <Property Name="UnifiedAreaRect" Value="{{0.736364,0},{0.100962,0},{0.890909,0},{0.182692,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature5" >
+                <Property Name="UnifiedAreaRect" Value="{{0.109091,0},{0.211538,0},{0.263636,0},{0.293269,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature6" >
+                <Property Name="UnifiedAreaRect" Value="{{0.318182,0},{0.213942,0},{0.472727,0},{0.295673,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature7" >
+                <Property Name="UnifiedAreaRect" Value="{{0.527273,0},{0.211538,0},{0.681818,0},{0.293269,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/ChangeTypeWnd/BackGround/Feature8" >
+                <Property Name="UnifiedAreaRect" Value="{{0.736364,0},{0.211538,0},{0.890909,0},{0.293269,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/ChangeTypeWnd/BackGround/OkBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.536364,0},{0.913462,0},{0.945455,0},{0.971154,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

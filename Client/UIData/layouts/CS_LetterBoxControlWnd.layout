@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_LetterBoxControlWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,250},{0,400}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_LetterBoxControlWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,240},{0,400}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_LetterBoxControlWnd/Background/Border_LayoutName" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,220},{0,60}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LetterBoxControlWnd/Background/Border_LayoutName/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Test" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_LetterBoxControlWnd/Background/Border_DialogueID" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.358127,0},{0,220},{0.358127,40}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_LetterBoxControlWnd/Background/Border_DialogueID/Text_DialogueID" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="DialogueID" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.045455,0},{0.25,0},{0.409091,0},{0.75,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/CS_LetterBoxControlWnd/Background/Border_DialogueID/Edit_DialogueID" >
+                    <Property Name="MaxTextLength" Value="2147483647" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.454545,0},{0.25,0},{0.954545,0},{0.75,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_LetterBoxControlWnd/Background/Border_TextName" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.179063,0},{0,220},{0.179063,60}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LetterBoxControlWnd/Background/Border_TextName/Text_Name" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Test" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00078125,0},{-0.00107181,0},{1.00078,0},{0.998928,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_LetterBoxControlWnd/Background/Border_DialogueText" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.482094,0},{0,220},{0.482094,185}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CS_LetterBoxControlWnd/Background/Border_DialogueText/Text_DialogueText" >
+                    <Property Name="Text" Value="NONE" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0227273,0},{0.04,0},{0.977273,0},{0.96,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyMessage" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,760},{0,622}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,634},{0,500}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/FamilyMessage/MessageBoard" >
+            <Property Name="UnifiedAreaRect" Value="{{0,8},{0,8},{1,-8},{1,-8}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,408},{0,500}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyMessage/MessageBoard/TitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="公會留言板" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015789,0},{0.019293,0},{0.927631,0},{0.0578782,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/FamilyMessage/MessageBoard/MultList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0147849,0},{0.0775578,0},{0.983871,0},{0.922442,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FamilyMessage/MessageBoard/MessageBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="發表留言" />
+                <Property Name="UnifiedAreaRect" Value="{{0.865789,0},{0.942122,0},{0.984211,0},{0.980707,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,70},{0,18}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyMessage/MessageBoard/Space" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="剩餘空間 99 篇" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015789,0},{0.942122,0},{0.439473,0},{0.980707,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/FamilyMessage/MessageBoard/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.96371,0},{0.0181518,0},{0.985215,0},{0.0445545,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

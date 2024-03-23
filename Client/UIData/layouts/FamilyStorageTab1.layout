@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FBPage1" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,378},{0,204}}" />
+        <Window Type="DejaVu/Listbox" Name="Root/FBPage1/Listbox" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.010582,0},{0.02139,0},{0.989418,0},{0.982174,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S0" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0162162,0},{0.0306122,0},{0.108108,0},{0.204082,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.114512,0},{0.0306122,0},{0.206404,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.211809,0},{0.0306122,0},{0.303701,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.309106,0},{0.0306122,0},{0.400998,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405405,0},{0.0306122,0},{0.497297,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S5" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.502703,0},{0.0306122,0},{0.594595,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S6" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.0306122,0},{0.691892,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S7" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697297,0},{0.0306122,0},{0.789189,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S8" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.794595,0},{0.0306122,0},{0.886487,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S9" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.891892,0},{0.0306122,0},{0.983784,0},{0.204971,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S10" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0162162,0},{0.214286,0},{0.108108,0},{0.387755,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S11" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.114512,0},{0.214286,0},{0.206404,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S12" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.211809,0},{0.214286,0},{0.303701,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S13" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.309106,0},{0.214286,0},{0.400998,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S14" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405405,0},{0.214286,0},{0.497297,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S15" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.502703,0},{0.214286,0},{0.594595,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S16" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.214286,0},{0.691892,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S17" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697297,0},{0.214286,0},{0.789189,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S18" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.794595,0},{0.214286,0},{0.886487,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S19" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.891892,0},{0.214286,0},{0.983784,0},{0.388645,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S20" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0162162,0},{0.397959,0},{0.108108,0},{0.571429,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S21" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.114512,0},{0.397959,0},{0.206404,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S22" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.211809,0},{0.397959,0},{0.303701,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S23" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.309106,0},{0.397959,0},{0.400998,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S24" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405405,0},{0.397959,0},{0.497297,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S25" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.502703,0},{0.397959,0},{0.594595,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S26" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.397959,0},{0.691892,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S27" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697297,0},{0.397959,0},{0.789189,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S28" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.794595,0},{0.397959,0},{0.886487,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S29" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.891892,0},{0.397959,0},{0.983784,0},{0.572318,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S30" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0162162,0},{0.581633,0},{0.108108,0},{0.755102,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S31" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.114512,0},{0.581633,0},{0.206404,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S32" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.213804,0},{0.581633,0},{0.305696,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S33" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.309106,0},{0.581633,0},{0.400998,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S34" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.405405,0},{0.581633,0},{0.497297,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S35" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.502703,0},{0.581633,0},{0.594595,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S36" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.581633,0},{0.691892,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S37" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.697297,0},{0.581633,0},{0.789189,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S38" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.794595,0},{0.581633,0},{0.886487,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="Root/FBPage1/S39" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.891892,0},{0.581633,0},{0.983784,0},{0.755992,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FBPage1/CloseBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x關閉" />
+                <Property Name="UnifiedAreaRect" Value="{{0.724324,0},{0.816327,0},{0.967568,0},{0.938776,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/FBPage1/LogBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" >x記錄
+</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.448649,0},{0.816327,0},{0.691892,0},{0.938776,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FBPage1/Cadre1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:FClass1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.032432,0},{0.836735,0},{0.0756752,0},{0.918368,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FBPage1/Cadre2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:FClass2" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0324324,0},{0.836735,0},{0.0756757,0},{0.918367,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FBPage1/Cadre3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:FClass3" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0324324,0},{0.836735,0},{0.0756757,0},{0.918367,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FBPage1/Cadre4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:FClass4" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0324324,0},{0.836735,0},{0.0756757,0},{0.918367,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FBPage1/Cadre5" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:FClass5" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0324324,0},{0.836735,0},{0.0756757,0},{0.918367,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FBPage1/Cadre0" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:FClass6" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0324324,0},{0.836735,0},{0.0756757,0},{0.918367,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

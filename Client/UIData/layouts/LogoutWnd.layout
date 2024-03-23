@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Logout" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="結束遊戲" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,160},{0,124}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Logout/CountDown" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="倒數計時..." />
+            <Property Name="TextColours" Value="tl:FFF00000 tr:FFF00000 bl:FFF00000 br:FFF00000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.115385,0},{0.193548,0},{0.884615,0},{0.419355,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Logout/CancelBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="取消" />
+            <Property Name="UnifiedAreaRect" Value="{{0.1875,0},{0.581395,0},{0.8125,0},{0.860465,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Logout/static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Logout/static/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.083333,0},{0.139535,0},{0.916666,0},{0.441861,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/Static" Name="SpecialCoinItem" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.199374,0},{0.1994,0},{0.199374,339},{0.1994,24}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="SpecialCoinItem/NameText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0289389,0},{0,0},{0.491961,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="SpecialCoinItem/Icon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.937705,0},{0.208333,0},{0.979003,0},{0.791666,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="SpecialCoinItem/NumText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.537705,0},{0,0},{0.914754,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

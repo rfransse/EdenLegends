@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EvaluateWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.238366,0},{0.103261,0},{0.238366,329},{0.103261,320}}" />
+        <Window Type="DejaVu/Static" Name="Root/EvaluateWnd/Border" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="評價副本挑戰紀錄" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0383387,0},{0.0295567,0},{0.0383387,197},{0.0295567,16}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EvaluateWnd/Border/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.929712,0},{0.0295567,0},{0.929712,14},{0.0295567,14}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EvaluateWnd/Border/EnterBtn" >
+                <Property Name="Text" Value="進入副本" />
+                <Property Name="UnifiedAreaRect" Value="{{0.370607,0},{0.897163,0},{0.370607,80},{0.897163,24}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/EvaluateWnd/Border1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.017594,0},{0.100543,0},{0.979132,0},{0.881685,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/NameTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="玩家姓名" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598007,0},{0.0818182,0},{0.358804,0},{0.181818,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateWnd/Border/Info/NameInfo" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="揪愛歐北造" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.48505,0},{0.0863636,0},{0.950166,0},{0.177273,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/DungeonTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="挑戰副本" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598007,0},{0.209091,0},{0.358804,0},{0.309091,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateWnd/Border/Info/DungeonInfo" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="團隊評價副本 01" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.48505,0},{0.213636,0},{0.950166,0},{0.304545,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/ScoreTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="最佳團隊積分" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598007,0},{0.336364,0},{0.358804,0},{0.436364,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateWnd/Border/Info/ScoreInfo" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="45600" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.48505,0},{0.340909,0},{0.950166,0},{0.431818,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/TimeTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="最佳通關時間" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598007,0},{0.463636,0},{0.358804,0},{0.563636,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateWnd/Border/Info/TimeInfo" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="01 : 12 : 25" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.48505,0},{0.468182,0},{0.950166,0},{0.559091,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/RankTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="最佳通關評價" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598007,0},{0.590909,0},{0.358804,0},{0.690909,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateWnd/Border/Info/RankInfo" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="S" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.750831,0},{0.595455,0},{0.950166,0},{0.686364,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/RemainTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="入場次數" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0598007,0},{0.718182,0},{0.358804,0},{0.818182,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EvaluateWnd/Border/Info/RemainInfo" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.750831,0},{0.722727,0},{0.950166,0},{0.813636,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/EvaluateWnd/Border1/NextBtn" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.55814,0},{0.872727,0},{0.607973,0},{0.940909,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/EvaluateWnd/Border1/NextBtn1" >
+                    <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                    <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                    <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+                    <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.392027,0},{0.872727,0},{0.44186,0},{0.940909,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EvaluateWnd/Border/Info/RemainTitle1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="1/1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.468439,0},{0.854545,0},{0.568106,0},{0.954545,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

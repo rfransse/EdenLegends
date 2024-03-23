@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_Option_ShowWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.010718,0},{0,200},{0.010718,80}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_Option_ShowWnd/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,200},{0,80}}" />
+            <Window Type="DejaVu/Border" Name="Root/CS_Option_ShowWnd/Background/Border_Show" >
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.000781,0},{0,0},{-0.000781,200},{0,80}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Player" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Player" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.125,0},{0.05,50},{0.125,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Player" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.125,0},{0.45,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Character" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Character" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.45,0},{0.125,0},{0.45,70},{0.125,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Character" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.85,0},{0.125,0},{0.95,0},{0.375,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Text_Object" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="Object" />
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.625,0},{0.05,50},{0.625,20}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/CS_Option_ShowWnd/Background/Border_Show/Check_Object" >
+                    <Property Name="TextFrameColour" Value="03000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.35,0},{0.625,0},{0.45,0},{0.875,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

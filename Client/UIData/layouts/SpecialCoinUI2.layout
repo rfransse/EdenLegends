@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/SpecialCoin" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,343},{0,449}}" />
+        <Window Type="DejaVu/Border" Name="Root/SpecialCoin/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.011662,0},{0.00885,0},{0.988338,0},{0.991151,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/SpecialCoin/Background/Background" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Border" Name="Root/SpecialCoin/Background/Background/Border" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.01791,0},{0.058957,0},{0.982089,0},{0.986395,0}}" />
+                    <Window Type="DejaVu/Static" Name="Root/SpecialCoin/Background/Background/Border/LongLifeSlot" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0278638,0},{0.0146699,0},{0.972136,0},{0.107579,0}}" />
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialCoin/Background/Background/Border/LongLifeSlot/NameText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Text" Value="x水晶十字勳章" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.029508,0},{0,0},{0.491803,0},{1,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticImage" Name="Root/SpecialCoin/Background/Background/Border/LongLifeSlot/Icon" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="Image" Value="set:DejaVuImage image:MoodShine" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.937705,0},{0.315789,0},{0.983607,0},{0.684211,0}}" />
+                        </Window>
+                        <Window Type="DejaVu/StaticTextLab" Name="Root/SpecialCoin/Background/Background/Border/LongLifeSlot/NumText" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="RightAligned" />
+                            <Property Name="Text" Value="999" />
+                            <Property Name="UnifiedAreaRect" Value="{{0.537705,0},{0,0},{0.914754,0},{1,0}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/SpecialCoin/Background/ScrollPane" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0328358,0},{0.15873,0},{0.961194,0},{0.963719,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/SpecialCoin/Background/HelpBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.937313,0},{0.0136054,0},{0.979104,0},{0.0453515,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

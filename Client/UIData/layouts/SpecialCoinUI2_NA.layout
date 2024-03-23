@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/SpecialCoin" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.15625,0},{0.0507813,0},{0.15625,363},{0.0507813,502}}" />
+        <Window Type="DejaVu/Border" Name="Root/SpecialCoin/Background" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="DejaVu/Static" Name="Root/SpecialCoin/Background/Background" >
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/Border" Name="Root/SpecialCoin/Background/Background/Border" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0345821,0},{0.0905172,0},{0.965418,0},{0.974138,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ScrollablePane" Name="Root/SpecialCoin/Background/ScrollPane" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                <Property Name="HorzOverlapSize" Value="0.01" />
+                <Property Name="HorzScrollPosition" Value="0" />
+                <Property Name="HorzStepSize" Value="0.1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.048991,0},{0.103093,0},{0.945245,0},{0.958762,0}}" />
+                <Property Name="VertOverlapSize" Value="0.01" />
+                <Property Name="VertScrollPosition" Value="0" />
+                <Property Name="VertStepSize" Value="0.1" />
+                <AutoWindow NameSuffix="__auto_container__" >
+                    <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="MouseInputPropagationEnabled" Value="True" />
+                </AutoWindow>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/SpecialCoin/Background/HelpBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.913545,0},{0.0258621,0},{0.965418,0},{0.0646552,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CWorldServerListWnd" >
+        <Property Name="CloseButtonEnabled" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.00208768,0},{-0.0749625,0},{0.00208768,394},{-0.0749625,366}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Static" Name="Root/CWorldServerListWnd/backgrand" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Listbox" Name="Root/CWorldServerListWnd/backgrand/ServerList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015873,0},{0.0792683,0},{0.492063,0},{0.780488,0}}" />
+            </Window>
+            <Window Type="DejaVu/Listbox" Name="Root/CWorldServerListWnd/backgrand/BranchList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.507937,0},{0.0792683,0},{0.984127,0},{0.780488,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CWorldServerListWnd/backgrand/ConfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.597884,0},{0.926829,0},{0.783069,0},{0.981707,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CWorldServerListWnd/backgrand/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.798942,0},{0.926829,0},{0.984127,0},{0.981707,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CWorldServerListWnd/backgrand/branchtext" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.521164,0},{0.0182927,0},{0.997354,0},{0.0609756,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,180},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CWorldServerListWnd/backgrand/ServerText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031746,0},{0.0182927,0},{0.507937,0},{0.0609756,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,180},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CWorldServerListWnd/backgrand/NowServerText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.031746,0},{0.926829,0},{0.560847,0},{0.981707,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,180},{0,14}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/CWorldServerListWnd/backgrand/InfoBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.015873,0},{0.798781,0},{0.984127,0},{0.908537,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CWorldServerListWnd/backgrand/QmarkBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.94709,0},{0.0182927,0},{0.984127,0},{0.0609756,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

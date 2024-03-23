@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="CubeItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,250},{0,973}}" />
+        <Window Type="DejaVu/Static" Name="CubeItem/Item" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.08,0},{0.020555,0},{0.08,203},{0.020555,36}}" />
+            <Window Type="DejaVu/Static" Name="CubeItem/Item/Back" >
+                <Property Name="Alpha" Value="0.85" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="CubeItem/Item/Slot" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00985222,0},{0.0555556,0},{0.167488,0},{0.944444,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="CubeItem/Item/Name" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="Very long item name" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17734,0},{0,0},{1.02956,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/LiveUpdateWnd" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="Tooltip" Value="wqeqe" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/LiveUpdateWnd/framewin" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Visible" Value="False" />
+            <Window Type="DejaVu/BorderText" Name="Root/LiveUpdateWnd/framewin/text" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="檔案下載中， 如想要更順暢遊戲 請重新起動後  完整更新 遊戲，再進行遊戲。或待遊戲下載完後即可進行遊戲。" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0060547,0},{0.78177,0},{0.999219,0},{0.999219,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/RoundImage" Name="Root/LiveUpdateWnd/roundImage" >
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="AutoRenderingSurface" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:Roundicon image:Image" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="RoundProgress" Value="1" />
+            <Property Name="UnifiedAreaRect" Value="{{0.463867,0},{0.091146,0},{0.512695,0},{0.15625,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/LiveUpdateWnd/text" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="100/100" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.463867,0},{0.0911458,0},{0.512695,0},{0.15625,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

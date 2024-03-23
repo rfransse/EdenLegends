@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Strengthen" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.253906,0},{0.0790514,0},{0.253906,448},{0.0790514,564}}" />
+        <Window Type="DejaVu/Static" Name="Root/Strengthen/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/Strengthen/Static/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.935185,0},{0.0228137,0},{0.972222,0},{0.0532319,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Strengthen/Static/ItemBorder" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.0798479,0},{0.324074,0},{0.1673,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Strengthen/ItemBorder/Item" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.046875,0},{0.130435,0},{0.3125,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/Strengthen/ItemBorder/EquipmentText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="裝備" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.359087,0},{0.126082,0},{0.952837,0},{0.865213,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Strengthen/Static/ItemBorder1" >
+                <Property Name="UnifiedAreaRect" Value="{{0.351852,0},{0.0798479,0},{0.648148,0},{0.1673,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Strengthen/ItemBorder1/Scroll" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.046875,0},{0.130435,0},{0.3125,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/Strengthen/ItemBorder1/ScrollText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="捲軸" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.359375,0},{0.130435,0},{0.953125,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/Strengthen/Static/ItemBorder11" >
+                <Property Name="UnifiedAreaRect" Value="{{0.675926,0},{0.0798479,0},{0.972222,0},{0.1673,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Strengthen/ItemBorder11/ItemMall" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.048387,0},{0.130435,0},{0.314012,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticText" Name="Root/Strengthen/ItemBorder11/ItemmallText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="虛寶" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.359375,0},{0.130435,0},{0.953125,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Strengthen/Static/NoticeTip" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x若在有失敗加成下做其他操作時，會遺失該加成效果" />
+                <Property Name="UnifiedAreaRect" Value="{{0.027778,0},{0.022814,0},{0.722222,0},{0.0608368,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Strengthen/GoldText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.025463,0},{0.807985,0},{0.118056,0},{0.834601,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Strengthen/GoldIcon" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.127315,0},{0.807985,0},{0.159722,0},{0.834601,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Strengthen/SilverText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="999" />
+            <Property Name="UnifiedAreaRect" Value="{{0.150463,0},{0.807985,0},{0.233796,0},{0.834601,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/Strengthen/SilverIcon" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+            <Property Name="UnifiedAreaRect" Value="{{0.243056,0},{0.807985,0},{0.275463,0},{0.834601,0}}" />
+        </Window>
+        <Window Type="DejaVu/MultiColumnList" Name="Root/Strengthen/StrengthenLevel" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="ColumnsMovable" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.190114,0},{0.965278,0},{0.790875,0}}" />
+            <Property Name="ColumnHeader" Value="text:階段 width:{0.12,0} id:0" />
+            <Property Name="ColumnHeader" Value="text:攻擊加成 width:{0.16,0} id:1" />
+            <Property Name="ColumnHeader" Value="text:魔攻加成 width:{0.16,0} id:2" />
+            <Property Name="ColumnHeader" Value="text:攻擊總和 width:{0.16,0} id:3" />
+            <Property Name="ColumnHeader" Value="text:魔攻總和 width:{0.16,0} id:4" />
+            <Property Name="ColumnHeader" Value="text:附加能力 width:{0.24,0} id:5" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Strengthen/StrengthenBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.763889,0},{0.885932,0},{0.972222,0},{0.980989,0}}" />
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Strengthen/StrengthenFactory" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.763889,0},{0.826996,0},{0.972222,0},{0.872624,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Strengthen/ItemBorder/ChanceText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-24" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="00.000%" />
+            <Property Name="UnifiedAreaRect" Value="{{0.411703,0},{0.88403,0},{0.756375,0},{0.941065,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Strengthen/ItemBorder/ChanceText2" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="成功機率：" />
+            <Property Name="UnifiedAreaRect" Value="{{0.416667,0},{0.836502,0},{0.574074,0},{0.882129,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/Strengthen/ItemBorder/WarningText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" >※若強化失敗裝備將會消失
+
+※防爆水晶連續失敗次數：5次
+
+※本階段目前強化加成：5.35%</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.0277778,0},{0.824558,0},{0.474853,0},{0.975285,0}}" />
+            <Property Name="VertFormatting" Value="BottomAligned" />
+        </Window>
+    </Window>
+</GUILayout>

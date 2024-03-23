@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="LifeSkillItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/Static" Name="LifeSkillItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.106117,0},{0.231281,0},{0.106117,340},{0.231281,52}}" />
+            <Window Type="DejaVu/SlotImage" Name="LifeSkillItem/Item/ItemSlot" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.026471,0},{0.173077,0},{0.126471,0},{0.826923,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="LifeSkillItem/Item/ItemDeatilText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="嚇人炸彈試作品" />
+                <Property Name="UnifiedAreaRect" Value="{{0.152941,0},{0.076923,0},{0.608765,0},{0.461538,0}}" />
+            </Window>
+            <Window Type="DejaVu/ProgressBar" Name="LifeSkillItem/Item/ExpBar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0.152941,0},{0.538462,0},{0.741176,0},{0.846154,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="LifeSkillItem/Item/ForgetBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="遺忘" />
+                <Property Name="UnifiedAreaRect" Value="{{0.767647,0},{0.115385,0},{0.973529,0},{0.461538,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="LifeSkillItem/Item/LvUpBtn" >
+                <Property Name="Text" Value="領悟" />
+                <Property Name="UnifiedAreaRect" Value="{{0.767647,0},{0.538462,0},{0.973529,0},{0.884615,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="LifeSkillItem/Item/FullExpText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="已熟練" />
+                <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.594118,0},{0.076923,0},{0.741177,0},{0.461538,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="LifeSkillItem/Item/SelectFrame" >
+                <Property Name="Font" Value="F001-scale" />
+                <Property Name="ID" Value="4" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="LifeSkillItem/Item/ExpText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="9999/9999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.490012,0},{0.549085,0},{0.727778,0},{0.858567,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

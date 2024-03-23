@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Activities/TabControl/Tab/MissionTab" >
+        <Property Name="Text" Value="推薦任務" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,742},{0,510}}" />
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/MissionTab/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.005391,0},{0.007843,0},{0.442049,0},{0.992157,0}}" />
+            <Window Type="DejaVu/BorderTextLab" Name="Root/Activities/TabControl/Tab/MissionTab/Static/TextActivitiesList" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="推薦任務列表" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.023904,0},{0.87037,0},{0.083665,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/MissionTab/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.10757,0},{0.962963,0},{0.270917,0}}" />
+                <Window Type="DejaVu/Checkbox" Name="Root/Activities/TabControl/Tab/MissionTab/Static/Border/ShowPersonal" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="顯示個人任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026667,0},{0.083333,0},{0.666667,0},{0.305555,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/Activities/TabControl/Tab/MissionTab/Static/Border/ShowGroup" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="顯示團體任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026667,0},{0.388889,0},{0.666667,0},{0.611111,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/Activities/TabControl/Tab/MissionTab/Static/Border/ShowToday" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="Text" Value="僅顯示未完成任務" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026667,0},{0.694444,0},{0.666667,0},{0.916666,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/MissionTab/Static/" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.037037,0},{0.294821,0},{0.962963,0},{0.976096,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/Activities/TabControl/Tab/MissionTab/Static/MissionList" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.01875,0},{0.98,0},{0.98125,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/MissionTab/Static/HelpBtn1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.907407,0},{0.023904,0},{0.962963,0},{0.0597606,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/MissionTab/Static2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.458221,0},{0.007843,0},{0.994609,0},{0.992157,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030151,0},{0.023904,0},{0.894473,0},{0.083665,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border2/ActivityTitle2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026316,0},{0,0},{0.616959,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border2/Difficult2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="RightAligned" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.723837,0},{0,0},{0.959302,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border3" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030151,0},{0.099602,0},{0.969849,0},{0.414343,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border3/ScrollablePane" >
+                    <Property Name="ContentArea" Value="l:-5 t:-14 r:354 b:127" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.016575,0},{0.041096,0},{0.988951,0},{0.945206,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:-5 t:-14 r:354 b:127" />
+                        <Property Name="ContentArea" Value="l:-5 t:-14 r:354 b:127" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border3/ScrollablePane/Text" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="UnifiedAreaRect" Value="{{-0.0140118,0},{-0.0966389,0},{0.973304,0},{0.88618,0}}" />
+                            <Property Name="VertFormatting" Value="TopAligned" />
+                        </Window>
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border4" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030151,0},{0.438247,0},{0.969849,0},{0.976096,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/Activities/TabControl/Tab/MissionTab/Static2/Border4/ScrollablePane1" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0153053,0},{0.0272813,0},{0.987681,0},{0.966305,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/MissionTab/Static/HelpBtn2" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.924623,0},{0.023904,0},{0.969849,0},{0.0597606,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

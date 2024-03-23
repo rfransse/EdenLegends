@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="TeamScoreLevel" Imagefile="TeamScoreLevel.png" >
+    <Image Name="LevelA" XPos="160" YPos="160" Width="160" Height="160" />
+    <Image Name="LevelB" XPos="320" YPos="160" Width="160" Height="160" />
+    <Image Name="LevelC" XPos="480" YPos="160" Width="160" Height="160" />
+    <Image Name="LevelS" XPos="0" YPos="160" Width="160" Height="160" />
+    <Image Name="LevelAplus" XPos="160" YPos="0" Width="160" Height="160" />
+    <Image Name="LevelBplus" XPos="320" YPos="0" Width="160" Height="160" />
+    <Image Name="LevelCplus" XPos="480" YPos="0" Width="160" Height="160" />
+    <Image Name="LevelSplus" XPos="0" YPos="0" Width="160" Height="160" />
+</Imageset>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/GreedyIslandRank2Wnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="排行榜" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.18457,0},{0.0221354,0},{0.18457,326},{0.0221354,404}}" />
+        <Window Type="DejaVu/Static" Name="Root/GreedyIslandRank2Wnd/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/GreedyIslandRank2Wnd/Static/MultiColumnList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.038961,0},{0.115068,0},{0.961542,0},{0.967527,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/GreedyIslandRank2Wnd/Static/Help" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.903226,0},{0.0327869,0},{0.96129,0},{0.0819672,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

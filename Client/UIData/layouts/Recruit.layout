@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/Recruit" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.206323,0},{0.2,470},{0.206323,180}}" />
+        <Window Type="DejaVu/Static" Name="Root/Recruit/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/Recruit/Background/SettingText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="隊員招募設定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0264317,0},{0.0422535,0},{0.277533,0},{0.140845,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Recruit/Background/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0132159,0},{0.183099,0},{0.986784,0},{0.788732,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/Recruit/Background/Border/PurposeText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍目的" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.027149,0},{0.069767,0},{0.144796,0},{0.302325,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/Recruit/Background/Border/DemandText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="隊伍需求" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0271493,0},{0.372093,0},{0.144796,0},{0.604651,0}}" />
+                </Window>
+                <Window Type="DejaVu/Editbox" Name="Root/Recruit/Background/Border/PurposeEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="20" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.158371,0},{0.069767,0},{0.447964,0},{0.302325,0}}" />
+                </Window>
+                <Window Type="DejaVu/MultiLineEditbox" Name="Root/Recruit/Background/Border/DemandEdit" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="MaxTextLength" Value="180" />
+                    <Property Name="Text" >
+</Property>
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.158371,0},{0.372093,0},{0.986425,0},{0.930233,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/Recruit/Background/AutoJoinBox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverTextColour" Value="FFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" Value="自動組隊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.026432,0},{0.830986,0},{0.180617,0},{0.957747,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/Recruit/Background/StartRecruitBox" >
+                <Property Name="HoverTextColour" Value="FFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFF" />
+                <Property Name="Text" Value="開啟招募" />
+                <Property Name="UnifiedAreaRect" Value="{{0.193833,0},{0.830986,0},{0.348018,0},{0.957746,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/Recruit/Background/SettingBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="設定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.828194,0},{0.830986,0},{0.982379,0},{0.957746,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/NewPlayersList" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="隊伍清單" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0457644,0},{0.0941558,0},{0.0457644,454},{0.0941558,319}}" />
+        <Window Type="DejaVu/Static" Name="Root/NewPlayersList/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.997717,0},{1,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/NewPlayersList/Static/TitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x隊伍資訊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.022883,0},{0.019672,0},{0.54691,0},{0.0694941,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/NewPlayersList/Static/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0160183,0},{0.0918033,0},{0.981693,0},{0.311475,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/NewPlayersList/Static/Border/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" >x強力招募組隊中
+x強力招募組隊中
+x字數限制90字</Property>
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021327,0},{0,0},{0.992891,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NewPlayersList/Static/SetBtn" >
+                <Property Name="ID" Value="1" />
+                <Property Name="Text" Value="x申請加入" />
+                <Property Name="UnifiedAreaRect" Value="{{0.814645,0},{0.88785,0},{0.974828,0},{0.971963,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NewPlayersList/Static/ChatBtn" >
+                <Property Name="Text" Value="x密語" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01373,0},{0.88785,0},{0.173913,0},{0.971963,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NewPlayersList/Static/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="UnifiedAreaRect" Value="{{0.942792,0},{0.019672,0},{0.979405,0},{0.0766115,0}}" />
+            </Window>
+            <Window Type="DejaVu/MultiColumnList" Name="Root/NewPlayersList/Static/TeamInformation" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01373,0},{0.373665,0},{0.979405,0},{0.829181,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

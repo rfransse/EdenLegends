@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/CS_ModelWnd2" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,230},{0,500}}" />
+        <Window Type="DejaVu/Static" Name="Root/CS_ModelWnd2/Background" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.985915,0},{0.995671,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/CS_ModelWnd2/Background/Image_Model" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.01087,0},{0.947867,0},{0.445653,0}}" />
+            </Window>
+            <Window Type="DejaVu/Tree" Name="Root/CS_ModelWnd2/Background/Tree_Model" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.01087,0},{0.947867,0},{0.423913,0}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CS_ModelWnd2/Background/Border" >
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.947867,0},{0.108696,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Window Type="DejaVu/Button" Name="Root/CS_ModelWnd2/Background/Border/Btn_Born" >
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="Text" Value="Bron" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.95,0},{0.8,0}}" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

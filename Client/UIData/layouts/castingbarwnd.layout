@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/castingbarWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{7.91624e-008,0},{0.716666,0},{0.295,0},{0.723333,76}}" />
+        <Window Type="DejaVu/TipTextLab" Name="Root/castingbarWnd/TextName" >
+            <Property Name="BackgroundColours" Value="tl:11FFFFFF tr:11FFFFFF bl:11FFFFFF br:11FFFFFF" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" >四個中文
+
+</Property>
+            <Property Name="UnifiedAreaRect" Value="{{0.00345099,0},{0.0395287,0},{0.342637,0},{0.337862,0}}" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/castingbarWnd/TextTime" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            <Property Name="Text" Value="Time" />
+            <Property Name="UnifiedAreaRect" Value="{{-0.00498078,0},{0.689428,0},{0.577232,0},{0.939428,0}}" />
+        </Window>
+        <Window Type="DejaVu/CastingBarImage" Name="Root/castingbarWnd/castingbarBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0.00563699,0},{0.425613,0},{0.995586,0},{0.677394,0}}" />
+            <Window Type="DejaVu/ProgressBar" Name="Root/castingbarWnd/castingbarBG/castingbar" >
+                <Property Name="CurrentProgress" Value="0" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="StepSize" Value="0.01" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.25,0},{0.807692,0},{0.75,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

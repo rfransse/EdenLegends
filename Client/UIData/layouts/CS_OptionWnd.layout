@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CS_OptionWnd" >
+        <Property Name="ClippedByParent" Value="False" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Right" />
+        <Property Name="TextFrameColour" Value="03000000" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,270},{0,425}}" />
+        <Window Type="DejaVu/FrameWindow" Name="Root/CS_OptionWnd/Background" >
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="TextFrameColour" Value="03000000" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,250},{0,300}}" />
+            <Window Type="DejaVu/TabControl" Name="Root/CS_OptionWnd/TabControl" >
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="TabHeight" Value="{0,20}" />
+                <Property Name="TabPanePosition" Value="Top" />
+                <Property Name="TextFrameColour" Value="03000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.982063,0},{0.997423,0}}" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

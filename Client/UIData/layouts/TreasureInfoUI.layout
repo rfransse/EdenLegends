@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/TreasureInfoUI" >
+        <Property Name="AlwaysOnTop" Value="True" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.191667,0},{0,232},{0.191667,202}}" />
+        <Window Type="DejaVu/HintImage" Name="Root/TreasureInfoUI/ItemInfo1" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81886,0},{0.0164672,0},{0.956773,0},{0.174872,0}}" />
+        </Window>
+        <Window Type="DejaVu/HintImage" Name="Root/TreasureInfoUI/ItemInfo2" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81455,0},{0.202955,0},{0.952463,0},{0.361359,0}}" />
+        </Window>
+        <Window Type="DejaVu/HintImage" Name="Root/TreasureInfoUI/ItemInfo3" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81455,0},{0.321758,0},{0.952463,0},{0.480162,0}}" />
+        </Window>
+        <Window Type="DejaVu/HintImage" Name="Root/TreasureInfoUI/ItemInfo4" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.823169,0},{0.534614,0},{0.961082,0},{0.693018,0}}" />
+        </Window>
+        <Window Type="DejaVu/HintImage" Name="Root/TreasureInfoUI/ItemInfo5" >
+            <Property Name="Alpha" Value="0" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.81455,0},{0.707868,0},{0.952463,0},{0.866272,0}}" />
+        </Window>
+        <Window Type="DejaVu/channelImage" Name="Root/TreasureInfoUI/BG1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0346535,0},{0.732759,0},{0.252475,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/BG1/ItemIcon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0411765,0},{0.136364,0},{0.229412,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/TreasureInfoUI/BG1/ItemName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value=" 一大堆小擲斧" />
+                <Property Name="UnifiedAreaRect" Value="{{0.270588,0},{0.0488514,0},{0.947059,0},{0.909091,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/channelImage" Name="Root/TreasureInfoUI/BG2" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.252475,0},{0.732759,0},{0.470297,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/BG2/ItemIcon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0411765,0},{0.143787,0},{0.229412,0},{0.87106,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/TreasureInfoUI/BG2/ItemName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value=" 一大堆小擲斧" />
+                <Property Name="UnifiedAreaRect" Value="{{0.264706,0},{0.0488514,0},{0.941176,0},{0.909091,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/channelImage" Name="Root/TreasureInfoUI/BG3" >
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.475248,0},{0.732759,0},{0.693069,0}}" />
+            <Window Type="DejaVu/SlotImage" Name="Root/TreasureInfoUI/BG3/ItemIcon" >
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0411765,0},{0.136364,0},{0.229412,0},{0.863636,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/TreasureInfoUI/BG3/ItemName" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value=" 一大堆小擲斧" />
+                <Property Name="UnifiedAreaRect" Value="{{0.264706,0},{0.0488514,0},{0.941176,0},{0.909091,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

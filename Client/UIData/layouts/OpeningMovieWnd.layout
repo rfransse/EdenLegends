@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/OpeningMovieWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/OpeningMovieWnd/BackFrameImg" >
+            <Property Name="Alpha" Value="0.5" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/OpeningMovieWnd/SubTitleLb" >
+                <Property Name="Alpha" Value="0.75" />
+                <Property Name="Text" >一二三四五六七八九十 一二三四五六七八九十 一二三四五六七八九十
+一二三四五六七八九十 一二三四五六七八九十 一二三四五六七八九十</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.901667,0},{1,0},{0.998333,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapCentred" />
+            </Window>
+            <Window Type="DejaVu/HintImage" Name="Root/OpeningMovieWnd/VideoImg" >
+                <Property Name="UnifiedMaxSize" Value="{{0,724},{0,484}}" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedMinSize" Value="{{0,724},{0,484}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0475,0},{0.0483333,0},{0.952499,0},{0.855,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

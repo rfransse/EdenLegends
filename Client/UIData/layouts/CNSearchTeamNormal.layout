@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CNSearchTeamNormal" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,376},{0,394}}" />
+        <Window Type="DejaVu/Static" Name="Root/CNSearchTeamNormal/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Button" Name="Root/CNSearchTeamNormal/Background/SearchBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="string開始尋找" />
+                <Property Name="UnifiedAreaRect" Value="{{0.652174,0},{0.015544,0},{0.842391,0},{0.0777202,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CNSearchTeamNormal/Background/HelpBTn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.945652,0},{0.015544,0},{0.983696,0},{0.0518135,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CNSearchTeamNormal/Background/CheckBox1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="string找隊伍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.032609,0},{0.020725,0},{0.277174,0},{0.0725385,0}}" />
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CNSearchTeamNormal/Background/CheckBox2" >
+                <Property Name="Text" Value="string找玩家" />
+                <Property Name="UnifiedAreaRect" Value="{{0.277174,0},{0.0207254,0},{0.548913,0},{0.0725389,0}}" />
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="Root/CNSearchTeamNormal/Background/FindTeam" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0254299,0},{0.0814278,0},{0.980856,0},{0.973148,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/CNSearchTeamNormal/Background/FindTeam/SearchList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0176666,0},{0.0112972,0},{0.985058,0},{0.897807,0}}" />
+                    <Property Name="ColumnHeader" Value="text: width:{0.5,0} id:0" />
+                    <Property Name="ColumnHeader" Value="text: width:{0.5,0} id:1" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CNSearchTeamNormal/Background/FindTeam/JoinBtn" >
+                    <Property Name="Text" Value="string加入隊伍" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0217391,0},{0.917098,0},{0.211957,0},{0.979275,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Zframe" Name="Root/CNSearchTeamNormal/Background/FindPlayer" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0257426,0},{0.0813008,0},{0.980198,0},{0.972358,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="Root/CNSearchTeamNormal/Background/FindPlayer/SearchList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0176666,0},{0.0112972,0},{0.985058,0},{0.897807,0}}" />
+                    <Property Name="ColumnHeader" Value="text: width:{0.42,0} id:0" />
+                    <Property Name="ColumnHeader" Value="text: width:{0.16,0} id:0" />
+                    <Property Name="ColumnHeader" Value="text: width:{0.42,0} id:0" />
+                </Window>
+                <Window Type="DejaVu/Button" Name="Root/CNSearchTeamNormal/Background/FindPlayer/InviteBtn" >
+                    <Property Name="Text" Value="string邀請組隊" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0217391,0},{0.917098,0},{0.211957,0},{0.979275,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CNSearchTeamNormal/Background/CreateBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Text" Value="string創建隊伍" />
+                <Property Name="UnifiedAreaRect" Value="{{0.762376,0},{0.894309,0},{0.952475,0},{0.956098,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

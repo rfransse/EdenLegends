@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/NpcTalkWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="Title" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.03125,0},{0.132813,0},{0.03125,364},{0.132813,418}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/NpcTalkWnd/Backgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Listbox2" Name="Root/NpcTalkWnd/Backgrand/Listbox" >
+                <Property Name="DistributeCapturedInputs" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.035191,0},{0.032,0},{0.966226,0},{0.874105,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/NpcTalkWnd/Backgrand/closeBtn" >
+                <Property Name="UnifiedAreaRect" Value="{{0.706897,0},{0.905263,0},{0.965517,0},{0.968421,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

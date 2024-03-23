@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/PrestigeWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,637},{0,573}}" />
+        <Window Type="DejaVu/Static" Name="Root/PrestigeWnd/backgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0.012559,0},{0.010471,0},{0.987441,0},{1,-6}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/PrestigeWnd/backgrand/HelpBTn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.959742,0},{0.0142602,0},{0.985507,0},{0.0427807,0}}" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/PrestigeWnd/backgrand/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+                <Property Name="UnifiedAreaRect" Value="{{0.019324,0},{0.615658,0},{0.982287,0},{0.982206,0}}" />
+                <Property Name="VertScrollbar" Value="True" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/PrestigeWnd/backgrand/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.018735,0},{0.05291,0},{0.981698,0},{0.604511,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/PrestigeWnd/backgrand/border/scollpane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{1,-6},{1,-6}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="ColorCorrection" >
+        <Property Name="UnifiedAreaRect" Value="{{0.00317797,0},{0.00750268,0},{1.00318,0},{1.0075,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="ColorCorrection/Item" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.106496,0},{0.107991,0},{0.106496,513},{0.107991,34}}" />
+            <Window Type="DejaVu/HorizontalScrollbar" Name="ColorCorrection/Item/ScrollBar" >
+                <Property Name="DocumentSize" Value="1" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="OverlapSize" Value="0" />
+                <Property Name="PageSize" Value="0" />
+                <Property Name="ScrollPosition" Value="0" />
+                <Property Name="StepSize" Value="1" />
+                <Property Name="UnifiedAreaRect" Value="{{0.230019,0},{0.267846,0},{0.783625,0},{0.720043,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ColorCorrection/Item/Top" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Top" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.103359,0},{0,0},{0.886985,0},{0.3,0}}" />
+                <Property Name="VertFormatting" Value="BottomAligned" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ColorCorrection/Item/Buttom" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Buttom" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.109162,0},{0.6,0},{0.892788,0},{0.9,0}}" />
+                <Property Name="VertFormatting" Value="TopAligned" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ColorCorrection/Item/Left" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="Left" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.155945,0},{0.153591,0},{0.22612,0},{0.853591,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ColorCorrection/Item/Right" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="Right" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.791423,0},{0.153591,0},{0.881092,0},{0.853591,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="ColorCorrection/Item/Name" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" >測試測
+試測試測試</Property>
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.108896,0},{0.120858,0},{0.896463,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="ColorCorrection/Item/Value" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.867446,0},{0.145337,0},{0.99805,0},{0.790032,0}}" />
+                <Property Name="ValidationString" Value="(\d+(\.\d*)?)?" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

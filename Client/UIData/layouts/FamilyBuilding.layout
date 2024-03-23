@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyBuildingSetWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0131387,0},{0.0122951,0},{0.728467,0},{0.987705,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Building0" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0265306,0},{0.027311,0},{0.0959183,0},{0.0987395,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Building1" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0255102,0},{0.0983194,0},{0.094898,0},{0.169748,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Building2" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0255102,0},{0.173109,0},{0.094898,0},{0.244538,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Building3" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0265306,0},{0.242017,0},{0.0959184,0},{0.313446,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Building4" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0316326,0},{0.313025,0},{0.10102,0},{0.384454,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc1" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.103061,0},{0.0310925,0},{0.172449,0},{0.102521,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc2" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.177551,0},{0.0306724,0},{0.246939,0},{0.102101,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc3" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.252041,0},{0.032353,0},{0.321429,0},{0.103782,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc4" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.32449,0},{0.0319329,0},{0.393878,0},{0.103361,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc5" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.394898,0},{0.0294118,0},{0.464286,0},{0.10084,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc6" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.469388,0},{0.0289917,0},{0.538775,0},{0.10042,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc7" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.543877,0},{0.0285715,0},{0.613265,0},{0.1,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc8" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.618367,0},{0.0302522,0},{0.687755,0},{0.101681,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc11" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.106122,0},{0.1,0},{0.17551,0},{0.171429,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc12" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.184694,0},{0.101681,0},{0.254081,0},{0.173109,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc13" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.259183,0},{0.105462,0},{0.328571,0},{0.176891,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc14" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.327551,0},{0.102941,0},{0.396939,0},{0.17437,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc15" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.397959,0},{0.104622,0},{0.467347,0},{0.17605,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc16" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.470408,0},{0.1,0},{0.539796,0},{0.171429,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc17" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.546939,0},{0.105882,0},{0.616326,0},{0.177311,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc18" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.621428,0},{0.103361,0},{0.690816,0},{0.17479,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc21" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.105102,0},{0.17521,0},{0.17449,0},{0.246639,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc22" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.179592,0},{0.170588,0},{0.24898,0},{0.242017,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc23" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.252041,0},{0.17437,0},{0.321429,0},{0.245798,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc24" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.334694,0},{0.178151,0},{0.404082,0},{0.24958,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc25" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.407143,0},{0.17563,0},{0.476531,0},{0.247059,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc26" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.481633,0},{0.17521,0},{0.55102,0},{0.246639,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc27" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.554082,0},{0.176891,0},{0.623469,0},{0.24832,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc28" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.630612,0},{0.17437,0},{0.7,0},{0.245799,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc31" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.104082,0},{0.242017,0},{0.17347,0},{0.313446,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc32" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17449,0},{0.239496,0},{0.243878,0},{0.310924,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc33" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.255102,0},{0.241177,0},{0.32449,0},{0.312605,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc34" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.331633,0},{0.240756,0},{0.401021,0},{0.312185,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc35" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.404082,0},{0.24874,0},{0.47347,0},{0.320168,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc36" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.47449,0},{0.248319,0},{0.543878,0},{0.319748,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc37" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.555102,0},{0.245799,0},{0.62449,0},{0.317227,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc38" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.629592,0},{0.243277,0},{0.69898,0},{0.314706,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc41" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.105102,0},{0.310925,0},{0.17449,0},{0.382353,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc42" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.185714,0},{0.306303,0},{0.255103,0},{0.377731,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc43" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.256123,0},{0.312185,0},{0.325511,0},{0.383614,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc44" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.330613,0},{0.313866,0},{0.4,0},{0.385294,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc45" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.39898,0},{0.318908,0},{0.468368,0},{0.390336,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc46" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.47449,0},{0.317647,0},{0.543878,0},{0.389075,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc47" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.551021,0},{0.315126,0},{0.620409,0},{0.386554,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/BuildingArea/Npc48" >
+                <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.629592,0},{0.310504,0},{0.69898,0},{0.381933,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/FamilyBuildingSetWnd/CollectArea" >
+            <Property Name="UnifiedAreaRect" Value="{{0.734307,0},{0.0122951,0},{0.99562,0},{0.987705,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0391061,0},{0.132353,0},{0.955307,0},{0.455882,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC0" >
+                    <Property Name="Image" Value="set:main image:FunctionSlot" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0243902,0},{0.025974,0},{0.219512,0},{0.233766,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC1" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.239024,0},{0.0305195,0},{0.446341,0},{0.251298,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC2" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.465854,0},{0.0285714,0},{0.673171,0},{0.24935,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC3" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.680488,0},{0.0266234,0},{0.887805,0},{0.247402,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC4" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0170732,0},{0.258442,0},{0.22439,0},{0.479221,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC5" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.243903,0},{0.26948,0},{0.45122,0},{0.490259,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC6" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.464634,0},{0.261039,0},{0.671951,0},{0.481818,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC7" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.697561,0},{0.259091,0},{0.904878,0},{0.47987,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC8" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0158538,0},{0.490909,0},{0.223171,0},{0.711688,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC9" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.248781,0},{0.501948,0},{0.456098,0},{0.722727,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC10" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.47561,0},{0.487013,0},{0.682927,0},{0.707792,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC11" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.690244,0},{0.498052,0},{0.897561,0},{0.718831,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC12" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0268295,0},{0.742857,0},{0.234147,0},{0.963636,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC13" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.253659,0},{0.740909,0},{0.460976,0},{0.961688,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC14" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.462195,0},{0.732467,0},{0.669512,0},{0.953246,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/BC15" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.676829,0},{0.737013,0},{0.884146,0},{0.957792,0}}" />
+                </Window>
+                <Window Type="DejaVu/VerticalScrollbar" Name="Root/FamilyBuildingSetWnd/CollectArea/BuildingBorder/ScrollBar" >
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.889024,0},{0.0246753,0},{0.992683,0},{0.982468,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0391061,0},{0.57353,0},{0.949721,0},{0.97479,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC0" >
+                    <Property Name="Image" Value="set:main image:FunctionSlot" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0184049,0},{0.0314136,0},{0.226994,0},{0.209424,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC1" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.246319,0},{0.023822,0},{0.454908,0},{0.201832,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC2" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.474233,0},{0.0267015,0},{0.682822,0},{0.204712,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC3" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.683742,0},{0.0348167,0},{0.892332,0},{0.212827,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC4" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0220858,0},{0.226178,0},{0.230675,0},{0.404188,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC5" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.223822,0},{0.458589,0},{0.401832,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC6" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.471779,0},{0.231937,0},{0.680369,0},{0.409947,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC7" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.681288,0},{0.229581,0},{0.889878,0},{0.407592,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC8" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0380367,0},{0.4,0},{0.246626,0},{0.57801,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC9" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.254601,0},{0.405759,0},{0.46319,0},{0.583769,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC10" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.470245,0},{0.403403,0},{0.678835,0},{0.581413,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC11" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.682822,0},{0.4089,0},{0.891411,0},{0.586911,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC12" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0395704,0},{0.579319,0},{0.24816,0},{0.75733,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC13" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.26135,0},{0.582199,0},{0.469939,0},{0.760209,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC14" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.464724,0},{0.585078,0},{0.673313,0},{0.763089,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC15" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.674233,0},{0.587958,0},{0.882822,0},{0.765969,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC16" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0432515,0},{0.758377,0},{0.251841,0},{0.936387,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC17" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.246626,0},{0.756021,0},{0.455215,0},{0.934031,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC18" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.47454,0},{0.7589,0},{0.683129,0},{0.936911,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/NC19" >
+                    <Property Name="Image" Value="set:DejaVu image:SlotBackdrop" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.690184,0},{0.756544,0},{0.898773,0},{0.934555,0}}" />
+                </Window>
+                <Window Type="DejaVu/VerticalScrollbar" Name="Root/FamilyBuildingSetWnd/CollectArea/NpcBorder/ScrollBar" >
+                    <Property Name="PageSize" Value="0" />
+                    <Property Name="StepSize" Value="1" />
+                    <Property Name="OverlapSize" Value="0" />
+                    <Property Name="DocumentSize" Value="1" />
+                    <Property Name="ScrollPosition" Value="0" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.899387,0},{0.0324607,0},{0.996012,0},{0.984031,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

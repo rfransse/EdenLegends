@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/CreateCharacterWnd" >
+        <Property Name="UnifiedAreaRect" Value="{{0.00195313,0},{-0.00166667,0},{1.00195,0},{0.998333,0}}" />
+        <Property Name="ZOrderChangeEnabled" Value="False" />
+        <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterSpecProperty" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-231},{0,0},{1.00125,0},{0,457}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterSpecProperty/ServerNameText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="ServerName" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                <Property Name="UnifiedAreaRect" Value="{{0.103896,0},{0.0175439,0},{0.896104,0},{0.0482456,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic" >
+                <Property Name="UnifiedAreaRect" Value="{{0.034632,0},{0.179825,0},{0.969697,0},{0.98465,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterSpecProperty/SName" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0276498,0},{0.0190217,0},{0.97235,0},{0.0570652,0}}" />
+                </Window>
+                <Window Type="DejaVu/BorderTextLab" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/text" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.02765,0},{0.334239,0},{0.97235,0},{0.983696,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                    <Window Type="DejaVu/MultiLineEditbox" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/text/text" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="MaxTextLength" Value="2147483647" />
+                        <Property Name="ReadOnly" Value="True" />
+                        <Property Name="Text" >
+</Property>
+                        <Property Name="TextParsingEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,8},{0,8},{1,-8},{1,-8}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0967742,0},{0.076087,0},{0.253456,0},{0.168478,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.313364,0},{0.076087,0},{0.470046,0},{0.168478,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.529954,0},{0.076087,0},{0.686636,0},{0.168478,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.746544,0},{0.076087,0},{0.903226,0},{0.168478,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0967742,0},{0.203804,0},{0.253456,0},{0.296196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.313364,0},{0.203804,0},{0.470046,0},{0.296196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.529954,0},{0.203804,0},{0.686636,0},{0.296196,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/NameStatic/Feature8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.746544,0},{0.203804,0},{0.903226,0},{0.296196,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterSpecProperty/Job" >
+                <Property Name="UnifiedAreaRect" Value="{{0.034632,0},{0.061404,0},{0.969697,0},{0.162281,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/Job/Warrior" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0276498,0},{0.130435,0},{0.184332,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterSpecProperty/Job/Magic" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.815668,0},{0.130435,0},{0.97235,0},{0.869565,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterSpecProperty/Job/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="1234" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.255814,0},{0.369565,0},{0.762791,0},{0.76087,0}}" />
+                    <Property Name="VertFormatting" Value="TopAligned" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterProperty" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-232},{0,0},{1,0},{0,576}}" />
+            <Window Type="DejaVu/Checkbox" Name="Root/CreateCharacterWnd/CharacterProperty/Model" >
+                <Property Name="UnifiedAreaRect" Value="{{0.706897,0},{0.932065,0},{0.948276,0},{0.970109,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/NameCheckBox" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.353448,0},{0.173913,0},{0.952586,0},{0.222826,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterProperty/BackGround1" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.521739,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterProperty/BackGround2" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.862609,0},{0,232},{0.862609,68}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/SNameTitle" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.034483,0},{0.088235,0},{0.965517,0},{0.294117,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CreateCharacterWnd/CharacterProperty/RandomBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.485217,0},{0.0344828,70},{0.485217,18}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CreateCharacterWnd/CharacterProperty/CheckBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.758621,0},{0.918261,0},{0.956897,0},{0.96,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/ServerNameText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="ServerName" />
+                <Property Name="UnifiedAreaRect" Value="{{0.112069,0},{0.0104348,0},{0.112069,180},{0.0104348,14}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.234783,0},{0.0344828,216},{0.234783,140}}" />
+                <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/FaceTypeFrame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0324074,0},{0.0285714,0},{0.972222,0},{0.228571,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/FaceTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="xɥ" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0336223,0},{0.128007,0},{0.266181,0},{0.771608,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText" Name="Root/CreateCharacterWnd/CharacterProperty/CharacterType1" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="2/3" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.409987,0},{0.128007,0},{0.882894,0},{0.842293,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/L1" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectLHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectLNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.299083,0},{0.176879,0},{0.387753,0},{0.819736,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/R1" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectRHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectRNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.899046,0},{0.176879,0},{0.987715,0},{0.819736,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/HairTypeFrame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0324074,0},{0.216568,0},{0.972222,0},{0.416568,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/HairTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.035216,0},{0.125992,0},{0.244945,0},{0.748586,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText" Name="Root/CreateCharacterWnd/CharacterProperty/CharacterType2" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="2/3" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.40868,0},{0.14685,0},{0.881585,0},{0.861136,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/L2" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectLHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectLNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.300647,0},{0.174851,0},{0.389317,0},{0.817708,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/R2" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectRHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectRNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.901961,0},{0.174851,0},{0.99063,0},{0.817708,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/HairColorTypeFrame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0270433,0},{0.391657,0},{0.966858,0},{0.591657,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/HairColorTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0394089,0},{0.142857,0},{0.270936,0},{0.785714,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText" Name="Root/CreateCharacterWnd/CharacterProperty/CharacterType3" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="2/3" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.414387,0},{0.165699,0},{0.887293,0},{0.879986,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/L3" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectLHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectLNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.307781,0},{0.214559,0},{0.396451,0},{0.857415,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/R3" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectRHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectRNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.907668,0},{0.214559,0},{0.996338,0},{0.857415,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/SkinColorTypeFrame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0310661,0},{0.587604,0},{0.970881,0},{0.787604,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/skincolorTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0348272,0},{0.142857,0},{0.266354,0},{0.75,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText" Name="Root/CreateCharacterWnd/CharacterProperty/CharacterType4" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="2/3" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.40868,0},{0.142833,0},{0.881585,0},{0.85712,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/L4" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectLHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectLNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.300647,0},{0.170834,0},{0.389317,0},{0.813692,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/R4" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectRHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectRNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.901478,0},{0.178571,0},{0.990148,0},{0.821429,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/EyesTypeFrame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0324074,0},{0.771429,0},{0.972222,0},{0.971429,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/EyesTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0381174,0},{0.142857,0},{0.269644,0},{0.821429,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/EmbedText" Name="Root/CreateCharacterWnd/CharacterProperty/CharacterType5" >
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="2/3" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.406628,0},{0.142857,0},{0.879534,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/L5" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectLHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectLNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectLPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.299712,0},{0.178571,0},{0.388382,0},{0.821429,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/CharacterProperty/R5" >
+                        <Property Name="DisabledImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="HoverImage" Value="set:DejaVu image:SelectRHover" />
+                        <Property Name="NormalImage" Value="set:DejaVu image:SelectRNormal" />
+                        <Property Name="PushedImage" Value="set:DejaVu image:SelectRPressed" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.903926,0},{0.178571,0},{0.992596,0},{0.821428,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterProperty/NameStatic" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.907826,0},{0.741379,0},{0.970435,0}}" />
+                <Window Type="DejaVu/Editbox" Name="Root/CreateCharacterWnd/CharacterProperty/NameText" >
+                    <Property Name="MaxTextLength" Value="16" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0365854,0},{0.166667,0},{0.963415,0},{0.833333,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Checkbox" Name="Root/CreateCharacterWnd/CharacterProperty/Helmet" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="HoverTextColour" Value="FFFFFFFF" />
+                <Property Name="NormalTextColour" Value="FFFFFFFF" />
+                <Property Name="PushedTextColour" Value="FFFFFFFF" />
+                <Property Name="UnifiedAreaRect" Value="{{0.353448,0},{0.485217,0},{0.594828,0},{0.516522,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/1" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.165217,0},{0.0344828,216},{0.165217,36}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/CreateCharacterWnd/CharacterProperty/1/NoSexText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.115157,0},{0.240435,0},{0.873363,0},{0.717554,0}}" />
+                </Window>
+                <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/1/SexTypeFrame" >
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0457947,0},{0.167554,0},{0.942119,0},{0.774457,0}}" />
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/SexTitle" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.00889909,0},{0.166347,0},{0.189805,0},{0.826731,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/CreateCharacterWnd/CharacterProperty/BoyBtn" >
+                        <Property Name="GroupID" Value="1" />
+                        <Property Name="Selected" Value="True" />
+                        <Property Name="Text" Value="Boy" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.310083,0},{0.193078,0},{0.608792,0},{0.987114,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/RadioButton" Name="Root/CreateCharacterWnd/CharacterProperty/GirlBtn" >
+                        <Property Name="GroupID" Value="1" />
+                        <Property Name="Text" Value="Girl" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.715769,0},{0.193078,0},{0.968101,0},{0.987114,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.0452174,0},{0.0344828,216},{0.0452174,65}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder/RaceText" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0648148,0},{0.0909091,0},{0.314815,0},{0.30303,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder/RaceSlot1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0509259,0},{0.393939,0},{0.208333,0},{0.909091,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder/RaceSlot2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.236111,0},{0.393939,0},{0.393519,0},{0.909091,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder/RaceSlot3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.421296,0},{0.393939,0},{0.578704,0},{0.909091,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder/RaceSlot4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.606481,0},{0.393939,0},{0.763889,0},{0.909091,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterProperty/RaceBorder/RaceSlot5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.393939,0},{0.949074,0},{0.909091,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/BtnImage" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-21},{1,-100},{0.5,21},{1,-20}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/BtnImage/addBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:CreateZoomInPress" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:CreateZoomInHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:CreateZoomInNor" />
+                <Property Name="PushedImage" Value="set:DejaVu image:CreateZoomInPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.1125,0},{0.214286,24},{0.1125,24}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/BtnImage/decBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:CreateZoomOutPress" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:CreateZoomOutHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:CreateZoomOutNor" />
+                <Property Name="PushedImage" Value="set:DejaVu image:CreateZoomOutPress" />
+                <Property Name="UnifiedAreaRect" Value="{{0.214286,0},{0.5875,0},{0.214286,24},{0.5875,24}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/LBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:CreateSelectLPress" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:CreateSelectLHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:CreateSelectLNor" />
+            <Property Name="PushedImage" Value="set:DejaVu image:CreateSelectLPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,-140},{1,-64},{0.5,-70},{1,-32}}" />
+            <Property Name="UnifiedMaxSize" Value="{{0,70},{0,32}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,70},{0,32}}" />
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/CreateCharacterWnd/RBtn" >
+            <Property Name="DisabledImage" Value="set:DejaVu image:CreateSelectRPress" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HoverImage" Value="set:DejaVu image:CreateSelectRPress" />
+            <Property Name="NormalImage" Value="set:DejaVu image:CreateSelectRNor" />
+            <Property Name="PushedImage" Value="set:DejaVu image:CreateSelectRPress" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,70},{1,-64},{0.5,140},{1,-32}}" />
+            <Property Name="UnifiedMaxSize" Value="{{0,70},{0,32}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,70},{0,32}}" />
+        </Window>
+        <Window Type="DejaVu/ChannelWindow" Name="Root/CreateCharacterWnd/Tip" >
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="HelpButtonEnabled" Value="False" />
+            <Property Name="TitlebarEnabled" Value="False" />
+            <Property Name="TitlebarFont" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,16},{0,16},{0,256},{0,192}}" />
+            <Window Type="DejaVu/MultiLineEditbox" Name="Root/CreateCharacterWnd/Tip/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="Text" >
+</Property>
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,8},{0,8},{1,-7},{1,-8}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/CreateCharacterWnd/CharacterVacation" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{1,-232},{0,300},{1,0},{0,496}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/CreateCharacterWnd/CharacterVacation/Text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000001" />
+                <Property Name="UnifiedAreaRect" Value="{{0.112069,0},{0.030303,0},{0.112069,180},{0.030303,14}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/CreateCharacterWnd/CharacterVacation/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0344828,0},{0.131313,0},{0.0344828,216},{0.131313,166}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.050926,0},{0.055215,0},{0.208333,0},{0.260034,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.236111,0},{0.055215,0},{0.393518,0},{0.260034,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.421296,0},{0.055215,0},{0.578703,0},{0.260034,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.606481,0},{0.055215,0},{0.763888,0},{0.260034,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.055215,0},{0.949074,0},{0.260034,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0509259,0},{0.283133,0},{0.208333,0},{0.487952,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class9" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.236111,0},{0.283133,0},{0.393519,0},{0.487952,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.421296,0},{0.283133,0},{0.578704,0},{0.487952,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.606481,0},{0.283133,0},{0.763889,0},{0.487952,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class:" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.283133,0},{0.949074,0},{0.487952,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class=" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0509259,0},{0.512048,0},{0.208333,0},{0.716867,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class;" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.236111,0},{0.512048,0},{0.393519,0},{0.716867,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class&gt;" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.421296,0},{0.512048,0},{0.578704,0},{0.716867,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class&lt;" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.606481,0},{0.512048,0},{0.763889,0},{0.716867,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class?" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.512048,0},{0.949074,0},{0.716867,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/Class@" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0509259,0},{0.740964,0},{0.208333,0},{0.945783,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/ClassA" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.236111,0},{0.740964,0},{0.393519,0},{0.945783,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/ClassB" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.421296,0},{0.740964,0},{0.578704,0},{0.945783,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/ClassC" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.606481,0},{0.740964,0},{0.763889,0},{0.945783,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/CreateCharacterWnd/CharacterVacation/border/ClassD" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.791667,0},{0.740964,0},{0.949074,0},{0.945783,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DefaultWindow" Name="Root/CreateCharacterWnd/BACK" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,258},{0,32}}" />
+            <Property Name="VerticalAlignment" Value="Bottom" />
+            <Window Type="DejaVu/Button" Name="Root/CreateCharacterWnd/ConfirmBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0232558,0},{0,0},{0.488372,0},{1,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/CreateCharacterWnd/CancelBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.511628,0},{0,0},{0.976744,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

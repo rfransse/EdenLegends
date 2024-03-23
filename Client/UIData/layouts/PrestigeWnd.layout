@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PrestigeWnd" >
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="Text" Value="Appellation" />
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0.03625,0},{0.01,0},{0.03625,330},{0.01,462}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,328},{0,432}}" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Window Type="DejaVu/Static" Name="Root/PrestigeWnd/backgrand" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/ImageButton" Name="Root/PrestigeWnd/backgrand/HelpBTn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.936306,0},{0.0141509,0},{0.980892,0},{0.0471698,0}}" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/PrestigeWnd/backgrand/Text" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="VertScrollbar" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0191083,0},{0.641509,0},{0.980892,0},{0.983491,0}}" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="TextColours" Value="tl:FF000001 tr:FF000001 bl:FF000001 br:FF000001" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/PrestigeWnd/backgrand/border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0191083,0},{0.0613208,0},{0.980892,0},{0.627358,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/PrestigeWnd/backgrand/border/scollpane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0198676,0},{0.025,0},{0.980132,0},{0.975,0}}" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

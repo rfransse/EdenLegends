@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/PetList" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0751953,0},{0.0572917,0},{0.0751953,258},{0.0572917,511}}" />
+        <Window Type="DejaVu/Static" Name="Root/PetList/List" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/PetList/List/Background" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0495868,0},{0.0887949,0},{0.950413,0},{0.89852,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/PetList/List/Background/ScrollablePane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.013761,0},{0.007979,0},{0.986238,0},{0.992313,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderText" Name="Root/PetList/List/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x選擇輔助寵物" />
+                <Property Name="UnifiedAreaRect" Value="{{0.052174,0},{0.02537,0},{0.673913,0},{0.063425,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/PetList/List/Btn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x確定" />
+                <Property Name="UnifiedAreaRect" Value="{{0.578512,0},{0.92389,0},{0.950413,0},{0.97463,0}}" />
+                <Property Name="Visible" Value="False" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

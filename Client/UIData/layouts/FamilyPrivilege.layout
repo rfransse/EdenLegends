@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyPrivilege" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.306533,0},{0.0444444,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyPrivilege/Text" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.307377,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/FamilyPrivilege/Btn1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.340164,0},{0,0},{0.405738,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/FamilyPrivilege/Btn2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.463115,0},{0,0},{0.528689,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/FamilyPrivilege/Btn3" >
+            <Property Name="UnifiedAreaRect" Value="{{0.586066,0},{0,0},{0.651639,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/FamilyPrivilege/Btn4" >
+            <Property Name="UnifiedAreaRect" Value="{{0.709016,0},{0,0},{0.77459,0},{1,0}}" />
+        </Window>
+        <Window Type="DejaVu/RadioButton" Name="Root/FamilyPrivilege/Btn5" >
+            <Property Name="UnifiedAreaRect" Value="{{0.831967,0},{0,0},{0.897541,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

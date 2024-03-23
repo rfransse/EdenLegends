@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/FamilyBattleInfo" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.725,0},{0.2,0},{0.725,200},{0.2,200}}" />
+        <Window Type="DejaVu/ProgressBar" Name="Root/FamilyBattleInfo/EnergyBarR" >
+            <Property Name="CurrentProgress" Value="0" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.465,0},{0.5,0},{0.525,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/MpProgressBar" Name="Root/FamilyBattleInfo/EnergyBarB" >
+            <Property Name="CurrentProgress" Value="0" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="StepSize" Value="0.01" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.465,0},{0.5,0},{0.525,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/RedCheckbox" Name="Root/FamilyBattleInfo/WinCntBoardR/WinCntIcon1" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.91,0},{0.37,0},{1,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/RedCheckbox" Name="Root/FamilyBattleInfo/WinCntBoardR/WinCntIcon2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.83,0},{0.37,0},{0.92,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/RedCheckbox" Name="Root/FamilyBattleInfo/WinCntBoardR/WinCntIcon3" >
+            <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.37,0},{0.84,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/RedCheckbox" Name="Root/FamilyBattleInfo/WinCntBoardR/WinCntIcon4" >
+            <Property Name="UnifiedAreaRect" Value="{{0.67,0},{0.37,0},{0.76,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/RedCheckbox" Name="Root/FamilyBattleInfo/WinCntBoardR/WinCntIcon5" >
+            <Property Name="UnifiedAreaRect" Value="{{0.59,0},{0.37,0},{0.68,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/FamilyBattleInfo/WinCntBoardB/WinCntIcon1" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0111719,0},{0.37,0},{0.101172,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/FamilyBattleInfo/WinCntBoardB/WinCntIcon2" >
+            <Property Name="UnifiedAreaRect" Value="{{0.0911719,0},{0.37,0},{0.181172,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/FamilyBattleInfo/WinCntBoardB/WinCntIcon3" >
+            <Property Name="UnifiedAreaRect" Value="{{0.171172,0},{0.37,0},{0.261172,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/FamilyBattleInfo/WinCntBoardB/WinCntIcon4" >
+            <Property Name="UnifiedAreaRect" Value="{{0.251172,0},{0.37,0},{0.341172,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/FamilyBattleInfo/WinCntBoardB/WinCntIcon5" >
+            <Property Name="UnifiedAreaRect" Value="{{0.331172,0},{0.37,0},{0.421172,0},{0.46,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleInfo/BlueMessage" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="x海綿寶寶" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.54,0},{0.36,0},{0.61,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleInfo/RedMessage" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="x派大星" />
+            <Property Name="UnifiedAreaRect" Value="{{0.689766,0},{0.54,0},{0.989766,0},{0.61,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleInfo/Score" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Text" Value="50" />
+            <Property Name="UnifiedAreaRect" Value="{{0.231172,0},{0.54,0},{0.481172,0},{0.61,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleInfo/Score1" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="Text" Value="33" />
+            <Property Name="UnifiedAreaRect" Value="{{0.525313,0},{0.539559,0},{0.775313,0},{0.609559,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/StaticTextLab" Name="Root/FamilyBattleInfo/Score2" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="Text" Value="：" />
+            <Property Name="UnifiedAreaRect" Value="{{0.437422,0},{0.539559,0},{0.562422,0},{0.609559,0}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+    </Window>
+</GUILayout>

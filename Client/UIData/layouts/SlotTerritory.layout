@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="SlotTerritory" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00333333,0},{0,800},{0.00333333,600}}" />
+        <Window Type="DejaVu/StaticImage" Name="SlotTerritory/Item" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0.3,0},{0.3,244},{0.3,40}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Window Type="DejaVu/SlotImage" Name="SlotTerritory/Item/Icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0122951,0},{0.075,0},{0.151639,0},{0.925,0}}" />
+            </Window>
+            <Window Type="DejaVu/TextSmoothLab" Name="SlotTerritory/Item/NameText" >
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.168033,0},{0.075,0},{0.987705,0},{0.475,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="SlotTerritory/Item/NameText/StatusText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Text" Value="進行中" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.824025,0},{0.075,0},{0.824025,39},{0.075,16}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="SlotTerritory/Item/TimeText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.168033,0},{0.525,0},{0.168033,145},{0.525,16}}" />
+                <Property Name="FrameEnabled" Value="False" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="SlotTerritory/Item/JoinBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.765143,0},{0.525,0},{0.765143,54.0001},{0.525,16}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

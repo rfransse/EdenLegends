@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/ReviveCount" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticTextLab" Name="Root/ReviveCount/TextLab" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-12" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="Text" Value="123123" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{1,0},{0.4,64}}" />
+        </Window>
+    </Window>
+</GUILayout>

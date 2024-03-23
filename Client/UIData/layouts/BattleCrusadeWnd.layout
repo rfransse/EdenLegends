@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/BattleCrusadeWnd" >
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="x時空裂縫" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0380117,0},{0.0538071,0},{0.0380117,662},{0.0538071,527}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
+        <Window Type="DejaVu/Static" Name="Root/BattleCrusadeWnd/border" >
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.996904,0},{1,0}}" />
+            <Window Type="DejaVu/Combobox" Name="Root/BattleCrusadeWnd/border/backgrand/combobox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxEditTextLength" Value="2147483647" />
+                <Property Name="ReadOnly" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0.009317,0},{0.01227,0},{0.226708,0},{0.261759,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/mapImage" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Image" Value="set:WorldMap image:Background" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00983922,0},{0.0661826,0},{0.638721,0},{0.929168,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0.1,0},{0.1,0}}" />
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn5" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.644646,0},{0.120465,0},{0.711631,0},{0.191556,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn6" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.554822,0},{0.17414,0},{0.621808,0},{0.245229,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn14" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="14" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.450237,0},{0.459716,0},{0.516588,0},{0.530806,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn10" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="10" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.528172,0},{0.336122,0},{0.595157,0},{0.407212,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn3" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.815932,0},{0.182075,0},{0.882918,0},{0.253165,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn4" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.718792,0},{0.165834,0},{0.785778,0},{0.236923,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn8" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.400025,0},{0.133127,0},{0.467012,0},{0.204217,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn15" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.438389,0},{0.545024,0},{0.504739,0},{0.616114,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn12" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="12" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.379496,0},{0.386683,0},{0.446482,0},{0.457774,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn7" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.480825,0},{0.211616,0},{0.547812,0},{0.282705,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn2" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.76115,0},{0.112044,0},{0.828136,0},{0.183133,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn13" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="13" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.258294,0},{0.405213,0},{0.324645,0},{0.476303,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn11" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="11" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.613875,0},{0.418407,0},{0.680226,0},{0.489497,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn9" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="9" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.392573,0},{0.28657,0},{0.459559,0},{0.35766,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn1" >
+                    <Property Name="AlwaysOnTop" Value="True" />
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.698851,0},{0.270778,0},{0.765202,0},{0.341868,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.244076,0},{0.950237,0},{0.265403,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.218009,0},{0.950237,0},{0.239336,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.191943,0},{0.950237,0},{0.21327,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.168246,0},{0.950237,0},{0.189573,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.14218,0},{0.950237,0},{0.163507,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.113744,0},{0.950237,0},{0.135071,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg7" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0876777,0},{0.950237,0},{0.109005,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg8" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0616114,0},{0.950237,0},{0.0829384,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg9" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0331754,0},{0.950237,0},{0.0545024,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/CharImg10" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.007109,0},{0.950237,0},{0.028436,0},{0.983412,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/LoverImg" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.265403,0},{0.950237,0},{0.28673,0},{0.983412,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/HintImage" Name="Root/BattleCrusadeWnd/border/mapImage/PlayerImg" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:DejaVu image:Nofoto" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.291469,0},{0.950237,0},{0.312796,0},{0.983412,0}}" />
+                    <Property Name="Visible" Value="False" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn16" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="16" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.836493,0},{0.398104,0},{0.902844,0},{0.469194,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn22" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="22" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.236595,0},{0.305686,0},{0.303581,0},{0.376775,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn23" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="23" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.109593,0},{0.359471,0},{0.176579,0},{0.43056,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn24" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.156398,0},{0.251185,0},{0.222749,0},{0.322275,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn25" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.206398,0},{0.301185,0},{0.272749,0},{0.372275,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn26" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.256398,0},{0.351185,0},{0.322749,0},{0.422275,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn27" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.356398,0},{0.451185,0},{0.422749,0},{0.522275,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn32" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.271605,0},{0.483412,0},{0.338272,0},{0.554502,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn33" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.135802,0},{0.483412,0},{0.202469,0},{0.554502,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn34" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="24" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.135802,0},{0.561611,0},{0.202469,0},{0.632701,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn36" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.572839,0},{0.554502,0},{0.639506,0},{0.625592,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn37" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.597531,0},{0.649289,0},{0.664198,0},{0.720379,0}}" />
+                </Window>
+                <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/mapImage/mapBtn38" >
+                    <Property Name="HoverImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="NormalImage" Value="set:worldmapcity2 image:CityNormal2" />
+                    <Property Name="PushedImage" Value="set:worldmapcity2 image:CityHover2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.491358,0},{0.611374,0},{0.558025,0},{0.682464,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/BattleCrusadeWnd/border/helpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.968944,0},{0.0122699,0},{0.98913,0},{0.0408998,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/BigWorldImage" >
+                <Property Name="Image" Value="set:BigWorld image:Background" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00931677,0},{0.0674847,0},{0.638199,0},{0.93047,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Image3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:BigWorldSet image:WestNorth" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0116588,0},{0.143507,0},{0.309715,0},{0.415577,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Image2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:BigWorldSet image:WestSouth" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00554504,0},{0.617031,0},{0.333887,0},{0.844345,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Image1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:BigWorldSet image:Center" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.191138,0},{0.307709,0},{0.707298,0},{0.836588,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Image4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:BigWorldSet image:North" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.376161,0},{0.120806,0},{0.846114,0},{0.354755,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Image5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:BigWorldSet image:EastSouth" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.593697,0},{0.404645,0},{0.998957,0},{0.81515,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Trap1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.325877,0},{0.362196,0},{0.62763,0},{0.658341,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Trap2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0340285,0},{0.636746,0},{0.252607,0},{0.810506,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Trap3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0693366,0},{0.17297,0},{0.241706,0},{0.348736,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Trap4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.458768,0},{0.137804,0},{0.786398,0},{0.307551,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/BattleCrusadeWnd/border/BigWorldImage/Trap5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.725118,0},{0.480569,0},{0.952938,0},{0.756651,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/BorderTextLab" Name="Root/BattleCrusadeWnd/border/mapname" >
+                <Property Name="UnifiedAreaRect" Value="{{0.650621,0},{0.06953,0},{0.98913,0},{0.12679,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/BattleCrusadeWnd/border/conditions/CrusadeName" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x灰岩山時空戰場" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0366972,0},{0.178571,0},{0.963303,0},{0.821429,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticText" Name="Root/BattleCrusadeWnd/border/mapTitle2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x裂縫資訊" />
+                <Property Name="UnifiedAreaRect" Value="{{0.704969,0},{0.131033,0},{0.936335,0},{0.182157,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BattleCrusadeWnd/border/mapTitle3" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x裂縫開啟條件" />
+                <Property Name="UnifiedAreaRect" Value="{{0.705601,0},{0.634254,0},{0.936967,0},{0.685378,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/BattleCrusadeWnd/border/information" >
+                <Property Name="UnifiedAreaRect" Value="{{0.650621,0},{0.173824,0},{0.98913,0},{0.629492,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/BattleCrusadeWnd/border/information/ScrollablePane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:191 b:203" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0312874,0},{0.0210007,0},{0.971729,0},{0.968499,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:191 b:203" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:191 b:203" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        <Window Type="DejaVu/Border" Name="Root/BattleCrusadeWnd/border/information/ScrollablePane/" >
+                            <Property Name="BackgroundEnabled" Value="False" />
+                            <Property Name="FrameEnabled" Value="False" />
+                            <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                            <Property Name="Text" >x相關資訊ㄅ拉ㄅ拉
+
+
+文字太多會有捲軸</Property>
+                            <Property Name="UnifiedAreaRect" Value="{{0.00636698,0},{0.00452647,0},{0.929789,0},{0.963136,0}}" />
+                            <Property Name="VertFormatting" Value="VertCentred" />
+                        </Window>
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BattleCrusadeWnd/border/mapTitle4" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x裂縫狀態" />
+                <Property Name="UnifiedAreaRect" Value="{{0.705601,0},{0.830909,0},{0.936967,0},{0.882033,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/BattleCrusadeWnd/border/state" >
+                <Property Name="UnifiedAreaRect" Value="{{0.651253,0},{0.87251,0},{0.989762,0},{0.929769,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/BattleCrusadeWnd/border/conditions/CrusadeStatus" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="WordWrapCentred" />
+                    <Property Name="Text" Value="x已開啟" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0344476,0},{0.166973,0},{0.961053,0},{0.80983,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/BattleCrusadeWnd/border/conditions" >
+                <Property Name="UnifiedAreaRect" Value="{{0.650776,0},{0.676191,0},{0.989285,0},{0.826176,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BattleCrusadeWnd/border/conditions/conditions1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x條件1" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0368856,0},{0.109505,0},{0.964266,0},{0.359505,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BattleCrusadeWnd/border/conditions/conditions2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x條件2" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.034636,0},{0.381749,0},{0.962016,0},{0.631749,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/BattleCrusadeWnd/border/conditions/conditions3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="x條件3" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0366972,0},{0.657534,0},{0.963303,0},{0.90411,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/BattleCrusadeWnd/border/MapTitle" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="x時空裂縫世界地圖" />
+                <Property Name="UnifiedAreaRect" Value="{{0.207942,0},{0.0173678,0},{0.439308,0},{0.0684926,0}}" />
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/BattleCrusadeWnd/border/JoinBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:ButtonPressed" />
+                <Property Name="GroupID" Value="1" />
+                <Property Name="HoverImage" Value="set:DejaVu image:ButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:ButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:ButtonPressed" />
+                <Property Name="Text" Value="x進入裂縫" />
+                <Property Name="UnifiedAreaRect" Value="{{0.767081,0},{0.940695,0},{0.875776,0},{0.99182,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

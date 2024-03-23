@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="DebugRenderer" >
+        <Property Name="Shadow" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="DejaVu/StaticImage" Name="DebugRenderer/Item" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,100},{0,100},{0,256},{0,120}}" />
+            <Property Name="Shadow" Value="True" />
+            <Property Name="Font" Value="F001-9" />
+            <Window Type="DejaVu/Checkbox" Name="DebugRenderer/Item/Checkbox" >
+                <Property Name="Shadow" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

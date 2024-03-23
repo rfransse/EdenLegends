@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="MagicCube01Wnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.0982456,0},{0.106599,0},{0.0982456,640},{0.106599,317}}" />
+        <Window Type="DejaVu/Static" Name="MagicCube01Wnd/BackGround" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.996416,0}}" />
+            <Window Type="DejaVu/Border" Name="MagicCube01Wnd/BackGround/Border01" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00961538,0},{0.0935252,0},{0.990385,0},{0.992806,0}}" />
+                <Window Type="DejaVu/MultiColumnList" Name="MagicCube01Wnd/BackGround/Border01/MethodList" >
+                    <Property Name="ColumnsMovable" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.00163399,0},{0,0},{1.00163,0},{0.912,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="MagicCube01Wnd/BackGround/Border01/PageItems" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.397059,0},{0.932,0},{0.606209,0},{0.988,0}}" />
+                    <Window Type="DejaVu/ImageButton" Name="MagicCube01Wnd/BackGround/Border01/PageItems/mostbackBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftMostH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftMost" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.09375,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="MagicCube01Wnd/BackGround/Border01/PageItems/backBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.15625,0},{0,0},{0.25,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="MagicCube01Wnd/BackGround/Border01/PageItems/pages" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99/99" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28125,0},{0,0},{0.71875,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="MagicCube01Wnd/BackGround/Border01/PageItems/forwardBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{0.84375,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="MagicCube01Wnd/BackGround/Border01/PageItems/mostforwardBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightMostH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightMost" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.90625,0},{0,0},{1,0},{0.857143,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="MagicCube01Wnd/BackGround/FunctionText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x方塊功能名稱" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0128205,0},{0.028777,0},{0.333333,0},{0.0755396,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="MagicCube01Wnd/BackGround/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.967949,0},{0.0215827,0},{0.990385,0},{0.0719424,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

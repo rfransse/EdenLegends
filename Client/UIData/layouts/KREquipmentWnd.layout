@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/EquipmentWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,376},{0,452}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Window Type="DejaVu/Border" Name="Root/EquipmentWnd/BaseProperty" >
+            <Property Name="UnifiedAreaRect" Value="{{0.011662,0},{0.00885,0},{0.442513,0},{0.274337,0}}" />
+            <Window Type="DefaultWindow" Name="Root/EquipmentWnd/BaseProperty/Boder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.046512,0},{0.166667,0},{0.953489,0},{0.95,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Name1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.619048,0},{0.191489,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Name2" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.202128,0},{0.619048,0},{0.393617,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Name3" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.404255,0},{0.619048,0},{0.595744,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Name4" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.606383,0},{0.619048,0},{0.797872,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Name5" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.808511,0},{0.619048,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Type1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="123" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0,0},{0.997276,0},{0.191489,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Type2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="123.45" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.202128,0},{0.997276,0},{0.393617,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Type3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.404255,0},{0.997276,0},{0.595744,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Type4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.606383,0},{0.997276,0},{0.797872,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/BaseProperty/Boder/Type5" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.808511,0},{0.997276,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/BaseProperty/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.033333,0},{1,0},{0.15,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EquipmentWnd/BaseProperty/HelpBtn" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="1" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.876543,0},{0.0333333,0},{0.962963,0},{0.15,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/EquipmentWnd/ActProperty" >
+            <Property Name="UnifiedAreaRect" Value="{{0.012195,0},{0.282407,0},{0.443046,0},{0.716035,0}}" />
+            <Window Type="DefaultWindow" Name="Root/EquipmentWnd/ActProperty/border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.046512,0},{0.102041,0},{0.953489,0},{0.969388,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.619048,0},{0.105882,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name2" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1125,0},{0.619048,0},{0.218382,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name3" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.225,0},{0.619048,0},{0.330882,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name4" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.337278,0},{0.619048,0},{0.44316,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name5" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.003665,0},{0.449704,0},{0.622713,0},{0.555586,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0,0},{0.997276,0},{0.105882,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.111765,0},{0.997276,0},{0.217647,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.223529,0},{0.997276,0},{0.329411,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type5" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="140.76" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.447059,0},{0.997276,0},{0.552941,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name6" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.558824,0},{0.619048,0},{0.664706,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name7" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.670588,0},{0.619048,0},{0.776471,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name8" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.782353,0},{0.619048,0},{0.888235,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Name9" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.894118,0},{0.619048,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type6" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="9999.99" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.558824,0},{0.997276,0},{0.664706,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type7" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.670588,0},{0.997276,0},{0.77647,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type8" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.782353,0},{0.997276,0},{0.888235,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type9" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.894118,0},{0.997276,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/ActProperty/border/Type4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="140.76" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.335294,0},{0.997276,0},{0.441176,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/ActProperty/border/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.021277,0},{1,0},{0.0927056,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/EquipmentWnd/DefProperty" >
+            <Property Name="UnifiedAreaRect" Value="{{0.011662,0},{0.725664,0},{0.442513,0},{0.991151,0}}" />
+            <Window Type="DefaultWindow" Name="Root/EquipmentWnd/DefProperty/Border" >
+                <Property Name="UnifiedAreaRect" Value="{{0.046512,0},{0.166667,0},{0.953489,0},{0.95,0}}" />
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Name1" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.619048,0},{0.191489,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Name2" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.204545,0},{0.619048,0},{0.396034,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Name3" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.408602,0},{0.619048,0},{0.600091,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Name4" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.606383,0},{0.619048,0},{0.797872,0}}" />
+                </Window>
+                <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Name5" >
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.808511,0},{0.619048,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Type1" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0,0},{0.997276,0},{0.191489,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Type2" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.202128,0},{0.997276,0},{0.393617,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Type3" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.404255,0},{0.997276,0},{0.595744,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Type5" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.808511,0},{0.997276,0},{1,0}}" />
+                </Window>
+                <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Type4" >
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="TextParsingEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.623517,0},{0.606383,0},{0.997276,0},{0.797872,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/DefProperty/Border/Title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0344828,0},{1,0},{0.155172,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/EquipmentWnd/SpecProperty" >
+            <Property Name="UnifiedAreaRect" Value="{{0.452128,0},{0.783186,0},{0.989362,0},{0.991151,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiFire" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiFire" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0594059,0},{0.287234,0},{0.138614,0},{0.457447,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiLightning" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiLightning" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0594059,0},{0.521277,0},{0.138614,0},{0.691489,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiIce" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiIce" />
+                <Property Name="UnifiedAreaRect" Value="{{0.0594059,0},{0.755319,0},{0.138614,0},{0.925532,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiNature" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiNature" />
+                <Property Name="UnifiedAreaRect" Value="{{0.336634,0},{0.287234,0},{0.415842,0},{0.457447,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiHoly" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiHoly" />
+                <Property Name="UnifiedAreaRect" Value="{{0.336634,0},{0.521277,0},{0.415842,0},{0.691489,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiDark" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiDark" />
+                <Property Name="UnifiedAreaRect" Value="{{0.336634,0},{0.755319,0},{0.415842,0},{0.925532,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiChop" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiChop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.693069,0},{0.287234,0},{0.772277,0},{0.457447,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiStroke" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiStroke" />
+                <Property Name="UnifiedAreaRect" Value="{{0.693069,0},{0.521277,0},{0.772277,0},{0.691489,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/SpecProperty/AntiStuck" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:AntiStuck" />
+                <Property Name="UnifiedAreaRect" Value="{{0.693069,0},{0.755319,0},{0.772277,0},{0.925532,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,16},{0,16}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/EquipmentWnd/SpecProperty/title" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.148515,0},{0.0638298,0},{0.851485,0},{0.212766,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number1" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="18" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.148515,0},{0.276596,0},{0.306931,0},{0.468085,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number2" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.148515,0},{0.510638,0},{0.306931,0},{0.702127,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number3" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.148515,0},{0.744681,0},{0.306931,0},{0.93617,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number4" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.425743,0},{0.276596,0},{0.584159,0},{0.468085,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number5" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.425743,0},{0.510638,0},{0.584159,0},{0.702127,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number6" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.425743,0},{0.744681,0},{0.584159,0},{0.93617,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number7" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.782178,0},{0.276596,0},{0.940594,0},{0.468085,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number8" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.782178,0},{0.510638,0},{0.940594,0},{0.702127,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EquipmentWnd/SpecProperty/Number9" >
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.782178,0},{0.744681,0},{0.940594,0},{0.93617,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EquipmentWnd/SpecProperty/HelpBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="ID" Value="2" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.90099,0},{0.0638298,0},{0.970297,0},{0.212766,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/EquipmentWnd/Equio" >
+            <Property Name="UnifiedAreaRect" Value="{{0.452128,0},{0.00885,0},{0.989362,0},{0.774337,0}}" />
+            <Window Type="DejaVu/StaticImage" Name="Root/EquipmentWnd/Equio/Border" >
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVu image:ListboxBackdrop" />
+                <Property Name="UnifiedAreaRect" Value="{{0.029703,0},{0.0765216,0},{0.970297,0},{0.984036,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HeadIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.031579,0},{0.863946,0},{0.210526,0},{0.972226,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Image" Value="set:DejaVuImage image:BodyIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.221053,0},{0.863946,0},{0.4,0},{0.972226,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot3" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="3" />
+                    <Property Name="Image" Value="set:DejaVuImage image:PantsIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.410526,0},{0.863946,0},{0.589473,0},{0.972226,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot4" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="5" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ShoesIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.863946,0},{0.778947,0},{0.972226,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot5" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="4" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HandIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.863946,0},{0.968421,0},{0.972226,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot6" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="6" />
+                    <Property Name="Image" Value="set:DejaVuImage image:BackIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536842,0},{0.328025,0},{0.715789,0},{0.436306,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot7" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="12" />
+                    <Property Name="Image" Value="set:DejaVuImage image:RingIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.031579,0},{0.479592,0},{0.210526,0},{0.587872,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot8" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="13" />
+                    <Property Name="Image" Value="set:DejaVuImage image:RingIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.031579,0},{0.632653,0},{0.210526,0},{0.740933,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot9" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="8" />
+                    <Property Name="Image" Value="set:DejaVuImage image:LWeaponIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536842,0},{0.480892,0},{0.715789,0},{0.589172,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot10" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="15" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HonorIcon2" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.284211,0},{0.0191083,0},{0.463158,0},{0.127389,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot11" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="14" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HonorIcon1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.0315789,0},{0.0191083,0},{0.210526,0},{0.127389,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot12" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="11" />
+                    <Property Name="Image" Value="set:DejaVuImage image:NecklaceIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536842,0},{0.633758,0},{0.715789,0},{0.742038,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot13" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="7" />
+                    <Property Name="Image" Value="set:DejaVuImage image:RWeaponIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.284211,0},{0.480892,0},{0.463158,0},{0.589172,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot14" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="104" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ARWeaponIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.480892,0},{0.968421,0},{0.589172,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot15" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="102" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ABodyIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.328025,0},{0.968421,0},{0.436306,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot16" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="101" />
+                    <Property Name="Image" Value="set:DejaVuImage image:HatIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.0191083,0},{0.968421,0},{0.127389,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot17" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="103" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ABackIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.171975,0},{0.968421,0},{0.280255,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot18" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="105" />
+                    <Property Name="Image" Value="set:DejaVuImage image:ALWeaponIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.789474,0},{0.633758,0},{0.968421,0},{0.742038,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot19" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="17" />
+                    <Property Name="Image" Value="set:DejaVuImage image:PetIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.284211,0},{0.171975,0},{0.463158,0},{0.280255,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot20" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="106" />
+                    <Property Name="Image" Value="set:DejaVuImage image:EyeIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536842,0},{0.0191083,0},{0.715789,0},{0.127389,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/EquipmentWnd/Equio/Border/Slot21" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="ID" Value="107" />
+                    <Property Name="Image" Value="set:DejaVuImage image:AHeadIcon" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.536842,0},{0.171975,0},{0.715789,0},{0.280255,0}}" />
+                    <Property Name="UnifiedMinSize" Value="{{0,34},{0,34}}" />
+                </Window>
+                <Window Type="DejaVu/TabControl" Name="Root/EquipmentWnd/Equio/Border/Tab" >
+                    <Property Name="TabHeight" Value="{0,20}" />
+                    <Property Name="TabPanePosition" Value="Top" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.768707,0},{1,0},{0.836735,0}}" />
+                    <Window Type="DefaultWindow" Name="Root/EquipmentWnd/Equio/Border/Tab/Cloth" >
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DefaultWindow" Name="Root/EquipmentWnd/Equio/Border/Tab/Leather" >
+                        <Property Name="ID" Value="1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                    <Window Type="DefaultWindow" Name="Root/EquipmentWnd/Equio/Border/Tab/Armor" >
+                        <Property Name="ID" Value="2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="Visible" Value="False" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowHelmet" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.942675,0},{0.0842105,0},{0.993631,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoHelmet" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.752632,0},{0.0987261,0},{0.836842,0},{0.149682,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoGlass" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.498766,0},{0.0987261,0},{0.582976,0},{0.149682,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoMouth" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.498766,0},{0.253012,0},{0.582976,0},{0.303968,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoClothes" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.752632,0},{0.407643,0},{0.836842,0},{0.458599,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoCloak" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.752632,0},{0.251592,0},{0.836842,0},{0.302548,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoRight" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.752632,0},{0.56051,0},{0.836842,0},{0.611465,0}}" />
+                </Window>
+                <Window Type="DejaVu/Checkbox" Name="Root/EquipmentWnd/Equio/Border/ShowKusoLeft" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.752632,0},{0.713376,0},{0.836842,0},{0.764331,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EquipmentWnd/Equio/Border/HelpBtn" >
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.898867,0},{0.018405,0},{0.968174,0},{0.0588674,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

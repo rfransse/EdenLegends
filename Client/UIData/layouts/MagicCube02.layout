@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/MagicCube02Wnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="xAuxilliaryWndx" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.2,0},{0.2,246},{0.2,316}}" />
+        <Window Type="DejaVu/TabControl" Name="Root/MagicCube02Wnd/Tab" >
+            <Property Name="TabHeight" Value="{0,20.4805}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/MagicCube02Wnd/Tab/ItemList" >
+                <Property Name="Text" Value="xItemListx" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property Name="Visible" Value="False" />
+                <Window Type="DejaVu/Border" Name="Root/MagicCube02Wnd/Tab/ItemList/List" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,6},{0,20},{0.947826,6},{0.854304,16}}" />
+                    <Window Type="DejaVu/ScrollablePane" Name="Root/MagicCube02Wnd/Tab/ItemList/List/Scroll" >
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ForceVertScrollbar" Value="True" />
+                        <Property Name="HorzOverlapSize" Value="0.01" />
+                        <Property Name="HorzScrollPosition" Value="0" />
+                        <Property Name="HorzStepSize" Value="0.1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                        <Property Name="VertOverlapSize" Value="0.01" />
+                        <Property Name="VertScrollPosition" Value="0" />
+                        <Property Name="VertStepSize" Value="0.1" />
+                        <AutoWindow NameSuffix="__auto_container__" >
+                            <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                            <Property Name="MouseInputPropagationEnabled" Value="True" />
+                        </AutoWindow>
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticTextLab" Name="Root/MagicCube02Wnd/Tab/ItemList/title" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Text" Value="xGroupNamex" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.026087,0},{0.021583,0},{0.895652,0},{0.0719427,0}}" />
+                </Window>
+                <Window Type="DejaVu/Static" Name="Root/MagicCube02Wnd/Tab/ItemList/PageItems" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{-0.019416,0},{0.556522,0},{0.0349488,0}}" />
+                    <Property Name="VerticalAlignment" Value="Bottom" />
+                    <Window Type="DejaVu/ImageButton" Name="Root/MagicCube02Wnd/Tab/ItemList/PageItems/mostbackBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftMostH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeftMost" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftMostP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.09375,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MagicCube02Wnd/Tab/ItemList/PageItems/backBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberLeftP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberLeftH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberLeft" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberLeftP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.15625,0},{0,0},{0.25,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticTextLab" Name="Root/MagicCube02Wnd/Tab/ItemList/PageItems/pages" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="HorzCentred" />
+                        <Property Name="Text" Value="99/99" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.28125,0},{0,0},{0.71875,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MagicCube02Wnd/Tab/ItemList/PageItems/forwardBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRight" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0,0},{0.84375,0},{0.857143,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/ImageButton" Name="Root/MagicCube02Wnd/Tab/ItemList/PageItems/mostforwardBtn" >
+                        <Property Name="DisabledImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                        <Property Name="HoverImage" Value="set:DejaVuImage image:NumberRightMostH" />
+                        <Property Name="NormalImage" Value="set:DejaVuImage image:NumberRightMost" />
+                        <Property Name="PushedImage" Value="set:DejaVuImage image:NumberRightMostP" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.90625,0},{0,0},{1,0},{0.857143,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Static" Name="Root/MagicCube02Wnd/Tab/CheckList" >
+                <Property Name="Text" Value="xCheckListx" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.00111111,0},{0,0},{0.998889,0},{1,0}}" />
+                <Window Type="DejaVu/Listbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border" >
+                    <Property Name="UnifiedAreaRect" Value="{{0,6},{0,20},{1,-6},{1,-6}}" />
+                    <Window Type="DejaVu/Static" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,8},{0,8},{0.5,0},{1,-4}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/OneHand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xOneHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,107},{0,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/OffHand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xOffHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0,107},{0.1,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/TwoHand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xTwoHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0,107},{0.2,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Head" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xHeadx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{0,107},{0.3,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Body" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xBodyx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{0,107},{0.4,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Hand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0,107},{0.5,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Feet" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xFeetx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{0,107},{0.6,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Back" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xBackx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0,107},{0.7,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Ring" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xRingx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{1,0},{0.8,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Left/Necklace" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xNecklace" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9,0},{0,107},{0.9,18}}" />
+                        </Window>
+                    </Window>
+                    <Window Type="DejaVu/Static" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.5,8},{0,8},{1,0},{1,-4}}" />
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoOneHand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoOneHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,107},{0,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoOffHand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoOffHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.1,0},{0,107},{0.1,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoTwoHand" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoTwoHandx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.2,0},{0,107},{0.2,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoHead" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoHeadx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{0,107},{0.3,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoBody" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoBodyx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.4,0},{0,107},{0.4,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoFace" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoFacex" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.5,0},{0,107},{0.5,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoSpecial" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoSpecialx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.6,0},{0,107},{0.6,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/KusoBack" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xKusoBackx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.7,0},{0,107},{0.7,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/Others" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xOthersx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.8,0},{0,107},{0.8,18}}" />
+                        </Window>
+                        <Window Type="DejaVu/Checkbox" Name="Root/MagicCube02Wnd/Tab/CheckList/Border/Right/All" >
+                            <Property Name="Font" Value="F001-9" />
+                            <Property Name="Selected" Value="True" />
+                            <Property Name="Text" Value="xAllx" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.9,0},{0,107},{0.9,18}}" />
+                        </Window>
+                    </Window>
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/ImageButton" Name="Root/MagicCube02Wnd/HelpBtn" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+            <Property Name="UnifiedAreaRect" Value="{{0.930435,0},{0,0},{0.991304,0},{0.0503597,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,14},{0,14}}" />
+        </Window>
+    </Window>
+</GUILayout>

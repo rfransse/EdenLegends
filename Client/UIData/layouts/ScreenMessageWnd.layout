@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/DWindow" >
+        <Property Name="MousePassThroughEnabled" Value="True" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="ZOrderChangeEnabled" Value="False" />
+        <Window Type="DejaVu/HintTextLab" Name="Root/DWindow/MegaphoneSText" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="UnifiedAreaRect" Value="{{0.444531,0},{0.197939,0},{0.444531,77.0312},{0.197939,23.4354}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DWindow/AreaHintText" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="Tiled" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3,0},{1,0},{0.3,60}}" />
+            <Property Name="ZOrderChangeEnabled" Value="False" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/DWindow/AreaHintText/SText1" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="123" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0,0},{0.75,0},{0.5,0}}" />
+            </Window>
+            <Window Type="DejaVu/HintTextLab" Name="Root/DWindow/AreaHintText/SText2" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="Text" Value="123" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.5,0},{0.75,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DWindow/TypeIcon" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0375,0},{0.3,-50},{0.0375,310},{0.3,44}}" />
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/DWindow/BulletinHintText" >
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="Tiled" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.04,0}}" />
+            <Window Type="DejaVu/HintTextLab" Name="Root/DWindow/BulletinHintText/BulletinSText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.3,0},{0,0},{0.55,0},{1,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

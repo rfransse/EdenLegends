@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/EngineeringStudy" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.162109,0},{0.0447958,0},{0.162109,412},{0.0447958,640}}" />
+        <Window Type="DejaVu/Static" Name="Root/EngineeringStudy/Background" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/Static" Name="Root/EngineeringStudy/Background/BG" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.0199336,0},{0.146465,0},{0.0963455,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/EngineeringStudy/Background/BG/Slot" >
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.130435,0},{0.130435,0},{0.869565,0},{0.869565,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/TextSmoothLab" Name="Root/EngineeringStudy/Background/InfoText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" >國
+國
+國
+國</Property>
+                <Property Name="UnifiedAreaRect" Value="{{0.161616,0},{0.009967,0},{0.909091,0},{0.106313,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/EngineeringStudy/Background/HelpBtn" >
+                <Property Name="DisabledImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.924242,0},{0.0199336,0},{0.969697,0},{0.0498339,0}}" />
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/EngineeringStudy/Background/Border" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.641196,0},{0.969697,0},{0.920266,0}}" />
+                <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/DemendInfo1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="嚇人炸彈試作品" />
+                    <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0714286,0},{1,0},{0.178571,0}}" />
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EngineeringStudy/Background/Border/StuffItem0" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032258,0},{0.25,0},{0.967742,0},{0.452381,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/EngineeringStudy/Background/Border/ItemSlot0" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0977011,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EngineeringStudy/Background/Border/ItemText0" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.114943,0},{0,0},{0.78161,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EngineeringStudy/Background/Border/ItemNumText0" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99/99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.827586,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EngineeringStudy/Background/Border/StuffItem1" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032258,0},{0.488095,0},{0.967742,0},{0.690476,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/EngineeringStudy/Background/Border/ItemSlot1" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0977011,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EngineeringStudy/Background/Border/ItemText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.114943,0},{0,0},{0.781609,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EngineeringStudy/Background/Border/ItemNumText1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99/99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.827586,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/StaticImage" Name="Root/EngineeringStudy/Background/Border/StuffItem2" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.032258,0},{0.72619,0},{0.967742,0},{0.928571,0}}" />
+                    <Window Type="DejaVu/SlotImage" Name="Root/EngineeringStudy/Background/Border/ItemSlot2" >
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.0977011,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EngineeringStudy/Background/Border/ItemText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="一二三四五六七八" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.114943,0},{0,0},{0.781609,0},{1,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/StaticText" Name="Root/EngineeringStudy/Background/Border/ItemNumText2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-9" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="HorzFormatting" Value="RightAligned" />
+                        <Property Name="Text" Value="99/99" />
+                        <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.827586,0},{0,0},{1,0},{1,0}}" />
+                    </Window>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/EngineeringStudy/Background/Box" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.116279,0},{0.969697,0},{0.561462,0}}" />
+                <Window Type="DejaVu/ScrollablePane" Name="Root/EngineeringStudy/Background/Box/ScrollPane" >
+                    <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                    <Property Name="Font" Value="F001-scale" />
+                    <Property Name="ForceVertScrollbar" Value="True" />
+                    <Property Name="HorzOverlapSize" Value="0.01" />
+                    <Property Name="HorzScrollPosition" Value="0" />
+                    <Property Name="HorzStepSize" Value="0.1" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.021505,0},{0.016529,0},{0.989247,0},{0.986678,0}}" />
+                    <Property Name="VertOverlapSize" Value="0.01" />
+                    <Property Name="VertScrollPosition" Value="0" />
+                    <Property Name="VertStepSize" Value="0.1" />
+                    <AutoWindow NameSuffix="__auto_container__" >
+                        <Property Name="ChildExtentsArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="ContentArea" Value="l:0 t:0 r:0 b:0" />
+                        <Property Name="MouseInputPropagationEnabled" Value="True" />
+                    </AutoWindow>
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Button" Name="Root/EngineeringStudy/Background/CreateBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="Text" Value="x製作" />
+                <Property Name="UnifiedAreaRect" Value="{{0.742424,0},{0.940199,0},{0.969697,0},{0.980066,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/DemendInfo" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="x需求材料" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.581395,0},{0.343434,0},{0.621262,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/ManufactureExpense" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x製作費用" />
+                <Property Name="UnifiedAreaRect" Value="{{0.030303,0},{0.940199,0},{0.191919,0},{0.980066,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/GoldText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="9999999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.207071,0},{0.940199,0},{0.358586,0},{0.980066,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EngineeringStudy/Background/GoldIcon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:GoldIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.373737,0},{0.948505,0},{0.409091,0},{0.971761,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/SilverText" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.424242,0},{0.940199,0},{0.50505,0},{0.980066,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticImage" Name="Root/EngineeringStudy/Background/SilverIcon" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Image" Value="set:DejaVuImage image:SilverIcon" />
+                <Property Name="UnifiedAreaRect" Value="{{0.520202,0},{0.948505,0},{0.555556,0},{0.971761,0}}" />
+            </Window>
+            <Window Type="DejaVu/Editbox" Name="Root/EngineeringStudy/Background/Editbox" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MaxTextLength" Value="2147483647" />
+                <Property Name="Text" Value="99" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.570707,0},{0.940199,0},{0.636364,0},{0.980066,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/ManufactureExpense2" >
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="times" />
+                <Property Name="UnifiedAreaRect" Value="{{0.641414,0},{0.940199,0},{0.742424,0},{0.980066,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/EngineeringStudy/Background/LevelInfo" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="x需求等級" />
+                <Property Name="UnifiedAreaRect" Value="{{0.525253,0},{0.581395,0},{0.838384,0},{0.621262,0}}" />
+            </Window>
+            <Window Type="DejaVu/EmbedTextLab" Name="Root/EngineeringStudy/Background/LevelText" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="99" />
+                <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.853535,0},{0.581395,0},{0.967172,0},{0.621262,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
