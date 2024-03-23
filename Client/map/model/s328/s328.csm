@@ -1,0 +1,20 @@
+[Version]
+// 資料版本
+Version=20120821
+[CSM]
+// Max Shadow Distance
+MaxShadowDistance=150.00
+// ZBiasR
+ZBiasR=0.000500
+// ZBiasG
+ZBiasG=0.001500
+// ZBiasB
+ZBiasB=0.003500
+// ZBiasGB
+ZBiasGB=0.005500
+// Shadow Term
+ShadowTerm=0.46
+// Split Weight
+SplitWeight=0.70
+// 強制關閉 0: on 1:off
+ForceOff=0

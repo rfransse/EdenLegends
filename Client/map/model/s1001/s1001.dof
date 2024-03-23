@@ -1,0 +1,11 @@
+[Version]
+Version=20141105
+[DOF]
+Switch=1
+EndN=0.00
+BeginN=0.00
+BeginP=253.44
+EndP=600.00
+Weight=0.00
+RangeN=0.96
+RangeP=159.14
