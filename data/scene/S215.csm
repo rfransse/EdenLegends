@@ -1,0 +1,44 @@
+[Version]
+// 資料版本
+Version=20111222
+[CSM]
+// Max Shadow Distance
+MaxShadowDistance=100.00
+// ZBiasR
+ZBiasR=0.002000
+// ZBiasG
+ZBiasG=0.000000
+// ZBiasB
+ZBiasB=0.000000
+// ZBiasGB
+ZBiasGB=0.000000
+// Shadow Term
+ShadowTerm=0.60
+// Split Weight
+SplitWeight=0.80
+// 光線仰角
+LightAngle=45
+// 光線轉動
+LightRotate=52
+// 強制關閉 0: on 1:off
+ForceOff=0
+
+[BackLight]
+// 角色黑框寬度
+CharBlackThickness=0.000000
+// 角色背光寬度
+CharWhiteThickness=0.604478
+// 角色背光強度
+CharWhiteIntensity=0.462687
+// 場景黑框寬度
+SceneBlackThickness=0.000000
+// 場景背光寬度
+SceneWhiteThickness=0.679105
+// 場景背光強度
+SceneWhiteIntensity=0.552239
+// 地板黑框寬度
+GroundBlackThickness=0.000000
+// 地板背光寬度
+GroundWhiteThickness=0.753731
+// 地板背光寬度
+GroundWhiteIntensity=0.574627
