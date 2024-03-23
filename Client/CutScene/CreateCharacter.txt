@@ -1,0 +1,10 @@
+[CutScene]<TimeLength=3600.00>
+  [Option]
+  [Option]
+  [Object]
+    [Camera]<ID=1>
+      [Normal]
+        [KeyFrame]<KeyTime=0.00,Fly=1,Position=421.64|275.00|42.90,Rotate=-90.00|271.00|-8.00,Scale=1.00,CPStartState=0,CPEndState=0,CPStartPosition=421.64|275.00|47.90,CPEndPosition=421.64|275.00|47.90,Face=0,Auto=0,Vertical=0,FaceDirPos=0.00|-1.00|0.00,Parent=0,CPStartParent=0,CPEndParent=0,FaceTarget=0>
+        [KeyFrame]<KeyTime=3600.00,Fly=1,Position=421.64|275.00|42.90,Rotate=-90.00|271.00|-8.00,Scale=1.00,CPStartState=0,CPEndState=0,CPStartPosition=421.64|275.00|47.90,CPEndPosition=421.64|275.00|47.90,Face=0,Auto=0,Vertical=0,FaceDirPos=0.00|-1.00|0.00,Parent=0,CPStartParent=0,CPEndParent=0,FaceTarget=0>
+  [Object]
+[CutScene]
