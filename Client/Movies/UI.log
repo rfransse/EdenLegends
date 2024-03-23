@@ -1,0 +1,3 @@
+2022/11/17 01:45:07 [File]..\WebBrowser.cpp [Line]64 [Desc]ERROR : Load WebBrowser.dll fail 
+2022/11/17 01:45:19 [File]..\CeguiDialog\ZoneMap.cpp [Line]1495 [Desc]ERROR : Try to create multi instance of CZoneMapWnd! 
+2022/11/17 01:45:19 [File]..\CeguiDialog\ZoneMapVer2.cpp [Line]62 [Desc]ERROR : Try to create multi instance of CZoneMapWnd! 

@@ -1,0 +1,79 @@
+[Desc]CPU : Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz 
+[Desc]CPU : Support FPU, MMX, SSE, SSE2, SSE3, SSSE3, FMA, SSE4.1, SSE4.2, AES, AVX, F16C, AVX2,  
+[Desc]CPU : 8 Cores 
+[Desc]OS : Microsoft Windows 8   (Build 9200) 
+[Desc]Timer : Hybrid timer (10.000000Mhz) 
+[Desc]Memory Total : 16317.000 MB 
+[Desc]Memory Available : 8393.988 MB 
+[Desc]Save Desktop Resolution : 1920 x 1080 32Bits 144Hz 
+[Desc]Device Name CDD 
+[Desc]Driver Version 1025 
+[Desc]------ 
+[Desc]Loading DB - Begin 
+[Desc]Loading DB - End 
+[Desc]------ 
+[Desc]File Version : 2,5,5,67 
+[Desc]DirectX Version : 11.0 
+[Desc]Init UI Sound... 
+[Desc]Init SoundManager... 
+[Desc]Apply Desktop Resolution : 1920 x 1080 32Bits 60Hz 
+[Desc]Apply Desktop Resolution : DISP_CHANGE_SUCCESSFUL 
+[Desc]Create Renderer 
+[Desc]	Using NiDX9Renderer on Direct3D9Ex 
+[Desc]	VertexShader Version 3.0, supported 
+[Desc]	PixelShader Version 3.0, supported 
+[Desc]Video Memory : 3221225472 
+[Desc]Create Renderer succeed 
+[Desc]Device Type : 3D Hardware 
+[Desc]Description : NVIDIA GeForce GTX 1060 6GB 
+[Desc]Driver : nvldumd.dll 
+[Desc]Driver Version : 31.0.15.1748 
+[Desc]Video Mode List - Begin 
+[Desc]800 x 600, 32 bits 
+[Desc]1024 x 768, 32 bits 
+[Desc]1152 x 864, 32 bits 
+[Desc]1176 x 664, 32 bits 
+[Desc]1280 x 720, 32 bits 
+[Desc]1280 x 768, 32 bits 
+[Desc]1280 x 800, 32 bits 
+[Desc]1280 x 960, 32 bits 
+[Desc]1280 x 1024, 32 bits 
+[Desc]1360 x 768, 32 bits 
+[Desc]1366 x 768, 32 bits 
+[Desc]1600 x 900, 32 bits 
+[Desc]1600 x 1024, 32 bits 
+[Desc]1680 x 1050, 32 bits 
+[Desc]1768 x 992, 32 bits 
+[Desc]1920 x 1080, 32 bits 
+[Desc]1440 x 900, 32 bits 
+[Desc]1152 x 720, 32 bits 
+[Desc]Video Mode List - End 
+[Desc]PrecacheKFM : 189->331=141 MBytes 
+[Desc]PeriodMin : 1 
+[Desc]PeriodMax : 1000000 
+[Desc]MinSleepPeriod : 0.001444 
+[Desc]LoginServer IP: 192.168.200.100(192.168.200.100), Port 6543
+ 
+[Desc]WorldServer IP: 192.168.200.100, Port 5712
+ 
+[Desc]ZoneServer IP: 192.168.200.100, Port 10166
+ 
+[Desc]1 
+[Desc]2 
+[Desc]3 
+[Desc]4 
+[Desc]5 
+[Desc]7 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]8 
+[Desc]6 
+[Desc]Restore Desktop Resolution : 1920 x 1080 32Bits 144Hz 
