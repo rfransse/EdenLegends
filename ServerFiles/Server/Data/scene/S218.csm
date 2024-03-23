@@ -1,0 +1,24 @@
+[Version]
+// 資料版本
+Version=20111222
+[CSM]
+// Max Shadow Distance
+MaxShadowDistance=94.68
+// ZBiasR
+ZBiasR=0.002000
+// ZBiasG
+ZBiasG=0.000000
+// ZBiasB
+ZBiasB=0.000000
+// ZBiasGB
+ZBiasGB=0.000130
+// Shadow Term
+ShadowTerm=1.00
+// Split Weight
+SplitWeight=0.84
+// 光線仰角
+LightAngle=53
+// 光線轉動
+LightRotate=0
+// 強制關閉 0: on 1:off
+ForceOff=0
