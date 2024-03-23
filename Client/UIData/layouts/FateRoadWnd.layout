@@ -5,13 +5,13 @@
         <Property Name="Font" Value="F001-9" />
         <Property Name="TitlebarEnabled" Value="True" />
         <Property Name="TitlebarFont" Value="F001-9" />
-        <Property Name="UnifiedAreaRect" Value="{{0.105,0},{0.086288,0},{0.105,272},{0.086288,266}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
         <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Background" >
             <Property Name="Font" Value="F001-9" />
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             <Window Type="DejaVu/Border" Name="Root/FateRoadWnd/Background/Border" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0234375,0},{0.0219298,0},{0.976563,0},{0.864035,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Background/Border/RoadIcon39" >
                     <Property Name="BackgroundEnabled" Value="False" />
                     <Property Name="Font" Value="F001-9" />
@@ -251,25 +251,25 @@
             <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Background/UseBtn" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="Text" Value="x使用" />
-                <Property Name="UnifiedAreaRect" Value="{{0.546875,0},{0.894737,0},{0.75,0},{0.973684,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
             <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Background/CloseBtn" >
                 <Property Name="Text" Value="x關閉" />
-                <Property Name="UnifiedAreaRect" Value="{{0.773438,0},{0.894737,0},{0.976563,0},{0.973684,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
             <Window Type="DejaVu/HintTextLab" Name="Root/FateRoadWnd/Background/Text" >
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="FrameEnabled" Value="False" />
-                <Property Name="Text" Value="x使用這個命運圖捲?" />
-                <Property Name="UnifiedAreaRect" Value="{{0.023438,0},{0.903509,0},{0.523438,0},{0.964913,0}}" />
+                <Property Name="Text" Value="?" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
             <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Background/StepNow" >
                 <Property Name="AlwaysOnTop" Value="True" />
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="FrameEnabled" Value="False" />
                 <Property Name="Image" Value="set:CDAni image:Chess" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0507813,0},{0,0},{0.144531,0},{0.131579,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
     </Window>

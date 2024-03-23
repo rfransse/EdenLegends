@@ -3,58 +3,58 @@
 <GUILayout >
     <Window Type="DefaultWindow" Name="Root/LotterycountWnd" >
         <Property Name="Font" Value="F001-9" />
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,416},{0,140}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
         <Window Type="DejaVu/Static" Name="Root/LotterycountWnd/Static" >
-            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.999023,0},{0.999664,0}}" />
-            <Property Name="UnifiedMinSize" Value="{{0,416},{0,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
             <Window Type="DejaVu/Border" Name="Root/LotterycountWnd/Static/Border1" >
-                <Property Name="UnifiedAreaRect" Value="{{0.004808,0},{0.014286,0},{1.00027,0},{0.989378,0}}" />
-                <Property Name="UnifiedMinSize" Value="{{0,352},{0,116}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+                <Property Name="UnifiedMinSize" Value="{{0,0},{0,0}}" />
                 <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC1" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.311594,0},{0.627737,0},{0.408213,0},{0.919708,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/StaticImage" Name="Root/LotterycountWnd/Static/Border1/SImageC1/FL" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.425,0},{0.425,0},{0.85,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC2" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.44686,0},{0.627737,0},{0.543478,0},{0.919708,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/StaticImage" Name="Root/LotterycountWnd/Static/Border1/SImageC2/FL" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.425,0},{0.425,0},{0.85,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC3" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.582126,0},{0.627737,0},{0.678744,0},{0.919708,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC3/FL" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.425,0},{0.425,0},{0.85,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC4" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.717391,0},{0.627737,0},{0.81401,0},{0.919708,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC4/FL" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.425,0},{0.425,0},{0.85,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/SImageC5" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.855072,0},{0.627737,0},{0.951691,0},{0.919708,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/StaticImage" Name="Root/LotterycountWnd/Static/Border1/SImageC5/FL" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.425,0},{0.425,0},{0.85,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Button" Name="Root/LotterycountWnd/Static/Border1/TutorialBtn" >
                     <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
                     <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
                     <Property Name="PushedImage" Value="set:DejaVu image:HelpButtonPressed" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.94686,0},{0.0510949,0},{0.980676,0},{0.153285,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/HintText" Name="Root/LotterycountWnd/Static/Border1/Title" >
                     <Property Name="BackgroundEnabled" Value="False" />
@@ -62,34 +62,34 @@
                     <Property Name="HorzFormatting" Value="WordWrapRightAligned" />
                     <Property Name="Text" Value="※每周例行維護時將清空煉金累積值" />
                     <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.00970874,0},{0.0514706,0},{0.932039,0},{0.154412,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/Button" Name="Root/LotterycountWnd/Static/Border1/Btn" >
                     <Property Name="Text" Value="領取獎勵" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.057971,0},{0.627737,0},{0.251208,0},{0.832117,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/BaseBar" >
                     <Property Name="BackgroundEnabled" Value="False" />
                     <Property Name="FrameEnabled" Value="False" />
                     <Property Name="Image" Value="set:main image:FunctionExpBackgrand" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.038835,0},{0.183824,0},{0.951456,0},{0.448529,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/SlotImage" Name="Root/LotterycountWnd/Static/Border1/BaseBar/star" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="Image" Value="set:main image:MonsterStar" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.0185185,0},{0.166667,0},{0.0820106,0},{0.833333,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                     <Window Type="DejaVu/ProgressBar" Name="Root/LotterycountWnd/Static/Border1/BaseBar/CPbar" >
                         <Property Name="CurrentProgress" Value="0" />
                         <Property Name="StepSize" Value="0.01" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.0952381,0},{0.166667,0},{0.978836,0},{0.833333,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                         <Window Type="DejaVu/StaticTextLab" Name="Root/LotterycountWnd/Static/Border1/BaseBar/CPbar/num" >
                             <Property Name="BackgroundEnabled" Value="False" />
                             <Property Name="Font" Value="F001-10" />
                             <Property Name="FrameEnabled" Value="False" />
                             <Property Name="HorzFormatting" Value="HorzCentred" />
                             <Property Name="Text" Value="20/300" />
-                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                         </Window>
                     </Window>
                 </Window>
@@ -97,31 +97,31 @@
                     <Property Name="HorzFormatting" Value="WordWrapCentred" />
                     <Property Name="Text" Value="x999" />
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.315534,0},{0.470588,0},{0.402913,0},{0.595588,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedText" Name="Root/LotterycountWnd/Static/Border1/SNumC2" >
                     <Property Name="HorzFormatting" Value="WordWrapCentred" />
                     <Property Name="Text" Value="x999" />
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.451456,0},{0.470588,0},{0.538835,0},{0.595588,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedText" Name="Root/LotterycountWnd/Static/Border1/SNumC3" >
                     <Property Name="HorzFormatting" Value="WordWrapCentred" />
                     <Property Name="Text" Value="x999" />
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.587379,0},{0.470588,0},{0.674757,0},{0.595588,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedText" Name="Root/LotterycountWnd/Static/Border1/SNumC4" >
                     <Property Name="HorzFormatting" Value="WordWrapCentred" />
                     <Property Name="Text" Value="x999" />
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.723301,0},{0.470588,0},{0.81068,0},{0.595588,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/EmbedText" Name="Root/LotterycountWnd/Static/Border1/SNumC5" >
                     <Property Name="HorzFormatting" Value="WordWrapCentred" />
                     <Property Name="Text" Value="x999" />
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.859223,0},{0.470588,0},{0.946602,0},{0.595588,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
             </Window>
         </Window>

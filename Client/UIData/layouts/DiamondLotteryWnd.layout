@@ -180,17 +180,17 @@
                     <Property Name="UnifiedAreaRect" Value="{{0.0170455,0},{0.300699,0},{0.113636,0},{0.41958,0}}" />
                 </Window>
                 <Window Type="DejaVu/Border" Name="Root/DiamondLotteryWnd/Static/Border1/PetInfo" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.622159,0},{0.020979,0},{0.982954,0},{0.286713,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/SlotImage" Name="Root/DiamondLotteryWnd/Static/Border1/PetInfo/SImage1" >
                         <Property Name="Image" Value="set:main image:FunctionPetNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.05102,0},{0.368421,0},{0.318737,0},{0.815789,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                     <Window Type="DejaVu/HintText" Name="Root/DiamondLotteryWnd/Static/Border1/PetInfo/Text1" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                         <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.385827,0},{0.263158,0},{0.92126,0},{0.894737,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                     <Window Type="DejaVu/HintText" Name="Root/DiamondLotteryWnd/Static/Border1/PetInfo/Title1" >
                         <Property Name="BackgroundEnabled" Value="False" />
@@ -198,7 +198,7 @@
                         <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                         <Property Name="Text" Value="寵物煉化" />
                         <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.0357143,0},{0.0921053,0},{0.0357143,83},{0.0921053,14}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
             </Window>
@@ -229,20 +229,21 @@
             <Window Type="DejaVu/Border" Name="Root/DiamondLotteryWnd/Static/border2" >
                 <Property Name="UnifiedAreaRect" Value="{{0.0144231,0},{0.851429,0},{0.629808,0},{0.982857,0}}" />
                 <Window Type="DejaVu/SlotImage" Name="Root/DiamondLotteryWnd/Static/border2/SImage" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.046875,0},{0.130435,0},{0.179688,0},{0.869565,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/HintText" Name="Root/DiamondLotteryWnd/Static/border2/Title" >
                     <Property Name="BackgroundEnabled" Value="False" />
                     <Property Name="FrameEnabled" Value="False" />
                     <Property Name="Text" Value="幻化結果" />
+
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.173913,0},{0.796875,0},{0.478261,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/HintText" Name="Root/DiamondLotteryWnd/Static/border2/Text" >
                     <Property Name="BackgroundEnabled" Value="False" />
                     <Property Name="FrameEnabled" Value="False" />
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.521739,0},{0.945313,0},{0.826087,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
             </Window>
             <Window Type="DejaVu/Button" Name="Root/DiamondLotteryWnd/Static/Btn1" >
@@ -251,7 +252,7 @@
             </Window>
             <Window Type="DejaVu/Button" Name="Root/DiamondLotteryWnd/Static/Btn2" >
                 <Property Name="Text" Value="幻化" />
-                <Property Name="UnifiedAreaRect" Value="{{0.817308,0},{0.868571,0},{0.985577,0},{0.965714,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
         <Window Type="DejaVu/StaticImage" Name="Root/DiamondLotteryWnd/SelectImage" >

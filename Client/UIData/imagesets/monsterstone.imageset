@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="MonsterStone" Imagefile="MonsterStone.png" >
+    <Image Name="fixed" XPos="1" YPos="1" Width="32" Height="32" />
+</Imageset>

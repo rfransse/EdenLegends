@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="CollectionPointClassItem" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0}}" />
+        <Window Type="DejaVu/Static" Name="CollectionPointClassItem/Item" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0299625,0},{0.0254237,0},{0.0299625,240},{0.0254237,46}}" />
+            <Window Type="DejaVu/Button" Name="CollectionPointClassItem/Item/ListBtn" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="CollectionPointClassItem/Item/LvText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="CollectionPointClassItem/Item/PointText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+            </Window>
+            <Window Type="DejaVu/Static" Name="CollectionPointClassItem/Item/Disable" >
+                <Property Name="Alpha" Value="0.5" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Window Type="DejaVu/StaticImage" Name="CollectionPointClassItem/Item/Disable/Lock" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="Image" Value="set:main image:FunctionLockPress" />
+                    <Property Name="InheritsAlpha" Value="False" />
+                    <Property Name="MousePassThroughEnabled" Value="True" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/SlotImage" Name="CollectionPointClassItem/Item/icon" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

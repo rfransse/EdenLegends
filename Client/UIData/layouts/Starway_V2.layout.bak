@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root/Activities/TabControl/Tab/Starway" >
+        <Window Type="DejaVu/StaticImage" Name="Root/Activities/TabControl/Tab/Starway/MsgBGImage" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="Tiled" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/Activities/TabControl/Tab/Starway/MsgBGImage/text" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="星光閃閃打造全新樣貌~" />
+                <Property Name="TextColours" Value="tl:FFFFFF00 tr:FFFFFF00 bl:FFFFFF00 br:FFFFFF00" />
+                <Property Name="UnifiedAreaRect" Value="{{0.014006,0},{0,0},{1.30252,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00539084,0},{0.313726,0},{0.749326,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.007246,0},{0.014286,0},{0.992753,0},{0.248572,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.04878,0},{0.213235,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.04878,0},{0.283088,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.04878,0},{0.352941,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.04878,0},{0.422794,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.5125,0},{0.213235,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.5125,0},{0.283088,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.5125,0},{0.352941,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.5125,0},{0.422794,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/TipTextLab" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Effect" >
+                    <Property Name="Alpha" Value="0.9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.05,0},{0.974264,0},{0.95,0}}" />
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Effect/Buff1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.085106,0},{0.047619,0},{0.914893,0},{0.333333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Effect/Buff2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.375,0},{0.914894,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/Effect/Buff3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.708333,0},{0.914894,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/HeadBorder/TitleImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.125,0},{0.132839,0},{0.881098,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.007246,0},{0.26,0},{0.992753,0},{0.494286,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.04878,0},{0.213235,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.04878,0},{0.283088,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.04878,0},{0.352941,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.04878,0},{0.422794,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.5125,0},{0.213235,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.5125,0},{0.283088,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.5125,0},{0.352941,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.5125,0},{0.422794,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/TipTextLab" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Effect" >
+                    <Property Name="Alpha" Value="0.9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.05,0},{0.974264,0},{0.95,0}}" />
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Effect/Buff1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.085106,0},{0.047619,0},{0.914893,0},{0.333333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Effect/Buff2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.375,0},{0.914894,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/Effect/Buff3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.708333,0},{0.914894,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BodyBorder/TitleImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.125,0},{0.132839,0},{0.881098,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.007246,0},{0.505714,0},{0.992753,0},{0.74,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.04878,0},{0.213235,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.04878,0},{0.283088,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.04878,0},{0.352941,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.04878,0},{0.422794,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.5125,0},{0.213235,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.5125,0},{0.283088,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.5125,0},{0.352941,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.5125,0},{0.422794,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/TipTextLab" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Effect" >
+                    <Property Name="Alpha" Value="0.9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.05,0},{0.974264,0},{0.95,0}}" />
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Effect/Buff1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.085106,0},{0.047619,0},{0.914893,0},{0.333333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Effect/Buff2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.375,0},{0.914894,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/Effect/Buff3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.708333,0},{0.914894,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/BackBorder/TitleImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.125,0},{0.132839,0},{0.881098,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.007246,0},{0.751429,0},{0.992753,0},{0.985715,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.04878,0},{0.213235,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.04878,0},{0.283088,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.04878,0},{0.352941,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.04878,0},{0.422794,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.5125,0},{0.213235,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.5125,0},{0.283088,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.5125,0},{0.352941,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.5125,0},{0.422794,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/TipTextLab" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Effect" >
+                    <Property Name="Alpha" Value="0.9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.05,0},{0.974264,0},{0.95,0}}" />
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Effect/Buff1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF1" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.085106,0},{0.047619,0},{0.914893,0},{0.333333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Effect/Buff2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.375,0},{0.914894,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/Effect/Buff3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.708333,0},{0.914894,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Inweeknormal/WeaponBorder/TitleImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.125,0},{0.132839,0},{0.881098,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/Starway/InweekNew" >
+            <Property Name="UnifiedAreaRect" Value="{{0.00539084,0},{0.0588235,0},{0.749326,0},{0.305882,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/TitleBorder/Title" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00724638,0},{0.015873,0},{0.992754,0},{0.238095,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/TitleBorder/Title/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="本周星光大道" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.566038,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.00724638,0},{0.293651,0},{0.992754,0},{0.944444,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.04878,0},{0.213235,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.04878,0},{0.283088,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.04878,0},{0.352941,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.04878,0},{0.422794,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.147059,0},{0.5125,0},{0.213235,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.216912,0},{0.5125,0},{0.283088,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.286765,0},{0.5125,0},{0.352941,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.356618,0},{0.5125,0},{0.422794,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/TipTextLab" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Effect" >
+                    <Property Name="Alpha" Value="0.9" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.441176,0},{0.05,0},{0.974264,0},{0.95,0}}" />
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Effect/Buff1" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="九天應元雷聲普化天尊" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.085106,0},{0.047619,0},{0.914893,0},{0.333333,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Effect/Buff2" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF2" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.375,0},{0.914894,0},{0.666667,0}}" />
+                    </Window>
+                    <Window Type="DejaVu/HintText" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/Effect/Buff3" >
+                        <Property Name="BackgroundEnabled" Value="False" />
+                        <Property Name="Font" Value="F001-12" />
+                        <Property Name="FrameEnabled" Value="False" />
+                        <Property Name="Text" Value="我是BUFF3" />
+                        <Property Name="UnifiedAreaRect" Value="{{0.0851064,0},{0.708333,0},{0.914894,0},{1,0}}" />
+                    </Window>
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/InweekNew/NewBorder/TitleImage" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.018868,0},{0.125,0},{0.132839,0},{0.881098,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Button" Name="Root/Activities/TabControl/Tab/Starway/HelpBtn" >
+            <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+            <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal" >
+            <Property Name="UnifiedAreaRect" Value="{{0.754717,0},{0.313726,0},{0.994609,0},{1,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0.014286,0},{0.977528,0},{0.248572,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.04878,0},{0.270589,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.04878,0},{0.494118,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.505882,0},{0.04878,0},{0.717647,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.04878,0},{0.941177,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.0588235,0},{0.512195,0},{0.270588,0},{0.951219,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.5125,0},{0.494118,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.506329,0},{0.5125,0},{0.718094,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/HeadBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.5125,0},{0.941177,0},{0.951524,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0.26,0},{0.977528,0},{0.494286,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.04878,0},{0.270589,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.04878,0},{0.494118,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.505882,0},{0.04878,0},{0.717647,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.04878,0},{0.941177,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.5125,0},{0.270589,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.5125,0},{0.494118,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.506329,0},{0.5125,0},{0.718094,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BodyBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.5125,0},{0.941177,0},{0.951524,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0.505714,0},{0.977528,0},{0.74,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.04878,0},{0.270589,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.04878,0},{0.494118,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.505882,0},{0.04878,0},{0.717647,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.04878,0},{0.941177,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.5125,0},{0.270589,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.5125,0},{0.494118,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.506329,0},{0.5125,0},{0.718094,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/BackBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.5125,0},{0.941177,0},{0.951524,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0.751429,0},{0.977528,0},{0.985715,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.04878,0},{0.270589,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.04878,0},{0.494118,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.505882,0},{0.04878,0},{0.717647,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.04878,0},{0.941177,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.5125,0},{0.270589,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.5125,0},{0.494118,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.506329,0},{0.5125,0},{0.718094,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/Nextweeknormal/WeaponBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.5125,0},{0.941177,0},{0.951524,0}}" />
+                </Window>
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Static" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew" >
+            <Property Name="UnifiedAreaRect" Value="{{0.754717,0},{0.0588235,0},{0.994609,0},{0.305882,0}}" />
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/TitleBorder/Title" >
+                <Property Name="UnifiedAreaRect" Value="{{0.0224719,0},{0.015873,0},{0.977528,0},{0.238095,0}}" />
+                <Window Type="DejaVu/StaticText" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/TitleBorder/Title/Text" >
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="Font" Value="F001-12" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+                    <Property Name="Text" Value="次回預告" />
+                    <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.952941,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DejaVu/Border" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder" >
+                <Property Name="UnifiedAreaRect" Value="{{0.022472,0},{0.293651,0},{0.977528,0},{0.944445,0}}" />
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item1" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.04878,0},{0.270589,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item2" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.04878,0},{0.494118,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item3" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.505882,0},{0.04878,0},{0.717647,0},{0.487804,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item4" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.0487805,0},{0.941176,0},{0.487805,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item5" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.058824,0},{0.5125,0},{0.270589,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item6" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.282353,0},{0.512195,0},{0.494118,0},{0.951219,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item7" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.506329,0},{0.5125,0},{0.718094,0},{0.951524,0}}" />
+                </Window>
+                <Window Type="DejaVu/SlotImage" Name="Root/Activities/TabControl/Tab/Starway/NextweekNew/NewBorder/Item8" >
+                    <Property Name="UnifiedAreaRect" Value="{{0.729412,0},{0.5125,0},{0.941177,0},{0.951524,0}}" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

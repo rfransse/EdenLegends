@@ -4,7 +4,7 @@
     <Window Type="DejaVu/Static" Name="Root\FateRoadInfo" >
         <Property Name="Font" Value="F001-9" />
         <Property Name="HorizontalAlignment" Value="Right" />
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.341137,0},{0,210},{0.341137,46}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0},{0,0}}" />
         <Window Type="DejaVu/SlotImage" Name="Root\FateRoadInfo/RollIcon1" >
             <Property Name="BackgroundEnabled" Value="False" />
             <Property Name="Font" Value="F001-9" />

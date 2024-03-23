@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DejaVu/FrameWindow" Name="Root/VGNFamilyBattlrRank" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="HelpButtonEnabled" Value="False" />
+        <Property Name="Text" Value="公會排名" />
+        <Property Name="TitlebarEnabled" Value="True" />
+        <Property Name="TitlebarFont" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.18457,0},{0.0221354,0},{0.18457,386},{0.0221354,492}}" />
+        <Window Type="DejaVu/Static" Name="Root/VGNFamilyBattlrRank/Static" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Window Type="DejaVu/MultiColumnList" Name="Root/VGNFamilyBattlrRank/Static/MultiColumnList" >
+                <Property Name="ColumnsMovable" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03352,0},{0.092715,0},{0.968655,0},{0.973772,0}}" />
+            </Window>
+            <Window Type="DejaVu/ImageButton" Name="Root/VGNFamilyBattlrRank/Static/Help" >
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
+                <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
+                <Property Name="PushedImage" Value="image:HelpButtonPressed" />
+                <Property Name="UnifiedAreaRect" Value="{{0.918919,0},{0.0264317,0},{0.967568,0},{0.0660793,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNFamilyBattlrRank/Static/Placing" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="Text" Value="目前排名" />
+                <Property Name="UnifiedAreaRect" Value="{{0.03252,0},{0.02649,0},{0.466124,0},{0.0662251,0}}" />
+            </Window>
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNFamilyBattlrRank/Static/Newtime" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.589189,0},{0.026432,0},{0.886486,0},{0.0660796,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

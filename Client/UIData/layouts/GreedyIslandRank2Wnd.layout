@@ -21,7 +21,7 @@
                 <Property Name="HoverImage" Value="set:DejaVu image:HelpButtonHover" />
                 <Property Name="NormalImage" Value="set:DejaVu image:HelpButtonNormal" />
                 <Property Name="PushedImage" Value="image:HelpButtonPressed" />
-                <Property Name="UnifiedAreaRect" Value="{{0.903226,0},{0.0327869,0},{0.96129,0},{0.0819672,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
     </Window>

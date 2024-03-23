@@ -220,25 +220,24 @@
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Border" Name="Root/LotteryWnd/tab/Tab1/Static/Border1/PetInfo" >
-                    <Property Name="UnifiedAreaRect" Value="{{0.0170455,0},{0.482517,0},{0.318182,0},{0.93007,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/SlotImage" Name="Root/CrystalLotteryWnd/Static/Border1/PetInfo/SImage1" >
                         <Property Name="Image" Value="set:main image:FunctionPetNormal" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.084507,0},{0.245614,0},{0.405262,0},{0.511239,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                     <Window Type="DejaVu/HintText" Name="Root/CrystalLotteryWnd/Static/Border1/PetInfo/Text1" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
                         <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.046092,0},{0.565465,0},{0.951752,0},{0.940465,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                     <Window Type="DejaVu/HintText" Name="Root/CrystalLotteryWnd/Static/Border1/PetInfo/Title1" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
-                        <Property Name="Text" Value="寵物煉化" />
                         <Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.042254,0},{0.052632,0},{0.825273,0},{0.162007,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
             </Window>

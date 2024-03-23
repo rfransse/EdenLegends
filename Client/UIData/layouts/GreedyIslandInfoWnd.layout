@@ -53,7 +53,7 @@
             <Window Type="DejaVu/Button" Name="Root/GreedyIslandInfoWnd/Border/TimeTableBtn" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="Text" Value="x" />
-                <Property Name="UnifiedAreaRect" Value="{{0.860274,0},{0.024896,0},{0.983562,0},{0.0746885,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
     </Window>

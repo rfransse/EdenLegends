@@ -28,8 +28,7 @@
                 <Property Name="UnifiedAreaRect" Value="{{0.067416,0},{0.029557,0},{0.770713,0},{0.0886703,0}}" />
             </Window>
             <Window Type="DejaVu/Button" Name="Root/collectionWnd/TreasuryTree/CollectionPoint" >
-                <Property Name="Text" Value="x收藏積分" />
-                <Property Name="UnifiedAreaRect" Value="{{0.483581,0},{0.921927,0},{0.927326,0},{0.986928,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
         <Window Type="DejaVu/Static" Name="Root/collectionWnd/TreasuryUse" >

@@ -4,7 +4,7 @@
     <Window Type="DejaVu/FrameWindow" Name="Root/LotteryWnd" >
         <Property Name="Font" Value="F001-9" />
         <Property Name="TitlebarFont" Value="F001-9" />
-        <Property Name="UnifiedAreaRect" Value="{{0.065,0},{0.0766667,0},{0.065,432},{0.0766667,388}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
         <Property Name="TitlebarEnabled" Value="True" />
         <Window Type="DejaVu/Static" Name="Root/LotteryWnd/Static" >
             <Property Name="Font" Value="F001-9" />
@@ -267,22 +267,22 @@
             </Window>
             <Window Type="DejaVu/Border" Name="Root/LotteryWnd/Static/border2" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0144231,0},{0.851429,0},{0.629808,0},{0.982857,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 <Window Type="DejaVu/SlotImage" Name="Root/LotteryWnd/Static/border2/SImage" >
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.046875,0},{0.130435,0},{0.179688,0},{0.869565,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/HintText" Name="Root/LotteryWnd/Static/border2/Title" >
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
                     <Property Name="BackgroundEnabled" Value="False" />
                     <Property Name="Font" Value="F001-9" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.173913,0},{0.796875,0},{0.478261,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Property Name="FrameEnabled" Value="False" />
                 </Window>
                 <Window Type="DejaVu/HintText" Name="Root/LotteryWnd/Static/border2/Text" >
                     <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
                     <Property Name="BackgroundEnabled" Value="False" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.203125,0},{0.521739,0},{0.945313,0},{0.826087,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Property Name="FrameEnabled" Value="False" />
                 </Window>
             </Window>
@@ -292,7 +292,7 @@
             </Window>
             <Window Type="DejaVu/Button" Name="Root/LotteryWnd/Static/Btn2" >
                 <Property Name="Font" Value="F001-9" />
-                <Property Name="UnifiedAreaRect" Value="{{0.817308,0},{0.868571,0},{0.985577,0},{0.965714,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
         <Window Type="DejaVu/StaticImage" Name="Root/LotteryWnd/SelectImage" >

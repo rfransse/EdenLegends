@@ -40,8 +40,7 @@
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="FrameEnabled" Value="False" />
-                <Property Name="Text" Value="1職業積分加成清單" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0422535,0},{0.0169014,0},{0.580986,0},{0.056338,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
     </Window>

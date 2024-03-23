@@ -6,7 +6,7 @@
         <Property Name="Font" Value="F001-9" />
         <Property Name="MousePassThroughEnabled" Value="True" />
         <Property Name="VerticalAlignment" Value="Centre" />
-        <Property Name="UnifiedAreaRect" Value="{{1.6531e-008,0},{0.0983335,0},{1.6531e-008,602},{0.0983335,345}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
         <Window Type="DejaVu/LightStatic" Name="Root/FateRoad/LightItem" >
             <Property Name="UnifiedAreaRect" Value="{{0.207089,0},{0.822102,0},{0.795839,0},{0.982681,0}}" />
             <Window Type="DejaVu/StaticImage" Name="Root/FateRoad/LightItem/Item" >

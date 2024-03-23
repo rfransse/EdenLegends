@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout>
+    <Window Type="DefaultWindow" Name="Root/VGNTempleArenaWnd" >
+        <Property Name="Font" Value="F001-9" />
+        <Property Name="UnifiedAreaRect" Value="{{0.488203,0},{0.106667,0},{0.5175,276},{0.13333375,186}}" />
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/DailyScoreTitle" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.030201375,0},{0,140},{0.030201375,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/DailyScoreTitle/DailyScoreTitleText" >
+				<Property Name="MousePassThroughEnabled" Value="True" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="Daily Score:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00769231,0},{0.0384615,0},{1.00769,0},{0.961538,0}}" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/DailyScore" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.030201375,0},{0.973856,0},{0.030201375,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/DailyScore/DailyScoreText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="9999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.0384615,0},{1.00625,0},{0.961538,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/VGNTempleArenaWnd/ImageBG" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.18120825,0},{0,300},{0.18120825,1}}" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/DailyKillsTitle" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.206376,0},{0,140},{0.206376,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/DailyKillsTitle/DailyKillsTitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="Daily Kills:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007692,0},{0.038462,0},{1.00769,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/DailyKills" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.206376,0},{0.973856,0},{0.206376,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/DailyKills/DailyKillsText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-24" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="999" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.038462,0},{1.00625,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/VGNTempleArenaWnd/ImageBG2" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.3573825,0},{0.980392,0},{0.3573825,1}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/TotalScoreTitle" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.382550625,0},{0,140},{0.382550625,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/TotalScoreTitle/TotalScoreTitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="Monthly Score:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007692,0},{0.038462,0},{1.00769,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/TotalScore" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.382550625,0},{0.973856,0},{0.382550625,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/TotalScore/TotalScoreText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-16" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="2000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.038462,0},{1.00625,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/VGNTempleArenaWnd/ImageBG3" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.53355675,0},{0.980392,0},{0.53355675,1}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/TotalKillsTitle" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.55872525,0},{0,140},{0.55872525,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/TotalKillsTitle/TotalKillsTitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-12" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="Text" Value="Monthly Kills:" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007692,0},{0.038462,0},{1.00769,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/TotalKills" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.55872525,0},{0.973856,0},{0.55872525,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/TotalKills/TotalKillsText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-16" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="2000000" />
+                <Property Name="UnifiedAreaRect" Value="{{0.00625,0},{0.038462,0},{1.00625,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="DejaVu/StaticImage" Name="Root/VGNTempleArenaWnd/ImageBG4" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.709731,0},{0.980392,0},{0.709731,1}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Border" Name="Root/VGNTempleArenaWnd/DailyQuestTitle" >
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.261438,0},{0.703883,0},{0.261438,140},{0.703883,26}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="DejaVu/StaticTextLab" Name="Root/VGNTempleArenaWnd/DailyQuestTitle/DailyQuestTitleText" >
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="Font" Value="F001-9" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="Text" Value="Daily Quests" />
+                <Property Name="UnifiedAreaRect" Value="{{0.007692,0},{0.038462,0},{1.00769,0},{0.961539,0}}" />
+				<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+		<Window Type="DejaVu/Checkbox" Name="Root/VGNTempleArenaWnd/DailyScoreRewardChk" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Score Reward: 250/250"/>
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.800971,0},{0,150},{0.800971,30}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/VGNTempleArenaWnd/DailyBossRewardChk" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Boss Kill Reward: 1/1"/>
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.539216,0},{0.800971,0},{1.013072,0},{0.800971,30}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/VGNTempleArenaWnd/DailyUniqueKillRewardChk" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Unique Kill Reward: 5/5"/>
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.888350,0},{0,150},{0.888350,30}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="DejaVu/Checkbox" Name="Root/VGNTempleArenaWnd/DailyKillRewardChk" >
+            <Property Name="Font" Value="F001-9" />
+            <Property Name="Text" Value="Kill Reward: 25/25"/>
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="NormalTextColour" Value="FFFFFFFF" />
+            <Property Name="UnifiedAreaRect" Value="{{0.539216,0},{0.888350,0},{1.013072,0},{0.888350,30}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+	</Window>
+</GUILayout>

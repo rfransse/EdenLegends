@@ -3,22 +3,22 @@
 <GUILayout >
     <Window Type="DefaultWindow" Name="Root/FateRoadWnd" >
         <Property Name="HorizontalAlignment" Value="Centre" />
-        <Property Name="Text" Value="推薦任務" />
-        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.00101523,0},{0,742},{0.00101523,510}}" />
+        <Property Name="Text" Value="HEZYYS" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
         <Property Name="VerticalAlignment" Value="Centre" />
         <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Main" >
             <Property Name="Font" Value="F001-9" />
-            <Property Name="UnifiedAreaRect" Value="{{0,10},{0,10},{0.700809,0},{1,-10}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0},{0,0},{0,0}}" />
             <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Main/Map" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.102041,0},{0.95098,0},{0.918367,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Main/Token" >
                     <Property Name="AlwaysOnTop" Value="True" />
                     <Property Name="BackgroundEnabled" Value="False" />
                     <Property Name="FrameEnabled" Value="False" />
                     <Property Name="Image" Value="set:CDAni image:Chess" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.094922,0},{0.091938,0},{0.160901,0},{0.191938,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
                 <Window Type="DejaVu/StaticImage" Name="Root/FateRoadWnd/Main/Map/Message" >
                     <Property Name="BackgroundEnabled" Value="False" />
@@ -27,14 +27,14 @@
                     <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="HorzFormatting" Value="Tiled" />
                     <Property Name="Image" Value="set:DejaVu image:ScreenMessageBG" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.875,0},{1.11887,0},{0.9875,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/Map/Message/Text" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="HorizontalAlignment" Value="Centre" />
                         <Property Name="HorzFormatting" Value="HorzCentred" />
                         <Property Name="Text" Value="XXXXXXXXXXXXXXXXX" />
-                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.815094,0},{0.488889,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                         <Property Name="VerticalAlignment" Value="Centre" />
                     </Window>
                 </Window>
@@ -308,7 +308,7 @@
                             <Property Name="BackgroundEnabled" Value="False" />
                             <Property Name="FrameEnabled" Value="False" />
                             <Property Name="Text" Value="XXXXXXXXXXXXXXXXX" />
-                            <Property Name="UnifiedAreaRect" Value="{{0.171152,0},{-0.0586461,0},{0.960121,0},{0.489949,0}}" />
+                            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                             <Property Name="VerticalAlignment" Value="Centre" />
                         </Window>
                     </Window>
@@ -357,7 +357,7 @@
                 <Property Name="HorizontalAlignment" Value="Centre" />
                 <Property Name="HorzFormatting" Value="HorzCentred" />
                 <Property Name="Text" Value="x命運之路" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.022449,0},{0.9,0},{0.0897959,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
             <Window Type="DejaVu/ProgressBar" Name="Root/FateRoadWnd/Main/VitBar" >
                 <Property Name="CurrentProgress" Value="0" />
@@ -373,17 +373,17 @@
             </Window>
             <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Main/VitTitle" >
                 <Property Name="Text" Value="x探險值" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0254902,0},{0.928571,0},{0.192157,0},{0.985714,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 <Window Type="DejaVu/EmbedTextLab" Name="Root/FateRoadWnd/Main/VitTitle/Text" >
                     <Property Name="HorzFormatting" Value="HorzCentred" />
                     <Property Name="Text" Value="x10" />
-                    <Property Name="UnifiedAreaRect" Value="{{0.682353,0},{0.142857,0},{0.941176,0},{0.857143,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 </Window>
             </Window>
         </Window>
         <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Second" >
             <Property Name="Font" Value="F001-9" />
-            <Property Name="UnifiedAreaRect" Value="{{0.711756,0},{0,10},{1,-10},{1,-10}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             <Window Type="DejaVu/Border" Name="Root/FateRoadWnd/Second/PointCntroll" >
                 <Property Name="HorizontalAlignment" Value="Centre" />
                 <Property Name="UnifiedAreaRect" Value="{{0,0},{0.387755,0},{0.901961,0},{0.981633,0}}" />
@@ -494,26 +494,26 @@
             <Window Type="DejaVu/Border" Name="Root/FateRoadWnd/Second/ActionBorder" >
                 <Property Name="Font" Value="F001-9" />
                 <Property Name="HorizontalAlignment" Value="Centre" />
-                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0673469,0},{0.901961,0},{0.338776,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                 <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Second/ActionBorder/ItemMall" >
                     <Property Name="HorizontalAlignment" Value="Centre" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0451128,0},{0.923913,0},{0.406015,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Window Type="DejaVu/SlotImage" Name="Root/FateRoadWnd/Second/ActionBorder/ItemMall/Icon" >
-                        <Property Name="UnifiedAreaRect" Value="{{0.023077,0},{0,0},{0.258371,0},{0.833333,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                         <Property Name="VerticalAlignment" Value="Centre" />
                     </Window>
                     <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/ActionBorder/ItemMall/Text" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
                         <Property Name="Text" Value="x虛寶" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.48,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                         <Property Name="VerticalAlignment" Value="Centre" />
                     </Window>
                 </Window>
                 <Window Type="DejaVu/Button" Name="Root/FateRoadWnd/Second/ActionBorder/ActionBtn" >
                     <Property Name="HorizontalAlignment" Value="Centre" />
                     <Property Name="Text" Value="x動作鈕" />
-                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.923913,0},{0.18797,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     <Property Name="VerticalAlignment" Value="Centre" />
                 </Window>
                 <Window Type="DejaVu/Static" Name="Root/FateRoadWnd/Second/Counter" >
@@ -526,8 +526,8 @@
                     <Window Type="DejaVu/StaticTextLab" Name="Root/FateRoadWnd/Second/ActionBorder/Counter/Text" >
                         <Property Name="BackgroundEnabled" Value="False" />
                         <Property Name="FrameEnabled" Value="False" />
-                        <Property Name="Text" Value="x剩餘次數 : 9" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.314193,0},{0,0},{0.953602,0},{0.48,0}}" />
+                        <Property Name="Text" Value="" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                         <Property Name="VerticalAlignment" Value="Centre" />
                     </Window>
                 </Window>
@@ -535,14 +535,14 @@
             <Window Type="DejaVu/BorderTextLab" Name="Root/FateRoadWnd/Second/Title" >
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="FrameEnabled" Value="False" />
-                <Property Name="Text" Value="x功能選單" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0784314,0},{0.022449,0},{0.833333,0},{0.0714286,0}}" />
+                <Property Name="Text" Value="" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
             <Window Type="DejaVu/BorderTextLab" Name="Root/FateRoadWnd/Second/Title2" >
                 <Property Name="BackgroundEnabled" Value="False" />
                 <Property Name="FrameEnabled" Value="False" />
-                <Property Name="Text" Value="x點數操作列" />
-                <Property Name="UnifiedAreaRect" Value="{{0.0784314,0},{0.342857,0},{0.833333,0},{0.391837,0}}" />
+                <Property Name="Text" Value="" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
             </Window>
         </Window>
     </Window>

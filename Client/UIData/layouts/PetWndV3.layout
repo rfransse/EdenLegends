@@ -279,7 +279,7 @@
                     <Property Name="UnifiedAreaRect" Value="{{0.052632,0},{0.044444,0},{0.947369,0},{0.955555,0}}" />
                     <Window Type="DejaVu/Button" Name="Root/Pet/Data/Model/LotteryBtn" >
                         <Property Name="Text" Value="x煉化" />
-                        <Property Name="UnifiedAreaRect" Value="{{0.0294118,0},{0.878049,0},{0.470588,0},{0.97561,0}}" />
+                        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0,0},{0,0}}" />
                     </Window>
                 </Window>
             </Window>
