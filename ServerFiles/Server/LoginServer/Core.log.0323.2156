@@ -1,0 +1,3 @@
+    55,2024/03/23 21:56:57,TCP <0x9407698:12>: FillState = LP_READ_ERROR.
+    57,2024/03/23 21:56:57,Call Interface.Get (0x9403938)->Lost ()
+    58,2024/03/23 21:56:57,ERROR!! Interface [9403938] Lost. ControlObj and Session Got NULL

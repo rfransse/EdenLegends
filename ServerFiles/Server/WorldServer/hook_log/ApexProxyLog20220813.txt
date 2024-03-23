@@ -1,0 +1,10 @@
+Pid:1125>  2022-08-13 17:15:47> BasePath: /root/sjcs/WorldServer/
+Pid:1125>  2022-08-13 17:15:47> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:1125>  2022-08-13 17:15:47> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:1125>  2022-08-13 17:15:47> In sh_load_start 2
+Pid:1125>  2022-08-13 17:15:47>GameServerThunk No Load In Config File
+Pid:1426>  2022-08-13 17:30:34> BasePath: /root/sjcs/WorldServer/
+Pid:1426>  2022-08-13 17:30:34> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:1426>  2022-08-13 17:30:34> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:1426>  2022-08-13 17:30:34> In sh_load_start 2
+Pid:1426>  2022-08-13 17:30:34>GameServerThunk No Load In Config File

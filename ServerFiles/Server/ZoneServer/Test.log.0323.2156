@@ -1,0 +1,118 @@
+     1,2024/03/23 21:56:24,NAT:false     2,2024/03/23 21:56:24,UseUDT:false     3,2024/03/23 21:56:24,[ZoneServerDB.cc:50],Connected to database [127.0.0.1].
+  5425,2024/03/23 21:56:25,Service OK
+  5427,2024/03/23 21:56:25,Service OK
+  5430,2024/03/23 21:56:25,Service OK
+  5432,2024/03/23 21:56:25,RSA size(n) = 256 size(e) = 2
+  5433,2024/03/23 21:56:25,RSA size(n) = 256 size(e) = 2
+  5434,2024/03/23 21:56:25,Server is rolling on TCP 192.168.200.100:10166.
+  5435,2024/03/23 21:56:25,Server is rolling on TCP 192.168.200.100:10465.
+  5436,2024/03/23 21:56:25,Server is rolling on TCP 127.0.0.1:20205.
+  5437,2024/03/23 21:56:25,Connect to 127.0.0.1<0xCE03B10:37>:2067.
+  5438,2024/03/23 21:56:25,Connect to 127.0.0.1<0xCE1F040:38>:5712.
+  5439,2024/03/23 21:56:25,TCP connection: 127.0.0.1:7654 Connection refused  5440,2024/03/23 21:56:25,SOCKET 39: closed.
+  5755,2024/03/23 21:56:25,Wrong ItemElfExpOnce MaxLevel [90] in Buff [-23027]. Set To [70]  5756,2024/03/23 21:56:26,Wrong ItemElfExpOnce MaxLevel [75] in Buff [-6229]. Set To [70] 16591,2024/03/23 21:56:35,[CPositionData:40370338] is duplicate 0x15ce7f28, 0x15ce80c0 will be deleted
+ 16592,2024/03/23 21:56:36,[CPositionData:43384994] is duplicate 0x15cea5c8, 0x15cea760 will be deleted
+ 18626,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18627,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18628,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18629,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18630,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18631,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18632,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18633,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18634,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18635,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18636,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18637,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18638,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18639,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18640,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18641,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18642,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18643,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18644,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18645,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18646,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18647,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18648,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18649,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18650,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18651,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18652,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18653,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18654,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18655,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18656,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18657,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18658,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18659,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18660,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18661,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18662,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18663,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18664,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18665,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18666,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18667,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18668,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18669,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18670,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18671,2024/03/23 21:56:36,[Gateway:14745599] is duplicate 0x139910b8, 0x139911f0 will be deleted
+ 18734,2024/03/23 21:56:36,[Gateway:19726347] is duplicate 0x13996de8, 0x13996ec0 will be deleted
+ 19448,2024/03/23 21:56:36,[Gateway:42074235] is duplicate 0x15e2ee98, 0x15e2f0a0 will be deleted
+ 61533,2024/03/23 21:56:38,TestMissionList!!-[0 1 9 8], [1009][1][0]
+ 61534,2024/03/23 21:56:38,TestMissionList!!-[0 1 9 8], [1009][2][1]
+ 61535,2024/03/23 21:56:38,TestMissionList!!-[0 1 9 8], [1009][512][9]
+ 61536,2024/03/23 21:56:38,TestMissionList!!-[0 1 9 8], [1009][256][8]
+ 61537,2024/03/23 21:56:38,TestMissionList!!-[2   ], [1541][4][2]
+ 61538,2024/03/23 21:56:38,TestMissionList!!-[4   ], [1625][16][4]
+ 61539,2024/03/23 21:56:38,TestMissionList!!-[6   ], [1713][64][6]
+ 61540,2024/03/23 21:56:38,TestMissionList!!-[2   ], [2129][4][2]
+ 61541,2024/03/23 21:56:38,TestMissionList!!-[4   ], [2130][16][4]
+ 61542,2024/03/23 21:56:38,TestMissionList!!-[6   ], [2131][64][6]
+ 61543,2024/03/23 21:56:38,TestMissionList!!-[2   ], [2886][4][2]
+ 61544,2024/03/23 21:56:38,TestMissionList!!-[4   ], [2887][16][4]
+ 61545,2024/03/23 21:56:38,TestMissionList!!-[6   ], [2888][64][6]
+ 61578,2024/03/23 21:56:39,Connect to 127.0.0.1<0x18B18B28:363>:7654.
+ 61580,2024/03/23 21:56:39,[EventNodeBornEvent] Event[252] Get Random[62] 61581,2024/03/23 21:56:39,[EventNodeBornEvent] Event[253] Get Random[43] 61582,2024/03/23 21:56:39,[EventNodeBornEvent] Event[254] Get Random[51] 61583,2024/03/23 21:56:39,[EventNodeBornEvent] Event[255] Get Random[43] 61584,2024/03/23 21:56:39,[EventNodeBornEvent] Event[256] Get Random[11] 61585,2024/03/23 21:56:39,[EventNodeBornEvent] Event[257] Get Random[56] 61586,2024/03/23 21:56:39,Add New Epoll 34
+ 61587,2024/03/23 21:56:39,Add New Epoll 35
+ 61588,2024/03/23 21:56:39,Add New Epoll 36
+ 61589,2024/03/23 21:56:39,Add New Epoll 37
+ 61590,2024/03/23 21:56:39,Add New Epoll 38
+ 61591,2024/03/23 21:56:39,Add New Epoll 363
+ 61763,2024/03/23 21:56:39,EVAL(0.652463 secs): {IMEvent [-2:PN5lapis27CNE_ZMis_ZoneServerReportIDE]}
+147159,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000004 item_id = 49020 content_id = 0 item_amount = 1 award_id = 1
+147161,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000003 item_id = 49020 content_id = 0 item_amount = 1 award_id = 1
+147163,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000003 item_id = 49021 content_id = 0 item_amount = 1 award_id = 2
+147165,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000004 item_id = 49021 content_id = 0 item_amount = 1 award_id = 2
+147167,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000004 item_id = 49024 content_id = 0 item_amount = 1 award_id = 3
+147169,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000003 item_id = 49024 content_id = 0 item_amount = 1 award_id = 3
+147171,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000004 item_id = 49024 content_id = 0 item_amount = 1 award_id = 4
+147173,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start SetRankAward ch_id = 200000003 item_id = 49024 content_id = 0 item_amount = 1 award_id = 4
+147177,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start InitInGameLotterySwitch ingame_lottery_switch = 1
+147178,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start InitDiamondLotterySwitch diamond_lottery_switch = 1
+147179,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start UpdateStarWaySwitch SwitchStatus = 0
+147180,2024/03/23 21:56:40,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start DailyAwardState open = 1 show = 1 begin_date = 0
+147301,2024/03/23 21:56:40,[NE_DBA_ClientAllFamily.cc:46],Family 1 : YAY
+147303,2024/03/23 21:56:40,[NE_DBA_ClientAllFamily.cc:46],Family 2 : Infinity
+167401,2024/03/23 21:57:01,SOCKET 364: accepted by 34
+167402,2024/03/23 21:57:01,TCP <0x1BEA7AE0:364>: connected from (null) [192.168.200.1].
+167403,2024/03/23 21:57:01,Add New Epoll 364
+167404,2024/03/23 21:57:01,TCP <0x1BEA7AE0:364>: connection from '192.168.200.1' encrypted.
+167461,2024/03/23 21:57:01,IControlObj[0x0x1beaf8d0] set Interface[0x0x1be99478].
+167508,2024/03/23 21:57:46,TCP <0x1BEA7AE0:364>: FillBuffer (192.168.200.1 recv 0)
+167510,2024/03/23 21:57:46,TCP <0x1BEA7AE0:364>: (null) [192.168.200.1] lost link.
+167513,2024/03/23 21:57:46,IControlObj[0x0x1beaf8d0] set Interface[0x(nil)].
+167514,2024/03/23 21:57:46,IControlObj[0x0x1beaf8d0] set Interface[0x(nil)].
+167515,2024/03/23 21:57:48,[NetworkCloseEvent.cc:26],NetworkClose: Interface(0x1BE99478), Session(0x19D85C40)
+
+167516,2024/03/23 21:57:48,[Interface.cc:112],Call Session->Close ()
+
+167517,2024/03/23 21:57:48,Null LINK: Session, ControlObj
+167518,2024/03/23 21:57:48,NetworkClose: Interface(0x1BE99478), Session(0x00000000) Done.
+167519,2024/03/23 21:57:48,Erase Socket 364
+167520,2024/03/23 21:57:48,TCP <0x1BEA7AE0:364>: connection real-closed.
+167521,2024/03/23 21:57:48,SOCKET 364: closed.
+167522,2024/03/23 21:57:48,Clean Session 0x19D85C40
+167526,2024/03/23 21:57:48,[NE_MW_WorldTextCommand.cc:12],Mission CNE_MW_WorldTextCommand Execute: Start PlayerLogOutRemoveStarWay Player_ID = 200000005
+167571,2024/03/23 21:58:06,IControlObj[0x0x1beaf8d0] deleted.

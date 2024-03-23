@@ -1,0 +1,5 @@
+Pid:1106>  2022-01-19 00:27:38> BasePath: /root/sjcs/WorldServer/
+Pid:1106>  2022-01-19 00:27:38> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:1106>  2022-01-19 00:27:38> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:1106>  2022-01-19 00:27:38> In sh_load_start 2
+Pid:1106>  2022-01-19 00:27:38>GameServerThunk No Load In Config File

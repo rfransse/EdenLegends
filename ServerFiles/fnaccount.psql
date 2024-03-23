@@ -1,0 +1,697 @@
+--
+-- PostgreSQL database dump
+--
+
+SET statement_timeout = 0;
+SET client_encoding = 'BIG5';
+SET standard_conforming_strings = on;
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+
+--
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+--
+
+CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
+
+
+--
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+--
+
+COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
+
+
+SET search_path = public, pg_catalog;
+
+--
+-- Name: billing_login(character, character); Type: FUNCTION; Schema: public; Owner: postgres
+--
+
+CREATE FUNCTION billing_login(character, character) RETURNS boolean
+    LANGUAGE plpgsql
+    AS $_$
+declare
+  i_account alias for $1;
+  i_password alias for $2;
+  user_rec RECORD;
+begin
+  select into user_rec * from accounts where username=i_account;-- and password=i_password;
+  if user_rec.username is not null then
+    return true;
+  end if;
+  return false;
+end
+$_$;
+
+
+ALTER FUNCTION public.billing_login(character, character) OWNER TO postgres;
+
+--
+-- Name: get_account(integer); Type: FUNCTION; Schema: public; Owner: postgres
+--
+
+CREATE FUNCTION get_account(integer) RETURNS character
+    LANGUAGE plpgsql
+    AS $_$
+declare 
+	account_id alias for $1;
+	user_rec record;
+begin 
+	select into user_rec username from accounts where id=account_id;
+	if user_rec.username is not null then
+		return user_rec.username;
+	end if;
+		return null;
+end
+
+$_$;
+
+
+ALTER FUNCTION public.get_account(integer) OWNER TO postgres;
+
+--
+-- Name: get_accountid(character); Type: FUNCTION; Schema: public; Owner: postgres
+--
+
+CREATE FUNCTION get_accountid(character) RETURNS integer
+    LANGUAGE plpgsql
+    AS $_$
+declare 
+  i_account alias for $1;
+  user_rec RECORD;
+begin
+  select into user_rec id from accounts where username=i_account;
+  if user_rec.id is not null then
+	return user_rec.id;
+  end if;
+	return 0;
+end
+$_$;
+
+
+ALTER FUNCTION public.get_accountid(character) OWNER TO postgres;
+
+--
+-- Name: plpgsql_call_handler(); Type: FUNCTION; Schema: public; Owner: postgres
+--
+
+CREATE FUNCTION plpgsql_call_handler() RETURNS language_handler
+    LANGUAGE c
+    AS '$libdir/plpgsql', 'plpgsql_call_handler';
+
+
+ALTER FUNCTION public.plpgsql_call_handler() OWNER TO postgres;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- Name: accounts; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE accounts (
+    id integer NOT NULL,
+    username character varying(50),
+    password character varying(32),
+    realname character varying(32),
+    worldserver integer DEFAULT 0,
+    state integer DEFAULT 0,
+    health_online_time integer DEFAULT 0,
+    health_offline_time integer DEFAULT 0,
+    last_save_health_time integer DEFAULT 0,
+    itemmall_password character varying(32) DEFAULT ''::character varying,
+    id_card character varying(32) DEFAULT ''::character varying
+);
+
+
+ALTER TABLE public.accounts OWNER TO postgres;
+
+--
+-- Name: character_number; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE character_number (
+    account_id integer NOT NULL,
+    world_id integer NOT NULL,
+    "character" integer DEFAULT 0 NOT NULL
+);
+
+
+ALTER TABLE public.character_number OWNER TO postgres;
+
+--
+-- Name: configuration; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE configuration (
+    schema_version integer NOT NULL,
+    login_version character varying(32)
+);
+
+
+ALTER TABLE public.configuration OWNER TO postgres;
+
+--
+-- Name: crashlog; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE crashlog (
+    host character(20) NOT NULL,
+    process character(30),
+    eth0 character varying(15) NOT NULL,
+    eth1 character varying(15),
+    regdate timestamp with time zone DEFAULT now() NOT NULL
+);
+
+
+ALTER TABLE public.crashlog OWNER TO postgres;
+
+--
+-- Name: crashmonitor; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE crashmonitor (
+    host character varying(20) NOT NULL,
+    daemon character varying(100) NOT NULL,
+    process character varying(100) NOT NULL,
+    status smallint DEFAULT 0,
+    eth0 character varying(15) NOT NULL,
+    eth1 character varying(15),
+    regdate timestamp with time zone DEFAULT now()
+);
+
+
+ALTER TABLE public.crashmonitor OWNER TO postgres;
+
+--
+-- Name: exchange_list; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE exchange_list (
+    id integer NOT NULL,
+    description character varying(50),
+    amount integer DEFAULT 0
+);
+
+
+ALTER TABLE public.exchange_list OWNER TO postgres;
+
+--
+-- Name: exchange_pin; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE exchange_pin (
+    pin character varying(16) NOT NULL,
+    password character varying(16) NOT NULL,
+    rule_id integer DEFAULT (-1),
+    state character varying(16) DEFAULT 'create'::character varying,
+    zoneserver_id integer DEFAULT (-1),
+    account_id integer DEFAULT (-1),
+    character_id integer DEFAULT (-1),
+    log_time timestamp without time zone,
+    pin_set integer DEFAULT (-1)
+);
+
+
+ALTER TABLE public.exchange_pin OWNER TO postgres;
+
+--
+-- Name: exchange_rule; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE exchange_rule (
+    id integer NOT NULL,
+    item_id integer DEFAULT (-1) NOT NULL,
+    item_num integer DEFAULT 0,
+    rate integer DEFAULT 0,
+    set integer NOT NULL
+);
+
+
+ALTER TABLE public.exchange_rule OWNER TO postgres;
+
+--
+-- Name: fake_worlds; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE fake_worlds (
+    id integer DEFAULT nextval(('"worlds_id_seq"'::text)::regclass) NOT NULL,
+    name character varying(32),
+    show_order integer DEFAULT 0,
+    real_world_id integer DEFAULT nextval(('"worlds_id_seq"'::text)::regclass) NOT NULL
+);
+
+
+ALTER TABLE public.fake_worlds OWNER TO postgres;
+
+--
+-- Name: fortune_bag; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE fortune_bag (
+    id integer NOT NULL,
+    sequence smallint NOT NULL,
+    set integer NOT NULL,
+    item_id integer NOT NULL,
+    item_num integer NOT NULL,
+    probability real NOT NULL,
+    item_counter integer NOT NULL,
+    bulletin integer NOT NULL,
+    embedded integer NOT NULL,
+    bind integer NOT NULL,
+    note text DEFAULT ''::text
+);
+
+
+ALTER TABLE public.fortune_bag OWNER TO postgres;
+
+--
+-- Name: gm_tool_accounts; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE gm_tool_accounts (
+    id integer NOT NULL,
+    account_name character varying(32),
+    password character varying(32),
+    privilege integer DEFAULT 0
+);
+
+
+ALTER TABLE public.gm_tool_accounts OWNER TO postgres;
+
+--
+-- Name: gm_tool_log; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE gm_tool_log (
+    gm_id integer NOT NULL,
+    cmd_type character varying(32),
+    cmd_detail character varying(256),
+    reason character varying(256),
+    "time" timestamp without time zone
+);
+
+
+ALTER TABLE public.gm_tool_log OWNER TO postgres;
+
+--
+-- Name: gm_tool_log_old; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE gm_tool_log_old (
+    gm_id integer NOT NULL,
+    cmd_type character varying(32),
+    cmd_detail character varying(256),
+    reason character varying(256),
+    "time" timestamp without time zone
+);
+
+
+ALTER TABLE public.gm_tool_log_old OWNER TO postgres;
+
+--
+-- Name: ingame_lottery; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE ingame_lottery (
+    round integer NOT NULL,
+    week integer NOT NULL,
+    item_index integer NOT NULL,
+    item_id integer NOT NULL,
+    item_amount integer NOT NULL,
+    probability double precision NOT NULL,
+    bulletin integer NOT NULL,
+    reset_bonus integer NOT NULL,
+    cant_gonext integer NOT NULL
+);
+
+
+ALTER TABLE public.ingame_lottery OWNER TO postgres;
+
+--
+-- Name: item_receipt; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE item_receipt (
+    id integer NOT NULL,
+    purchase_time timestamp without time zone NOT NULL,
+    receieved_time timestamp without time zone DEFAULT now(),
+    account_name character varying(20) DEFAULT ''::character varying,
+    item_id integer DEFAULT (-1) NOT NULL,
+    item_quantity integer DEFAULT (-1) NOT NULL,
+    world_id integer DEFAULT (-1),
+    player_name character varying(32) DEFAULT ''::character varying,
+    unique_id integer DEFAULT (-1),
+    create_time integer DEFAULT (-1),
+    point integer DEFAULT (-1),
+    amount integer DEFAULT 1,
+    mail_name character varying(32) DEFAULT ''::character varying,
+    item_color bigint DEFAULT 0
+);
+
+
+ALTER TABLE public.item_receipt OWNER TO postgres;
+
+--
+-- Name: item_receivable; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE item_receivable (
+    id integer NOT NULL,
+    state smallint DEFAULT 1 NOT NULL,
+    purchase_time timestamp without time zone DEFAULT now(),
+    receivable_time timestamp without time zone DEFAULT now(),
+    account_name character varying(20) DEFAULT ''::character varying,
+    item_id integer DEFAULT (-1) NOT NULL,
+    item_quantity smallint DEFAULT (-1) NOT NULL,
+    world_id integer DEFAULT (-1),
+    player_name character varying(32) DEFAULT ''::character varying,
+    point integer DEFAULT (-1),
+    amount integer DEFAULT 1,
+    mail_name character varying(32) DEFAULT ''::character varying,
+    item_color bigint DEFAULT 0
+);
+
+
+ALTER TABLE public.item_receivable OWNER TO postgres;
+
+--
+-- Name: item_receivable_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE item_receivable_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.item_receivable_id_seq OWNER TO postgres;
+
+--
+-- Name: item_receivable_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: postgres
+--
+
+ALTER SEQUENCE item_receivable_id_seq OWNED BY item_receivable.id;
+
+
+--
+-- Name: itemmall; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE itemmall (
+    item_id integer NOT NULL,
+    item_group integer NOT NULL,
+    item_index integer NOT NULL,
+    item_num integer NOT NULL,
+    money_unit integer NOT NULL,
+    point integer NOT NULL,
+    special_price integer NOT NULL,
+    sell integer NOT NULL,
+    item_color integer NOT NULL,
+    sell_date integer NOT NULL,
+    not_sell_date integer NOT NULL,
+    num_limit integer NOT NULL,
+    recognized_percentage double precision NOT NULL,
+    fortune_bag text DEFAULT ''::text,
+    level_limit integer NOT NULL,
+    note text DEFAULT ''::text
+);
+
+
+ALTER TABLE public.itemmall OWNER TO postgres;
+
+--
+-- Name: itemmall_limit_amount; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE itemmall_limit_amount (
+    account_id integer NOT NULL,
+    sell_amount integer NOT NULL,
+    item_id integer NOT NULL,
+    item_group integer NOT NULL,
+    item_index integer NOT NULL,
+    item_num integer NOT NULL,
+    money_unit integer NOT NULL
+);
+
+
+ALTER TABLE public.itemmall_limit_amount OWNER TO postgres;
+
+--
+-- Name: itemmall_old; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE itemmall_old (
+    item_id integer NOT NULL,
+    item_group integer NOT NULL,
+    item_index integer NOT NULL,
+    item_num integer NOT NULL,
+    money_unit integer NOT NULL,
+    point integer NOT NULL,
+    special_price integer NOT NULL,
+    sell integer NOT NULL,
+    item_color integer NOT NULL,
+    sell_date integer NOT NULL,
+    not_sell_date integer NOT NULL,
+    num_limit integer NOT NULL,
+    recognized_percentage double precision NOT NULL,
+    fortune_bag text DEFAULT ''::text,
+    level_limit integer NOT NULL,
+    note text DEFAULT ''::text
+);
+
+
+ALTER TABLE public.itemmall_old OWNER TO postgres;
+
+--
+-- Name: lottery; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE lottery (
+    round integer NOT NULL,
+    week integer NOT NULL,
+    item_index integer NOT NULL,
+    item_id integer NOT NULL,
+    item_amount integer NOT NULL,
+    probability double precision NOT NULL,
+    bulletin integer NOT NULL,
+    reset_bonus integer NOT NULL,
+    cant_gonext integer NOT NULL
+);
+
+
+ALTER TABLE public.lottery OWNER TO postgres;
+
+--
+-- Name: new_lottery; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE new_lottery (
+    round integer NOT NULL,
+    week integer NOT NULL,
+    item_index integer NOT NULL,
+    item_id integer NOT NULL,
+    item_amount integer NOT NULL,
+    probability double precision NOT NULL,
+    bulletin integer NOT NULL,
+    reset_bonus integer NOT NULL,
+    cant_gonext integer NOT NULL
+);
+
+
+ALTER TABLE public.new_lottery OWNER TO postgres;
+
+--
+-- Name: starway; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE starway (
+    week_type integer NOT NULL,
+    theme_type integer NOT NULL,
+    effect_id1 integer NOT NULL,
+    effect_id2 integer NOT NULL,
+    effect_id3 integer NOT NULL,
+    item_id1 integer NOT NULL,
+    item_id2 integer NOT NULL,
+    item_id3 integer NOT NULL,
+    item_id4 integer NOT NULL,
+    item_id5 integer NOT NULL,
+    item_id6 integer NOT NULL,
+    item_id7 integer NOT NULL,
+    item_id8 integer NOT NULL,
+    remark character varying(255)
+);
+
+
+ALTER TABLE public.starway OWNER TO postgres;
+
+--
+-- Name: time_itemmall_log; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE time_itemmall_log (
+    world_id integer NOT NULL,
+    user_id integer NOT NULL,
+    username character varying(32) NOT NULL,
+    forevergold integer DEFAULT 0,
+    old_forevergold integer DEFAULT 0,
+    start_time character varying(32) NOT NULL,
+    item_id integer NOT NULL,
+    item_name character varying(32) NOT NULL,
+    amount integer NOT NULL,
+    total_point integer NOT NULL
+);
+
+
+ALTER TABLE public.time_itemmall_log OWNER TO postgres;
+
+--
+-- Name: worlds; Type: TABLE; Schema: public; Owner: postgres; Tablespace: 
+--
+
+CREATE TABLE worlds (
+    id integer DEFAULT nextval(('"worlds_id_seq"'::text)::regclass) NOT NULL,
+    name character varying(32),
+    ip character varying(15),
+    port integer DEFAULT 5200,
+    online_user integer DEFAULT 0,
+    maxnum_user integer DEFAULT 1000 NOT NULL,
+    state integer DEFAULT 0,
+    version character varying(32),
+    show_order integer DEFAULT 0,
+    nochar_block_login integer,
+    green_level integer,
+    red_level integer
+);
+
+
+ALTER TABLE public.worlds OWNER TO postgres;
+
+--
+-- Name: worlds_id_seq; Type: SEQUENCE; Schema: public; Owner: postgres
+--
+
+CREATE SEQUENCE worlds_id_seq
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.worlds_id_seq OWNER TO postgres;
+
+--
+-- Name: id; Type: DEFAULT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY item_receivable ALTER COLUMN id SET DEFAULT nextval('item_receivable_id_seq'::regclass);
+
+
+--
+-- Data for Name: accounts; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY accounts (id, username, password, realname, worldserver, state, health_online_time, health_offline_time, last_save_health_time, itemmall_password, id_card) FROM stdin;
+1	11111	11111	\N	1010	0	0	0	0		
+2	22222	22222	\N	1010	1	0	0	0		
+\.
+
+
+--
+-- Data for Name: character_number; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY character_number (account_id, world_id, "character") FROM stdin;
+2	1000	1
+1	1000	5
+\.
+
+
+--
+-- Data for Name: configuration; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY configuration (schema_version, login_version) FROM stdin;
+0	1-6-7-VIP (Login)
+\.
+
+
+--
+-- Data for Name: crashlog; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY crashlog (host, process, eth0, eth1, regdate) FROM stdin;
+\.
+
+
+--
+-- Data for Name: crashmonitor; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY crashmonitor (host, daemon, process, status, eth0, eth1, regdate) FROM stdin;
+\.
+
+
+--
+-- Data for Name: exchange_list; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY exchange_list (id, description, amount) FROM stdin;
+\.
+
+
+--
+-- Data for Name: exchange_pin; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY exchange_pin (pin, password, rule_id, state, zoneserver_id, account_id, character_id, log_time, pin_set) FROM stdin;
+\.
+
+
+--
+-- Data for Name: exchange_rule; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY exchange_rule (id, item_id, item_num, rate, set) FROM stdin;
+\.
+
+
+--
+-- Data for Name: fake_worlds; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY fake_worlds (id, name, show_order, real_world_id) FROM stdin;
+\.
+
+
+--
+-- Data for Name: fortune_bag; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY fortune_bag (id, sequence, set, item_id, item_num, probability, item_counter, bulletin, embedded, bind, note) FROM stdin;
+49001	1	1	40055	1	100	0	0	0	0	永恆進化頭盔
+49001	2	2	40056	1	100	0	0	0	0	永恆進化鎧甲
+49001	3	3	40057	1	100	0	0	0	0	永恆進化護腰
+49001	4	4	40058	1	100	0	0	0	0	永恆進化腕甲
+49001	5	5	40059	1	100	0	0	0	0	永恆進化鐵靴
+49002	1	1	40060	1	100	0	0	0	0	永恆成長皮帽
+49002	2	2	40061	1	100	0	0	0	0	永恆成長皮甲
+49002	3	3	40062	1	100	0	0	0	0	永恆成長皮帶
+49002	4	4	40063	1	100	0	0	0	0	永恆成長護手
+49002	5	5	40064	1	100	0	0	0	0	永恆成長皮靴
+49003	1	1	40065	1	100	0	0	0	0	永恆增幅頭飾
+49003	2	2	40066	1	100	0	0	0	0	永恆增幅法袍
+49003	3	3	40067	1	100	0	0	0	0	永恆增幅腰帶
+49003	4	4	40068	1	100	0	0	0	0	永恆增幅手套
+49003	5	5	40069	1	100	0	0	0	0	永恆增幅長靴
+49014	1	1	15975	1	100	0	0	0	0	傳說的狂牙豬座騎
+49014	2	2	21779	1	100	0	0	0	0	優良的狂牙豬座騎
+49016	2	1	40257	1	1.5	0	1	0	0	帽飾星光染劑4號
+\.
+
+

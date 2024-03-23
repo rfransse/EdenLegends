@@ -1,0 +1,55 @@
+Pid:9529>  2022-05-09 00:06:42> BasePath: /root/sjcs/WorldServer/
+Pid:9529>  2022-05-09 00:06:42> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:9529>  2022-05-09 00:06:42> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:9529>  2022-05-09 00:06:42> In sh_load_start 2
+Pid:9529>  2022-05-09 00:06:42>GameServerThunk No Load In Config File
+Pid:10571>  2022-05-09 03:30:48> BasePath: /root/sjcs/WorldServer/
+Pid:10571>  2022-05-09 03:30:48> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:10571>  2022-05-09 03:30:48> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:10571>  2022-05-09 03:30:48> In sh_load_start 2
+Pid:10571>  2022-05-09 03:30:48>GameServerThunk No Load In Config File
+Pid:11861>  2022-05-09 05:58:47> BasePath: /root/sjcs/WorldServer/
+Pid:11861>  2022-05-09 05:58:47> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:11861>  2022-05-09 05:58:47> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:11861>  2022-05-09 05:58:47> In sh_load_start 2
+Pid:11861>  2022-05-09 05:58:47>GameServerThunk No Load In Config File
+Pid:12122>  2022-05-09 06:31:37> BasePath: /root/sjcs/WorldServer/
+Pid:12122>  2022-05-09 06:31:37> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:12122>  2022-05-09 06:31:37> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:12122>  2022-05-09 06:31:37> In sh_load_start 2
+Pid:12122>  2022-05-09 06:31:37>GameServerThunk No Load In Config File
+Pid:12791>  2022-05-09 08:37:43> BasePath: /root/sjcs/WorldServer/
+Pid:12791>  2022-05-09 08:37:43> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:12791>  2022-05-09 08:37:43> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:12791>  2022-05-09 08:37:43> In sh_load_start 2
+Pid:12791>  2022-05-09 08:37:43>GameServerThunk No Load In Config File
+Pid:13164>  2022-05-09 09:37:07> BasePath: /root/sjcs/WorldServer/
+Pid:13164>  2022-05-09 09:37:07> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:13164>  2022-05-09 09:37:07> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:13164>  2022-05-09 09:37:07> In sh_load_start 2
+Pid:13164>  2022-05-09 09:37:07>GameServerThunk No Load In Config File
+Pid:13846>  2022-05-09 11:30:36> BasePath: /root/sjcs/WorldServer/
+Pid:13846>  2022-05-09 11:30:36> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:13846>  2022-05-09 11:30:36> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:13846>  2022-05-09 11:30:36> In sh_load_start 2
+Pid:13846>  2022-05-09 11:30:36>GameServerThunk No Load In Config File
+Pid:14489>  2022-05-09 13:28:24> BasePath: /root/sjcs/WorldServer/
+Pid:14489>  2022-05-09 13:28:24> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:14489>  2022-05-09 13:28:24> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:14489>  2022-05-09 13:28:24> In sh_load_start 2
+Pid:14489>  2022-05-09 13:28:24>GameServerThunk No Load In Config File
+Pid:15427>  2022-05-09 16:33:44> BasePath: /root/sjcs/WorldServer/
+Pid:15427>  2022-05-09 16:33:44> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:15427>  2022-05-09 16:33:44> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:15427>  2022-05-09 16:33:44> In sh_load_start 2
+Pid:15427>  2022-05-09 16:33:44>GameServerThunk No Load In Config File
+Pid:17657>  2022-05-09 21:02:32> BasePath: /root/sjcs/WorldServer/
+Pid:17657>  2022-05-09 21:02:32> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:17657>  2022-05-09 21:02:32> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:17657>  2022-05-09 21:02:32> In sh_load_start 2
+Pid:17657>  2022-05-09 21:02:32>GameServerThunk No Load In Config File
+Pid:18510>  2022-05-09 23:47:21> BasePath: /root/sjcs/WorldServer/
+Pid:18510>  2022-05-09 23:47:21> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:18510>  2022-05-09 23:47:21> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:18510>  2022-05-09 23:47:21> In sh_load_start 2
+Pid:18510>  2022-05-09 23:47:21>GameServerThunk No Load In Config File

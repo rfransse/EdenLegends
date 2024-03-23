@@ -1,0 +1,26 @@
+#!/bin/bash  
+cat /dev/null > /var/log/syslog
+cat /dev/null > /var/log/wtmp 
+cat /dev/null > /var/log/maillog
+cat /dev/null > /var/log/messages
+cat /dev/null > /var/log/openwebmail.log
+cat /dev/null > /var/log/maillog
+cat /dev/null > /var/log/secure
+
+sleep 1
+
+killall -9 LoginServer
+
+killall -9 GatewayServer
+
+killall -9 TicketServer
+
+killall -9 MissionServer
+
+killall -9 WorldServer
+
+killall -9 ZoneServer
+
+sleep 1
+
+find . -name "*.log.*" -type f -print -exec rm -rf {} \;

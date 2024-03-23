@@ -1,0 +1,55 @@
+Pid:93581>  2022-05-18 03:42:02> BasePath: /root/sjcs/WorldServer/
+Pid:93581>  2022-05-18 03:42:02> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:93581>  2022-05-18 03:42:02> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:93581>  2022-05-18 03:42:02> In sh_load_start 2
+Pid:93581>  2022-05-18 03:42:02>GameServerThunk No Load In Config File
+Pid:93774>  2022-05-18 04:00:44> BasePath: /root/sjcs/WorldServer/
+Pid:93774>  2022-05-18 04:00:44> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:93774>  2022-05-18 04:00:44> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:93774>  2022-05-18 04:00:44> In sh_load_start 2
+Pid:93774>  2022-05-18 04:00:44>GameServerThunk No Load In Config File
+Pid:93899>  2022-05-18 04:01:18> BasePath: /root/sjcs/WorldServer/
+Pid:93899>  2022-05-18 04:01:18> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:93899>  2022-05-18 04:01:18> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:93899>  2022-05-18 04:01:18> In sh_load_start 2
+Pid:93899>  2022-05-18 04:01:18>GameServerThunk No Load In Config File
+Pid:94248>  2022-05-18 04:52:01> BasePath: /root/sjcs/WorldServer/
+Pid:94248>  2022-05-18 04:52:01> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:94248>  2022-05-18 04:52:01> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:94248>  2022-05-18 04:52:01> In sh_load_start 2
+Pid:94248>  2022-05-18 04:52:01>GameServerThunk No Load In Config File
+Pid:94484>  2022-05-18 05:18:24> BasePath: /root/sjcs/WorldServer/
+Pid:94484>  2022-05-18 05:18:24> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:94484>  2022-05-18 05:18:24> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:94484>  2022-05-18 05:18:24> In sh_load_start 2
+Pid:94484>  2022-05-18 05:18:24>GameServerThunk No Load In Config File
+Pid:94637>  2022-05-18 05:28:16> BasePath: /root/sjcs/WorldServer/
+Pid:94637>  2022-05-18 05:28:16> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:94637>  2022-05-18 05:28:16> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:94637>  2022-05-18 05:28:16> In sh_load_start 2
+Pid:94637>  2022-05-18 05:28:16>GameServerThunk No Load In Config File
+Pid:94763>  2022-05-18 05:32:31> BasePath: /root/sjcs/WorldServer/
+Pid:94763>  2022-05-18 05:32:31> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:94763>  2022-05-18 05:32:31> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:94763>  2022-05-18 05:32:31> In sh_load_start 2
+Pid:94763>  2022-05-18 05:32:31>GameServerThunk No Load In Config File
+Pid:94883>  2022-05-18 05:34:45> BasePath: /root/sjcs/WorldServer/
+Pid:94883>  2022-05-18 05:34:45> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:94883>  2022-05-18 05:34:45> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:94883>  2022-05-18 05:34:45> In sh_load_start 2
+Pid:94883>  2022-05-18 05:34:45>GameServerThunk No Load In Config File
+Pid:97939>  2022-05-18 16:39:43> BasePath: /root/sjcs/WorldServer/
+Pid:97939>  2022-05-18 16:39:43> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:97939>  2022-05-18 16:39:43> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:97939>  2022-05-18 16:39:43> In sh_load_start 2
+Pid:97939>  2022-05-18 16:39:43>GameServerThunk No Load In Config File
+Pid:98694>  2022-05-18 18:38:58> BasePath: /root/sjcs/WorldServer/
+Pid:98694>  2022-05-18 18:38:58> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:98694>  2022-05-18 18:38:58> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:98694>  2022-05-18 18:38:58> In sh_load_start 2
+Pid:98694>  2022-05-18 18:38:58>GameServerThunk No Load In Config File
+Pid:99136>  2022-05-18 19:54:45> BasePath: /root/sjcs/WorldServer/
+Pid:99136>  2022-05-18 19:54:45> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:99136>  2022-05-18 19:54:45> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:99136>  2022-05-18 19:54:45> In sh_load_start 2
+Pid:99136>  2022-05-18 19:54:45>GameServerThunk No Load In Config File

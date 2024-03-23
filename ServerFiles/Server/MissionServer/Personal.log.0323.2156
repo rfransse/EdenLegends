@@ -1,0 +1,188 @@
+    93,2024/03/23 21:56:17,,ExecutionerData All Variable Offset Start!!
+    94,2024/03/23 21:56:17,,6:WorldID
+    95,2024/03/23 21:56:17,,8:ID
+    96,2024/03/23 21:56:17,,C:GivenName
+    97,2024/03/23 21:56:17,,10:Generation
+    98,2024/03/23 21:56:17,,14:Birthday
+    99,2024/03/23 21:56:17,,18:AccountID
+   100,2024/03/23 21:56:17,,1C:AccountName
+   101,2024/03/23 21:56:17,,20:X
+   102,2024/03/23 21:56:17,,24:Y
+   103,2024/03/23 21:56:17,,28:Z
+   104,2024/03/23 21:56:17,,2C:FaceDir
+   105,2024/03/23 21:56:17,,30:NodeTID
+   106,2024/03/23 21:56:17,,32:NodeUID
+   107,2024/03/23 21:56:17,,34:ReviveAreaID
+   108,2024/03/23 21:56:17,,38:ClassID
+   109,2024/03/23 21:56:17,,3A:RaceID
+   110,2024/03/23 21:56:17,,3C:ModelModifier
+   111,2024/03/23 21:56:17,,5C:Level
+   112,2024/03/23 21:56:17,,60:Exp
+   113,2024/03/23 21:56:17,,68:ClassLv
+   114,2024/03/23 21:56:17,,6C:ClassPoint
+   115,2024/03/23 21:56:17,,70:SkillPoint
+   116,2024/03/23 21:56:17,,74:HP
+   117,2024/03/23 21:56:17,,7C:HPMax
+   118,2024/03/23 21:56:17,,84:MP
+   119,2024/03/23 21:56:17,,88:MPMax
+   120,2024/03/23 21:56:17,,8C:Gold
+   121,2024/03/23 21:56:17,,90:ForeverGold
+   122,2024/03/23 21:56:17,,94:Crystal
+   123,2024/03/23 21:56:17,,98:GoldInBank
+   124,2024/03/23 21:56:17,,9C:ExpbonusGetTime
+   125,2024/03/23 21:56:17,,A0:LastSavingTime
+   126,2024/03/23 21:56:17,,A4:Unconscious
+   127,2024/03/23 21:56:17,,A8:Flags
+   128,2024/03/23 21:56:17,,AC:Quit
+   129,2024/03/23 21:56:17,,B0:FamilyID
+   130,2024/03/23 21:56:17,,B4:AddFamilyTime
+   131,2024/03/23 21:56:17,,B8:Privilege
+   132,2024/03/23 21:56:17,,BC:CurrentLevelTime
+   133,2024/03/23 21:56:17,,C0:ChannelLimit
+   134,2024/03/23 21:56:17,,C4:ExpandStorageCnt
+   135,2024/03/23 21:56:17,,C8:LastNormalAreaID
+   136,2024/03/23 21:56:17,,CC:OpenedMissionListID
+   137,2024/03/23 21:56:17,,CE:OpenedMissionLog
+   138,2024/03/23 21:56:17,,D0:PresentExploit
+   139,2024/03/23 21:56:17,,D4:TotalExploit
+   140,2024/03/23 21:56:17,,D8:Rank
+   141,2024/03/23 21:56:17,,E0:NewMail
+   142,2024/03/23 21:56:17,,E2:EnableSearch
+   143,2024/03/23 21:56:17,,E3:EnableInviteTeam
+   144,2024/03/23 21:56:17,,E4:LoadAllData
+   145,2024/03/23 21:56:17,,E6:ZoneID
+   146,2024/03/23 21:56:17,,F0:CrossZoneData
+   147,2024/03/23 21:56:17,,100:FamilyMsgState
+   148,2024/03/23 21:56:17,,104:SelfComment
+   149,2024/03/23 21:56:17,,108:FamilyComment
+   150,2024/03/23 21:56:17,,10C:VictoryDeclaration
+   151,2024/03/23 21:56:17,,110:FailureDeclaration
+   152,2024/03/23 21:56:17,,114:VisitFamilyID
+   153,2024/03/23 21:56:17,,118:TerritoryTID
+   154,2024/03/23 21:56:17,,11C:TerritoryCampType
+   155,2024/03/23 21:56:17,,120:PlayerCard
+   156,2024/03/23 21:56:17,,128:GoldLimit
+   157,2024/03/23 21:56:17,,12C:PreGoldLimit
+   158,2024/03/23 21:56:17,,134:PK_List
+   159,2024/03/23 21:56:17,,14C:Inventory
+   160,2024/03/23 21:56:17,,164:Equipment
+   161,2024/03/23 21:56:17,,17C:Storage
+   162,2024/03/23 21:56:17,,194:BagContainer
+   163,2024/03/23 21:56:17,,1C4:ElfContainer
+   164,2024/03/23 21:56:17,,1E8:InventorySize
+   165,2024/03/23 21:56:17,,200:EquipmentSize
+   166,2024/03/23 21:56:17,,218:StorageSize
+   167,2024/03/23 21:56:17,,230:BankDueDate
+   168,2024/03/23 21:56:17,,23C:BuyBackQuery
+   169,2024/03/23 21:56:17,,264:BuyBackTotalPrice
+   170,2024/03/23 21:56:17,,28C:SpellMasters
+   171,2024/03/23 21:56:17,,2A4:AllItemShortcutLoc
+   172,2024/03/23 21:56:17,,2BC:AllShortcutMenu
+   173,2024/03/23 21:56:17,,2D4:ShortcutMenu
+   174,2024/03/23 21:56:17,,2E0:ShortcutSaveStatusExist
+   175,2024/03/23 21:56:17,,2F8:ShortcutSaveStatusDirty
+   176,2024/03/23 21:56:17,,310:Mail
+   177,2024/03/23 21:56:17,,318:MailItem
+   178,2024/03/23 21:56:17,,330:Appellations
+   179,2024/03/23 21:56:17,,33C:PresentAppellation
+   180,2024/03/23 21:56:17,,340:PrestigeData
+   181,2024/03/23 21:56:17,,358:Enchant
+   182,2024/03/23 21:56:17,,360:Lottery
+   183,2024/03/23 21:56:17,,380:InGameLottery
+   184,2024/03/23 21:56:17,,3A0:DiamondLottery
+   185,2024/03/23 21:56:17,,3C0:MissionTrace
+   186,2024/03/23 21:56:17,,7C4:RecommendActivitiesTracing
+   187,2024/03/23 21:56:17,,3CC:PersonalMissionStates
+   188,2024/03/23 21:56:17,,3E4:FMSUpdated
+   189,2024/03/23 21:56:17,,3FC:AllFMSIndex
+   190,2024/03/23 21:56:17,,414:OnGoing
+   191,2024/03/23 21:56:17,,42C:FMSAutoAccept
+   192,2024/03/23 21:56:17,,444:FMSPreview
+   193,2024/03/23 21:56:17,,45C:AllMCN
+   194,2024/03/23 21:56:17,,474:AllDailyMCN
+   195,2024/03/23 21:56:17,,48C:AllFailFMS
+   196,2024/03/23 21:56:17,,4A4:MLComplete
+   197,2024/03/23 21:56:17,,4B0:MLDisable
+   198,2024/03/23 21:56:17,,4C8:TimeMLOnGoingID
+   199,2024/03/23 21:56:17,,4CC:TimeMLEnchantID
+   200,2024/03/23 21:56:17,,4D0:NodesHaveBeenTo
+   201,2024/03/23 21:56:17,,4DC:LastDailyMLResetDay
+   202,2024/03/23 21:56:17,,4E0:InterestQuestItemIDs
+   203,2024/03/23 21:56:17,,4F8:ComboPoint
+   204,2024/03/23 21:56:17,,4FC:MaxAAPoint
+   205,2024/03/23 21:56:17,,500:AAPoint
+   206,2024/03/23 21:56:17,,504:AAExp
+   207,2024/03/23 21:56:17,,508:AARate
+   208,2024/03/23 21:56:17,,50A:STPoint
+   209,2024/03/23 21:56:17,,50C:AdvancedAbilityMap
+   210,2024/03/23 21:56:17,,524:AchievementMap
+   211,2024/03/23 21:56:17,,53C:AllAchievementPoint
+   212,2024/03/23 21:56:17,,540:AllAchievementBasePoint
+   213,2024/03/23 21:56:17,,544:FamilyContributionPoint
+   214,2024/03/23 21:56:17,,548:AllAchievementData
+   215,2024/03/23 21:56:17,,560:UpdateAchievement
+   216,2024/03/23 21:56:17,,57C:BFID
+   217,2024/03/23 21:56:17,,57E:BFCampID
+   218,2024/03/23 21:56:17,,580:BFNodeTID
+   219,2024/03/23 21:56:17,,584:BFDatas
+   220,2024/03/23 21:56:17,,5EC:BFWeight
+   221,2024/03/23 21:56:17,,5F4:Transports
+   222,2024/03/23 21:56:17,,600:LoverID
+   223,2024/03/23 21:56:17,,604:State
+   224,2024/03/23 21:56:17,,608:Closets
+   225,2024/03/23 21:56:17,,628:ClassList
+   226,2024/03/23 21:56:17,,648:CharLicense
+   227,2024/03/23 21:56:17,,654:Works
+   228,2024/03/23 21:56:17,,680:IsLogin
+   229,2024/03/23 21:56:17,,684:ColosseumInfo
+   230,2024/03/23 21:56:17,,694:DestinyRoad
+   231,2024/03/23 21:56:17,,6B4:DestinyDirty
+   232,2024/03/23 21:56:17,,6B6:DestinyVit
+   233,2024/03/23 21:56:17,,6B8:MidNightLimits
+   234,2024/03/23 21:56:17,,6D0:VisitRoomID
+   235,2024/03/23 21:56:17,,6D4:SpecialCoins
+   236,2024/03/23 21:56:17,,6EC:AllLifeSkills
+   237,2024/03/23 21:56:17,,70C:AllNewPlayerGuide
+   238,2024/03/23 21:56:17,,724:ShowNewPlayerCharacter
+   239,2024/03/23 21:56:17,,EC:PreZoneID
+   240,2024/03/23 21:56:17,,728:InstanceInfo
+   241,2024/03/23 21:56:17,,744:LifelongList
+   242,2024/03/23 21:56:17,,75C:LifelongGold
+   243,2024/03/23 21:56:17,,760:LastDailyLifelongResetDay
+   244,2024/03/23 21:56:17,,78C:RAUpdateTime
+   245,2024/03/23 21:56:17,,790:RecommendActivitiesRecord
+   246,2024/03/23 21:56:17,,7A8:RecommendActivitiesFinished
+   247,2024/03/23 21:56:17,,764:EquipTrainItemID
+   248,2024/03/23 21:56:17,,874:WarCoin
+   249,2024/03/23 21:56:17,,76C:Floor
+   250,2024/03/23 21:56:17,,76E:TargetFloor
+   251,2024/03/23 21:56:17,,770:MaxFloor
+   252,2024/03/23 21:56:17,,878:AlpacaCoin
+   253,2024/03/23 21:56:17,,87C:StrengthenFailTime
+   254,2024/03/23 21:56:17,,87E:RecruitPosition
+   255,2024/03/23 21:56:17,,880:TeamTransportVer2
+   256,2024/03/23 21:56:17,,89C:Postfix
+   257,2024/03/23 21:56:17,,774:EvaluateInfo
+   258,2024/03/23 21:56:17,,8A8:DailyAwardIndex
+   259,2024/03/23 21:56:17,,8B0:DailyAwardCooldownTime
+   260,2024/03/23 21:56:17,,8B4:DailyAwardDays
+   261,2024/03/23 21:56:17,,8BC:DailyAwardRecords
+   262,2024/03/23 21:56:17,,ExecutionerData All Variable Offset End!!
+ 26787,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[16] TerritoryKill[0] ColosseumWin[0] RareMonster[234] DailyMonsterKill[1868]
+ 26788,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[1] TerritoryKill[0] ColosseumWin[0] RareMonster[3] DailyMonsterKill[0]
+ 26789,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[2] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26790,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[3] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26791,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[4] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26792,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[5] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26793,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[6] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26794,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[7] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26795,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[8] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26796,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[9] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26797,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[11] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26798,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[12] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26799,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[13] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26800,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[15] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26801,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[18] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26802,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[19] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26803,2024/03/23 21:56:59,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:-1,[LoadClassLifelong] ChID[200000005] ClassID[10] TerritoryKill[0] ColosseumWin[0] RareMonster[0] DailyMonsterKill[0]
+ 26916,2024/03/23 21:58:06,[ClassLifelong]P:200000005:Haze,FMID:1,ZID:1011,[EventDBASave] SaveLifelong [UPDATE class_lifelong SET territory_kill = 0, colosseum_win = 0, rare_monster_kill = 234, daily_monster_kill = 1868 WHERE player_id = 200000005 AND class = 16]

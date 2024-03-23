@@ -1,0 +1,40 @@
+Pid:50426>  2022-07-01 11:16:24> BasePath: /root/sjcs/WorldServer/
+Pid:50426>  2022-07-01 11:16:24> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:50426>  2022-07-01 11:16:24> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:50426>  2022-07-01 11:16:24> In sh_load_start 2
+Pid:50426>  2022-07-01 11:16:24>GameServerThunk No Load In Config File
+Pid:50558>  2022-07-01 11:21:04> BasePath: /root/sjcs/WorldServer/
+Pid:50558>  2022-07-01 11:21:04> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:50558>  2022-07-01 11:21:04> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:50558>  2022-07-01 11:21:04> In sh_load_start 2
+Pid:50558>  2022-07-01 11:21:04>GameServerThunk No Load In Config File
+Pid:50678>  2022-07-01 11:23:24> BasePath: /root/sjcs/WorldServer/
+Pid:50678>  2022-07-01 11:23:24> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:50678>  2022-07-01 11:23:24> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:50678>  2022-07-01 11:23:24> In sh_load_start 2
+Pid:50678>  2022-07-01 11:23:24>GameServerThunk No Load In Config File
+Pid:50805>  2022-07-01 11:27:29> BasePath: /root/sjcs/WorldServer/
+Pid:50805>  2022-07-01 11:27:29> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:50805>  2022-07-01 11:27:29> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:50805>  2022-07-01 11:27:29> In sh_load_start 2
+Pid:50805>  2022-07-01 11:27:29>GameServerThunk No Load In Config File
+Pid:50943>  2022-07-01 11:33:57> BasePath: /root/sjcs/WorldServer/
+Pid:50943>  2022-07-01 11:33:57> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:50943>  2022-07-01 11:33:57> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:50943>  2022-07-01 11:33:57> In sh_load_start 2
+Pid:50943>  2022-07-01 11:33:57>GameServerThunk No Load In Config File
+Pid:51397>  2022-07-01 12:52:05> BasePath: /root/sjcs/WorldServer/
+Pid:51397>  2022-07-01 12:52:05> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:51397>  2022-07-01 12:52:05> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:51397>  2022-07-01 12:52:05> In sh_load_start 2
+Pid:51397>  2022-07-01 12:52:05>GameServerThunk No Load In Config File
+Pid:52321>  2022-07-01 15:55:59> BasePath: /root/sjcs/WorldServer/
+Pid:52321>  2022-07-01 15:55:59> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:52321>  2022-07-01 15:55:59> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:52321>  2022-07-01 15:55:59> In sh_load_start 2
+Pid:52321>  2022-07-01 15:55:59>GameServerThunk No Load In Config File
+Pid:53123>  2022-07-01 18:30:30> BasePath: /root/sjcs/WorldServer/
+Pid:53123>  2022-07-01 18:30:30> In sh_load_start: pfSend= 80496a0,pfRec=8260630    2010/08/26
+Pid:53123>  2022-07-01 18:30:30> g_nNum:1,File: /root/sjcs/WorldServer/WorldServer
+Pid:53123>  2022-07-01 18:30:30> In sh_load_start 2
+Pid:53123>  2022-07-01 18:30:30>GameServerThunk No Load In Config File

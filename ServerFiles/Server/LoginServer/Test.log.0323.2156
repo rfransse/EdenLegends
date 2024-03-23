@@ -1,0 +1,164 @@
+     1,2024/03/23 21:56:09,[EVENT] Connected to database[127.0.0.1].
+     2,2024/03/23 21:56:10,[EVENT] Get 2 world servers from DB.
+     3,2024/03/23 21:56:10,[EVENT] Load 2 records of AccountID from database.
+     4,2024/03/23 21:56:10,[EVENT] Load login_version: [1-6-7-VIP (Login)] from database done.
+     5,2024/03/23 21:56:10,[LoginServer.cc:72],Init Default NetCommand Table...
+     6,2024/03/23 21:56:10,RSA size(n) = 256 size(e) = 2
+     7,2024/03/23 21:56:10,RSA size(n) = 256 size(e) = 2
+     8,2024/03/23 21:56:10,Server is rolling on TCP 0.0.0.0:6543.
+     9,2024/03/23 21:56:10,Connect to 127.0.0.1<0x93F2288:10>:2067.
+    10,2024/03/23 21:56:10,Connect to 127.0.0.1<0x9404D70:11>:5560.
+    11,2024/03/23 21:56:10,[EVENT] LoginServer (with BillingGateway support) booting...
+    12,2024/03/23 21:56:10,[EVENT] EventUpdatePopulation constructed.
+    13,2024/03/23 21:56:10,Add New Epoll 9
+    14,2024/03/23 21:56:10,Add New Epoll 10
+    15,2024/03/23 21:56:10,Add New Epoll 11
+    16,2024/03/23 21:56:10,[EVENT] Update world: [1010] state: [0] ver: [Unknown_Version] successful.
+    17,2024/03/23 21:56:10,[EVENT] Update world: [1020] state: [0] ver: [Unknown_Version] successful.
+    18,2024/03/23 21:56:16,EVAL(5.990042 secs): {Network I/O}
+    19,2024/03/23 21:56:16,EVAL(5.999648 secs): {Main Loop}
+    20,2024/03/23 21:56:16,[EVENT] Update population of 2 servers.
+    21,2024/03/23 21:56:22,EVAL(6.006234 secs): {Network I/O}
+    22,2024/03/23 21:56:22,EVAL(6.006477 secs): {Main Loop}
+    23,2024/03/23 21:56:22,[EVENT] Update population of 2 servers.
+    24,2024/03/23 21:56:25,EVAL(3.038233 secs): {Network I/O}
+    25,2024/03/23 21:56:25,EVAL(3.038486 secs): {Main Loop}
+    26,2024/03/23 21:56:25,[EVENT] Update world: [1010] state: [1] ver: [002.003.05.67] successful.
+    27,2024/03/23 21:56:25,[EVENT] Update world: [1020] state: [0] ver: [Unknown_Version] successful.
+    28,2024/03/23 21:56:28,EVAL(2.964218 secs): {Network I/O}
+    29,2024/03/23 21:56:28,EVAL(2.994423 secs): {Main Loop}
+    30,2024/03/23 21:56:28,[EVENT] Update population of 2 servers.
+    31,2024/03/23 21:56:34,EVAL(6.005224 secs): {Network I/O}
+    32,2024/03/23 21:56:34,EVAL(6.005457 secs): {Main Loop}
+    33,2024/03/23 21:56:34,[EVENT] Update population of 2 servers.
+    34,2024/03/23 21:56:40,EVAL(6.006312 secs): {Network I/O}
+    35,2024/03/23 21:56:40,EVAL(6.006545 secs): {Main Loop}
+    36,2024/03/23 21:56:40,[EVENT] Update population of 2 servers.
+    37,2024/03/23 21:56:46,EVAL(6.006506 secs): {Network I/O}
+    38,2024/03/23 21:56:46,EVAL(6.006766 secs): {Main Loop}
+    39,2024/03/23 21:56:46,[EVENT] Update population of 2 servers.
+    40,2024/03/23 21:56:52,EVAL(6.006241 secs): {Network I/O}
+    41,2024/03/23 21:56:52,EVAL(6.006481 secs): {Main Loop}
+    42,2024/03/23 21:56:52,[EVENT] Update population of 2 servers.
+    43,2024/03/23 21:56:56,SOCKET 12: accepted by 9
+    44,2024/03/23 21:56:56,TCP <0x9407698:12>: connected from (null) [192.168.200.1].
+    45,2024/03/23 21:56:56,EVAL(3.161605 secs): {Network I/O}
+    46,2024/03/23 21:56:56,EVAL(3.161922 secs): {Main Loop}
+    47,2024/03/23 21:56:56,Add New Epoll 12
+    48,2024/03/23 21:56:56,TCP <0x9407698:12>: connection from '192.168.200.1' encrypted.
+    49,2024/03/23 21:56:56,[EVENT] Account ID: [2]'s world servers' states generated.
+    50,2024/03/23 21:56:56,[NE_CL_ServerLoginAccount.cc:104],[DEBUG] [ 192.168.200.1:(null) ] Name: [oregon], Version: [002.003.05.67]
+
+
+    51,2024/03/23 21:56:57,[NE_CL_ServerLoginWorld.cc:76],[DEBUG] Account: [oregon] ignored verification, version and world state bcz connect from LAN
+
+    52,2024/03/23 21:56:57,[NE_CL_ServerLoginWorld.cc:83],[DEBUG] [ 192.168.200.1:(null) ] Name = 'oregon'
+
+    53,2024/03/23 21:56:57,[EVENT] Ticket 2, 0x1C8A8C0, 0x64C8A8C0, 0x1650 Sent
+    54,2024/03/23 21:56:57,TCP <0x9407698:12>: FillBuffer (192.168.200.1 recv 0)
+    56,2024/03/23 21:56:57,TCP <0x9407698:12>: (null) [192.168.200.1] lost link.
+    59,2024/03/23 21:56:57,Erase Socket 12
+    60,2024/03/23 21:56:57,TCP <0x9407698:12>: connection real-closed.
+    61,2024/03/23 21:56:57,SOCKET 12: closed.
+    62,2024/03/23 21:56:57,Clean Session 0x9407650
+    63,2024/03/23 21:56:58,EVAL(1.828238 secs): {Network I/O}
+    64,2024/03/23 21:56:58,EVAL(1.828590 secs): {Main Loop}
+    65,2024/03/23 21:56:58,[EVENT] Update population of 2 servers.
+    66,2024/03/23 21:57:04,EVAL(6.006263 secs): {Network I/O}
+    67,2024/03/23 21:57:04,EVAL(6.006577 secs): {Main Loop}
+    68,2024/03/23 21:57:04,[EVENT] Update population of 2 servers.
+    69,2024/03/23 21:57:10,EVAL(6.006063 secs): {Network I/O}
+    70,2024/03/23 21:57:10,EVAL(6.006306 secs): {Main Loop}
+    71,2024/03/23 21:57:10,[EVENT] Update population of 2 servers.
+    72,2024/03/23 21:57:16,EVAL(6.006253 secs): {Network I/O}
+    73,2024/03/23 21:57:16,EVAL(6.006480 secs): {Main Loop}
+    74,2024/03/23 21:57:16,[EVENT] Update population of 2 servers.
+    75,2024/03/23 21:57:22,EVAL(6.006267 secs): {Network I/O}
+    76,2024/03/23 21:57:22,EVAL(6.006523 secs): {Main Loop}
+    77,2024/03/23 21:57:22,[EVENT] Update population of 2 servers.
+    78,2024/03/23 21:57:28,EVAL(6.006226 secs): {Network I/O}
+    79,2024/03/23 21:57:28,EVAL(6.006542 secs): {Main Loop}
+    80,2024/03/23 21:57:28,[EVENT] Update population of 2 servers.
+    81,2024/03/23 21:57:34,EVAL(6.001492 secs): {Network I/O}
+    82,2024/03/23 21:57:34,EVAL(6.001763 secs): {Main Loop}
+    83,2024/03/23 21:57:34,[EVENT] Update population of 2 servers.
+    84,2024/03/23 21:57:40,EVAL(6.006380 secs): {Network I/O}
+    85,2024/03/23 21:57:40,EVAL(6.006620 secs): {Main Loop}
+    86,2024/03/23 21:57:40,[EVENT] Update population of 2 servers.
+    87,2024/03/23 21:57:46,EVAL(6.000197 secs): {Network I/O}
+    88,2024/03/23 21:57:46,EVAL(6.000481 secs): {Main Loop}
+    89,2024/03/23 21:57:46,[EVENT] Update population of 2 servers.
+    90,2024/03/23 21:57:52,EVAL(6.005672 secs): {Network I/O}
+    91,2024/03/23 21:57:52,EVAL(6.005914 secs): {Main Loop}
+    92,2024/03/23 21:57:52,[EVENT] Update population of 2 servers.
+    93,2024/03/23 21:57:56,EVAL(3.115683 secs): {Network I/O}
+    94,2024/03/23 21:57:56,EVAL(3.115936 secs): {Main Loop}
+    95,2024/03/23 21:57:58,EVAL(2.884706 secs): {Network I/O}
+    96,2024/03/23 21:57:58,EVAL(2.884738 secs): {Main Loop}
+    97,2024/03/23 21:57:58,[EVENT] Update population of 2 servers.
+    98,2024/03/23 21:58:04,EVAL(6.002692 secs): {Network I/O}
+    99,2024/03/23 21:58:04,EVAL(6.002932 secs): {Main Loop}
+   100,2024/03/23 21:58:04,[EVENT] Update population of 2 servers.
+   101,2024/03/23 21:58:10,EVAL(6.001108 secs): {Network I/O}
+   102,2024/03/23 21:58:10,EVAL(6.001324 secs): {Main Loop}
+   103,2024/03/23 21:58:10,[EVENT] Update population of 2 servers.
+   104,2024/03/23 21:58:16,EVAL(6.000666 secs): {Network I/O}
+   105,2024/03/23 21:58:16,EVAL(6.000902 secs): {Main Loop}
+   106,2024/03/23 21:58:16,[EVENT] Update population of 2 servers.
+   107,2024/03/23 21:58:22,EVAL(6.006079 secs): {Network I/O}
+   108,2024/03/23 21:58:22,EVAL(6.006301 secs): {Main Loop}
+   109,2024/03/23 21:58:22,[EVENT] Update population of 2 servers.
+   110,2024/03/23 21:58:29,EVAL(6.006522 secs): {Network I/O}
+   111,2024/03/23 21:58:29,EVAL(6.006752 secs): {Main Loop}
+   112,2024/03/23 21:58:29,[EVENT] Update population of 2 servers.
+   113,2024/03/23 21:58:35,EVAL(6.006413 secs): {Network I/O}
+   114,2024/03/23 21:58:35,EVAL(6.006726 secs): {Main Loop}
+   115,2024/03/23 21:58:35,[EVENT] Update population of 2 servers.
+   116,2024/03/23 21:58:41,EVAL(6.006352 secs): {Network I/O}
+   117,2024/03/23 21:58:41,EVAL(6.006579 secs): {Main Loop}
+   118,2024/03/23 21:58:41,[EVENT] Update population of 2 servers.
+   119,2024/03/23 21:58:47,EVAL(6.006075 secs): {Network I/O}
+   120,2024/03/23 21:58:47,EVAL(6.006331 secs): {Main Loop}
+   121,2024/03/23 21:58:47,[EVENT] Update population of 2 servers.
+   122,2024/03/23 21:58:53,EVAL(6.006170 secs): {Network I/O}
+   123,2024/03/23 21:58:53,EVAL(6.006528 secs): {Main Loop}
+   124,2024/03/23 21:58:53,[EVENT] Update population of 2 servers.
+   125,2024/03/23 21:58:59,EVAL(6.006283 secs): {Network I/O}
+   126,2024/03/23 21:58:59,EVAL(6.006516 secs): {Main Loop}
+   127,2024/03/23 21:58:59,[EVENT] Update population of 2 servers.
+   128,2024/03/23 21:59:05,EVAL(6.005728 secs): {Network I/O}
+   129,2024/03/23 21:59:05,EVAL(6.005990 secs): {Main Loop}
+   130,2024/03/23 21:59:05,[EVENT] Update population of 2 servers.
+   131,2024/03/23 21:59:11,EVAL(6.001253 secs): {Network I/O}
+   132,2024/03/23 21:59:11,EVAL(6.001480 secs): {Main Loop}
+   133,2024/03/23 21:59:11,[EVENT] Update population of 2 servers.
+   134,2024/03/23 21:59:17,EVAL(6.006426 secs): {Network I/O}
+   135,2024/03/23 21:59:17,EVAL(6.006652 secs): {Main Loop}
+   136,2024/03/23 21:59:17,[EVENT] Update population of 2 servers.
+   137,2024/03/23 21:59:23,EVAL(6.006553 secs): {Network I/O}
+   138,2024/03/23 21:59:23,EVAL(6.006841 secs): {Main Loop}
+   139,2024/03/23 21:59:23,[EVENT] Update population of 2 servers.
+   140,2024/03/23 21:59:29,EVAL(6.006143 secs): {Network I/O}
+   141,2024/03/23 21:59:29,EVAL(6.006388 secs): {Main Loop}
+   142,2024/03/23 21:59:29,[EVENT] Update population of 2 servers.
+   143,2024/03/23 21:59:35,EVAL(6.006192 secs): {Network I/O}
+   144,2024/03/23 21:59:35,EVAL(6.006471 secs): {Main Loop}
+   145,2024/03/23 21:59:35,[EVENT] Update population of 2 servers.
+   146,2024/03/23 21:59:41,EVAL(6.006334 secs): {Network I/O}
+   147,2024/03/23 21:59:41,EVAL(6.007238 secs): {Main Loop}
+   148,2024/03/23 21:59:41,[EVENT] Update population of 2 servers.
+   149,2024/03/23 21:59:47,EVAL(6.006161 secs): {Network I/O}
+   150,2024/03/23 21:59:47,EVAL(6.006926 secs): {Main Loop}
+   151,2024/03/23 21:59:47,[EVENT] Update population of 2 servers.
+   152,2024/03/23 21:59:53,EVAL(6.006122 secs): {Network I/O}
+   153,2024/03/23 21:59:53,EVAL(6.006349 secs): {Main Loop}
+   154,2024/03/23 21:59:53,[EVENT] Update population of 2 servers.
+   155,2024/03/23 21:59:59,EVAL(6.000712 secs): {Network I/O}
+   156,2024/03/23 21:59:59,EVAL(6.001046 secs): {Main Loop}
+   157,2024/03/23 21:59:59,[EVENT] Update population of 2 servers.
+   158,2024/03/23 22:00:05,EVAL(6.006140 secs): {Network I/O}
+   159,2024/03/23 22:00:05,EVAL(6.006387 secs): {Main Loop}
+   160,2024/03/23 22:00:05,[EVENT] Update population of 2 servers.
+   161,2024/03/23 22:00:11,EVAL(6.001021 secs): {Network I/O}
+   162,2024/03/23 22:00:11,EVAL(6.001222 secs): {Main Loop}
+   163,2024/03/23 22:00:11,[EVENT] Update population of 2 servers.

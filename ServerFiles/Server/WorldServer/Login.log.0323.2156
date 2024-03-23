@@ -1,0 +1,10 @@
+ 97117,2024/03/23 21:56:57,Push CEventIdleKickout:0xc3386f0
+ 97121,2024/03/23 21:56:57,ReceiveTicket AccountID(2) MacAddr(B4-2E-99-46-35-BD)
+ 97123,2024/03/23 21:56:57,IControlObj[0xc338738] set Interface[0xc3386f0].
+ 97124,2024/03/23 21:56:57,AID:2 Interface:0xc3386f0 ControlObj:0xc338738 ClientInterfaces Insert
+ 97125,2024/03/23 21:56:57,AID:2,InterFace:0xc3386f0 BillingLogin
+ 97199,2024/03/23 21:57:48,AID:2 Billing Logout oregon, Haze from 192.168.200.1
+ 97200,2024/03/23 21:57:48,Logout AccountID(2) Interface(0xc3386f0)
+ 97201,2024/03/23 21:57:48,Logout AccountID(2) ClientInterfaces(0xc3386f0) ControlObj(0xc338738) erase
+ 97203,2024/03/23 21:57:48,AID:[2]CharID[200000005]PlayerEntity deleted..
+ 97383,2024/03/23 21:59:57,Destory CEventIdleKickout:0:0xc3386f0
