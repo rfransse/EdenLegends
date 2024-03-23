@@ -4,7 +4,7 @@
 [Desc]OS : Microsoft Windows 8   (Build 9200) 
 [Desc]Timer : Hybrid timer (10.000000Mhz) 
 [Desc]Memory Total : 16317.000 MB 
-[Desc]Memory Available : 9062.097 MB 
+[Desc]Memory Available : 7560.420 MB 
 [Desc]Save Desktop Resolution : 1920 x 1080 32Bits 60Hz 
 [Desc]Device Name CDD 
 [Desc]Driver Version 1025 
@@ -47,10 +47,10 @@
 [Desc]1768 x 992, 32 bits 
 [Desc]1920 x 1080, 32 bits 
 [Desc]Video Mode List - End 
-[Desc]PrecacheKFM : 201->343=141 MBytes 
+[Desc]PrecacheKFM : 200->342=141 MBytes 
 [Desc]PeriodMin : 1 
 [Desc]PeriodMax : 1000000 
-[Desc]MinSleepPeriod : 0.001381 
+[Desc]MinSleepPeriod : 0.001430 
 [Desc]LoginServer IP: 192.168.200.100(192.168.200.100), Port 6543
  
 [Desc]WorldServer IP: 192.168.200.100, Port 5712
