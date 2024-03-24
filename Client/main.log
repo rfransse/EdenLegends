@@ -4,7 +4,7 @@
 [Desc]OS : Microsoft Windows 8   (Build 9200) 
 [Desc]Timer : Hybrid timer (10.000000Mhz) 
 [Desc]Memory Total : 16317.000 MB 
-[Desc]Memory Available : 6962.496 MB 
+[Desc]Memory Available : 7722.292 MB 
 [Desc]Save Desktop Resolution : 1920 x 1080 32Bits 60Hz 
 [Desc]Device Name CDD 
 [Desc]Driver Version 1025 
@@ -55,11 +55,23 @@
 [Desc]2560 x 1600, 32 bits 
 [Desc]3840 x 2160, 32 bits 
 [Desc]Video Mode List - End 
-[Desc]PrecacheKFM : 200->342=141 MBytes 
+[Desc]PrecacheKFM : 201->343=141 MBytes 
 [Desc]PeriodMin : 1 
 [Desc]PeriodMax : 1000000 
-[Desc]MinSleepPeriod : 0.001483 
+[Desc]MinSleepPeriod : 0.001391 
 [Desc]LoginServer IP: 192.168.200.100(192.168.200.100), Port 6543
+ 
+[Desc]WorldServer IP: 192.168.200.100, Port 5712
+ 
+[Desc]connect ErrCode[10035]
+ 
+[Desc]WorldServer IP: 192.168.200.100, Port 5712
+ 
+[Desc]connect ErrCode[10035]
+ 
+[Desc]WorldServer IP: 192.168.200.100, Port 5712
+ 
+[Desc]ZoneServer IP: 192.168.200.100, Port 10166
  
 [Desc]WorldServer IP: 192.168.200.100, Port 5712
  
@@ -83,4 +95,3 @@
 [Desc]8 
 [Desc]8 
 [Desc]6 
-[Desc]Restore Desktop Resolution : 1920 x 1080 32Bits 60Hz 

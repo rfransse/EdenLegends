@@ -264,7 +264,7 @@
  
 [Desc]Log - Load Terrain Object Begin... 
 [Desc]Scene Object Total: 1657 
-[Desc]Log - Load Terrain Object End... Time=[0.238915]
+[Desc]Log - Load Terrain Object End... Time=[0.200222]
  
 [Desc]LOG - Load Scene end... 
 [Desc]LOG - Load SMP begin... 
@@ -276,9 +276,15 @@
 [Desc]LOG - Load Bullet end... 
 [Desc][LOGIN] 
 [Desc][SELECT WORLD SERVER] 
+[Desc]Cannot Connect to WorldSever
+ 
+[Desc]Cannot Connect to WorldSever
+ 
 [Desc]00 Weapon Not Found!! 
 [Desc]00 Weapon Not Found!! 
 [Desc][CHARACTER MANAGEMENT] 
+[Desc]00 Weapon Not Found!! 
+[Desc]00 Weapon Not Found!! 
 [Desc][EnterNode]
  
 [Desc]LOG - Free CZone begin... 
@@ -292,41 +298,8 @@ IGetWindow [ Root/CrystalLotteryWnd/Static/Border1/PetInfo ] Ptr is NULL
 [Desc]00 Weapon Not Found!! 
 [Desc]00 Weapon Not Found!! 
 [Desc]00 Weapon Not Found!! 
+[Desc]Failed to load sound bgm\sound005.ogg 
 [Desc][GAME] 
-[Desc]LOG - Load Scene begin... 
-[Desc]Log - Load CZone: S001
- 
-[Desc]Log - Load FSM Begin... 
-[Desc]Log - Load FSM GrassList... 
-[Desc]Log - Load FSM Object... 
-[Desc]Log - Load FSM End...
- 
-[Desc]Log - Load Terrain Object Begin... 
-[Desc]Scene Object Total: 3769 
-[Desc]Log - Load Terrain Object End... Time=[0.392160]
- 
-[Desc]LOG - Load Scene end... 
-[Desc]LOG - Load SMP begin... 
-[Desc]LOG - Load SMP end... 
-[Desc]LOG - Load PGP begin... 
-[Desc]LOG - Load PGP end... 
-[Desc]LOG - Load Bullet begin... 
-[Desc]LOG - Load Bullet end... 
-[Desc]Failed to load sound bgm\bgm044.ogg 
-2024/03/23 20:54:29 [File]..\CharAttrib.cpp [Line]1155 [Desc]Warning: SCharAttrib::AutoQuestList::InitialAutoQuest receives missions, but none of them are acceptable. 
-2024/03/23 20:54:29 [File]..\CharAttrib.cpp [Line]1157 [Desc]Warning: SCharAttrib::AutoQuestList::InitialAutoQuest has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 20:54:29 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 20:54:29 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-[Desc]LOG - CZone Out begin... 
-[Desc]LOG - CZone Out end... 
-[Desc][EnterNodeNodeData]
- 
-[Desc][BEGIN FORCE RECYCLE] 
-[Desc][END FORCE RECYCLE] 
-[Desc]LOG - Free CZone begin... 
-[Desc]LOG - Free CZone end... 
-[Desc]LOG - Free PGP begin... 
-[Desc]LOG - Free PGP end... 
 [Desc]LOG - Load Scene begin... 
 [Desc]Log - Load CZone: S005
  
@@ -337,11 +310,11 @@ IGetWindow [ Root/CrystalLotteryWnd/Static/Border1/PetInfo ] Ptr is NULL
  
 [Desc]Log - Load Terrain Object Begin... 
 [Desc]Scene Object Total: 3037 
-2024/03/23 20:57:19 [File]..\HighLand.cpp [Line]1016 [Desc]注意: 還有 1 個物件沒有位置喔! \/(￣▽￣/)♂ 
+2024/03/24 18:17:47 [File]..\HighLand.cpp [Line]1016 [Desc]注意: 還有 1 個物件沒有位置喔! \/(￣▽￣/)♂ 
  
-2024/03/23 20:57:19 [File]..\HighLand.cpp [Line]1024 [Desc]OOR: 57.469780 -0.342020 UE310
+2024/03/24 18:17:47 [File]..\HighLand.cpp [Line]1024 [Desc]OOR: 57.469780 -0.342020 UE310
  
-[Desc]Log - Load Terrain Object End... Time=[1.551636]
+[Desc]Log - Load Terrain Object End... Time=[0.203415]
  
 [Desc]LOG - Load Scene end... 
 [Desc]LOG - Load SMP begin... 
@@ -350,120 +323,8 @@ IGetWindow [ Root/CrystalLotteryWnd/Static/Border1/PetInfo ] Ptr is NULL
 [Desc]LOG - Load PGP end... 
 [Desc]LOG - Load Bullet begin... 
 [Desc]LOG - Load Bullet end... 
-2024/03/23 20:57:22 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:00:45 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-2024/03/23 21:01:33 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
-[Desc]LOG - Free CZone begin... 
-[Desc]LOG - Free CZone end... 
-[Desc]LOG - Free PGP begin... 
-[Desc]LOG - Free PGP end... 
-[Desc]DESTORY APP
- 
+[Desc]Failed to load sound bgm\sound005.ogg 
+2024/03/24 18:17:48 [File]..\CharAttrib.cpp [Line]1155 [Desc]Warning: SCharAttrib::AutoQuestList::InitialAutoQuest receives missions, but none of them are acceptable. 
+2024/03/24 18:17:48 [File]..\CharAttrib.cpp [Line]1157 [Desc]Warning: SCharAttrib::AutoQuestList::InitialAutoQuest has nothing done. This may mean calling this method is duplicate. 
+2024/03/24 18:17:48 [File]..\CharAttrib.cpp [Line]1080 [Desc]Normal: SCharAttrib::AutoQuestList::UpdateAllQuests has done the change. 
+2024/03/24 18:17:48 [File]..\CharAttrib.cpp [Line]1083 [Desc]Waring: SCharAttrib::AutoQuestList::UpdateAllQuests has nothing done. This may mean calling this method is duplicate. 
