@@ -3,3 +3,7 @@
 
 /Client/error.log
 /Client/UI.log
+/Client/CEGUI.log
+/Client/GameTemp.log
+/Client/main.log
+/Client/User.ini
